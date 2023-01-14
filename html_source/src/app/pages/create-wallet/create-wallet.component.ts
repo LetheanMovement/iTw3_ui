@@ -6,7 +6,7 @@ import { ModalService } from '@parts/services/modal.service';
 import { Router } from '@angular/router';
 import { Wallet } from '@api/models/wallet.model';
 import { TranslateService } from '@ngx-translate/core';
-import { regExpPassword, ZanoValidators } from '@parts/utils/zano-validators';
+import { LetheanValidators, regExpPassword } from '@parts/utils/lthn-validators';
 
 @Component({
   selector: 'app-create-wallet',
@@ -186,7 +186,7 @@ export class CreateWalletComponent {
     {
       name: this.fb.nonNullable.control('', [
         Validators.required,
-        ZanoValidators.duplicate(
+        LetheanValidators.duplicate(
           this.variablesService.walletNamesForComparisons
         ),
       ]),
@@ -197,7 +197,7 @@ export class CreateWalletComponent {
       confirm: this.fb.nonNullable.control(''),
     },
     {
-      validators: [ZanoValidators.formMatch('password', 'confirm')],
+      validators: [LetheanValidators.formMatch('password', 'confirm')],
     }
   );
 

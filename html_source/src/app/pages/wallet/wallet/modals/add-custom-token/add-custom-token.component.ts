@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { VariablesService } from '@parts/services/variables.service';
-import { ZanoValidators } from '@parts/utils/zano-validators';
+import { LetheanValidators } from '@parts/utils/lthn-validators';
 import { DialogRef } from '@angular/cdk/dialog';
 import { BackendService } from '@api/services/backend.service';
 import { Asset, ParamsAddCustomAssetId } from '@api/models/assets.model';
@@ -73,7 +73,7 @@ export class AddCustomTokenComponent {
   formGroup = new FormGroup({
     asset_id: new FormControl<string>(
       null,
-      Validators.compose([Validators.required, ZanoValidators.hash])
+      Validators.compose([Validators.required, LetheanValidators.hash])
     ),
   });
 

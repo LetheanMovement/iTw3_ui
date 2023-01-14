@@ -4,7 +4,7 @@ import { BackendService } from '@api/services/backend.service';
 import { VariablesService } from '@parts/services/variables.service';
 import { Router } from '@angular/router';
 import { hasOwnProperty } from '@parts/functions/hasOwnProperty';
-import { regExpPassword, ZanoValidators } from '@parts/utils/zano-validators';
+import { LetheanValidators, regExpPassword } from '@parts/utils/lthn-validators';
 
 @Component({
   selector: 'app-wallet-details',
@@ -326,7 +326,7 @@ export class WalletDetailsComponent implements OnInit {
   detailsForm = this.fb.group({
     name: this.fb.nonNullable.control('', [
       Validators.required,
-      ZanoValidators.duplicate(this.variablesService.walletNamesForComparisons),
+      LetheanValidators.duplicate(this.variablesService.walletNamesForComparisons),
     ]),
     path: this.fb.nonNullable.control(''),
   });
@@ -343,7 +343,7 @@ export class WalletDetailsComponent implements OnInit {
       ),
     },
     {
-      validators: [ZanoValidators.formMatch('password', 'confirmPassword')],
+      validators: [LetheanValidators.formMatch('password', 'confirmPassword')],
     }
   );
 

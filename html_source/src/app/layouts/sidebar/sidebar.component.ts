@@ -21,7 +21,7 @@ import { WalletsService } from '@parts/services/wallets.service';
   template: `
     <div class="sidebar-header mb-2">
       <div class="logo">
-        <img alt="zano-logo" src="assets/icons/blue/zano-logo.svg" />
+        <img alt="lethean-logo" src="assets/icons/blue/lthn-logo.png" />
       </div>
     </div>
 

@@ -26,7 +26,7 @@ import { Asset } from '@api/models/assets.model';
 interface WrapInfo {
   tx_cost: {
     usd_needed_for_erc20: string;
-    zano_needed_for_erc20: string;
+    lthn_needed_for_erc20: string;
   };
   unwraped_coins_left: string;
 }
@@ -102,7 +102,7 @@ interface WrapInfo {
               </div>
             </div>
             <div *ngIf="currentAliasAddress" class="info text-ellipsis">
-              <span>{{ currentAliasAddress | zanoShortString }}</span>
+              <span>{{ currentAliasAddress | lthnShortString }}</span>
             </div>
           </div>
 
@@ -139,7 +139,7 @@ interface WrapInfo {
               </div>
               <div
                 *ngIf="
-                  sendForm.controls['amount'].errors['less_than_zano_needed']
+                  sendForm.controls['amount'].errors['less_than_lthn_needed']
                 "
               >
                 {{ 'SEND.FORM_ERRORS.LESS_THAN_ZANO_NEEDED' | translate }}
@@ -201,8 +201,8 @@ interface WrapInfo {
             <tr>
               <td>{{ 'SEND.WRAP.FEE' | translate }}</td>
               <td>
-                {{ wrapInfo?.tx_cost?.zano_needed_for_erc20 | intToMoney : 3 }}
-                {{ 'SEND.WRAP.ZANO' | translate }}
+                {{ wrapInfo?.tx_cost?.lthn_needed_for_erc20 | intToMoney : 3 }}
+                {{ 'SEND.WRAP.LTHN' | translate }}
                 ({{ '$' + wrapInfo.tx_cost?.usd_needed_for_erc20 }})
               </td>
             </tr>
@@ -488,10 +488,10 @@ export class SendComponent implements OnInit, OnDestroy {
           }
           if (
             bigAmount.isLessThan(
-              new BigNumber(this.wrapInfo.tx_cost.zano_needed_for_erc20)
+              new BigNumber(this.wrapInfo.tx_cost.lthn_needed_for_erc20)
             )
           ) {
-            return { less_than_zano_needed: true };
+            return { less_than_lthn_needed: true };
           }
         }
         return null;
@@ -553,7 +553,7 @@ export class SendComponent implements OnInit, OnDestroy {
     this.sendForm.reset({
       address: this.variablesService.currentWallet.send_data['address'],
       amount: this.variablesService.currentWallet.send_data['amount'],
-      asset: this.variablesService.currentWallet.getBalanceByTicker('ZANO'),
+      asset: this.variablesService.currentWallet.getBalanceByTicker('LTHN'),
       comment: this.variablesService.currentWallet.send_data['comment'],
       mixin: this.mixin,
       fee:
@@ -641,7 +641,7 @@ export class SendComponent implements OnInit, OnDestroy {
       const { asset } = this.sendForm.value;
       const { wallet_id } = this.variablesService.currentWallet;
       let asset_id = null;
-      if (asset.asset_info.ticker !== 'ZANO') {
+      if (asset.asset_info.ticker !== 'LTHN') {
         asset_id = asset.asset_info.asset_id;
       }
 
@@ -751,7 +751,7 @@ export class SendComponent implements OnInit, OnDestroy {
 
   getReceivedValue(): number | BigNumber {
     const amount = this.moneyToInt.transform(this.sendForm.value.amount);
-    const needed = new BigNumber(this.wrapInfo.tx_cost.zano_needed_for_erc20);
+    const needed = new BigNumber(this.wrapInfo.tx_cost.lthn_needed_for_erc20);
     if (amount && needed) {
       return (amount as BigNumber).minus(needed);
     }

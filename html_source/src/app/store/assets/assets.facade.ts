@@ -7,7 +7,7 @@ import {
   WhiteAssetInfo,
 } from '@api/models/assets.model';
 import { map } from 'rxjs/operators';
-import { zanoAssetInfo } from '@parts/data/assets';
+import { lthnAssetInfo } from '@parts/data/assets';
 
 @Injectable({
   providedIn: 'root',
@@ -24,7 +24,7 @@ export class AssetsFacade {
       .pipe(take(1))
       .subscribe({
         next: response => {
-          this.store.set(StateKeys.responseAssetsWhiteList, response);
+          this.store.set(StateKeys.responseAssetsWhiteList, { response });
           this.loading$.next(false);
         },
         error: () => {
@@ -38,7 +38,7 @@ export class AssetsFacade {
       .select<ResponseAssetsWhiteList>(StateKeys.responseAssetsWhiteList)
       .pipe(
         map(({ assets }) => {
-          return [zanoAssetInfo, ...assets];
+          return [lthnAssetInfo];
         })
       );
   }

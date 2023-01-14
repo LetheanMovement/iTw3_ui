@@ -19,7 +19,7 @@ import { paths } from '../../paths';
         class="card max-w-42-rem max-h-100 w-100 p-2 border-radius-0_8-rem bg-light-blue scrolled-content"
       >
         <div class="logo mb-3" fxLayout="row" fxLayoutAlign="center center">
-          <img alt="zano-logo" src="assets/icons/blue/zano-logo.svg" />
+          <img style='width: 100%;' alt="lethean-logo" src="assets/icons/blue/lthn-logo.png" />
         </div>
 
         <h4 class="mb-2 text-align-center">{{ 'MAIN.TITLE' | translate }}</h4>

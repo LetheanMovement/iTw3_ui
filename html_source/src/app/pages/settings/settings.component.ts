@@ -4,7 +4,7 @@ import { BackendService } from '@api/services/backend.service';
 import { FormBuilder, Validators } from '@angular/forms';
 import { TranslateService } from '@ngx-translate/core';
 import { scaleItems } from '@parts/data/scale-items';
-import { regExpPassword, ZanoValidators } from '@parts/utils/zano-validators';
+import { LetheanValidators, regExpPassword } from '@parts/utils/lthn-validators';
 
 @Component({
   selector: 'app-settings',
@@ -297,8 +297,8 @@ export class SettingsComponent implements OnInit {
     },
     {
       validators: [
-        ZanoValidators.formMatch('new_password', 'new_confirmation'),
-        ZanoValidators.formMatch('password', 'appPass', 'pass_mismatch'),
+        LetheanValidators.formMatch('new_password', 'new_confirmation'),
+        LetheanValidators.formMatch('password', 'appPass', 'pass_mismatch'),
       ],
     }
   );

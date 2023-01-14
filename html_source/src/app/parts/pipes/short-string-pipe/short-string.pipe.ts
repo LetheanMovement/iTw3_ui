@@ -1,7 +1,7 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'zanoShortString',
+  name: 'lthnShortString',
 })
 export class ShortStringPipe implements PipeTransform {
   transform(

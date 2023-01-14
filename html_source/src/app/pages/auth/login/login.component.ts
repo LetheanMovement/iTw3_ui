@@ -8,7 +8,7 @@ import { Wallet } from '@api/models/wallet.model';
 import { hasOwnProperty } from '@parts/functions/hasOwnProperty';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
-import { regExpPassword, ZanoValidators } from '@parts/utils/zano-validators';
+import { LetheanValidators, regExpPassword } from '@parts/utils/lthn-validators';
 import { WalletsService } from '@parts/services/wallets.service';
 
 @Component({
@@ -23,7 +23,7 @@ import { WalletsService } from '@parts/services/wallets.service';
           fxLayout="row"
           fxLayoutAlign="center center"
         >
-          <img alt="zano-logo" src="assets/icons/blue/zano-logo.svg" />
+          <img style='width: 100%;' alt="lethean-logo" src="assets/icons/blue/lthn-logo.png" />
         </div>
 
         <form
@@ -206,7 +206,7 @@ export class LoginComponent implements OnInit, OnDestroy {
       confirmation: this.fb.nonNullable.control(''),
     },
     {
-      validators: [ZanoValidators.formMatch('password', 'confirmation')],
+      validators: [LetheanValidators.formMatch('password', 'confirmation')],
     }
   );
 

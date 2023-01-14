@@ -7,7 +7,7 @@ import { FormBuilder, Validators } from '@angular/forms';
 import { hasOwnProperty } from '@parts/functions/hasOwnProperty';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
-import { regExpPassword, ZanoValidators } from '@parts/utils/zano-validators';
+import { LetheanValidators, regExpPassword } from '@parts/utils/lthn-validators';
 import { WalletsService } from '@parts/services/wallets.service';
 
 @Component({
@@ -312,7 +312,7 @@ export class SeedPhraseComponent implements OnInit, OnDestroy {
 
   detailsForm = this.fb.group({
     name: this.fb.nonNullable.control('', [
-      ZanoValidators.duplicate(this.variablesService.walletNamesForComparisons),
+      LetheanValidators.duplicate(this.variablesService.walletNamesForComparisons),
     ]),
     path: this.fb.nonNullable.control(''),
   });
@@ -329,7 +329,7 @@ export class SeedPhraseComponent implements OnInit, OnDestroy {
       ),
     },
     {
-      validators: [ZanoValidators.formMatch('password', 'confirmPassword')],
+      validators: [LetheanValidators.formMatch('password', 'confirmPassword')],
     }
   );
 

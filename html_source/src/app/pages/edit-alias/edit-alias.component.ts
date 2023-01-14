@@ -142,7 +142,7 @@ export class EditAliasComponent implements OnInit {
     };
     this.oldAliasComment = alias.comment;
     const balance = new BigNumber(
-      this.wallet.getBalanceByTicker('ZANO')?.unlocked || 0
+      this.wallet.getBalanceByTicker('LTHN')?.unlocked || 0
     );
     this.notEnoughMoney = balance.isLessThan(
       this.variablesService.default_fee_big

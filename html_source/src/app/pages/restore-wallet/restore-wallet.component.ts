@@ -9,7 +9,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { pairwise, startWith, takeUntil } from 'rxjs/operators';
 import { Subject } from 'rxjs';
 import { hasOwnProperty } from '@parts/functions/hasOwnProperty';
-import { regExpPassword, ZanoValidators } from '@parts/utils/zano-validators';
+import { LetheanValidators, regExpPassword } from '@parts/utils/lthn-validators';
 import { WalletsService } from '@parts/services/wallets.service';
 
 @Component({
@@ -289,7 +289,7 @@ export class RestoreWalletComponent implements OnInit, OnDestroy {
     {
       name: this.fb.nonNullable.control('', [
         Validators.required,
-        ZanoValidators.duplicate(
+        LetheanValidators.duplicate(
           this.variablesService.walletNamesForComparisons
         ),
       ]),
@@ -308,7 +308,7 @@ export class RestoreWalletComponent implements OnInit, OnDestroy {
       ),
     },
     {
-      validators: [ZanoValidators.formMatch('password', 'confirm')],
+      validators: [LetheanValidators.formMatch('password', 'confirm')],
     }
   );
 

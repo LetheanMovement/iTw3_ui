@@ -11,7 +11,7 @@ import BigNumber from 'bignumber.js';
 import { Subject } from 'rxjs';
 import { hasOwnProperty } from '@parts/functions/hasOwnProperty';
 import { takeUntil } from 'rxjs/operators';
-import { regExpAliasName } from '@parts/utils/zano-validators';
+import { regExpAliasName } from '@parts/utils/lthn-validators';
 
 @Component({
   selector: 'app-assign-alias',
@@ -242,7 +242,7 @@ export class AssignAliasComponent implements OnInit, OnDestroy {
                         );
                       }
                       const unlocked_balance = new BigNumber(
-                        this.wallet.getBalanceByTicker('ZANO')?.unlocked || 0
+                        this.wallet.getBalanceByTicker('LTHN')?.unlocked || 0
                       );
                       this.notEnoughMoney =
                         this.alias.price.isGreaterThan(unlocked_balance);

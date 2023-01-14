@@ -36,17 +36,21 @@ export class Wallet {
   set balances(value: Assets | null | undefined) {
     const sortedAssets = [];
     if (value) {
-      const indexZano = value.findIndex(
-        ({ asset_info: { ticker } }) => ticker === 'ZANO'
-      );
-      if (indexZano >= 0) {
-        const assetZano = value.splice(indexZano, 1).shift();
-        sortedAssets.push(assetZano);
+      try {
+        const indexLethean = value.findIndex(
+          ({ asset_info: { ticker } }) => ticker === 'LTHN'
+        );
+        if (indexLethean >= 0) {
+          const assetLethean = value.splice(indexLethean, 1).shift();
+          sortedAssets.push(assetLethean);
+        }
+        const sortedAssetsByBalance = value.sort((a, b) =>
+          new BigNumber(b.total).minus(new BigNumber(a.total)).toNumber()
+        );
+        sortedAssets.push(...sortedAssetsByBalance);
+      } catch (e) {
       }
-      const sortedAssetsByBalance = value.sort((a, b) =>
-        new BigNumber(b.total).minus(new BigNumber(a.total)).toNumber()
-      );
-      sortedAssets.push(...sortedAssetsByBalance);
+
     }
     this._balances$.next(sortedAssets);
   }
@@ -124,9 +128,9 @@ export class Wallet {
     );
   }
 
-  getMoneyEquivalentForZano(equivalent): string {
-    const balanceZano = this.getBalanceByTicker('ZANO')?.total || 0;
-    return new BigNumber(balanceZano).multipliedBy(equivalent).toFixed(0);
+  getMoneyEquivalentForLethean(equivalent): string {
+    const balanceLethean = this.getBalanceByTicker('LTHN')?.total || 0;
+    return new BigNumber(balanceLethean).multipliedBy(equivalent).toFixed(0);
   }
 
   prepareHistoryItem(item: Transaction): any {

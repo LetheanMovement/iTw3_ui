@@ -22,7 +22,7 @@ export class VariablesService {
 
   sync_started = false;
 
-  digits = 12;
+  digits = 8;
 
   appPass = '';
 
@@ -32,7 +32,7 @@ export class VariablesService {
 
   moneyEquivalentPercent = 0;
 
-  defaultCurrency = 'ZANO';
+  defaultCurrency = 'LTHN';
 
   opening_wallet: Wallet;
 
@@ -70,14 +70,14 @@ export class VariablesService {
 
   get_recent_transfers = false; // avoid of execute function before callback complete
 
-  default_fee = '0.010000000000';
+  default_fee = '0.01000000';
 
-  default_fee_big = new BigNumber('10000000000');
+  default_fee_big = new BigNumber('1000000');
 
   settings = {
     appLockTime: 15,
     appLog: 0,
-    scale: '10px',
+    scale: '8px',
     appUseTor: true,
     language: 'en',
     default_path: '/',

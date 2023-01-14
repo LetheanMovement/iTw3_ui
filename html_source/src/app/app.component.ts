@@ -858,7 +858,7 @@ export class AppComponent implements OnInit, OnDestroy {
                 this.variablesService.settings.scale
               );
             } else {
-              this.variablesService.settings.scale = '10px';
+              this.variablesService.settings.scale = '8px';
               this.renderer.setStyle(
                 document.documentElement,
                 'font-size',
@@ -962,14 +962,14 @@ export class AppComponent implements OnInit, OnDestroy {
         next: () => {
           this.http
             .get(
-              'https://api.coingecko.com/api/v3/simple/price?ids=zano&vs_currencies=usd&include_24hr_change=true'
+              'https://api.coingecko.com/api/v3/simple/price?ids=lethean&vs_currencies=usd&include_24hr_change=true'
             )
             .pipe(take(1))
             .subscribe({
               next: data => {
-                this.variablesService.moneyEquivalent = data['zano']['usd'];
+                this.variablesService.moneyEquivalent = data['lethean']['usd'];
                 this.variablesService.moneyEquivalentPercent =
-                  data['zano']['usd_24h_change'];
+                  data['lethean']['usd_24h_change'];
               },
               error: error => {
                 console.warn('api.coingecko.com price error: ', error);

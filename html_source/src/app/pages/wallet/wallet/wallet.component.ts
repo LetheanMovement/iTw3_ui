@@ -43,7 +43,7 @@ import { WalletsService } from '@parts/services/wallets.service';
         >
           <div class="title" fxLayout="row nowrap" fxLayoutAlign="start center">
             <h1 class="text-ellipsis mr-1">
-              {{ variablesService.currentWallet.address | zanoShortString }}
+              {{ variablesService.currentWallet.address | lthnShortString }}
             </h1>
 
             <app-copy-button

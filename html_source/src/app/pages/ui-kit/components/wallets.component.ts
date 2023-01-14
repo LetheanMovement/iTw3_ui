@@ -84,7 +84,7 @@ import { SwitchComponent } from '@parts/components/switch.component';
 
         <div class="balance">
           <span class="text-ellipsis mr-1">9999</span>
-          <span>ZANO</span>
+          <span>LTHN</span>
         </div>
 
         <ng-container *ngIf="showPrice">

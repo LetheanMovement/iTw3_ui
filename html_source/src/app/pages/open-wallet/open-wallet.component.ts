@@ -9,7 +9,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { hasOwnProperty } from '@parts/functions/hasOwnProperty';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
-import { regExpPassword, ZanoValidators } from '@parts/utils/zano-validators';
+import { LetheanValidators, regExpPassword } from '@parts/utils/lthn-validators';
 import { WalletsService } from '@parts/services/wallets.service';
 
 @Component({
@@ -140,7 +140,7 @@ export class OpenWalletComponent implements OnInit, OnDestroy {
   openForm = this.fb.group({
     name: this.fb.nonNullable.control('', [
       Validators.required,
-      ZanoValidators.duplicate(this.variablesService.walletNamesForComparisons),
+      LetheanValidators.duplicate(this.variablesService.walletNamesForComparisons),
     ]),
     password: this.fb.nonNullable.control('', [
       Validators.pattern(regExpPassword),
