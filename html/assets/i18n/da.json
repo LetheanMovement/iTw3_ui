@@ -52,7 +52,7 @@
 		"INCOME_TRANSFER_CONFIRMED": "Payment received",
 		"INCOME_TRANSFER_UNCONFIRMED": "Incoming payment (not confirmed)",
 		"IS_CONFIRMED": "",
-		"IS_MINIMIZE": "Zano application is minimized to the system tray",
+		"IS_MINIMIZE": "Lethean application is minimized to the system tray",
 		"IS_RECEIVED": "",
 		"LOCKED": "Blocked",
 		"MINED": "Mined",
@@ -250,7 +250,7 @@
 		"NO_MONEY_REMOVE_OFFER": "There is no fee for deleting an offer, but in order to protect the network against flood transactions you need to have at least {{fee}} {{currency}} in your wallet",
 		"TRANSACTION_ERROR": "Error. Transaction not completed.",
 		"TRANSACTION_IS_TO_BIG": "Transaction exceeds network limit, send required amount with multiple transactions",
-		"TRANSFER_ATTEMPT": "There is no connection to Zano network",
+		"TRANSFER_ATTEMPT": "There is no connection to Lethean network",
 		"TX_TYPE_COIN_BASE": "Error. The payment was not completed.",
 		"TX_TYPE_NEW_ALIAS": "Error. Failed to register alias to safe",
 		"TX_TYPE_NEW_ALIAS_END": "Please try again.",
@@ -331,7 +331,7 @@
 		"BUTTON_RESTORE_BACKUP": "Restore from backup",
 		"CHOOSE_PATH": "Please choose a path",
 		"HELP": "How to create wallet?",
-		"TITLE": "Create or open the wallet to start using Zano"
+		"TITLE": "Create or open the wallet to start using Lethean"
 	},
 	"MESSAGES": {
 		"ADDRESS": "Address",
@@ -523,11 +523,11 @@
 			"ESTIMATE": "Transaktionsestimater",
 			"FEE": "Ethereum Txn-gebyr:",
 			"LTHN": "LTHN",
-			"MAIN_TEXT": "Denne transaktion vil skabe wZano (\"Wrapped Zano\"), som vil blive sendt til den angivne adresse på Ethereum-netværket.",
+			"MAIN_TEXT": "Denne transaktion vil skabe wLTHN (\"Wrapped Lethean\"), som vil blive sendt til den angivne adresse på Ethereum-netværket.",
 			"TITLE": "Indpakning",
 			"WILL_RECEIVE": "Du modtager:",
 			"ZANO": "",
-			"wZANO": "wZANO"
+			"wZANO": "wLTHN"
 		}
 	},
 	"SEND_DETAILS_MODAL": {

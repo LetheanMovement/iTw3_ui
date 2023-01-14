@@ -52,7 +52,7 @@
 		"INCOME_TRANSFER_CONFIRMED": "Paiement reçu",
 		"INCOME_TRANSFER_UNCONFIRMED": "Paiement entrant (non confirmé)",
 		"IS_CONFIRMED": "",
-		"IS_MINIMIZE": "L'application Zano est minimisée dans la barre d'état",
+		"IS_MINIMIZE": "L'application Lethean est minimisée dans la barre d'état",
 		"IS_RECEIVED": "",
 		"LOCKED": "Bloqué",
 		"MINED": "Miné",
@@ -250,7 +250,7 @@
 		"NO_MONEY_REMOVE_OFFER": "Il n'y a pas de frais pour supprimer une offre, mais pour protéger le réseau contre les transactions de spam, vous devez avoir au moins {{fee}} {{currency}} dans votre portefeuille",
 		"TRANSACTION_ERROR": "Erreur. Transaction non complétée.",
 		"TRANSACTION_IS_TO_BIG": "La transaction dépasse la limite réseau, envoyez le montant requis avec plusieurs transactions",
-		"TRANSFER_ATTEMPT": "Il n'y a pas de connexion au réseau Zano",
+		"TRANSFER_ATTEMPT": "Il n'y a pas de connexion au réseau Lethean",
 		"TX_TYPE_COIN_BASE": "Erreur. Le paiement n'a pas été complété.",
 		"TX_TYPE_NEW_ALIAS": "Erreur. Impossible d'enregistrer l'alias dans la blockchain",
 		"TX_TYPE_NEW_ALIAS_END": "Veuillez réessayer.",
@@ -523,11 +523,11 @@
 			"ESTIMATE": "Estimation des transactions",
 			"FEE": "Frais Ethereum Txn :",
 			"LTHN": "LTHN",
-			"MAIN_TEXT": "Cette transaction créera wZano (\"Wrapped Zano\") qui sera envoyé à l'adresse spécifiée sur le réseau Ethereum.",
+			"MAIN_TEXT": "Cette transaction créera wLTHN (\"Wrapped Lethean\") qui sera envoyé à l'adresse spécifiée sur le réseau Ethereum.",
 			"TITLE": "Envelopper",
 			"WILL_RECEIVE": "Vous recevrez :",
 			"ZANO": "ZANO",
-			"wZANO": "wZANO"
+			"wZANO": "wLTHN"
 		}
 	},
 	"SEND_DETAILS_MODAL": {

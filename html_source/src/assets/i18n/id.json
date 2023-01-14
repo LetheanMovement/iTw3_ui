@@ -52,7 +52,7 @@
 		"INCOME_TRANSFER_CONFIRMED": "Pembayaran diterima",
 		"INCOME_TRANSFER_UNCONFIRMED": "Pembayaran masuk (belum terkonfirmasi)",
 		"IS_CONFIRMED": "",
-		"IS_MINIMIZE": "Aplikasi Zano di minimalkan ke dalam sistem tray.",
+		"IS_MINIMIZE": "Aplikasi Lethean di minimalkan ke dalam sistem tray.",
 		"IS_RECEIVED": "",
 		"LOCKED": "Diblokir",
 		"MINED": "Ditambang",
@@ -250,7 +250,7 @@
 		"NO_MONEY_REMOVE_OFFER": "Tidak ada biaya untuk menghapus penawaran, tetapi untuk melindungi jaringan terhadap transaksi banjir/banyak, Anda harus memiliki setidaknya {{fee}} {{currency}} di dompet Anda",
 		"TRANSACTION_ERROR": "Kesalahan. Transaksi tidak selesai.",
 		"TRANSACTION_IS_TO_BIG": "Transaksi melebihi batas jaringan, mengirim jumlah yang diperlukan dengan banyak transaksi",
-		"TRANSFER_ATTEMPT": "Tidak ada koneksi ke jaringan Zano",
+		"TRANSFER_ATTEMPT": "Tidak ada koneksi ke jaringan Lethean",
 		"TX_TYPE_COIN_BASE": "Error. Pembayaran tidak selesai.",
 		"TX_TYPE_NEW_ALIAS": "Error. Gagal untuk mendaftarkan alias ",
 		"TX_TYPE_NEW_ALIAS_END": "Silakan coba lagi",
@@ -331,7 +331,7 @@
 		"BUTTON_RESTORE_BACKUP": "Pulihkan dari cadangan",
 		"CHOOSE_PATH": "Pilih path untuk menyimpan",
 		"HELP": "Bagaimana cara membuat dompet?",
-		"TITLE": "Buat atau buka dompet untuk mulai menggunakan Zano"
+		"TITLE": "Buat atau buka dompet untuk mulai menggunakan Lethean"
 	},
 	"MESSAGES": {
 		"ADDRESS": "Alamat",
@@ -523,11 +523,11 @@
 			"ESTIMATE": "Perkiraan Transaksi",
 			"FEE": "Biaya Txn Ethereum:",
 			"LTHN": "LTHN",
-			"MAIN_TEXT": "Transaksi ini akan membuat wZano (\"Wrapped Zano\") yang akan dikirim ke alamat yang ditentukan di jaringan Ethereum.",
+			"MAIN_TEXT": "Transaksi ini akan membuat wLTHN (\"Wrapped Lethean\") yang akan dikirim ke alamat yang ditentukan di jaringan Ethereum.",
 			"TITLE": "Bungkus",
 			"WILL_RECEIVE": "Anda akan menerima:",
 			"ZANO": "ZANO",
-			"wZANO": "wZANO"
+			"wZANO": "wLTHN"
 		}
 	},
 	"SEND_DETAILS_MODAL": {

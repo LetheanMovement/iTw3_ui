@@ -52,7 +52,7 @@
 		"INCOME_TRANSFER_CONFIRMED": "Pagamento ricevuto",
 		"INCOME_TRANSFER_UNCONFIRMED": "Pagamento in arrivo (non confermato)",
 		"IS_CONFIRMED": "",
-		"IS_MINIMIZE": "L'applicazione Zano è minimizzata nella barra di sistema",
+		"IS_MINIMIZE": "L'applicazione Lethean è minimizzata nella barra di sistema",
 		"IS_RECEIVED": "",
 		"LOCKED": "Bloccato",
 		"MINED": "Minato",
@@ -250,7 +250,7 @@
 		"NO_MONEY_REMOVE_OFFER": "Non c'è alcun costo per eliminare un'offerta ma, per proteggere la rete dalle molte transazioni, devi avere almeno {{fee}} {{currency}} nel tuo portafoglio",
 		"TRANSACTION_ERROR": "Errore. Transazione non completata.",
 		"TRANSACTION_IS_TO_BIG": "La transazione supera il limite di rete, invia l'importo richiesto con transazioni multiple",
-		"TRANSFER_ATTEMPT": "Non c'è connessione alla rete Zano",
+		"TRANSFER_ATTEMPT": "Non c'è connessione alla rete Lethean",
 		"TX_TYPE_COIN_BASE": "Errore. Il pagamento non è stato completato.",
 		"TX_TYPE_NEW_ALIAS": "Errore. Impossibile registrare l'alias in sicurezza",
 		"TX_TYPE_NEW_ALIAS_END": "Per favore riprova.",
@@ -331,7 +331,7 @@
 		"BUTTON_RESTORE_BACKUP": "Ripristina da backup",
 		"CHOOSE_PATH": "Scegli un percorso",
 		"HELP": "Come creare il portafoglio?",
-		"TITLE": "Crea o apri il portafoglio per iniziare a usare Zano"
+		"TITLE": "Crea o apri il portafoglio per iniziare a usare Lethean"
 	},
 	"MESSAGES": {
 		"ADDRESS": "Indirizzo",
@@ -523,11 +523,11 @@
 			"ESTIMATE": "Stima transazione",
 			"FEE": "Commissione Txn Ethereum:",
 			"LTHN": "LTHN",
-			"MAIN_TEXT": "Questa transazione creerà wZano (\"Wrapped Zano\") che verrà inviato all'indirizzo specificato sulla rete Ethereum.",
+			"MAIN_TEXT": "Questa transazione creerà wLTHN (\"Wrapped Lethean\") che verrà inviato all'indirizzo specificato sulla rete Ethereum.",
 			"TITLE": "Avvolgi",
 			"WILL_RECEIVE": "Riceverai:",
 			"ZANO": "ZANO",
-			"wZANO": "wZANO"
+			"wZANO": "wLTHN"
 		}
 	},
 	"SEND_DETAILS_MODAL": {

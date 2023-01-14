@@ -52,7 +52,7 @@
 		"INCOME_TRANSFER_CONFIRMED": "Zahlung erhalten",
 		"INCOME_TRANSFER_UNCONFIRMED": "Eingehende Zahlung (nicht bestätigt)",
 		"IS_CONFIRMED": "",
-		"IS_MINIMIZE": "Zano-Anwendung wird auf die Systemleiste minimiert",
+		"IS_MINIMIZE": "Lethean-Anwendung wird auf die Systemleiste minimiert",
 		"IS_RECEIVED": "",
 		"LOCKED": "Blockiert",
 		"MINED": "Mined",
@@ -250,7 +250,7 @@
 		"NO_MONEY_REMOVE_OFFER": "Es gibt keine Gebühr für das Löschen eines Angebots, aber um das Netzwerk vor Spam-Transaktionen zu schützen, müssen Sie mindestens {{fee}} {{currency}} in Ihrer Wallet haben",
 		"TRANSACTION_ERROR": "Fehler. Transaktion nicht abgeschlossen.",
 		"TRANSACTION_IS_TO_BIG": "Transaktion überschreitet das Netzwerk-Limit. Sendet benötigten Betrag mit mehreren Transaktionen.",
-		"TRANSFER_ATTEMPT": "Keine Verbindung zum Zano-Netzwerk",
+		"TRANSFER_ATTEMPT": "Keine Verbindung zum Lethean-Netzwerk",
 		"TX_TYPE_COIN_BASE": "Fehler. Die Zahlung wurde nicht abgeschlossen.",
 		"TX_TYPE_NEW_ALIAS": "Fehler. Fehler beim Registrieren des Alias zum Speichern",
 		"TX_TYPE_NEW_ALIAS_END": "Bitte nochmals versuchen.",
@@ -331,7 +331,7 @@
 		"BUTTON_RESTORE_BACKUP": "Aus Backup wiederherstellen",
 		"CHOOSE_PATH": "Bitte wählen Sie einen Pfad",
 		"HELP": "Wie Wallet erstellen?",
-		"TITLE": "Erstellen oder öffnen Sie die Wallet, um Zano zu verwenden"
+		"TITLE": "Erstellen oder öffnen Sie die Wallet, um Lethean zu verwenden"
 	},
 	"MESSAGES": {
 		"ADDRESS": "Adresse",
@@ -523,11 +523,11 @@
 			"ESTIMATE": "Transaktionsschätzungen",
 			"FEE": "Ethereum Txn-Gebühr:",
 			"LTHN": "LTHN",
-			"MAIN_TEXT": "Diese Transaktion erstellt wZano (\"Wrapped Zano\"), das an die angegebene Adresse im Ethereum-Netzwerk gesendet wird.",
+			"MAIN_TEXT": "Diese Transaktion erstellt wLTHN (\"Wrapped Lethean\"), das an die angegebene Adresse im Ethereum-Netzwerk gesendet wird.",
 			"TITLE": "Wrap",
 			"WILL_RECEIVE": "Sie erhalten:",
 			"ZANO": "ZANO",
-			"wZANO": "wZANO"
+			"wZANO": "wLTHN"
 		}
 	},
 	"SEND_DETAILS_MODAL": {
