@@ -103,7 +103,7 @@ export class DeeplinkComponent implements OnInit, OnDestroy {
         lci: '',
         lco: 'World Wide',
         ot: 1,
-        pt: 'Credit cards, BTC, ZANO, ETH',
+        pt: 'Credit cards, BTC, LTHN, ETH',
         t: this.actionData.title || '',
         url: this.actionData.url || this.actionData.img_url || '',
       },

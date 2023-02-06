@@ -16,12 +16,12 @@ export class VariablesService {
   public request_on_in = {};
   public stop_paginate = {};
   public sync_started = false;
-  public digits = 12;
+  public digits = 8;
   public appPass = '';
   public appLogin = false;
   public moneyEquivalent = 0;
   public moneyEquivalentPercent = 0;
-  public defaultCurrency = 'ZANO';
+  public defaultCurrency = 'LTHN';
   public opening_wallet: Wallet;
   public exp_med_ts = 0;
   public net_time_delta_median = 0;
@@ -43,8 +43,8 @@ export class VariablesService {
     progress_value_text: '0'
   };
   public get_recent_transfers = false; // avoid of execute function before collback complete
-  public default_fee = '0.010000000000';
-  public default_fee_big = new BigNumber('10000000000');
+  public default_fee = '0.01000000';
+  public default_fee_big = new BigNumber('1000000');
 
   public settings = {
     appLockTime: 15,

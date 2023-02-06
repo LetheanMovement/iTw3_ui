@@ -48,7 +48,7 @@ export class SendComponent implements OnInit, OnDestroy {
           this.isOpen = false;
           this.backend.validateAddress(g.value, (valid_status, data) => {
             this.ngZone.run(() => {
-              this.isWrapShown = (data.error_code === 'WRAP');
+              this.isWrapShown = false;// (data.error_code === 'WRAP');
               this.sendForm.get('amount').setValue(this.sendForm.get('amount').value);
               if (valid_status === false && !this.isWrapShown) {
                 g.setErrors(Object.assign({ 'address_not_valid': true }, g.errors));
@@ -176,8 +176,8 @@ export class SendComponent implements OnInit, OnDestroy {
       fee: this.variablesService.currentWallet.send_data['fee'] || this.variablesService.default_fee,
       hide: this.variablesService.currentWallet.send_data['hide'] || false
     });
-
-    this.getWrapInfo();
+    this.isLoading = false;
+    //this.getWrapInfo();
     this.dLActionSubscribe = this.variablesService.sendActionData$.subscribe((res) => {
       if (res.action === 'send') {
         this.actionData = res;
