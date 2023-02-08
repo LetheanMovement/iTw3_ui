@@ -1,95 +1,95 @@
 {
 	"ASSIGN_ALIAS": {
-		"BUTTON_ASSIGN": "Assign",
+		"BUTTON_ASSIGN": "割り当てます",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "コメント",
 			"PLACEHOLDER": "ここにコメントを入力してください",
-			"TOOLTIP": "The comment will be visible to anyone who wants to make a payment to your alias. You can provide details about your business, contacts, or include any text. Comments can be edited later."
+			"TOOLTIP": "コメントは、あなたのエイリアスへの支払いを希望するすべての人に表示されます。ビジネス、連絡先に関する詳細を提供するか、任意のテキストを含めることができます。コメントは後で編集できます。"
 		},
-		"COST": "Alias fee {{value}} {{currency}}",
+		"COST": "エイリアス料金 {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum comment length reached",
-			"NAME_EXISTS": "Alias name already exists",
-			"NAME_LENGTH": "The alias must be 6-25 characters long",
-			"NAME_REQUIRED": "Name is required",
-			"NAME_WRONG": "Invalid name: allowed symbols \"0-9\", \"a-z\", \"-\", \".\"",
-			"NO_MONEY": "You do not have enough funds to assign this alias"
+			"MAX_LENGTH": "コメントの最大長に達しました",
+			"NAME_EXISTS": "エイリアス名は既に存在します",
+			"NAME_LENGTH": "エイリアス名の長さは 6 ～ 25 文字にする必要があります",
+			"NAME_REQUIRED": "名前が必要です",
+			"NAME_WRONG": "無効な名前: 使用できる記号は「0-9」、「a-z」、「-」、「.」です。",
+			"NO_MONEY": "このエイリアスを割り当てるのに十分な資金がありません"
 		},
 		"NAME": {
-			"LABEL": "Alias",
-			"PLACEHOLDER": " Enter alias",
-			"TOOLTIP": "An alias is a shortened form or your account. An alias can only include Latin letters, numbers and characters “.” and “-”. It must start with “@”."
+			"LABEL": "エイリアス",
+			"PLACEHOLDER": " エイリアスを入力",
+			"TOOLTIP": "エイリアスは短縮形またはアカウントです。エイリアスには、ラテン文字、数字、および文字「.」のみを含めることができます。と \"-\"。 「@」で始まる必要があります。"
 		},
-		"ONE_ALIAS": "You can create only one alias per wallet",
-		"REQUEST_ADD_REG": "The alias will be assigned within 10 minutes"
+		"ONE_ALIAS": "ウォレットごとに作成できるエイリアスは 1 つだけです",
+		"REQUEST_ADD_REG": "エイリアスは 10 分以内に割り当てられます"
 	},
 	"BACKEND_LOCALIZATION": {
-		"INCOME_TRANSFER_CONFIRMED": "Payment received",
-		"INCOME_TRANSFER_UNCONFIRMED": "Incoming payment (not confirmed)",
+		"INCOME_TRANSFER_CONFIRMED": "お支払い頂いた",
+		"INCOME_TRANSFER_UNCONFIRMED": "入金（未確認）",
 		"IS_CONFIRMED": "",
-		"IS_MINIMIZE": "Lethean application is minimized to the system tray",
+		"IS_MINIMIZE": "Lethean アプリケーションはシステム トレイに最小化されます",
 		"IS_RECEIVED": "",
-		"LOCKED": "Blocked",
-		"MINED": "Mined",
-		"QUIT": "Quit",
-		"RESTORE": "You can recover it by clicking or using the context menu",
-		"TRAY_MENU_MINIMIZE": "Minimize",
-		"TRAY_MENU_SHOW": "Resize"
+		"LOCKED": "ブロックされました",
+		"MINED": "採掘",
+		"QUIT": "終了する",
+		"RESTORE": "をクリックするか、コンテキストメニューを使用して復元できます",
+		"TRAY_MENU_MINIMIZE": "最小化",
+		"TRAY_MENU_SHOW": "リサイズ"
 	},
 	"BREADCRUMBS": {
-		"ADD_WALLET": "Add wallet",
-		"ASSIGN_ALIAS": "Assign alias",
-		"CONTRACTS": "Contracts",
-		"CREATE_WALLET": "Create new wallet",
-		"EDIT_ALIAS": "Edit alias",
-		"NEW_PURCHASE": "New purchase",
-		"OLD_PURCHASE": "Purchase",
-		"OPEN_WALLET": "Open existing wallet",
-		"RESTORE_WALLET": "Restore from backup",
-		"SAVE_PHRASE": "Save your seed phrase",
-		"TRANSFER_ALIAS": "Transfer alias",
-		"WALLET_DETAILS": "Wallet details"
+		"ADD_WALLET": "ウォレットを追加",
+		"ASSIGN_ALIAS": "エイリアスを割り当てる",
+		"CONTRACTS": "契約",
+		"CREATE_WALLET": "新しいウォレットを作成",
+		"EDIT_ALIAS": "エイリアスを編集",
+		"NEW_PURCHASE": "新規購入",
+		"OLD_PURCHASE": "購入",
+		"OPEN_WALLET": "既存のウォレットを開く",
+		"RESTORE_WALLET": "バックアップから復元",
+		"SAVE_PHRASE": "シード フレーズを保存する",
+		"TRANSFER_ALIAS": "転送エイリアス",
+		"WALLET_DETAILS": "ウォレットの詳細"
 	},
 	"COMMON": {
-		"BACK": "Go back"
+		"BACK": "戻る"
 	},
 	"CONFIRM": {
-		"BUTTON_CANCEL": "Cancel",
-		"BUTTON_CONFIRM": "Send",
+		"BUTTON_CANCEL": "キャンセル",
+		"BUTTON_CONFIRM": "SEND",
 		"MESSAGE": {
-			"COMMENT": "Comment",
-			"FROM": "From",
-			"SEND": "Send",
-			"TO": "To"
+			"COMMENT": "コメント",
+			"FROM": "から",
+			"SEND": "SEND",
+			"TO": "に"
 		},
-		"TITLE": "Transaction"
+		"TITLE": "トランザクション"
 	},
 	"CONTACTS": {
-		"ADD": "Add/edit contact",
+		"ADD": "連絡先の追加/編集",
 		"ADD_CONTACT": "連絡先を追加",
 		"BUTTON": {
-			"ADD": "Add contact",
-			"ADD_EDIT": "Add/Save",
-			"DELETE": "Delete",
-			"EDIT": "Edit",
-			"GO_TO_WALLET": "Go to wallet",
-			"IMPORT_EXPORT": "Import/export",
-			"SEND": "Send"
+			"ADD": "連絡先を追加",
+			"ADD_EDIT": "追加/保存",
+			"DELETE": "削除",
+			"EDIT": "編集",
+			"GO_TO_WALLET": "財布に行く",
+			"IMPORT_EXPORT": "インポート・エクスポート",
+			"SEND": "SEND"
 		},
-		"COPY": "- Copy",
-		"ERROR_EMPTY_LIST": "Contact list is empty",
-		"ERROR_EXPORT": "Invalid file type. Save file as .csv",
-		"ERROR_IMPORT": "Error is occured while reading file!",
-		"ERROR_IMPORT_EMPTY": "File is empty",
-		"ERROR_TYPE_FILE": "Please import valid .csv file",
-		"EXPORT": "Export",
+		"COPY": "- コピー",
+		"ERROR_EMPTY_LIST": "連絡先リストが空です",
+		"ERROR_EXPORT": "ファイルの種類が無効です。ファイルを .csv として保存",
+		"ERROR_IMPORT": "ファイルの読み込み中にエラーが発生しました!",
+		"ERROR_IMPORT_EMPTY": "ファイルが空です",
+		"ERROR_TYPE_FILE": "有効な .csv ファイルをインポートしてください",
+		"EXPORT": "輸出する",
 		"FORM": {
 			"ADDRESS": "Address",
 			"NAME": "Name",
 			"NOTES": "Notes"
 		},
 		"FORM_ERRORS": {
-			"ADDRESS_DUBLICATED": "Address is dublicated",
+			"ADDRESS_DUBLICATED": "住所が重複しています",
 			"ADDRESS_NOT_VALID": "Address not valid",
 			"ADDRESS_REQUIRED": "Address is required",
 			"MAX_LENGTH": "Maximum notes length reached",

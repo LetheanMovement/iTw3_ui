@@ -12,7 +12,7 @@
 			"NAME_EXISTS": "Nama alias sudah ada",
 			"NAME_LENGTH": "Alias harus 6-25 karakter",
 			"NAME_REQUIRED": "Nama di butuhkan",
-			"NAME_WRONG": "Alias memiliki nama yang salah",
+			"NAME_WRONG": "Nama tidak valid: simbol yang diizinkan \"0-9\", \"a-z\", \"-\", \".\"",
 			"NO_MONEY": "Anda tidak memiliki cukup dana untuk menetapkan alias ini"
 		},
 		"NAME": {

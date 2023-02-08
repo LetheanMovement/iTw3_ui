@@ -1,95 +1,95 @@
 {
 	"ASSIGN_ALIAS": {
-		"BUTTON_ASSIGN": "Assign",
+		"BUTTON_ASSIGN": "Tildel",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "kommentar",
 			"PLACEHOLDER": "Indtast din kommentar her",
-			"TOOLTIP": "The comment will be visible to anyone who wants to make a payment to your alias. You can provide details about your business, contacts, or include any text. Comments can be edited later."
+			"TOOLTIP": "Kommentaren vil være synlig for alle, der ønsker at foretage en betaling til dit alias. Du kan angive detaljer om din virksomhed, kontakter eller inkludere enhver tekst. Kommentarer kan redigeres senere."
 		},
-		"COST": "Alias fee {{value}} {{currency}}",
+		"COST": "Aliasgebyr {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum comment length reached",
-			"NAME_EXISTS": "Alias name already exists",
-			"NAME_LENGTH": "The alias must be 6-25 characters long",
-			"NAME_REQUIRED": "Name is required",
-			"NAME_WRONG": "Invalid name: allowed symbols \"0-9\", \"a-z\", \"-\", \".\"",
-			"NO_MONEY": "You do not have enough funds to assign this alias"
+			"MAX_LENGTH": "Den maksimale kommentarlængde er nået",
+			"NAME_EXISTS": "Aliasnavnet findes allerede",
+			"NAME_LENGTH": "Aliasnavnet skal være på 6-25 tegn",
+			"NAME_REQUIRED": "Navn kræves",
+			"NAME_WRONG": "Ugyldigt navn: tilladte symboler \"0-9\", \"a-z\", \"-\", \".\"",
+			"NO_MONEY": "Du har ikke penge nok til at tildele dette alias"
 		},
 		"NAME": {
 			"LABEL": "Alias",
-			"PLACEHOLDER": " Enter alias",
-			"TOOLTIP": "An alias is a shortened form or your account. An alias can only include Latin letters, numbers and characters “.” and “-”. It must start with “@”."
+			"PLACEHOLDER": " Indtast alias",
+			"TOOLTIP": "Et alias er en forkortet formular eller din konto. Et alias kan kun indeholde latinske bogstaver, tal og tegn \".\" og \"-\". Det skal starte med \"@\"."
 		},
-		"ONE_ALIAS": "You can create only one alias per wallet",
-		"REQUEST_ADD_REG": "The alias will be assigned within 10 minutes"
+		"ONE_ALIAS": "Du kan kun oprette ét alias pr. tegnebog",
+		"REQUEST_ADD_REG": "Aliaset vil blive tildelt inden for 10 minutter"
 	},
 	"BACKEND_LOCALIZATION": {
-		"INCOME_TRANSFER_CONFIRMED": "Payment received",
-		"INCOME_TRANSFER_UNCONFIRMED": "Incoming payment (not confirmed)",
+		"INCOME_TRANSFER_CONFIRMED": "Betaling modtaget",
+		"INCOME_TRANSFER_UNCONFIRMED": "Indgående betaling (ikke bekræftet)",
 		"IS_CONFIRMED": "",
-		"IS_MINIMIZE": "Lethean application is minimized to the system tray",
+		"IS_MINIMIZE": "Lethean applikation er minimeret til proceslinjen",
 		"IS_RECEIVED": "",
-		"LOCKED": "Blocked",
-		"MINED": "Mined",
-		"QUIT": "Quit",
-		"RESTORE": "You can recover it by clicking or using the context menu",
-		"TRAY_MENU_MINIMIZE": "Minimize",
+		"LOCKED": "blokeret",
+		"MINED": "Udvundet",
+		"QUIT": "Afslut",
+		"RESTORE": "Du kan gendanne den ved at klikke eller bruge kontekstmenuen",
+		"TRAY_MENU_MINIMIZE": "Minimer",
 		"TRAY_MENU_SHOW": "Resize"
 	},
 	"BREADCRUMBS": {
-		"ADD_WALLET": "Add wallet",
-		"ASSIGN_ALIAS": "Assign alias",
-		"CONTRACTS": "Contracts",
-		"CREATE_WALLET": "Create new wallet",
-		"EDIT_ALIAS": "Edit alias",
-		"NEW_PURCHASE": "New purchase",
-		"OLD_PURCHASE": "Purchase",
-		"OPEN_WALLET": "Open existing wallet",
-		"RESTORE_WALLET": "Restore from backup",
-		"SAVE_PHRASE": "Save your seed phrase",
-		"TRANSFER_ALIAS": "Transfer alias",
-		"WALLET_DETAILS": "Wallet details"
+		"ADD_WALLET": "Tilføj tegnebog",
+		"ASSIGN_ALIAS": "Tildel alias",
+		"CONTRACTS": "Kontrakter",
+		"CREATE_WALLET": "Opret ny tegnebog",
+		"EDIT_ALIAS": "Rediger alias",
+		"NEW_PURCHASE": "Nyt køb",
+		"OLD_PURCHASE": "Køb",
+		"OPEN_WALLET": "Åbn eksisterende tegnebog",
+		"RESTORE_WALLET": "Gendan fra backup",
+		"SAVE_PHRASE": "Gem din frøsætning",
+		"TRANSFER_ALIAS": "Overfør alias",
+		"WALLET_DETAILS": "Pung detaljer"
 	},
 	"COMMON": {
-		"BACK": "Go back"
+		"BACK": "Gå tilbage"
 	},
 	"CONFIRM": {
-		"BUTTON_CANCEL": "Cancel",
-		"BUTTON_CONFIRM": "Send",
+		"BUTTON_CANCEL": "afbestille",
+		"BUTTON_CONFIRM": "Sende",
 		"MESSAGE": {
-			"COMMENT": "Comment",
-			"FROM": "From",
-			"SEND": "Send",
-			"TO": "To"
+			"COMMENT": "kommentar",
+			"FROM": "Fra",
+			"SEND": "Sende",
+			"TO": "Til"
 		},
-		"TITLE": "Transaction"
+		"TITLE": "Transaktion"
 	},
 	"CONTACTS": {
-		"ADD": "Add/edit contact",
+		"ADD": "Tilføj/rediger kontakt",
 		"ADD_CONTACT": "Tilføj kontakt",
 		"BUTTON": {
-			"ADD": "Add contact",
-			"ADD_EDIT": "Add/Save",
-			"DELETE": "Delete",
-			"EDIT": "Edit",
-			"GO_TO_WALLET": "Go to wallet",
-			"IMPORT_EXPORT": "Import/export",
-			"SEND": "Send"
+			"ADD": "Tilføj kontakt",
+			"ADD_EDIT": "Tilføj/Gem",
+			"DELETE": "Slet",
+			"EDIT": "Redigere",
+			"GO_TO_WALLET": "Gå til tegnebogen",
+			"IMPORT_EXPORT": "Import Eksport",
+			"SEND": "Sende"
 		},
-		"COPY": "- Copy",
-		"ERROR_EMPTY_LIST": "Contact list is empty",
-		"ERROR_EXPORT": "Invalid file type. Save file as .csv",
-		"ERROR_IMPORT": "Error is occured while reading file!",
-		"ERROR_IMPORT_EMPTY": "File is empty",
-		"ERROR_TYPE_FILE": "Please import valid .csv file",
-		"EXPORT": "Export",
+		"COPY": "- Kopi",
+		"ERROR_EMPTY_LIST": "Kontaktlisten er tom",
+		"ERROR_EXPORT": "Ugyldig filtype. Gem fil som .csv",
+		"ERROR_IMPORT": "Der opstod en fejl under læsning af filen!",
+		"ERROR_IMPORT_EMPTY": "filen er tom",
+		"ERROR_TYPE_FILE": "Importer venligst en gyldig .csv-fil",
+		"EXPORT": "Eksport",
 		"FORM": {
 			"ADDRESS": "Address",
 			"NAME": "Name",
 			"NOTES": "Notes"
 		},
 		"FORM_ERRORS": {
-			"ADDRESS_DUBLICATED": "Address is dublicated",
+			"ADDRESS_DUBLICATED": "Adressen er duplikeret",
 			"ADDRESS_NOT_VALID": "Address not valid",
 			"ADDRESS_REQUIRED": "Address is required",
 			"MAX_LENGTH": "Maximum notes length reached",

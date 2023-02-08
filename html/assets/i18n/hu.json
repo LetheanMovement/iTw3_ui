@@ -1,87 +1,87 @@
 {
 	"ASSIGN_ALIAS": {
-		"BUTTON_ASSIGN": "Assign",
+		"BUTTON_ASSIGN": "Hozzárendelni",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "Megjegyzés",
 			"PLACEHOLDER": "Írja be megjegyzését ide",
-			"TOOLTIP": "The comment will be visible to anyone who wants to make a payment to your alias. You can provide details about your business, contacts, or include any text. Comments can be edited later."
+			"TOOLTIP": "A megjegyzés mindenki számára látható lesz, aki be akar fizetni az Ön aliasára. Megadhat részleteket vállalkozásáról, névjegyeiről, vagy bármilyen szöveget megadhat. A megjegyzések később szerkeszthetők."
 		},
-		"COST": "Alias fee {{value}} {{currency}}",
+		"COST": "Alias díja: {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum comment length reached",
-			"NAME_EXISTS": "Alias name already exists",
-			"NAME_LENGTH": "The alias must be 6-25 characters long",
-			"NAME_REQUIRED": "Name is required",
-			"NAME_WRONG": "Invalid name: allowed symbols \"0-9\", \"a-z\", \"-\", \".\"",
-			"NO_MONEY": "You do not have enough funds to assign this alias"
+			"MAX_LENGTH": "Elérte a megjegyzés maximális hosszát",
+			"NAME_EXISTS": "Az álnév már létezik",
+			"NAME_LENGTH": "Az alias nevének 6-25 karakter hosszúnak kell lennie",
+			"NAME_REQUIRED": "A név szükséges",
+			"NAME_WRONG": "Érvénytelen név: megengedett szimbólumok \"0-9\", \"a-z\", \"-\", \".\"",
+			"NO_MONEY": "Nincs elég pénze ennek az aliasnak a hozzárendeléséhez"
 		},
 		"NAME": {
-			"LABEL": "Alias",
-			"PLACEHOLDER": " Enter alias",
-			"TOOLTIP": "An alias is a shortened form or your account. An alias can only include Latin letters, numbers and characters “.” and “-”. It must start with “@”."
+			"LABEL": "Álnév",
+			"PLACEHOLDER": " Adja meg az aliast",
+			"TOOLTIP": "Az alias egy rövidített űrlap vagy az Ön fiókja. Az alias csak latin betűket, számokat és „” karaktereket tartalmazhat. és a „-”. „@”-al kell kezdődnie."
 		},
-		"ONE_ALIAS": "You can create only one alias per wallet",
-		"REQUEST_ADD_REG": "The alias will be assigned within 10 minutes"
+		"ONE_ALIAS": "Pénztárcánként csak egy aliast hozhat létre",
+		"REQUEST_ADD_REG": "Az alias hozzárendelése 10 percen belül megtörténik"
 	},
 	"BACKEND_LOCALIZATION": {
-		"INCOME_TRANSFER_CONFIRMED": "Payment received",
-		"INCOME_TRANSFER_UNCONFIRMED": "Incoming payment (not confirmed)",
+		"INCOME_TRANSFER_CONFIRMED": "Fizetés beérkezett",
+		"INCOME_TRANSFER_UNCONFIRMED": "Bejövő fizetés (nem megerősítve)",
 		"IS_CONFIRMED": "",
-		"IS_MINIMIZE": "Lethean application is minimized to the system tray",
+		"IS_MINIMIZE": "A Lethean alkalmazás a rendszertálcára van csökkentve",
 		"IS_RECEIVED": "",
-		"LOCKED": "Blocked",
-		"MINED": "Mined",
+		"LOCKED": "Zárolt",
+		"MINED": "Bányászott",
 		"QUIT": "Quit",
-		"RESTORE": "You can recover it by clicking or using the context menu",
-		"TRAY_MENU_MINIMIZE": "Minimize",
-		"TRAY_MENU_SHOW": "Resize"
+		"RESTORE": "Visszaállíthatja a helyi menüre kattintva vagy a helyi menü használatával",
+		"TRAY_MENU_MINIMIZE": "Minimalizálja",
+		"TRAY_MENU_SHOW": "Átméretezés"
 	},
 	"BREADCRUMBS": {
-		"ADD_WALLET": "Add wallet",
-		"ASSIGN_ALIAS": "Assign alias",
-		"CONTRACTS": "Contracts",
-		"CREATE_WALLET": "Create new wallet",
-		"EDIT_ALIAS": "Edit alias",
-		"NEW_PURCHASE": "New purchase",
-		"OLD_PURCHASE": "Purchase",
-		"OPEN_WALLET": "Open existing wallet",
-		"RESTORE_WALLET": "Restore from backup",
-		"SAVE_PHRASE": "Save your seed phrase",
-		"TRANSFER_ALIAS": "Transfer alias",
-		"WALLET_DETAILS": "Wallet details"
+		"ADD_WALLET": "Pénztárca hozzáadása",
+		"ASSIGN_ALIAS": "Alias hozzárendelése",
+		"CONTRACTS": "Szerződések",
+		"CREATE_WALLET": "Hozzon létre új pénztárcát",
+		"EDIT_ALIAS": "Alias szerkesztése",
+		"NEW_PURCHASE": "Új vásárlás",
+		"OLD_PURCHASE": "Vásárlás",
+		"OPEN_WALLET": "Nyissa meg a meglévő pénztárcát",
+		"RESTORE_WALLET": "Visszaállítás biztonsági másolatból",
+		"SAVE_PHRASE": "Mentse el a mag kifejezést",
+		"TRANSFER_ALIAS": "Átviteli álnév",
+		"WALLET_DETAILS": "Pénztárca adatai"
 	},
 	"COMMON": {
-		"BACK": "Go back"
+		"BACK": "Menjen vissza"
 	},
 	"CONFIRM": {
-		"BUTTON_CANCEL": "Cancel",
-		"BUTTON_CONFIRM": "Send",
+		"BUTTON_CANCEL": "Megszünteti",
+		"BUTTON_CONFIRM": "Elküld",
 		"MESSAGE": {
-			"COMMENT": "Comment",
-			"FROM": "From",
-			"SEND": "Send",
-			"TO": "To"
+			"COMMENT": "Megjegyzés",
+			"FROM": "Tól től",
+			"SEND": "Elküld",
+			"TO": "nak nek"
 		},
-		"TITLE": "Transaction"
+		"TITLE": "Tranzakció"
 	},
 	"CONTACTS": {
-		"ADD": "Add/edit contact",
+		"ADD": "Névjegy hozzáadása/szerkesztése",
 		"ADD_CONTACT": "Kapcsolat hozzáadása",
 		"BUTTON": {
-			"ADD": "Add contact",
-			"ADD_EDIT": "Add/Save",
-			"DELETE": "Delete",
-			"EDIT": "Edit",
-			"GO_TO_WALLET": "Go to wallet",
-			"IMPORT_EXPORT": "Import/export",
-			"SEND": "Send"
+			"ADD": "Kapcsolat hozzáadása",
+			"ADD_EDIT": "Hozzáadás/Mentés",
+			"DELETE": "Töröl",
+			"EDIT": "szerkesztése",
+			"GO_TO_WALLET": "Menj a pénztárcához",
+			"IMPORT_EXPORT": "Import Export",
+			"SEND": "Elküld"
 		},
-		"COPY": "- Copy",
-		"ERROR_EMPTY_LIST": "Contact list is empty",
-		"ERROR_EXPORT": "Invalid file type. Save file as .csv",
-		"ERROR_IMPORT": "Error is occured while reading file!",
-		"ERROR_IMPORT_EMPTY": "File is empty",
-		"ERROR_TYPE_FILE": "Please import valid .csv file",
+		"COPY": "- Másoljon",
+		"ERROR_EMPTY_LIST": "A névjegyzék üres",
+		"ERROR_EXPORT": "Érvénytelen fájltípus. Fájl mentése .csv formátumban",
+		"ERROR_IMPORT": "Hiba történt a fájl olvasása közben!",
+		"ERROR_IMPORT_EMPTY": "A fájl üres",
+		"ERROR_TYPE_FILE": "Kérjük, importáljon érvényes .csv fájlt",
 		"EXPORT": "Export",
 		"FORM": {
 			"ADDRESS": "Address",
@@ -89,7 +89,7 @@
 			"NOTES": "Notes"
 		},
 		"FORM_ERRORS": {
-			"ADDRESS_DUBLICATED": "Address is dublicated",
+			"ADDRESS_DUBLICATED": "A cím duplikált",
 			"ADDRESS_NOT_VALID": "Address not valid",
 			"ADDRESS_REQUIRED": "Address is required",
 			"MAX_LENGTH": "Maximum notes length reached",

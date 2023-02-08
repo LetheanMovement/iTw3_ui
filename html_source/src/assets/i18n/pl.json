@@ -1,95 +1,95 @@
 {
 	"ASSIGN_ALIAS": {
-		"BUTTON_ASSIGN": "Assign",
+		"BUTTON_ASSIGN": "przydzielać",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "Komentarz",
 			"PLACEHOLDER": "Tutaj wpisz swój komentarz",
-			"TOOLTIP": "The comment will be visible to anyone who wants to make a payment to your alias. You can provide details about your business, contacts, or include any text. Comments can be edited later."
+			"TOOLTIP": "Komentarz będzie widoczny dla każdego, kto chce dokonać płatności na Twój alias. Możesz podać szczegółowe informacje o swojej firmie, kontaktach lub dołączyć dowolny tekst. Komentarze można edytować później."
 		},
-		"COST": "Alias fee {{value}} {{currency}}",
+		"COST": "Opłata za alias {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum comment length reached",
-			"NAME_EXISTS": "Alias name already exists",
-			"NAME_LENGTH": "The alias must be 6-25 characters long",
-			"NAME_REQUIRED": "Name is required",
-			"NAME_WRONG": "Invalid name: allowed symbols \"0-9\", \"a-z\", \"-\", \".\"",
-			"NO_MONEY": "You do not have enough funds to assign this alias"
+			"MAX_LENGTH": "Osiągnięto maksymalną długość komentarza",
+			"NAME_EXISTS": "Alias już istnieje",
+			"NAME_LENGTH": "Alias musi mieć od 6 do 25 znaków",
+			"NAME_REQUIRED": "imie jest wymagane",
+			"NAME_WRONG": "Nieprawidłowa nazwa: dozwolone symbole „0-9”, „a-z”, „-”, „.”",
+			"NO_MONEY": "Nie masz wystarczających środków, aby przypisać ten alias"
 		},
 		"NAME": {
-			"LABEL": "Alias",
-			"PLACEHOLDER": " Enter alias",
-			"TOOLTIP": "An alias is a shortened form or your account. An alias can only include Latin letters, numbers and characters “.” and “-”. It must start with “@”."
+			"LABEL": "alias",
+			"PLACEHOLDER": " Wpisz alias",
+			"TOOLTIP": "Alias to skrócony formularz lub Twoje konto. Alias może zawierać tylko litery łacińskie, cyfry i znaki „.” I \"-\". Musi zaczynać się od „@”."
 		},
-		"ONE_ALIAS": "You can create only one alias per wallet",
-		"REQUEST_ADD_REG": "The alias will be assigned within 10 minutes"
+		"ONE_ALIAS": "Możesz utworzyć tylko jeden alias na portfel",
+		"REQUEST_ADD_REG": "Alias zostanie przydzielony w ciągu 10 minut"
 	},
 	"BACKEND_LOCALIZATION": {
-		"INCOME_TRANSFER_CONFIRMED": "Payment received",
-		"INCOME_TRANSFER_UNCONFIRMED": "Incoming payment (not confirmed)",
+		"INCOME_TRANSFER_CONFIRMED": "Otrzymano płatność",
+		"INCOME_TRANSFER_UNCONFIRMED": "Płatność przychodząca (niepotwierdzona)",
 		"IS_CONFIRMED": "",
-		"IS_MINIMIZE": "Lethean application is minimized to the system tray",
+		"IS_MINIMIZE": "Aplikacja Letean jest zminimalizowana do zasobnika systemowego",
 		"IS_RECEIVED": "",
-		"LOCKED": "Blocked",
-		"MINED": "Mined",
-		"QUIT": "Quit",
-		"RESTORE": "You can recover it by clicking or using the context menu",
-		"TRAY_MENU_MINIMIZE": "Minimize",
-		"TRAY_MENU_SHOW": "Resize"
+		"LOCKED": "zablokowany",
+		"MINED": "Zaminowany",
+		"QUIT": "Porzucić",
+		"RESTORE": "Możesz go odzyskać, klikając lub korzystając z menu kontekstowego",
+		"TRAY_MENU_MINIMIZE": "Zminimalizować",
+		"TRAY_MENU_SHOW": "Zmień rozmiar"
 	},
 	"BREADCRUMBS": {
-		"ADD_WALLET": "Add wallet",
-		"ASSIGN_ALIAS": "Assign alias",
-		"CONTRACTS": "Contracts",
-		"CREATE_WALLET": "Create new wallet",
-		"EDIT_ALIAS": "Edit alias",
-		"NEW_PURCHASE": "New purchase",
-		"OLD_PURCHASE": "Purchase",
-		"OPEN_WALLET": "Open existing wallet",
-		"RESTORE_WALLET": "Restore from backup",
-		"SAVE_PHRASE": "Save your seed phrase",
-		"TRANSFER_ALIAS": "Transfer alias",
-		"WALLET_DETAILS": "Wallet details"
+		"ADD_WALLET": "Dodaj Portfel",
+		"ASSIGN_ALIAS": "Przypisz alias",
+		"CONTRACTS": "Kontrakty",
+		"CREATE_WALLET": "Utwórz nowy portfel",
+		"EDIT_ALIAS": "Edytuj alias",
+		"NEW_PURCHASE": "Nowy zakup",
+		"OLD_PURCHASE": "zakup",
+		"OPEN_WALLET": "Otwórz istniejący portfel",
+		"RESTORE_WALLET": "Przywróć z kopii zapasowej",
+		"SAVE_PHRASE": "Zapisz swoją frazę źródłową",
+		"TRANSFER_ALIAS": "Przenieś alias",
+		"WALLET_DETAILS": "Szczegóły portfela"
 	},
 	"COMMON": {
-		"BACK": "Go back"
+		"BACK": "Wróć"
 	},
 	"CONFIRM": {
-		"BUTTON_CANCEL": "Cancel",
-		"BUTTON_CONFIRM": "Send",
+		"BUTTON_CANCEL": "Anuluj",
+		"BUTTON_CONFIRM": "wysłać",
 		"MESSAGE": {
-			"COMMENT": "Comment",
-			"FROM": "From",
-			"SEND": "Send",
-			"TO": "To"
+			"COMMENT": "Komentarz",
+			"FROM": "Z",
+			"SEND": "wysłać",
+			"TO": "Do"
 		},
-		"TITLE": "Transaction"
+		"TITLE": "Transakcja"
 	},
 	"CONTACTS": {
-		"ADD": "Add/edit contact",
+		"ADD": "Dodaj/edytuj kontakt",
 		"ADD_CONTACT": "Dodaj kontakt",
 		"BUTTON": {
-			"ADD": "Add contact",
-			"ADD_EDIT": "Add/Save",
-			"DELETE": "Delete",
-			"EDIT": "Edit",
-			"GO_TO_WALLET": "Go to wallet",
-			"IMPORT_EXPORT": "Import/export",
-			"SEND": "Send"
+			"ADD": "Dodaj kontakt",
+			"ADD_EDIT": "Dodaj/Zapisz",
+			"DELETE": "Kasować",
+			"EDIT": "Edytować",
+			"GO_TO_WALLET": "Przejdź do portfela",
+			"IMPORT_EXPORT": "Import Eksport",
+			"SEND": "wysłać"
 		},
-		"COPY": "- Copy",
-		"ERROR_EMPTY_LIST": "Contact list is empty",
-		"ERROR_EXPORT": "Invalid file type. Save file as .csv",
-		"ERROR_IMPORT": "Error is occured while reading file!",
-		"ERROR_IMPORT_EMPTY": "File is empty",
-		"ERROR_TYPE_FILE": "Please import valid .csv file",
-		"EXPORT": "Export",
+		"COPY": "- Kopiuj",
+		"ERROR_EMPTY_LIST": "Lista kontaktów jest pusta",
+		"ERROR_EXPORT": "Nieprawidłowy typ pliku. Zapisz plik jako .csv",
+		"ERROR_IMPORT": "Wystąpił błąd podczas odczytu pliku!",
+		"ERROR_IMPORT_EMPTY": "Plik jest pusty",
+		"ERROR_TYPE_FILE": "Proszę zaimportować prawidłowy plik .csv",
+		"EXPORT": "eksport",
 		"FORM": {
 			"ADDRESS": "Address",
 			"NAME": "Name",
 			"NOTES": "Notes"
 		},
 		"FORM_ERRORS": {
-			"ADDRESS_DUBLICATED": "Address is dublicated",
+			"ADDRESS_DUBLICATED": "Adres jest zduplikowany",
 			"ADDRESS_NOT_VALID": "Address not valid",
 			"ADDRESS_REQUIRED": "Address is required",
 			"MAX_LENGTH": "Maximum notes length reached",

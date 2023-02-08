@@ -1,95 +1,95 @@
 {
 	"ASSIGN_ALIAS": {
-		"BUTTON_ASSIGN": "Assign",
+		"BUTTON_ASSIGN": "Αναθέτω",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "σχόλιο",
 			"PLACEHOLDER": "Εισαγάγετε το σχόλιό σας εδώ",
-			"TOOLTIP": "The comment will be visible to anyone who wants to make a payment to your alias. You can provide details about your business, contacts, or include any text. Comments can be edited later."
+			"TOOLTIP": "Το σχόλιο θα είναι ορατό σε οποιονδήποτε θέλει να κάνει μια πληρωμή στο ψευδώνυμό σας. Μπορείτε να παρέχετε λεπτομέρειες σχετικά με την επιχείρησή σας, τις επαφές σας ή να συμπεριλάβετε οποιοδήποτε κείμενο. Τα σχόλια μπορούν να επεξεργαστούν αργότερα."
 		},
-		"COST": "Alias fee {{value}} {{currency}}",
+		"COST": "Προμήθεια ψευδώνυμου {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum comment length reached",
-			"NAME_EXISTS": "Alias name already exists",
-			"NAME_LENGTH": "The alias must be 6-25 characters long",
-			"NAME_REQUIRED": "Name is required",
-			"NAME_WRONG": "Alias has wrong name",
-			"NO_MONEY": "You do not have enough funds to assign this alias"
+			"MAX_LENGTH": "Συμπληρώθηκε το μέγιστο μήκος σχολίου",
+			"NAME_EXISTS": "Το όνομα του ψευδώνυμου υπάρχει ήδη",
+			"NAME_LENGTH": "Το ψευδώνυμο πρέπει να έχει μήκος 6-25 χαρακτήρες",
+			"NAME_REQUIRED": "Απαιτείται όνομα",
+			"NAME_WRONG": "Μη έγκυρο όνομα: επιτρεπόμενα σύμβολα \"0-9\", \"a-z\", \"-\", \".\"",
+			"NO_MONEY": "Δεν έχετε αρκετά χρήματα για να εκχωρήσετε αυτό το ψευδώνυμο"
 		},
 		"NAME": {
-			"LABEL": "Alias",
-			"PLACEHOLDER": " Enter alias",
-			"TOOLTIP": "An alias is a shortened form or your account. An alias can only include Latin letters, numbers and characters “.” and “-”. It must start with “@”."
+			"LABEL": "ψευδώνυμο",
+			"PLACEHOLDER": " Εισαγάγετε το ψευδώνυμο",
+			"TOOLTIP": "Το ψευδώνυμο είναι μια συντομευμένη φόρμα ή ο λογαριασμός σας. Ένα ψευδώνυμο μπορεί να περιλαμβάνει μόνο λατινικά γράμματα, αριθμούς και χαρακτήρες \".\" και \"-\". Πρέπει να ξεκινά με «@»."
 		},
-		"ONE_ALIAS": "You can create only one alias per wallet",
-		"REQUEST_ADD_REG": "The alias will be assigned within 10 minutes"
+		"ONE_ALIAS": "Μπορείτε να δημιουργήσετε μόνο ένα ψευδώνυμο ανά πορτοφόλι",
+		"REQUEST_ADD_REG": "Το ψευδώνυμο θα εκχωρηθεί εντός 10 λεπτών"
 	},
 	"BACKEND_LOCALIZATION": {
-		"INCOME_TRANSFER_CONFIRMED": "Payment received",
-		"INCOME_TRANSFER_UNCONFIRMED": "Incoming payment (not confirmed)",
+		"INCOME_TRANSFER_CONFIRMED": "Η πληρωμή ελήφθη",
+		"INCOME_TRANSFER_UNCONFIRMED": "Εισερχόμενη πληρωμή (δεν επιβεβαιώθηκε)",
 		"IS_CONFIRMED": "",
-		"IS_MINIMIZE": "Lethean application is minimized to the system tray",
+		"IS_MINIMIZE": "Η εφαρμογή Lethean ελαχιστοποιείται στο δίσκο συστήματος",
 		"IS_RECEIVED": "",
-		"LOCKED": "Blocked",
-		"MINED": "Mined",
-		"QUIT": "Quit",
-		"RESTORE": "You can recover it by clicking or using the context menu",
-		"TRAY_MENU_MINIMIZE": "Minimize",
-		"TRAY_MENU_SHOW": "Resize"
+		"LOCKED": "Αποκλεισμένος",
+		"MINED": "Εξορύσσεται",
+		"QUIT": "Εγκαταλείπω",
+		"RESTORE": "Μπορείτε να το ανακτήσετε κάνοντας κλικ ή χρησιμοποιώντας το μενού περιβάλλοντος",
+		"TRAY_MENU_MINIMIZE": "ΠΕΡΙΟΡΙΖΩ",
+		"TRAY_MENU_SHOW": "Αλλαγή μεγέθους"
 	},
 	"BREADCRUMBS": {
-		"ADD_WALLET": "Add wallet",
-		"ASSIGN_ALIAS": "Assign alias",
-		"CONTRACTS": "Contracts",
-		"CREATE_WALLET": "Create new wallet",
-		"EDIT_ALIAS": "Edit alias",
-		"NEW_PURCHASE": "New purchase",
-		"OLD_PURCHASE": "Purchase",
-		"OPEN_WALLET": "Open existing wallet",
-		"RESTORE_WALLET": "Restore from backup",
-		"SAVE_PHRASE": "Save your seed phrase",
-		"TRANSFER_ALIAS": "Transfer alias",
-		"WALLET_DETAILS": "Wallet details"
+		"ADD_WALLET": "Προσθήκη Πορτοφολιού",
+		"ASSIGN_ALIAS": "Εκχωρήστε ψευδώνυμο",
+		"CONTRACTS": "Συμβάσεις",
+		"CREATE_WALLET": "Δημιουργία νέου Πορτοφολιού",
+		"EDIT_ALIAS": "Επεξεργασία ψευδώνυμου",
+		"NEW_PURCHASE": "Νέα αγορά",
+		"OLD_PURCHASE": "Αγορά",
+		"OPEN_WALLET": "Ανοίξτε το υπάρχον πορτοφόλι",
+		"RESTORE_WALLET": "Επαναφορά από αντίγραφο ασφαλείας",
+		"SAVE_PHRASE": "Αποθηκεύστε τη φράση σας",
+		"TRANSFER_ALIAS": "Το ψευδώνυμο μεταφοράς",
+		"WALLET_DETAILS": "Στοιχεία πορτοφολιού"
 	},
 	"COMMON": {
-		"BACK": "Go back"
+		"BACK": "Πήγαινε πίσω"
 	},
 	"CONFIRM": {
-		"BUTTON_CANCEL": "Cancel",
-		"BUTTON_CONFIRM": "Send",
+		"BUTTON_CANCEL": "Ματαίωση",
+		"BUTTON_CONFIRM": "Στείλετε",
 		"MESSAGE": {
-			"COMMENT": "Comment",
-			"FROM": "From",
-			"SEND": "Send",
-			"TO": "To"
+			"COMMENT": "σχόλιο",
+			"FROM": "από",
+			"SEND": "Στείλετε",
+			"TO": "Προς το"
 		},
-		"TITLE": "Transaction"
+		"TITLE": "Συναλλαγή"
 	},
 	"CONTACTS": {
-		"ADD": "Add/edit contact",
+		"ADD": "Προσθήκη/επεξεργασία επαφής",
 		"ADD_CONTACT": "Προσθέστε επαφή",
 		"BUTTON": {
-			"ADD": "Add contact",
-			"ADD_EDIT": "Add/Save",
-			"DELETE": "Delete",
-			"EDIT": "Edit",
-			"GO_TO_WALLET": "Go to wallet",
-			"IMPORT_EXPORT": "Import/export",
-			"SEND": "Send"
+			"ADD": "Προσθέστε επαφή",
+			"ADD_EDIT": "Προσθήκη/Αποθήκευση",
+			"DELETE": "Διαγράφω",
+			"EDIT": "Επεξεργασία",
+			"GO_TO_WALLET": "Πηγαίνετε στο πορτοφόλι",
+			"IMPORT_EXPORT": "Εισαγωγή εξαγωγή",
+			"SEND": "Στείλετε"
 		},
-		"COPY": "- Copy",
-		"ERROR_EMPTY_LIST": "Contact list is empty",
-		"ERROR_EXPORT": "Invalid file type. Save file as .csv",
-		"ERROR_IMPORT": "Error is occured while reading file!",
-		"ERROR_IMPORT_EMPTY": "File is empty",
-		"ERROR_TYPE_FILE": "Please import valid .csv file",
-		"EXPORT": "Export",
+		"COPY": "- Αντίγραφο",
+		"ERROR_EMPTY_LIST": "Η λίστα επαφών είναι κενή",
+		"ERROR_EXPORT": "Μη έγκυρος τύπος αρχείου. Αποθήκευση αρχείου ως .csv",
+		"ERROR_IMPORT": "Παρουσιάστηκε σφάλμα κατά την ανάγνωση του αρχείου!",
+		"ERROR_IMPORT_EMPTY": "Το αρχείο είναι κενό",
+		"ERROR_TYPE_FILE": "Εισαγάγετε έγκυρο αρχείο .csv",
+		"EXPORT": "Εξαγωγή",
 		"FORM": {
 			"ADDRESS": "Address",
 			"NAME": "Name",
 			"NOTES": "Notes"
 		},
 		"FORM_ERRORS": {
-			"ADDRESS_DUBLICATED": "Address is dublicated",
+			"ADDRESS_DUBLICATED": "Η διεύθυνση είναι διπλότυπη",
 			"ADDRESS_NOT_VALID": "Address not valid",
 			"ADDRESS_REQUIRED": "Address is required",
 			"MAX_LENGTH": "Maximum notes length reached",

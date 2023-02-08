@@ -30,7 +30,7 @@
 		"IS_MINIMIZE": "Lethean-Anwendung wird auf die Systemleiste minimiert",
 		"IS_RECEIVED": "",
 		"LOCKED": "Blockiert",
-		"MINED": "Mined",
+		"MINED": "Abgebaut",
 		"QUIT": "Beenden",
 		"RESTORE": "Sie können es wiederherstellen, indem Sie auf das Kontextmenü benutzen oder anklicken ",
 		"TRAY_MENU_MINIMIZE": "Minimieren",
@@ -77,11 +77,11 @@
 			"SEND": "Senden"
 		},
 		"COPY": "- Kopieren",
-		"ERROR_EMPTY_LIST": "Contact list is empty",
+		"ERROR_EMPTY_LIST": "Kontaktliste ist leer",
 		"ERROR_EXPORT": "Ungültiger Dateityp. Datei als .csv speichern",
 		"ERROR_IMPORT": "Fehler beim Lesen der Datei!",
-		"ERROR_IMPORT_EMPTY": "File is empty",
-		"ERROR_TYPE_FILE": "Please import valid .csv file",
+		"ERROR_IMPORT_EMPTY": "Die Datei ist leer",
+		"ERROR_TYPE_FILE": "Bitte importieren Sie eine gültige .csv-Datei",
 		"EXPORT": "Exportieren",
 		"FORM": {
 			"ADDRESS": "Adresse",

@@ -1,95 +1,95 @@
 {
 	"ASSIGN_ALIAS": {
-		"BUTTON_ASSIGN": "Assign",
+		"BUTTON_ASSIGN": "تعيين",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "تعليق",
 			"PLACEHOLDER": "أدخل تعليقك هنا",
-			"TOOLTIP": "The comment will be visible to anyone who wants to make a payment to your alias. You can provide details about your business, contacts, or include any text. Comments can be edited later."
+			"TOOLTIP": "سيكون التعليق مرئيًا لأي شخص يريد إجراء الدفع لاسمك المستعار. يمكنك تقديم تفاصيل حول عملك أو جهات اتصالك أو تضمين أي نص. يمكن تحرير التعليقات في وقت لاحق."
 		},
-		"COST": "Alias fee {{value}} {{currency}}",
+		"COST": "رسوم الاسم المستعار {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum comment length reached",
-			"NAME_EXISTS": "Alias name already exists",
-			"NAME_LENGTH": "The alias must be 6-25 characters long",
-			"NAME_REQUIRED": "Name is required",
-			"NAME_WRONG": "Invalid name: allowed symbols \"0-9\", \"a-z\", \"-\", \".\"",
-			"NO_MONEY": "You do not have enough funds to assign this alias"
+			"MAX_LENGTH": "تم بلوغ الحد الأقصى لطول التعليق",
+			"NAME_EXISTS": "الاسم المستعار موجود بالفعل",
+			"NAME_LENGTH": "يجب أن يتكون الاسم المستعار من 6-25 حرفًا",
+			"NAME_REQUIRED": "مطلوب اسم",
+			"NAME_WRONG": "اسم غير صالح: الرموز المسموح بها \"0-9\" ، \"a-z\" ، \"-\" ، \".\"",
+			"NO_MONEY": "ليس لديك أموال كافية لتعيين هذا الاسم المستعار"
 		},
 		"NAME": {
-			"LABEL": "Alias",
-			"PLACEHOLDER": " Enter alias",
-			"TOOLTIP": "An alias is a shortened form or your account. An alias can only include Latin letters, numbers and characters “.” and “-”. It must start with “@”."
+			"LABEL": "الاسم المستعار",
+			"PLACEHOLDER": " أدخل الاسم المستعار",
+			"TOOLTIP": "الاسم المستعار هو نموذج مختصر أو حسابك. يمكن أن يتضمن الاسم المستعار أحرفًا وأرقامًا وأحرفًا لاتينية فقط \".\" و \"-\". يجب أن يبدأ بـ \"@\"."
 		},
-		"ONE_ALIAS": "You can create only one alias per wallet",
-		"REQUEST_ADD_REG": "The alias will be assigned within 10 minutes"
+		"ONE_ALIAS": "يمكنك إنشاء اسم مستعار واحد فقط لكل محفظة",
+		"REQUEST_ADD_REG": "سيتم تعيين الاسم المستعار في غضون 10 دقائق"
 	},
 	"BACKEND_LOCALIZATION": {
-		"INCOME_TRANSFER_CONFIRMED": "Payment received",
-		"INCOME_TRANSFER_UNCONFIRMED": "Incoming payment (not confirmed)",
+		"INCOME_TRANSFER_CONFIRMED": "تلقى الدفع",
+		"INCOME_TRANSFER_UNCONFIRMED": "دفعة واردة (غير مؤكدة)",
 		"IS_CONFIRMED": "",
-		"IS_MINIMIZE": "Lethean application is minimized to the system tray",
+		"IS_MINIMIZE": "يتم تصغير التطبيق Lethean إلى علبة النظام",
 		"IS_RECEIVED": "",
-		"LOCKED": "Blocked",
-		"MINED": "Mined",
-		"QUIT": "Quit",
-		"RESTORE": "You can recover it by clicking or using the context menu",
-		"TRAY_MENU_MINIMIZE": "Minimize",
-		"TRAY_MENU_SHOW": "Resize"
+		"LOCKED": "BLOCKED",
+		"MINED": "عقل",
+		"QUIT": "استقال",
+		"RESTORE": "يمكنك استعادتها بالنقر فوق قائمة السياق أو استخدامها",
+		"TRAY_MENU_MINIMIZE": "خفض",
+		"TRAY_MENU_SHOW": "تغيير"
 	},
 	"BREADCRUMBS": {
-		"ADD_WALLET": "Add wallet",
-		"ASSIGN_ALIAS": "Assign alias",
-		"CONTRACTS": "Contracts",
-		"CREATE_WALLET": "Create new wallet",
-		"EDIT_ALIAS": "Edit alias",
-		"NEW_PURCHASE": "New purchase",
-		"OLD_PURCHASE": "Purchase",
-		"OPEN_WALLET": "Open existing wallet",
-		"RESTORE_WALLET": "Restore from backup",
-		"SAVE_PHRASE": "Save your seed phrase",
-		"TRANSFER_ALIAS": "Transfer alias",
-		"WALLET_DETAILS": "Wallet details"
+		"ADD_WALLET": "أضف المحفظة",
+		"ASSIGN_ALIAS": "تعيين الاسم المستعار",
+		"CONTRACTS": "انكماش",
+		"CREATE_WALLET": "إنشاء محفظة جديدة",
+		"EDIT_ALIAS": "تعديل الاسم المستعار",
+		"NEW_PURCHASE": "شراء جديدة",
+		"OLD_PURCHASE": "شراء",
+		"OPEN_WALLET": "افتح المحفظة الموجودة",
+		"RESTORE_WALLET": "استعادة من النسخة الاحتياطية",
+		"SAVE_PHRASE": "احفظ عبارة البذور الخاصة بك",
+		"TRANSFER_ALIAS": "نقل الاسم المستعار",
+		"WALLET_DETAILS": "تفاصيل المحفظة"
 	},
 	"COMMON": {
-		"BACK": "Go back"
+		"BACK": "عد"
 	},
 	"CONFIRM": {
-		"BUTTON_CANCEL": "Cancel",
-		"BUTTON_CONFIRM": "Send",
+		"BUTTON_CANCEL": "إلغاء",
+		"BUTTON_CONFIRM": "إرسال",
 		"MESSAGE": {
-			"COMMENT": "Comment",
-			"FROM": "From",
-			"SEND": "Send",
-			"TO": "To"
+			"COMMENT": "تعليق",
+			"FROM": "من عند",
+			"SEND": "إرسال",
+			"TO": "إلى"
 		},
-		"TITLE": "Transaction"
+		"TITLE": "عملية تجارية"
 	},
 	"CONTACTS": {
-		"ADD": "Add/edit contact",
+		"ADD": "إضافة / تحرير جهة اتصال",
 		"ADD_CONTACT": "إضافة جهة اتصال",
 		"BUTTON": {
-			"ADD": "Add contact",
-			"ADD_EDIT": "Add/Save",
-			"DELETE": "Delete",
-			"EDIT": "Edit",
-			"GO_TO_WALLET": "Go to wallet",
-			"IMPORT_EXPORT": "Import/export",
-			"SEND": "Send"
+			"ADD": "إضافة جهة اتصال",
+			"ADD_EDIT": "إضافة / حفظ",
+			"DELETE": "حذف",
+			"EDIT": "تصحيح",
+			"GO_TO_WALLET": "انتقل إلى Wallet",
+			"IMPORT_EXPORT": "استيراد و تصدير",
+			"SEND": "إرسال"
 		},
-		"COPY": "- Copy",
-		"ERROR_EMPTY_LIST": "Contact list is empty",
-		"ERROR_EXPORT": "Invalid file type. Save file as .csv",
-		"ERROR_IMPORT": "Error is occured while reading file!",
-		"ERROR_IMPORT_EMPTY": "File is empty",
-		"ERROR_TYPE_FILE": "Please import valid .csv file",
-		"EXPORT": "Export",
+		"COPY": "- ينسخ",
+		"ERROR_EMPTY_LIST": "قائمة جهات الاتصال فارغة",
+		"ERROR_EXPORT": "نوع الملف غير صالح. احفظ الملف كملف csv",
+		"ERROR_IMPORT": "حدث خطأ أثناء قراءة الملف!",
+		"ERROR_IMPORT_EMPTY": "الملف فارغ",
+		"ERROR_TYPE_FILE": "يرجى استيراد ملف .csv صالح",
+		"EXPORT": "تصدير",
 		"FORM": {
 			"ADDRESS": "Address",
 			"NAME": "Name",
 			"NOTES": "Notes"
 		},
 		"FORM_ERRORS": {
-			"ADDRESS_DUBLICATED": "Address is dublicated",
+			"ADDRESS_DUBLICATED": "العنوان مكرر",
 			"ADDRESS_NOT_VALID": "Address not valid",
 			"ADDRESS_REQUIRED": "Address is required",
 			"MAX_LENGTH": "Maximum notes length reached",

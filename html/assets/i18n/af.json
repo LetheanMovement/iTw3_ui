@@ -1,95 +1,95 @@
 {
 	"ASSIGN_ALIAS": {
-		"BUTTON_ASSIGN": "Assign",
+		"BUTTON_ASSIGN": "Toewys",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "kommentaar",
 			"PLACEHOLDER": "Voer jou kommentaar hier in",
-			"TOOLTIP": "The comment will be visible to anyone who wants to make a payment to your alias. You can provide details about your business, contacts, or include any text. Comments can be edited later."
+			"TOOLTIP": "Die opmerking sal sigbaar wees vir enigiemand wat 'n betaling aan jou alias wil maak. Jy kan besonderhede oor jou besigheid, kontakte verskaf of enige teks insluit. Opmerkings kan later geredigeer word."
 		},
-		"COST": "Alias fee {{value}} {{currency}}",
+		"COST": "Aliasfooi {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum comment length reached",
-			"NAME_EXISTS": "Alias name already exists",
-			"NAME_LENGTH": "The alias must be 6-25 characters long",
-			"NAME_REQUIRED": "Name is required",
-			"NAME_WRONG": "Invalid name: allowed symbols \"0-9\", \"a-z\", \"-\", \".\"",
-			"NO_MONEY": "You do not have enough funds to assign this alias"
+			"MAX_LENGTH": "Maksimum opmerkinglengte bereik",
+			"NAME_EXISTS": "Aliasnaam bestaan reeds",
+			"NAME_LENGTH": "Die aliasnaam moet 6-25 karakters lank wees",
+			"NAME_REQUIRED": "Naam word vereis",
+			"NAME_WRONG": "Ongeldige naam: toegelaat simbole \"0-9\", \"a-z\", \"-\", \".\"",
+			"NO_MONEY": "Jy het nie genoeg fondse om hierdie alias toe te ken nie"
 		},
 		"NAME": {
 			"LABEL": "Alias",
-			"PLACEHOLDER": " Enter alias",
-			"TOOLTIP": "An alias is a shortened form or your account. An alias can only include Latin letters, numbers and characters “.” and “-”. It must start with “@”."
+			"PLACEHOLDER": " Voer alias in",
+			"TOOLTIP": "'n Alias is 'n verkorte vorm of jou rekening. 'n Alias kan slegs Latynse letters, syfers en karakters \".\" en \"-\". Dit moet begin met \"@\"."
 		},
-		"ONE_ALIAS": "You can create only one alias per wallet",
-		"REQUEST_ADD_REG": "The alias will be assigned within 10 minutes"
+		"ONE_ALIAS": "Jy kan slegs een alias per beursie skep",
+		"REQUEST_ADD_REG": "Die alias sal binne 10 minute toegeken word"
 	},
 	"BACKEND_LOCALIZATION": {
-		"INCOME_TRANSFER_CONFIRMED": "Payment received",
-		"INCOME_TRANSFER_UNCONFIRMED": "Incoming payment (not confirmed)",
+		"INCOME_TRANSFER_CONFIRMED": "Betaling ontvang",
+		"INCOME_TRANSFER_UNCONFIRMED": "Inkomende betaling (nie bevestig nie)",
 		"IS_CONFIRMED": "",
-		"IS_MINIMIZE": "Lethean application is minimized to the system tray",
+		"IS_MINIMIZE": "Lethean toepassing word tot die system tray geminimaliseer",
 		"IS_RECEIVED": "",
-		"LOCKED": "Blocked",
-		"MINED": "Mined",
-		"QUIT": "Quit",
-		"RESTORE": "You can recover it by clicking or using the context menu",
-		"TRAY_MENU_MINIMIZE": "Minimize",
-		"TRAY_MENU_SHOW": "Resize"
+		"LOCKED": "Geblokkeer",
+		"MINED": "Ontgin",
+		"QUIT": "Hou op",
+		"RESTORE": "Jy kan dit herstel deur te klik of die konteks kieslys te gebruik",
+		"TRAY_MENU_MINIMIZE": "Minimaliseer",
+		"TRAY_MENU_SHOW": "Verander grootte"
 	},
 	"BREADCRUMBS": {
-		"ADD_WALLET": "Add wallet",
-		"ASSIGN_ALIAS": "Assign alias",
-		"CONTRACTS": "Contracts",
-		"CREATE_WALLET": "Create new wallet",
-		"EDIT_ALIAS": "Edit alias",
-		"NEW_PURCHASE": "New purchase",
-		"OLD_PURCHASE": "Purchase",
-		"OPEN_WALLET": "Open existing wallet",
-		"RESTORE_WALLET": "Restore from backup",
-		"SAVE_PHRASE": "Save your seed phrase",
-		"TRANSFER_ALIAS": "Transfer alias",
-		"WALLET_DETAILS": "Wallet details"
+		"ADD_WALLET": "Voeg beursie by",
+		"ASSIGN_ALIAS": "Ken alias toe",
+		"CONTRACTS": "Kontrakte",
+		"CREATE_WALLET": "Skep nuwe beursie",
+		"EDIT_ALIAS": "Wysig alias",
+		"NEW_PURCHASE": "Nuwe aankoop",
+		"OLD_PURCHASE": "aankoop",
+		"OPEN_WALLET": "Maak bestaande beursie oop",
+		"RESTORE_WALLET": "Herstel vanaf rugsteun",
+		"SAVE_PHRASE": "Stoor jou saadfrase",
+		"TRANSFER_ALIAS": "Oordrag alias",
+		"WALLET_DETAILS": "Beursiebesonderhede"
 	},
 	"COMMON": {
-		"BACK": "Go back"
+		"BACK": "Gaan terug"
 	},
 	"CONFIRM": {
-		"BUTTON_CANCEL": "Cancel",
-		"BUTTON_CONFIRM": "Send",
+		"BUTTON_CANCEL": "kanselleer",
+		"BUTTON_CONFIRM": "STUUR",
 		"MESSAGE": {
-			"COMMENT": "Comment",
-			"FROM": "From",
-			"SEND": "Send",
-			"TO": "To"
+			"COMMENT": "kommentaar",
+			"FROM": "van",
+			"SEND": "STUUR",
+			"TO": "om"
 		},
-		"TITLE": "Transaction"
+		"TITLE": "Transaksie"
 	},
 	"CONTACTS": {
-		"ADD": "Add/edit contact",
+		"ADD": "Voeg by/wysig kontak",
 		"ADD_CONTACT": "Voeg kontak by",
 		"BUTTON": {
-			"ADD": "Add contact",
-			"ADD_EDIT": "Add/Save",
-			"DELETE": "Delete",
-			"EDIT": "Edit",
-			"GO_TO_WALLET": "Go to wallet",
-			"IMPORT_EXPORT": "Import/export",
-			"SEND": "Send"
+			"ADD": "Voeg kontak by",
+			"ADD_EDIT": "Voeg by/Stoor",
+			"DELETE": "verwyder",
+			"EDIT": "wysig",
+			"GO_TO_WALLET": "Gaan na beursie",
+			"IMPORT_EXPORT": "Invoer uitvoer",
+			"SEND": "STUUR"
 		},
-		"COPY": "- Copy",
-		"ERROR_EMPTY_LIST": "Contact list is empty",
-		"ERROR_EXPORT": "Invalid file type. Save file as .csv",
-		"ERROR_IMPORT": "Error is occured while reading file!",
-		"ERROR_IMPORT_EMPTY": "File is empty",
-		"ERROR_TYPE_FILE": "Please import valid .csv file",
-		"EXPORT": "Export",
+		"COPY": "- Kopieer",
+		"ERROR_EMPTY_LIST": "Kontaklys is leeg",
+		"ERROR_EXPORT": "Ongeldige lêertipe. Stoor lêer as .csv",
+		"ERROR_IMPORT": "Fout het voorgekom tydens die lees van lêer!",
+		"ERROR_IMPORT_EMPTY": "Lêer is leeg",
+		"ERROR_TYPE_FILE": "Voer asseblief geldige .csv-lêer in",
+		"EXPORT": "uitvoer",
 		"FORM": {
 			"ADDRESS": "Address",
 			"NAME": "Name",
 			"NOTES": "Notes"
 		},
 		"FORM_ERRORS": {
-			"ADDRESS_DUBLICATED": "Address is dublicated",
+			"ADDRESS_DUBLICATED": "Adres is gedupliseer",
 			"ADDRESS_NOT_VALID": "Address not valid",
 			"ADDRESS_REQUIRED": "Address is required",
 			"MAX_LENGTH": "Maximum notes length reached",

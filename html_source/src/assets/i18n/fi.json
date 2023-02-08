@@ -1,95 +1,95 @@
 {
 	"ASSIGN_ALIAS": {
-		"BUTTON_ASSIGN": "Assign",
+		"BUTTON_ASSIGN": "Määritä",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "Kommentti",
 			"PLACEHOLDER": "Kirjoita kommenttisi tähän",
-			"TOOLTIP": "The comment will be visible to anyone who wants to make a payment to your alias. You can provide details about your business, contacts, or include any text. Comments can be edited later."
+			"TOOLTIP": "Kommentti näkyy kaikille, jotka haluavat suorittaa maksun aliakseesi. Voit antaa tietoja yrityksestäsi, yhteystiedoistasi tai sisällyttää tekstiin. Kommentteja voi muokata myöhemmin."
 		},
-		"COST": "Alias fee {{value}} {{currency}}",
+		"COST": "Aliasmaksu {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum comment length reached",
-			"NAME_EXISTS": "Alias name already exists",
-			"NAME_LENGTH": "The alias must be 6-25 characters long",
-			"NAME_REQUIRED": "Name is required",
-			"NAME_WRONG": "Invalid name: allowed symbols \"0-9\", \"a-z\", \"-\", \".\"",
-			"NO_MONEY": "You do not have enough funds to assign this alias"
+			"MAX_LENGTH": "Kommentin enimmäispituus saavutettu",
+			"NAME_EXISTS": "Alias-nimi on jo olemassa",
+			"NAME_LENGTH": "Alias-nimen tulee olla 6-25 merkkiä pitkä",
+			"NAME_REQUIRED": "Nimi vaaditaan",
+			"NAME_WRONG": "Virheellinen nimi: sallitut symbolit \"0-9\", \"a-z\", \"-\", \".\"",
+			"NO_MONEY": "Sinulla ei ole tarpeeksi varoja tämän aliaksen määrittämiseen"
 		},
 		"NAME": {
-			"LABEL": "Alias",
-			"PLACEHOLDER": " Enter alias",
-			"TOOLTIP": "An alias is a shortened form or your account. An alias can only include Latin letters, numbers and characters “.” and “-”. It must start with “@”."
+			"LABEL": "alias",
+			"PLACEHOLDER": " Anna alias",
+			"TOOLTIP": "Alias on lyhennetty lomake tai tilisi. Alias voi sisältää vain latinalaisia kirjaimia, numeroita ja merkkejä \".\" ja \"-\". Sen tulee alkaa @-merkillä."
 		},
-		"ONE_ALIAS": "You can create only one alias per wallet",
-		"REQUEST_ADD_REG": "The alias will be assigned within 10 minutes"
+		"ONE_ALIAS": "Voit luoda vain yhden aliaksen lompakkoa kohden",
+		"REQUEST_ADD_REG": "Alias määritetään 10 minuutin kuluessa"
 	},
 	"BACKEND_LOCALIZATION": {
-		"INCOME_TRANSFER_CONFIRMED": "Payment received",
-		"INCOME_TRANSFER_UNCONFIRMED": "Incoming payment (not confirmed)",
+		"INCOME_TRANSFER_CONFIRMED": "Maksu vastaanotettu",
+		"INCOME_TRANSFER_UNCONFIRMED": "Saapuva maksu (ei vahvistettu)",
 		"IS_CONFIRMED": "",
-		"IS_MINIMIZE": "Lethean application is minimized to the system tray",
+		"IS_MINIMIZE": "Lethean-sovellus on minimoitu ilmaisinalueelle",
 		"IS_RECEIVED": "",
-		"LOCKED": "Blocked",
-		"MINED": "Mined",
-		"QUIT": "Quit",
-		"RESTORE": "You can recover it by clicking or using the context menu",
-		"TRAY_MENU_MINIMIZE": "Minimize",
-		"TRAY_MENU_SHOW": "Resize"
+		"LOCKED": "Tukossa",
+		"MINED": "Louhittu",
+		"QUIT": "Lopettaa",
+		"RESTORE": "Voit palauttaa sen napsauttamalla tai käyttämällä kontekstivalikkoa",
+		"TRAY_MENU_MINIMIZE": "Minimoida",
+		"TRAY_MENU_SHOW": "Muuta kokoa"
 	},
 	"BREADCRUMBS": {
-		"ADD_WALLET": "Add wallet",
-		"ASSIGN_ALIAS": "Assign alias",
-		"CONTRACTS": "Contracts",
-		"CREATE_WALLET": "Create new wallet",
-		"EDIT_ALIAS": "Edit alias",
-		"NEW_PURCHASE": "New purchase",
-		"OLD_PURCHASE": "Purchase",
-		"OPEN_WALLET": "Open existing wallet",
-		"RESTORE_WALLET": "Restore from backup",
-		"SAVE_PHRASE": "Save your seed phrase",
-		"TRANSFER_ALIAS": "Transfer alias",
-		"WALLET_DETAILS": "Wallet details"
+		"ADD_WALLET": "Lisää lompakko",
+		"ASSIGN_ALIAS": "Määritä alias",
+		"CONTRACTS": "sopimuksia",
+		"CREATE_WALLET": "Luo uusi lompakko",
+		"EDIT_ALIAS": "Muokkaa aliasta",
+		"NEW_PURCHASE": "Uusi hankinta",
+		"OLD_PURCHASE": "Ostaa",
+		"OPEN_WALLET": "Avaa olemassa oleva lompakko",
+		"RESTORE_WALLET": "Palauta varmuuskopiosta",
+		"SAVE_PHRASE": "Tallenna siemenlauseesi",
+		"TRANSFER_ALIAS": "Siirrä alias",
+		"WALLET_DETAILS": "Lompakon tiedot"
 	},
 	"COMMON": {
-		"BACK": "Go back"
+		"BACK": "Mene takaisin"
 	},
 	"CONFIRM": {
-		"BUTTON_CANCEL": "Cancel",
-		"BUTTON_CONFIRM": "Send",
+		"BUTTON_CANCEL": "Peruuttaa",
+		"BUTTON_CONFIRM": "Lähettää",
 		"MESSAGE": {
-			"COMMENT": "Comment",
-			"FROM": "From",
-			"SEND": "Send",
+			"COMMENT": "Kommentti",
+			"FROM": "alkaen",
+			"SEND": "Lähettää",
 			"TO": "To"
 		},
-		"TITLE": "Transaction"
+		"TITLE": "liiketoimi"
 	},
 	"CONTACTS": {
-		"ADD": "Add/edit contact",
+		"ADD": "Lisää/muokkaa yhteystietoa",
 		"ADD_CONTACT": "Lisää yhteystieto",
 		"BUTTON": {
-			"ADD": "Add contact",
-			"ADD_EDIT": "Add/Save",
-			"DELETE": "Delete",
-			"EDIT": "Edit",
-			"GO_TO_WALLET": "Go to wallet",
-			"IMPORT_EXPORT": "Import/export",
-			"SEND": "Send"
+			"ADD": "Lisää yhteystieto",
+			"ADD_EDIT": "Lisää/Tallenna",
+			"DELETE": "Poistaa",
+			"EDIT": "muokata",
+			"GO_TO_WALLET": "Mene lompakkoon",
+			"IMPORT_EXPORT": "Tuonti ja vienti",
+			"SEND": "Lähettää"
 		},
-		"COPY": "- Copy",
-		"ERROR_EMPTY_LIST": "Contact list is empty",
-		"ERROR_EXPORT": "Invalid file type. Save file as .csv",
-		"ERROR_IMPORT": "Error is occured while reading file!",
-		"ERROR_IMPORT_EMPTY": "File is empty",
-		"ERROR_TYPE_FILE": "Please import valid .csv file",
-		"EXPORT": "Export",
+		"COPY": "- Kopio",
+		"ERROR_EMPTY_LIST": "Yhteystietolista on tyhjä",
+		"ERROR_EXPORT": "Väärä tiedostotyyppi. Tallenna tiedosto .csv-muodossa",
+		"ERROR_IMPORT": "Tiedostoa luettaessa tapahtui virhe!",
+		"ERROR_IMPORT_EMPTY": "Tiedosto on tyhjä",
+		"ERROR_TYPE_FILE": "Tuo kelvollinen .csv-tiedosto",
+		"EXPORT": "Viedä",
 		"FORM": {
 			"ADDRESS": "Address",
 			"NAME": "Name",
 			"NOTES": "Notes"
 		},
 		"FORM_ERRORS": {
-			"ADDRESS_DUBLICATED": "Address is dublicated",
+			"ADDRESS_DUBLICATED": "Osoite on kopioitu",
 			"ADDRESS_NOT_VALID": "Address not valid",
 			"ADDRESS_REQUIRED": "Address is required",
 			"MAX_LENGTH": "Maximum notes length reached",

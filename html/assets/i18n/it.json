@@ -16,7 +16,7 @@
 			"NO_MONEY": "Non hai fondi sufficienti per assegnare questo alias"
 		},
 		"NAME": {
-			"LABEL": "Alias",
+			"LABEL": "alias",
 			"PLACEHOLDER": " Inserisci alias",
 			"TOOLTIP": "Un alias è un modulo abbreviato o il tuo account. Un alias può solo includere lettere latine, numeri e caratteri “.” e “-”. Deve iniziare con “@”."
 		},
@@ -77,11 +77,11 @@
 			"SEND": "Invia"
 		},
 		"COPY": "- Copia",
-		"ERROR_EMPTY_LIST": "Contact list is empty",
-		"ERROR_EXPORT": "Invalid file type. Save file as .csv",
+		"ERROR_EMPTY_LIST": "L'elenco dei contatti è vuoto",
+		"ERROR_EXPORT": "Tipo di file non valido. Salva il file come .csv",
 		"ERROR_IMPORT": "Si è verificato un errore durante la lettura del file!",
-		"ERROR_IMPORT_EMPTY": "File is empty",
-		"ERROR_TYPE_FILE": "Please import valid .csv file",
+		"ERROR_IMPORT_EMPTY": "Il file è vuoto",
+		"ERROR_TYPE_FILE": "Importa un file .csv valido",
 		"EXPORT": "Esporta",
 		"FORM": {
 			"ADDRESS": "Indirizzo",

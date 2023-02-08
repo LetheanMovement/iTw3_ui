@@ -1,95 +1,95 @@
 {
 	"ASSIGN_ALIAS": {
-		"BUTTON_ASSIGN": "Assign",
+		"BUTTON_ASSIGN": "양수인",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "논평",
 			"PLACEHOLDER": "여기에 의견을 입력하십시오",
-			"TOOLTIP": "The comment will be visible to anyone who wants to make a payment to your alias. You can provide details about your business, contacts, or include any text. Comments can be edited later."
+			"TOOLTIP": "댓글은 귀하의 별칭으로 결제하려는 모든 사람에게 표시됩니다. 비즈니스, 연락처에 대한 세부 정보를 제공하거나 텍스트를 포함할 수 있습니다. 댓글은 나중에 수정할 수 있습니다."
 		},
-		"COST": "Alias fee {{value}} {{currency}}",
+		"COST": "별칭 수수료 {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum comment length reached",
-			"NAME_EXISTS": "Alias name already exists",
-			"NAME_LENGTH": "The alias must be 6-25 characters long",
-			"NAME_REQUIRED": "Name is required",
-			"NAME_WRONG": "Invalid name: allowed symbols \"0-9\", \"a-z\", \"-\", \".\"",
-			"NO_MONEY": "You do not have enough funds to assign this alias"
+			"MAX_LENGTH": "최대 댓글 길이 도달",
+			"NAME_EXISTS": "별칭 이름이 이미 존재합니다.",
+			"NAME_LENGTH": "별칭 이름은 6-25자 길이여야 합니다.",
+			"NAME_REQUIRED": "이름이 필요합니다",
+			"NAME_WRONG": "잘못된 이름: 허용되는 기호 \"0-9\", \"a-z\", \"-\", \".\"",
+			"NO_MONEY": "이 별칭을 할당할 자금이 충분하지 않습니다."
 		},
 		"NAME": {
-			"LABEL": "Alias",
-			"PLACEHOLDER": " Enter alias",
-			"TOOLTIP": "An alias is a shortened form or your account. An alias can only include Latin letters, numbers and characters “.” and “-”. It must start with “@”."
+			"LABEL": "별명",
+			"PLACEHOLDER": " 별칭 입력",
+			"TOOLTIP": "별칭은 축약형 또는 계정입니다. 별칭에는 라틴 문자, 숫자 및 문자 \".\"만 포함될 수 있습니다. 그리고 \"-\". \"@\"로 시작해야 합니다."
 		},
-		"ONE_ALIAS": "You can create only one alias per wallet",
-		"REQUEST_ADD_REG": "The alias will be assigned within 10 minutes"
+		"ONE_ALIAS": "지갑당 하나의 별칭만 만들 수 있습니다.",
+		"REQUEST_ADD_REG": "별칭은 10분 이내에 할당됩니다."
 	},
 	"BACKEND_LOCALIZATION": {
-		"INCOME_TRANSFER_CONFIRMED": "Payment received",
-		"INCOME_TRANSFER_UNCONFIRMED": "Incoming payment (not confirmed)",
+		"INCOME_TRANSFER_CONFIRMED": "지불 수신",
+		"INCOME_TRANSFER_UNCONFIRMED": "입금(확인되지 않음)",
 		"IS_CONFIRMED": "",
-		"IS_MINIMIZE": "Lethean application is minimized to the system tray",
+		"IS_MINIMIZE": "Lethean 응용 프로그램은 시스템 트레이로 최소화됩니다.",
 		"IS_RECEIVED": "",
-		"LOCKED": "Blocked",
-		"MINED": "Mined",
-		"QUIT": "Quit",
-		"RESTORE": "You can recover it by clicking or using the context menu",
-		"TRAY_MENU_MINIMIZE": "Minimize",
-		"TRAY_MENU_SHOW": "Resize"
+		"LOCKED": "막힌",
+		"MINED": "채광 한",
+		"QUIT": "떠나다",
+		"RESTORE": "클릭하거나 상황에 맞는 메뉴를 사용하여 복구할 수 있습니다.",
+		"TRAY_MENU_MINIMIZE": "최소화",
+		"TRAY_MENU_SHOW": "크기 조정"
 	},
 	"BREADCRUMBS": {
-		"ADD_WALLET": "Add wallet",
-		"ASSIGN_ALIAS": "Assign alias",
-		"CONTRACTS": "Contracts",
-		"CREATE_WALLET": "Create new wallet",
-		"EDIT_ALIAS": "Edit alias",
-		"NEW_PURCHASE": "New purchase",
-		"OLD_PURCHASE": "Purchase",
-		"OPEN_WALLET": "Open existing wallet",
-		"RESTORE_WALLET": "Restore from backup",
-		"SAVE_PHRASE": "Save your seed phrase",
-		"TRANSFER_ALIAS": "Transfer alias",
-		"WALLET_DETAILS": "Wallet details"
+		"ADD_WALLET": "지갑 추가",
+		"ASSIGN_ALIAS": "별칭 할당",
+		"CONTRACTS": "계약서",
+		"CREATE_WALLET": "새 월렛 만들기",
+		"EDIT_ALIAS": "별칭 수정",
+		"NEW_PURCHASE": "신규 구매",
+		"OLD_PURCHASE": "매수",
+		"OPEN_WALLET": "기존 지갑 열기",
+		"RESTORE_WALLET": "백업에서 복원",
+		"SAVE_PHRASE": "시드 문구 저장",
+		"TRANSFER_ALIAS": "별칭 전송",
+		"WALLET_DETAILS": "지갑 세부 정보"
 	},
 	"COMMON": {
-		"BACK": "Go back"
+		"BACK": "돌아가"
 	},
 	"CONFIRM": {
-		"BUTTON_CANCEL": "Cancel",
-		"BUTTON_CONFIRM": "Send",
+		"BUTTON_CANCEL": "취소",
+		"BUTTON_CONFIRM": "보내다",
 		"MESSAGE": {
-			"COMMENT": "Comment",
-			"FROM": "From",
-			"SEND": "Send",
-			"TO": "To"
+			"COMMENT": "논평",
+			"FROM": "...에서",
+			"SEND": "보내다",
+			"TO": "에"
 		},
-		"TITLE": "Transaction"
+		"TITLE": "트랜잭션"
 	},
 	"CONTACTS": {
-		"ADD": "Add/edit contact",
+		"ADD": "연락처 추가/수정",
 		"ADD_CONTACT": "주소록에 추가",
 		"BUTTON": {
-			"ADD": "Add contact",
-			"ADD_EDIT": "Add/Save",
-			"DELETE": "Delete",
-			"EDIT": "Edit",
-			"GO_TO_WALLET": "Go to wallet",
-			"IMPORT_EXPORT": "Import/export",
-			"SEND": "Send"
+			"ADD": "주소록에 추가",
+			"ADD_EDIT": "추가/저장",
+			"DELETE": "지우다",
+			"EDIT": "편집하다",
+			"GO_TO_WALLET": "지갑으로 이동",
+			"IMPORT_EXPORT": "수입 수출",
+			"SEND": "보내다"
 		},
-		"COPY": "- Copy",
-		"ERROR_EMPTY_LIST": "Contact list is empty",
-		"ERROR_EXPORT": "Invalid file type. Save file as .csv",
-		"ERROR_IMPORT": "Error is occured while reading file!",
-		"ERROR_IMPORT_EMPTY": "File is empty",
-		"ERROR_TYPE_FILE": "Please import valid .csv file",
-		"EXPORT": "Export",
+		"COPY": "- 복사",
+		"ERROR_EMPTY_LIST": "연락처 목록이 비어 있습니다.",
+		"ERROR_EXPORT": "잘못된 파일 형식입니다. 파일을 .csv로 저장",
+		"ERROR_IMPORT": "파일을 읽는 동안 오류가 발생했습니다!",
+		"ERROR_IMPORT_EMPTY": "파일이 비어 있습니다.",
+		"ERROR_TYPE_FILE": "유효한 .csv 파일을 가져오십시오.",
+		"EXPORT": "수출",
 		"FORM": {
 			"ADDRESS": "Address",
 			"NAME": "Name",
 			"NOTES": "Notes"
 		},
 		"FORM_ERRORS": {
-			"ADDRESS_DUBLICATED": "Address is dublicated",
+			"ADDRESS_DUBLICATED": "주소가 중복되었습니다",
 			"ADDRESS_NOT_VALID": "Address not valid",
 			"ADDRESS_REQUIRED": "Address is required",
 			"MAX_LENGTH": "Maximum notes length reached",

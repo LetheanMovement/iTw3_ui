@@ -1,95 +1,95 @@
 {
 	"ASSIGN_ALIAS": {
-		"BUTTON_ASSIGN": "Assign",
+		"BUTTON_ASSIGN": "הקצה",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "תגובה",
 			"PLACEHOLDER": "הזן את תגובתך כאן",
-			"TOOLTIP": "The comment will be visible to anyone who wants to make a payment to your alias. You can provide details about your business, contacts, or include any text. Comments can be edited later."
+			"TOOLTIP": "ההערה תהיה גלויה לכל מי שרוצה לבצע תשלום לכינוי שלך. אתה יכול לספק פרטים על העסק שלך, אנשי הקשר שלך, או לכלול כל טקסט. ניתן לערוך הערות מאוחר יותר."
 		},
-		"COST": "Alias fee {{value}} {{currency}}",
+		"COST": "עמלת כינוי {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum comment length reached",
-			"NAME_EXISTS": "Alias name already exists",
-			"NAME_LENGTH": "The alias must be 6-25 characters long",
-			"NAME_REQUIRED": "Name is required",
-			"NAME_WRONG": "Invalid name: allowed symbols \"0-9\", \"a-z\", \"-\", \".\"",
-			"NO_MONEY": "You do not have enough funds to assign this alias"
+			"MAX_LENGTH": "הגיע אורך התגובה המרבי",
+			"NAME_EXISTS": "שם הכינוי כבר קיים",
+			"NAME_LENGTH": "השם הכינוי חייב להיות באורך 6-25 תווים",
+			"NAME_REQUIRED": "נדרש שם",
+			"NAME_WRONG": "שם לא חוקי: סימנים מותרים \"0-9\", \"a-z\", \"-\", \".\"",
+			"NO_MONEY": "אין לך מספיק כסף כדי להקצות את הכינוי הזה"
 		},
 		"NAME": {
-			"LABEL": "Alias",
-			"PLACEHOLDER": " Enter alias",
-			"TOOLTIP": "An alias is a shortened form or your account. An alias can only include Latin letters, numbers and characters “.” and “-”. It must start with “@”."
+			"LABEL": "כינוי",
+			"PLACEHOLDER": " הזן כינוי",
+			"TOOLTIP": "כינוי הוא טופס מקוצר או החשבון שלך. כינוי יכול לכלול רק אותיות לטיניות, מספרים ותווים \".\" ו-\"-\". זה חייב להתחיל עם \"@\"."
 		},
-		"ONE_ALIAS": "You can create only one alias per wallet",
-		"REQUEST_ADD_REG": "The alias will be assigned within 10 minutes"
+		"ONE_ALIAS": "אתה יכול ליצור רק כינוי אחד לכל ארנק",
+		"REQUEST_ADD_REG": "הכינוי יוקצה תוך 10 דקות"
 	},
 	"BACKEND_LOCALIZATION": {
-		"INCOME_TRANSFER_CONFIRMED": "Payment received",
-		"INCOME_TRANSFER_UNCONFIRMED": "Incoming payment (not confirmed)",
+		"INCOME_TRANSFER_CONFIRMED": "תשלום התקבל",
+		"INCOME_TRANSFER_UNCONFIRMED": "תשלום נכנס (לא אושר)",
 		"IS_CONFIRMED": "",
-		"IS_MINIMIZE": "Lethean application is minimized to the system tray",
+		"IS_MINIMIZE": "יישום Lethean ממוזער למגש המערכת",
 		"IS_RECEIVED": "",
-		"LOCKED": "Blocked",
-		"MINED": "Mined",
-		"QUIT": "Quit",
-		"RESTORE": "You can recover it by clicking or using the context menu",
-		"TRAY_MENU_MINIMIZE": "Minimize",
-		"TRAY_MENU_SHOW": "Resize"
+		"LOCKED": "חסום",
+		"MINED": "מְמוּקָשׁ",
+		"QUIT": "לְהַפְסִיק",
+		"RESTORE": "אתה יכול לשחזר אותו על ידי לחיצה או שימוש בתפריט ההקשר",
+		"TRAY_MENU_MINIMIZE": "מזער",
+		"TRAY_MENU_SHOW": "שנה גודל"
 	},
 	"BREADCRUMBS": {
-		"ADD_WALLET": "Add wallet",
-		"ASSIGN_ALIAS": "Assign alias",
-		"CONTRACTS": "Contracts",
-		"CREATE_WALLET": "Create new wallet",
-		"EDIT_ALIAS": "Edit alias",
-		"NEW_PURCHASE": "New purchase",
-		"OLD_PURCHASE": "Purchase",
-		"OPEN_WALLET": "Open existing wallet",
-		"RESTORE_WALLET": "Restore from backup",
-		"SAVE_PHRASE": "Save your seed phrase",
-		"TRANSFER_ALIAS": "Transfer alias",
-		"WALLET_DETAILS": "Wallet details"
+		"ADD_WALLET": "הוסף ארנק",
+		"ASSIGN_ALIAS": "הקצה כינוי",
+		"CONTRACTS": "חוזים",
+		"CREATE_WALLET": "צור ארנק חדש",
+		"EDIT_ALIAS": "ערוך כינוי",
+		"NEW_PURCHASE": "רכישה חדשה",
+		"OLD_PURCHASE": "רכישה",
+		"OPEN_WALLET": "פתח את הארנק הקיים",
+		"RESTORE_WALLET": "שחזר מגיבוי",
+		"SAVE_PHRASE": "שמור את ביטוי הזרע שלך",
+		"TRANSFER_ALIAS": "העברה כינוי",
+		"WALLET_DETAILS": "פרטי הארנק"
 	},
 	"COMMON": {
-		"BACK": "Go back"
+		"BACK": "תחזור"
 	},
 	"CONFIRM": {
-		"BUTTON_CANCEL": "Cancel",
-		"BUTTON_CONFIRM": "Send",
+		"BUTTON_CANCEL": "בטל",
+		"BUTTON_CONFIRM": "שלח",
 		"MESSAGE": {
-			"COMMENT": "Comment",
-			"FROM": "From",
-			"SEND": "Send",
-			"TO": "To"
+			"COMMENT": "תגובה",
+			"FROM": "מ",
+			"SEND": "שלח",
+			"TO": "ל"
 		},
-		"TITLE": "Transaction"
+		"TITLE": "עסקה"
 	},
 	"CONTACTS": {
-		"ADD": "Add/edit contact",
+		"ADD": "הוסף/ערוך איש קשר",
 		"ADD_CONTACT": "הוסף איש קשר",
 		"BUTTON": {
-			"ADD": "Add contact",
-			"ADD_EDIT": "Add/Save",
-			"DELETE": "Delete",
-			"EDIT": "Edit",
-			"GO_TO_WALLET": "Go to wallet",
-			"IMPORT_EXPORT": "Import/export",
-			"SEND": "Send"
+			"ADD": "הוסף איש קשר",
+			"ADD_EDIT": "הוסף/שמור",
+			"DELETE": "מחק",
+			"EDIT": "ערוך",
+			"GO_TO_WALLET": "לך לארנק",
+			"IMPORT_EXPORT": "יבוא ויצוא",
+			"SEND": "שלח"
 		},
-		"COPY": "- Copy",
-		"ERROR_EMPTY_LIST": "Contact list is empty",
-		"ERROR_EXPORT": "Invalid file type. Save file as .csv",
-		"ERROR_IMPORT": "Error is occured while reading file!",
-		"ERROR_IMPORT_EMPTY": "File is empty",
-		"ERROR_TYPE_FILE": "Please import valid .csv file",
-		"EXPORT": "Export",
+		"COPY": "- עותק",
+		"ERROR_EMPTY_LIST": "רשימת אנשי הקשר ריקה",
+		"ERROR_EXPORT": "סוג קובץ לא תקין. שמור קובץ כ-.csv",
+		"ERROR_IMPORT": "אירעה שגיאה במהלך קריאת הקובץ!",
+		"ERROR_IMPORT_EMPTY": "הקובץ ריק",
+		"ERROR_TYPE_FILE": "נא לייבא קובץ .csv חוקי",
+		"EXPORT": "ייצוא",
 		"FORM": {
 			"ADDRESS": "Address",
 			"NAME": "Name",
 			"NOTES": "Notes"
 		},
 		"FORM_ERRORS": {
-			"ADDRESS_DUBLICATED": "Address is dublicated",
+			"ADDRESS_DUBLICATED": "הכתובת משוכפלת",
 			"ADDRESS_NOT_VALID": "Address not valid",
 			"ADDRESS_REQUIRED": "Address is required",
 			"MAX_LENGTH": "Maximum notes length reached",
