@@ -138,10 +138,10 @@ var InputValidateDirective = /** @class */ (function () {
         }
         currentValue = _zero_fill.join('.');
         if (currentValue !== originalValue) {
-            event.target.value = currentValue;
-            var cursorPosition = event.target.selectionEnd;
-            event.target.setSelectionRange(cursorPosition, cursorPosition);
-            event.target.dispatchEvent(new Event('input'));
+            // event.target.value = currentValue;
+            // var cursorPosition = event.target.selectionEnd;
+            // event.target.setSelectionRange(cursorPosition, cursorPosition);
+            // event.target.dispatchEvent(new Event('input'));
         }
     };
     InputValidateDirective.prototype.integerValidation = function (event) {
@@ -3154,7 +3154,7 @@ var VariablesService = /** @class */ (function () {
             progress_value_text: '0'
         };
         this.get_recent_transfers = false; // avoid of execute function before collback complete
-        this.default_fee = '0.01000000';
+        this.default_fee = 0.01000000;
         this.default_fee_big = new bignumber_js__WEBPACK_IMPORTED_MODULE_5__["BigNumber"]('1000000');
         this.settings = {
             appLockTime: 15,
@@ -3951,13 +3951,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _helpers_services_variables_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./_helpers/services/variables.service */ "./src/app/_helpers/services/variables.service.ts");
 /* harmony import */ var ngx_contextmenu__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ngx-contextmenu */ "./node_modules/ngx-contextmenu/fesm5/ngx-contextmenu.js");
 /* harmony import */ var _helpers_pipes_int_to_money_pipe__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./_helpers/pipes/int-to-money.pipe */ "./src/app/_helpers/pipes/int-to-money.pipe.ts");
-/* harmony import */ var bignumber_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! bignumber.js */ "./node_modules/bignumber.js/bignumber.js");
-/* harmony import */ var bignumber_js__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(bignumber_js__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _helpers_services_modal_service__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./_helpers/services/modal.service */ "./src/app/_helpers/services/modal.service.ts");
-/* harmony import */ var _helpers_services_utils_service__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./_helpers/services/utils.service */ "./src/app/_helpers/services/utils.service.ts");
-/* harmony import */ var store__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! store */ "./src/store.ts");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+/* harmony import */ var _helpers_services_modal_service__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./_helpers/services/modal.service */ "./src/app/_helpers/services/modal.service.ts");
+/* harmony import */ var _helpers_services_utils_service__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./_helpers/services/utils.service */ "./src/app/_helpers/services/utils.service.ts");
+/* harmony import */ var store__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! store */ "./src/store.ts");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3967,7 +3965,6 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-
 
 
 
@@ -3999,7 +3996,7 @@ var AppComponent = /** @class */ (function () {
         this.firstOnlineState = false;
         this.translateUsed = false;
         this.needOpenWallets = [];
-        this._destroy$ = new rxjs__WEBPACK_IMPORTED_MODULE_12__["Subject"]();
+        this._destroy$ = new rxjs__WEBPACK_IMPORTED_MODULE_11__["Subject"]();
         translate.addLangs(['en', 'fr', 'de', 'it', 'pt']);
         translate.setDefaultLang('en');
         // const browserLang = translate.getBrowserLang();
@@ -4179,10 +4176,10 @@ var AppComponent = /** @class */ (function () {
                 if (!_this.firstOnlineState && data['daemon_network_state'] === 2) {
                     _this.getAliases();
                     _this.backend.getContactAlias();
-                    _this.backend.getDefaultFee(function (status_fee, data_fee) {
-                        _this.variablesService.default_fee_big = new bignumber_js__WEBPACK_IMPORTED_MODULE_8__["BigNumber"](data_fee);
-                        _this.variablesService.default_fee = _this.intToMoneyPipe.transform(data_fee);
-                    });
+                    // this.backend.getDefaultFee((status_fee, data_fee) => {
+                    //    this.variablesService.default_fee_big = new BigNumber(data_fee);
+                    //    this.variablesService.default_fee = this.intToMoneyPipe.transform(data_fee);
+                    // });
                     _this.firstOnlineState = true;
                 }
             });
@@ -4541,7 +4538,7 @@ var AppComponent = /** @class */ (function () {
         }, function (error) {
             console.log(error);
         });
-        this.variablesService.disable_price_fetch$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_13__["takeUntil"])(this._destroy$)).subscribe(function (disable_price_fetch) {
+        this.variablesService.disable_price_fetch$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_12__["takeUntil"])(this._destroy$)).subscribe(function (disable_price_fetch) {
             if (!disable_price_fetch) {
                 _this.getMoneyEquivalent();
                 _this.intervalUpdatePriceState = setInterval(function () {
@@ -4712,7 +4709,7 @@ var AppComponent = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-root',
             template: __webpack_require__(/*! ./app.component.html */ "./src/app/app.component.html"),
-            providers: [_helpers_services_utils_service__WEBPACK_IMPORTED_MODULE_10__["UtilsService"]],
+            providers: [_helpers_services_utils_service__WEBPACK_IMPORTED_MODULE_9__["UtilsService"]],
             styles: [__webpack_require__(/*! ./app.component.scss */ "./src/app/app.component.scss")]
         }),
         __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"],
@@ -4723,9 +4720,9 @@ var AppComponent = /** @class */ (function () {
             _helpers_services_variables_service__WEBPACK_IMPORTED_MODULE_5__["VariablesService"],
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"],
             _helpers_pipes_int_to_money_pipe__WEBPACK_IMPORTED_MODULE_7__["IntToMoneyPipe"],
-            _helpers_services_modal_service__WEBPACK_IMPORTED_MODULE_9__["ModalService"],
-            _helpers_services_utils_service__WEBPACK_IMPORTED_MODULE_10__["UtilsService"],
-            store__WEBPACK_IMPORTED_MODULE_11__["Store"]])
+            _helpers_services_modal_service__WEBPACK_IMPORTED_MODULE_8__["ModalService"],
+            _helpers_services_utils_service__WEBPACK_IMPORTED_MODULE_9__["UtilsService"],
+            store__WEBPACK_IMPORTED_MODULE_10__["Store"]])
     ], AppComponent);
     return AppComponent;
 }());

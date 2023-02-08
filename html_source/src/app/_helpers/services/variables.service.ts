@@ -43,7 +43,7 @@ export class VariablesService {
     progress_value_text: '0'
   };
   public get_recent_transfers = false; // avoid of execute function before collback complete
-  public default_fee = '0.01000000';
+  public default_fee: number = 0.01000000;
   public default_fee_big = new BigNumber('1000000');
 
   public settings = {
