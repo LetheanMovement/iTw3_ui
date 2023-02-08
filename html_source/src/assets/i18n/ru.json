@@ -1,609 +1,704 @@
 {
-  "LOGIN": {
-    "SETUP_MASTER_PASS": "Setup master password",
-    "SETUP_CONFIRM_PASS": "Confirm the password",
-    "MASTER_PASS": "Master password",
-    "BUTTON_NEXT": "Next",
-    "BUTTON_SKIP": "Skip",
-    "BUTTON_RESET": "Reset",
-    "INCORRECT_PASSWORD": "Invalid password",
-    "FORM_ERRORS": {
-      "PASS_REQUIRED": "Password is required",
-      "CONFIRM_REQUIRED": "Confirmation is required",
-      "MISMATCH": "Mismatch"
-    }
-  },
-  "COMMON": {
-    "BACK": "Go back"
-  },
-  "BREADCRUMBS": {
-    "ADD_WALLET": "Add wallet",
-    "CREATE_WALLET": "Create new wallet",
-    "SAVE_PHRASE": "Save your seed phrase",
-    "OPEN_WALLET": "Open existing wallet",
-    "RESTORE_WALLET": "Restore from backup",
-    "WALLET_DETAILS": "Wallet details",
-    "ASSIGN_ALIAS": "Assign alias",
-    "EDIT_ALIAS": "Edit alias",
-    "TRANSFER_ALIAS": "Transfer alias",
-    "CONTRACTS": "Contracts",
-    "NEW_PURCHASE": "New purchase",
-    "OLD_PURCHASE": "Purchase"
-  },
-  "SIDEBAR": {
-    "TITLE": "Wallets",
-    "ADD_NEW": "Add",
-    "ACCOUNT": {
-      "STAKING": "Staking",
-      "MESSAGES": "New offers/Messages",
-      "SYNCING": "Syncing wallet"
-    },
-    "CONTACTS": "Contacts",
-    "SETTINGS": "Settings",
-    "LOG_OUT": "Log out",
-    "SYNCHRONIZATION": {
-      "OFFLINE": "Offline",
-      "ONLINE": "Online",
-      "ERROR": "System error",
-      "COMPLETE": "Completion",
-      "SYNCING": "Syncing blockchain",
-      "LOADING": "Loading blockchain data"
-    },
-    "UPDATE": {
-      "STANDARD": "Update available",
-      "STANDARD_TOOLTIP": "<span class=\"standard-update\">Get new update.</span><br><span>Update is recommended!</span>",
-      "IMPORTANT": "Update available",
-      "IMPORTANT_HINT": "Important update!",
-      "IMPORTANT_TOOLTIP": "<span class=\"important-update\">Get new update.</span><br><span>Important update!</span>",
-      "CRITICAL": "Update available",
-      "CRITICAL_HINT": "Critical update!",
-      "CRITICAL_TOOLTIP": "<span class=\"critical-update\">Critical update available.</span><i class=\"icon\"></i><span>Update strongly recommended!</span>",
-      "TIME": "System time differs from network",
-      "TIME_TOOLTIP": "<span class=\"wrong-time\">Wrong system time!</span><br><span>Check and repair your system time.</span>"
-    }
-  },
-  "MAIN": {
-    "TITLE": "Create or open the wallet to start using Zano",
-    "BUTTON_NEW_WALLET": "Create new wallet",
-    "BUTTON_OPEN_WALLET": "Open existing wallet",
-    "BUTTON_RESTORE_BACKUP": "Restore from backup",
-    "HELP": "How to create wallet?",
-    "CHOOSE_PATH": "Please choose a path"
-  },
-  "CREATE_WALLET": {
-    "NAME": "Wallet name",
-    "PASS": "Set wallet password",
-    "CONFIRM": "Confirm wallet password",
-    "BUTTON_SELECT": "Select wallet location",
-    "BUTTON_CREATE": "Create wallet",
-    "TITLE_SAVE": "Save the wallet file.",
-    "ERROR_CANNOT_SAVE_TOP": "Existing wallet files cannot be replaced or overwritten",
-    "ERROR_CANNOT_SAVE_SYSTEM": "Wallet files cannot be saved to the OS partition",
-    "FORM_ERRORS": {
-      "NAME_REQUIRED": "Name is required",
-      "NAME_DUPLICATE": "Name is duplicate",
-      "MAX_LENGTH": "Maximum name length reached",
-      "CONFIRM_NOT_MATCH": "Confirm password not match"
-    }
-  },
-  "OPEN_WALLET": {
-    "NAME": "Wallet name",
-    "PASS": "Wallet password",
-    "BUTTON": "Open wallet",
-    "WITH_ADDRESS_ALREADY_OPEN": "A wallet with this address is already open",
-    "FILE_NOT_FOUND1": "Wallet file not found",
-    "FILE_NOT_FOUND2": "<br/><br/> It might have been renamed or moved. <br/> To open it, use the \"Open wallet\" button.",
-    "FORM_ERRORS": {
-      "NAME_REQUIRED": "Name is required",
-      "NAME_DUPLICATE": "Name is duplicate",
-      "MAX_LENGTH": "Maximum name length reached"
-    },
-    "MODAL": {
-      "TITLE": "Type wallet password",
-      "LABEL": "Password to this wallet",
-      "OPEN": "Open wallet",
-      "SKIP": "Skip",
-      "NOT_FOUND": "Not found"
-    }
-  },
-  "RESTORE_WALLET": {
-    "LABEL_NAME": "Wallet name",
-    "LABEL_PHRASE_KEY": "Seed phrase / tracking seed",
-    "PASS": "Wallet password",
-    "CONFIRM": "Confirm wallet password",
-    "BUTTON_SELECT": "Select wallet location",
-    "BUTTON_CREATE": "Create wallet",
-    "NOT_CORRECT_FILE_OR_PASSWORD": "Invalid wallet file or password does not match",
-    "CHOOSE_PATH": "Please choose a path",
-    "FORM_ERRORS": {
-      "NAME_REQUIRED": "Name is required",
-      "NAME_DUPLICATE": "Name is duplicate",
-      "MAX_LENGTH": "Maximum name length reached",
-      "CONFIRM_NOT_MATCH": "Confirm password not match",
-      "KEY_REQUIRED": "Key is required",
-      "KEY_NOT_VALID": "Key not valid"
-    }
-  },
-  "SEED_PHRASE": {
-    "TITLE": "Make sure to keep your seed phrase in a safe place. If you forget your seed phrase you will not be able to recover your wallet.",
-    "BUTTON_CREATE_ACCOUNT": "Create wallet",
-    "BUTTON_COPY": "Copy"
-  },
-  "PROGRESS": {
-    "ADD_WALLET": "Add wallet",
-    "SELECT_LOCATION": "Select wallet location",
-    "CREATE_WALLET": "Create new wallet",
-    "RESTORE_WALLET": "Restore from backup"
-  },
-  "SETTINGS": {
-    "TITLE": "Settings",
-    "DARK_THEME": "Dark theme",
-    "WHITE_THEME": "White theme",
-    "GRAY_THEME": "Grey theme",
-    "APP_LOCK": {
-      "TITLE": "Lock app after:",
-      "TIME1": "5 min",
-      "TIME2": "15 min",
-      "TIME3": "1 hour",
-      "TIME4": "Never"
-    },
-    "SCALE": {
-      "75": "75% scale",
-      "100": "100% scale",
-      "125": "125% scale",
-      "150": "150% scale"
-    },
-    "MASTER_PASSWORD": {
-      "TITLE": "Update master password",
-      "OLD": "Old password",
-      "NEW": "New password",
-      "CONFIRM": "New password confirmation",
-      "BUTTON": "Save"
-    },
-    "FORM_ERRORS": {
-      "PASS_REQUIRED": "Password is required",
-      "PASS_NOT_MATCH": "Old password not match",
-      "CONFIRM_NOT_MATCH": "Confirm password not match"
-    },
-    "LAST_BUILD": "Current build: {{value}}",
-    "APP_LOG_TITLE": "Log level:"
-  },
-  "WALLET": {
-    "REGISTER_ALIAS": "Register an alias",
-    "DETAILS": "Details",
-    "LOCK": "Lock",
-    "AVAILABLE_BALANCE": "Available <b>{{available}} {{currency}}<b/>",
-    "LOCKED_BALANCE": "Locked <b>{{locked}} {{currency}}<b/>",
-    "LOCKED_BALANCE_LINK": "What does that mean?",
-    "TABS": {
-      "SEND": "Send",
-      "RECEIVE": "Receive",
-      "HISTORY": "History",
-      "CONTRACTS": "Contracts",
-      "MESSAGES": "Messages",
-      "STAKING": "Staking"
-    }
-  },
-  "WALLET_DETAILS": {
-    "LABEL_NAME": "Wallet name",
-    "LABEL_FILE_LOCATION": "Wallet file location",
-    "LABEL_SEED_PHRASE": "Seed phrase",
-    "SEED_PHRASE_HINT": "Click to reveal the seed phrase",
-    "BUTTON_SAVE": "Save",
-    "BUTTON_REMOVE": "Close wallet",
-    "FORM_ERRORS": {
-      "NAME_REQUIRED": "Name is required",
-      "NAME_DUPLICATE": "Name is duplicate",
-      "MAX_LENGTH": "Maximum name length reached"
-    }
-  },
-  "ASSIGN_ALIAS": {
-    "NAME": {
-      "LABEL": "Alias",
-      "PLACEHOLDER": " Enter alias",
-      "TOOLTIP": "An alias is a shortened form or your account. An alias can only include Latin letters, numbers and characters “.” and “-”. It must start with “@”."
-    },
-    "COMMENT": {
-      "LABEL": "Comment",
-      "PLACEHOLDER": "",
-      "TOOLTIP": "The comment will be visible to anyone who wants to make a payment to your alias. You can provide details about your business, contacts, or include any text. Comments can be edited later."
-    },
-    "COST": "Alias fee {{value}} {{currency}}",
-    "BUTTON_ASSIGN": "Assign",
-    "FORM_ERRORS": {
-      "NAME_REQUIRED": "Name is required",
-      "NAME_WRONG": "Invalid name: allowed symbols \"0-9\", \"a-z\", \"-\", \".\"",
-      "NAME_LENGTH": "The alias must be 6-25 characters long",
-      "NAME_EXISTS": "Alias name already exists",
-      "NO_MONEY": "You do not have enough funds to assign this alias",
-      "MAX_LENGTH": "Maximum comment length reached"
-    },
-    "ONE_ALIAS": "You can create only one alias per wallet",
-    "REQUEST_ADD_REG": "The alias will be assigned within 10 minutes"
-  },
-  "EDIT_ALIAS": {
-    "NAME": {
-      "LABEL": "Alias",
-      "PLACEHOLDER": "@ Enter alias"
-    },
-    "COMMENT": {
-      "LABEL": "Comment",
-      "PLACEHOLDER": ""
-    },
-    "FORM_ERRORS": {
-      "NO_MONEY": "You do not have enough funds to change the comment to this alias",
-      "MAX_LENGTH": "Maximum comment length reached"
-    },
-    "COST": "Fee {{value}} {{currency}}",
-    "BUTTON_EDIT": "Edit"
-  },
-  "TRANSFER_ALIAS": {
-    "NAME": {
-      "LABEL": "Alias",
-      "PLACEHOLDER": "@ Enter alias"
-    },
-    "COMMENT": {
-      "LABEL": "Comment",
-      "PLACEHOLDER": ""
-    },
-    "ADDRESS": {
-      "LABEL": "Transfer to",
-      "PLACEHOLDER": ""
-    },
-    "FORM_ERRORS": {
-      "WRONG_ADDRESS": "No wallet with this account exists",
-      "ALIAS_EXISTS": "This account already has an alias",
-      "NO_MONEY": "You do not have enough funds to transfer this alias"
-    },
-    "COST": "Transfer fee {{value}} {{currency}}",
-    "BUTTON_TRANSFER": "Transfer",
-    "BUTTON_CANCEL": "Cancel",
-    "REQUEST_SEND_REG": "The alias will be transferred within 10 minutes"
-  },
-  "SEND": {
-    "ADDRESS": "Address",
-    "AMOUNT": "Amount",
-    "COMMENT": "Comment",
-    "DETAILS": "Additional details",
-    "MIXIN": "Mixin",
-    "FEE": "Fee",
-    "HIDE": "Hide your wallet address from recipient",
-    "BUTTON": "Send",
-    "SUCCESS_SENT": "Transaction sent",
-    "FORM_ERRORS": {
-      "ADDRESS_REQUIRED": "Address is required",
-      "ADDRESS_NOT_VALID": "Address not valid",
-      "ALIAS_NOT_VALID": "Alias not valid",
-      "AMOUNT_REQUIRED": "Amount is required",
-      "AMOUNT_ZERO": "Amount is zero",
-      "FEE_REQUIRED": "Fee is required",
-      "FEE_MINIMUM": "Minimum fee: {{fee}}",
-      "MAX_LENGTH": "Maximum comment length reached"
-    }
-  },
-  "HISTORY": {
-    "STATUS": "Status",
-    "STATUS_TOOLTIP": "Confirmations {{current}}/{{total}}",
-    "LOCK_TOOLTIP": "Locked till {{date}}",
-    "SEND": "Sent",
-    "RECEIVED": "Received",
-    "DATE": "Date",
-    "AMOUNT": "Amount",
-    "FEE": "Fee",
-    "ADDRESS": "Address",
-    "DETAILS": {
-      "PAYMENT_ID": "Payment ID",
-      "ID": "Transaction ID",
-      "SIZE": "Transaction size",
-      "SIZE_VALUE": "{{value}} bytes",
-      "HEIGHT": "Height",
-      "CONFIRMATION": "Confirmation",
-      "INPUTS": "Inputs",
-      "OUTPUTS": "Outputs",
-      "COMMENT": "Comment"
-    },
-    "TYPE_MESSAGES": {
-      "HIDDEN": "hidden",
-      "UNDEFINED": "Undefined",
-      "COMPLETE_BUYER": "Contract completed",
-      "COMPLETE_SELLER": "Contract completed",
-      "CREATE_ALIAS": "Fee for assigning alias",
-      "UPDATE_ALIAS": "Fee for editing alias",
-      "POW_REWARD": "POW reward",
-      "POS_REWARD": "POS reward",
-      "CREATE_CONTRACT": "Contract proposal",
-      "PLEDGE_CONTRACT": "Contract deposit",
-      "NULLIFY_CONTRACT": "Burn deposits",
-      "PROPOSAL_CANCEL_CONTRACT": "Cancellation request",
-      "CANCEL_CONTRACT": "Cancel and return deposits"
-    }
-  },
-  "CONTRACTS": {
-    "EMPTY": "No active contracts",
-    "CONTRACTS": "Contracts",
-    "PURCHASE": "Purchase",
-    "SELL": "Sell",
-    "DATE": "Date",
-    "AMOUNT": "Amount",
-    "STATUS": "Status",
-    "COMMENTS": "Comments",
-    "PURCHASE_BUTTON": "New Purchase",
-    "LISTING_BUTTON": "Create listing",
-    "TIME_LEFT": {
-      "REMAINING_LESS_ONE": "Less than an hour to respond",
-      "REMAINING_ONE": "{{time}} hour remains",
-      "REMAINING_MANY": "{{time}} hours remain",
-      "REMAINING_MANY_ALT": "{{time}} hours remain",
-      "REMAINING_ONE_RESPONSE": "{{time}} hour remains",
-      "REMAINING_MANY_RESPONSE": "{{time}} hours remain",
-      "REMAINING_MANY_ALT_RESPONSE": "{{time}} hours remain",
-      "REMAINING_ONE_WAITING": "Waiting for {{time}} hour",
-      "REMAINING_MANY_WAITING": "Waiting for {{time}} hours",
-      "REMAINING_MANY_ALT_WAITING": "Waiting for {{time}} hours"
-    },
-    "STATUS_MESSAGES": {
-      "SELLER": {
-        "NEW_CONTRACT": "New contract proposal",
-        "IGNORED": "You ignored contract proposal",
-        "ACCEPTED": "Contract started",
-        "WAIT": "Waiting for contract confirmation",
-        "WAITING_BUYER": "Waiting for delivery",
-        "COMPLETED": "Contract completed",
-        "NOT_RECEIVED": "Delivery failed",
-        "NULLIFIED": "All deposits burned",
-        "PROPOSAL_CANCEL": "New proposal to cancel contract and return deposits",
-        "BEING_CANCELLED": "Cancellation in progress",
-        "CANCELLED": "Contract canceled",
-        "IGNORED_CANCEL": "You ignored cancellation proposal",
-        "EXPIRED": "Contract proposal has expired"
-      },
-      "BUYER": {
-        "WAITING": "Waiting for response",
-        "IGNORED": "Seller ignored your contract proposal",
-        "ACCEPTED": "Seller accepted your contract proposal",
-        "WAIT": "Waiting for deposits confirmation",
-        "WAITING_SELLER": "Waiting for delivery",
-        "COMPLETED": "Contract completed",
-        "NOT_RECEIVED": "Delivery failed",
-        "NULLIFIED": "All deposits burned",
-        "WAITING_CANCEL": "Waiting for contract cancellation",
-        "BEING_CANCELLED": "Cancellation in progress",
-        "CANCELLED": "Contract canceled",
-        "IGNORED_CANCEL": "The seller ignored your proposal to cancel the contract",
-        "EXPIRED": "The contract proposal has expired"
-      }
-    }
-  },
-  "PURCHASE": {
-    "DESCRIPTION": "Description",
-    "SELLER": "Seller",
-    "AMOUNT": "Amount",
-    "YOUR_DEPOSIT": "Your deposit",
-    "SELLER_DEPOSIT": "Seller deposit",
-    "BUYER_DEPOSIT": "Buyer deposit",
-    "SAME_AMOUNT": "Same amount",
-    "COMMENT": "Comment",
-    "DETAILS": "Additional details",
-    "SEND_BUTTON": "Send",
-    "FORM_ERRORS": {
-      "DESC_REQUIRED": "Description required",
-      "DESC_MAXIMUM": "Maximum field length reached",
-      "SELLER_REQUIRED": "Address required",
-      "SELLER_NOT_VALID": "Invalid address",
-      "ALIAS_NOT_VALID": "Invalid alias",
-      "AMOUNT_REQUIRED": "Amount required",
-      "AMOUNT_ZERO": "Amount cannot be zero",
-      "YOUR_DEPOSIT_REQUIRED": "Deposit required",
-      "SELLER_DEPOSIT_REQUIRED": "Seller deposit required",
-      "SELLER_SAME": "Use separate account",
-      "COMMENT_MAXIMUM": "Maximum field length reached"
-    },
-    "PROGRESS_NEW": "New purchase",
-    "PROGRESS_WAIT": "Awaiting reply",
-    "PROGRESS_RECEIVE": "Reply received",
-    "PROGRESS_COMPLETE": "Completed",
-    "FEE": "Fee",
-    "PAYMENT": "Payment ID",
-    "STATUS_MESSAGES": {
-      "NEW_PURCHASE": "New purchase",
-      "WAITING_SELLER": "Waiting for response",
-      "WAITING_BUYER": "Contract proposal received",
-      "WAITING_CONFIRMATION": "Waiting for deposits confirmation",
-      "WAITING_DELIVERY": "Waiting for delivery",
-      "COMPLETED": "Contract completed",
-      "IGNORED_BUYER": "Contract proposal ignored",
-      "IGNORED_SELLER": "The seller ignored your contract proposal",
-      "PROPOSAL_CANCEL_SELLER": "Cancellation request sent",
-      "PROPOSAL_CANCEL_BUYER": "Cancellation request received",
-      "BEING_CANCELLED": "Cancellation in progress",
-      "IGNORED_CANCEL_SELLER": "The seller ignored your proposal to cancel the contract",
-      "IGNORED_CANCEL_BUYER": "Contract cancellation proposal ignored",
-      "CANCELLED": "Contract canceled",
-      "EXPIRED": "Contract proposal expired",
-      "NOT_RECEIVED": "Delivery failed",
-      "NULLIFIED": "All deposits burned"
-    },
-    "ACCEPT_STATE_WAIT_BIG": "Contract started",
-    "IGNORED_ACCEPT": "Contract proposal ignored",
-    "BURN_PROPOSAL": "Deposits burned",
-    "SUCCESS_FINISH_PROPOSAL": "Contract completed",
-    "SEND_CANCEL_PROPOSAL": "Cancellation request sent",
-    "IGNORED_CANCEL": "Contract cancellation proposal ignored",
-    "DEALS_CANCELED_WAIT": "Cancellation in progress",
-    "WAITING_TIME": "Response time",
-    "NEED_MONEY": "Insufficient funds",
-    "BUTTON_MAKE_PLEDGE": "Accept and make deposit",
-    "BUTTON_IGNORE": "Ignore and hide offer",
-    "BUTTON_NULLIFY": "Terminate and burn deposits",
-    "BUTTON_RECEIVED": "Complete and release deposits",
-    "BUTTON_CANCEL_BUYER": "Cancel and return deposits",
-    "BUTTON_NOT_CANCEL": "Ignore request",
-    "BUTTON_CANCEL_SELLER": "Confirm and return deposits",
-    "HOUR": "hour",
-    "HOURS": "hours",
-    "CANCEL": "Cancel",
-    "NULLIFY_QUESTION": "Are you sure you want to burn both deposits?",
-    "BUTTON_NULLIFY_SHORT": "Burn",
-    "WAITING_TIME_QUESTION": "Are you sure you want to cancel the contract?"
-  },
-  "MESSAGES": {
-    "ADDRESS": "Address",
-    "MESSAGE": "Message",
-    "SEND_PLACEHOLDER": "Type a message...",
-    "SEND_BUTTON": "Send"
-  },
-  "MODALS": {
-    "ERROR": "Error",
-    "SUCCESS": "Success",
-    "INFO": "Information",
-    "OK": "OK"
-  },
-  "CONFIRM": {
-    "BUTTON_CONFIRM": "Send",
-    "BUTTON_CANCEL": "Cancel",
-    "TITLE": "Transaction",
-    "MESSAGE": {
-      "SEND": "Send",
-      "FROM": "From",
-      "TO": "To",
-      "COMMENT": "Comment"
-    }
-  },
-  "STAKING": {
-    "TITLE": "Staking",
-    "TITLE_PENDING": "Pending",
-    "TITLE_TOTAL": "Total",
-    "TITLE_PERIOD": "Time period:",
-    "PERIOD": {
-      "WEEK1": "1 week",
-      "WEEK2": "2 week",
-      "MONTH1": "1 month",
-      "MONTH3": "3 month",
-      "MONTH6": "6 month",
-      "YEAR": "1 year",
-      "ALL": "All"
-    },
-    "TITLE_GROUP": "Group:",
-    "GROUP": {
-      "DAY": "day",
-      "WEEK": "week",
-      "MONTH": "month"
-    },
-    "SWITCH": {
-      "ON": "ON",
-      "OFF": "OFF"
-    }
-  },
-  "CONTACTS": {
-    "TITLE": "Contact list",
-    "IMPORT_EXPORT": "Import or export contacts",
-    "IMPORT": "Import",
-    "EXPORT": "Export",
-    "ADD": "Add/edit contact",
-    "SEND": "Send",
-    "SEND_FROM": "Send from",
-    "SEND_TO": "To",
-    "OPEN_ADD_WALLET": "Open/Add wallet",
-    "COPY": "- Copy",
-    "TABLE": {
-      "NAME": "Name",
-      "ALIAS": "Alias",
-      "ADDRESS": "Address",
-      "NOTES": "Notes",
-      "EMPTY": "Contact list is empty"
-    },
-    "FORM": {
-      "NAME": "Name",
-      "ADDRESS": "Address",
-      "NOTES": "Notes"
-    },
-    "FORM_ERRORS": {
-      "NAME_REQUIRED": "Name is required",
-      "NAME_DUBLICATED": "Name is dublicated",
-      "ADDRESS_REQUIRED": "Address is required",
-      "ADDRESS_NOT_VALID": "Address not valid",
-      "SET_MASTER_PASSWORD": "Set master password",
-      "ADDRESS_DUBLICATED": "Address is dublicated",
-      "MAX_LENGTH": "Maximum notes length reached",
-      "NAME_LENGTH": "The name must be 4-25 characters long"
-    },
-    "BUTTON": {
-      "SEND": "Send",
-      "EDIT": "Edit",
-      "DELETE": "Delete",
-      "ADD": "Add contact",
-      "ADD_EDIT": "Add/Save",
-      "GO_TO_WALLET": "Go to wallet",
-      "IMPORT_EXPORT": "Import/export"
-    },
-    "SUCCESS_SENT": "Contact added",
-    "SUCCESS_SAVE": "Contact is edited",
-    "SUCCESS_IMPORT": "Contacts are imported",
-    "SUCCESS_EXPORT": "Contacts are exported",
-    "ERROR_IMPORT": "Error is occured while reading file!",
-    "ERROR_TYPE_FILE": "Please import valid .csv file",
-    "ERROR_EXPORT": "Invalid file type. Save file as .csv",
-    "ERROR_EMPTY_LIST": "Contact list is empty",
-    "ERROR_IMPORT_EMPTY": "File is empty"
-  },
-  "ERRORS": {
-    "NO_MONEY": "Not enough money",
-    "NOT_ENOUGH_MONEY": "Insufficient funds in account",
-    "CORE_BUSY": "Internal error: core is busy",
-    "DAEMON_BUSY": "Internal error: daemon is busy",
-    "NO_MONEY_REMOVE_OFFER": "There is no fee for deleting an offer, but in order to protect the network against flood transactions you need to have at least {{fee}} {{currency}} in your wallet",
-    "NOT_ENOUGH_OUTPUTS_TO_MIX": "Mix-in number is too big for current blockchain state. There are not enough unspent outputs to mix with",
-    "TRANSACTION_IS_TO_BIG": "Transaction exceeds network limit, send required amount with multiple transactions",
-    "TRANSFER_ATTEMPT": "There is no connection to Zano network",
-    "ACCESS_DENIED": "Access denied",
-    "TRANSACTION_ERROR": "Error. Transaction not completed.",
-    "BAD_ARG": "Invalid argument",
-    "WALLET_WRONG_ID": "Invalid wallet ID",
-    "WRONG_PASSWORD": "Invalid password",
-    "FILE_RESTORED": "The wallet file was corrupted. We have recovered the keys and the wallet from the blockchain",
-    "FILE_NOT_FOUND": "File not found",
-    "FILE_EXIST": "A file with that name already exists. Enter another name to save the file under",
-    "FILE_NOT_SAVED": "You cannot save a wallet file in this folder. Please choose another folder.",
-    "TX_TYPE_NORMAL": "Error. The payment from the wallet",
-    "TX_TYPE_NORMAL_TO": "to",
-    "TX_TYPE_NORMAL_END": "was not completed.",
-    "TX_TYPE_NEW_ALIAS": "Error. Failed to register alias to safe",
-    "TX_TYPE_NEW_ALIAS_END": "Please try again.",
-    "TX_TYPE_UPDATE_ALIAS": "Error. Failed to change comment to alias in safe",
-    "TX_TYPE_COIN_BASE": "Error. The payment was not completed."
-  },
-  "CONTEXT_MENU": {
-    "COPY": "copy",
-    "PASTE": "paste",
-    "SELECT": "select all"
-  },
-  "BACKEND_LOCALIZATION": {
-    "QUIT": "Quit",
-    "IS_RECEIVED": "",
-    "IS_CONFIRMED": "",
-    "INCOME_TRANSFER_UNCONFIRMED": "Incoming payment (not confirmed)",
-    "INCOME_TRANSFER_CONFIRMED": "Payment received",
-    "MINED": "Mined",
-    "LOCKED": "Blocked",
-    "IS_MINIMIZE": "Zano application is minimized to the system tray",
-    "RESTORE": "You can recover it by clicking or using the context menu",
-    "TRAY_MENU_SHOW": "Resize",
-    "TRAY_MENU_MINIMIZE": "Minimize"
-  },
-  "TOR_LIB_STATE": {
-    "STATE_SENDING": "Sending transaction",
-    "STATE_SENT_SUCCESS": "Successfully sent!",
-    "STATE_SEND_FAILED": "Sending failed",
-    "STATE_INITIALIZING": "Initializing",
-    "STATE_DOWNLOADING_CONSENSUS": "Downloading consensus",
-    "STATE_MAKING_TUNNEL_A": "Building tunnel to A",
-    "STATE_MAKING_TUNNEL_B": "Building tunnel to B",
-    "STATE_CREATING_STREAM": "Creating stream",
-    "STATE_FAILED": "Failed created stream",
-    "STATE_SUCCESS": "Successfully created stream"
-  },
-  "SEND_DETAILS_MODAL": {
-    "TITLE1": "Transaction",
-    "TITLE2": "Transaction details"
-  }
+	"ASSIGN_ALIAS": {
+		"BUTTON_ASSIGN": "приписывать",
+		"COMMENT": {
+			"LABEL": "комментарий",
+			"PLACEHOLDER": "Введите свой комментарий здесь",
+			"TOOLTIP": "Комментарий будет виден всем, кто хочет сделать платеж на ваш псевдоним. Вы можете предоставить подробную информацию о своем бизнесе, контактах или включить любой текст. Комментарии можно отредактировать позже."
+		},
+		"COST": "Плата за псевдоним {{value}} {{currency}}",
+		"FORM_ERRORS": {
+			"MAX_LENGTH": "Достигнута максимальная длина комментария",
+			"NAME_EXISTS": "Псевдоним уже существует",
+			"NAME_LENGTH": "Псевдоним должен содержать от 6 до 25 символов.",
+			"NAME_REQUIRED": "Имя обязательно",
+			"NAME_WRONG": "Недопустимое имя: разрешены символы \"0-9\", \"a-z\", \"-\", \".\"",
+			"NO_MONEY": "У вас недостаточно средств, чтобы назначить этот псевдоним"
+		},
+		"NAME": {
+			"LABEL": "кличка",
+			"PLACEHOLDER": " Введите псевдоним",
+			"TOOLTIP": "Псевдоним — это сокращенная форма или ваша учетная запись. Псевдоним может состоять только из латинских букв, цифр и символов «.» и \"-\". Он должен начинаться с «@»."
+		},
+		"ONE_ALIAS": "Вы можете создать только один псевдоним для каждого кошелька.",
+		"REQUEST_ADD_REG": "Псевдоним будет присвоен в течение 10 минут"
+	},
+	"BACKEND_LOCALIZATION": {
+		"INCOME_TRANSFER_CONFIRMED": "Платеж получен",
+		"INCOME_TRANSFER_UNCONFIRMED": "Входящий платеж (не подтвержден)",
+		"IS_CONFIRMED": "",
+		"IS_MINIMIZE": "Приложение Letean свернуто в системный трей",
+		"IS_RECEIVED": "",
+		"LOCKED": "блокированный",
+		"MINED": "Добыто",
+		"QUIT": "Уволиться",
+		"RESTORE": "Вы можете восстановить его, нажав или используя контекстное меню",
+		"TRAY_MENU_MINIMIZE": "Минимизировать",
+		"TRAY_MENU_SHOW": "Изменить размер"
+	},
+	"BREADCRUMBS": {
+		"ADD_WALLET": "Добавить кошелек",
+		"ASSIGN_ALIAS": "Назначить псевдоним",
+		"CONTRACTS": "контракты",
+		"CREATE_WALLET": "Создать новый кошелек",
+		"EDIT_ALIAS": "Изменить псевдоним",
+		"NEW_PURCHASE": "Новая покупка",
+		"OLD_PURCHASE": "покупка",
+		"OPEN_WALLET": "Открыть существующий кошелек",
+		"RESTORE_WALLET": "Восстановить из резервной копии",
+		"SAVE_PHRASE": "Сохраните исходную фразу",
+		"TRANSFER_ALIAS": "Перенести псевдоним",
+		"WALLET_DETAILS": "Детали кошелька"
+	},
+	"COMMON": {
+		"BACK": "Вернитесь"
+	},
+	"CONFIRM": {
+		"BUTTON_CANCEL": "отменить",
+		"BUTTON_CONFIRM": "послать",
+		"MESSAGE": {
+			"COMMENT": "комментарий",
+			"FROM": "от",
+			"SEND": "послать",
+			"TO": "В"
+		},
+		"TITLE": "Сделка"
+	},
+	"CONTACTS": {
+		"ADD": "Добавить/изменить контакт",
+		"ADD_CONTACT": "Добавить контакт",
+		"BUTTON": {
+			"ADD": "Добавить контакт",
+			"ADD_EDIT": "Добавить/Сохранить",
+			"DELETE": "удалять",
+			"EDIT": "редактировать",
+			"GO_TO_WALLET": "Перейти к кошельку",
+			"IMPORT_EXPORT": "Импорт Экспорт",
+			"SEND": "послать"
+		},
+		"COPY": "- Копировать",
+		"ERROR_EMPTY_LIST": "Список контактов пуст",
+		"ERROR_EXPORT": "Неверный тип файла. Сохранить файл как .csv",
+		"ERROR_IMPORT": "Произошла ошибка при чтении файла!",
+		"ERROR_IMPORT_EMPTY": "Файл пуст",
+		"ERROR_TYPE_FILE": "Пожалуйста, импортируйте действительный файл .csv",
+		"EXPORT": "экспорт",
+		"FORM": {
+			"ADDRESS": "Адрес",
+			"NAME": "название",
+			"NOTES": "Заметки"
+		},
+		"FORM_ERRORS": {
+			"ADDRESS_DUBLICATED": "Адрес дублируется",
+			"ADDRESS_NOT_VALID": "Адрес недействителен",
+			"ADDRESS_REQUIRED": "Адрес обязателен",
+			"MAX_LENGTH": "Достигнута максимальная длина нот",
+			"NAME_DUBLICATED": "Имя дублируется",
+			"NAME_LENGTH": "Имя должно содержать от 4 до 25 символов.",
+			"NAME_REQUIRED": "Имя обязательно",
+			"SET_MASTER_PASSWORD": "Установить мастер-пароль"
+		},
+		"IMPORT": "Импортировать",
+		"IMPORT_EXPORT": "Импорт или экспорт контактов",
+		"OPEN_ADD_WALLET": "Открыть/Добавить кошелек",
+		"SEND": "послать",
+		"SEND_FROM": "Отправлено из",
+		"SEND_TO": "В",
+		"SUCCESS_EXPORT": "Контакты экспортируются",
+		"SUCCESS_IMPORT": "Контакты импортированы",
+		"SUCCESS_SAVE": "Контакт отредактирован",
+		"SUCCESS_SENT": "Контакт добавлен",
+		"TABLE": {
+			"ADDRESS": "Адрес",
+			"ALIAS": "кличка",
+			"EMPTY": "Список контактов пуст",
+			"NAME": "название",
+			"NOTES": "Заметки"
+		},
+		"TITLE": "Список контактов"
+	},
+	"CONTEXT_MENU": {
+		"COPY": "копия",
+		"PASTE": "Вставить",
+		"SELECT": "Выбрать все"
+	},
+	"CONTRACTS": {
+		"AMOUNT": "Количество",
+		"COMMENTS": "Комментарии",
+		"CONTRACTS": "контракты",
+		"DATE": "Дата",
+		"EMPTY": "Нет активных контрактов",
+		"LISTING_BUTTON": "Создать объявление",
+		"PURCHASE": "покупка",
+		"PURCHASE_BUTTON": "Новая покупка",
+		"SELL": "продавать",
+		"STATUS": "Статус",
+		"STATUS_MESSAGES": {
+			"BUYER": {
+				"ACCEPTED": "Продавец принял ваше предложение по контракту",
+				"BEING_CANCELLED": "Выполняется отмена",
+				"CANCELLED": "Контракт расторгнут",
+				"COMPLETED": "Контракт завершен",
+				"EXPIRED": "Предложение контракта истекло",
+				"IGNORED": "Продавец проигнорировал ваше предложение по контракту",
+				"IGNORED_CANCEL": "Продавец проигнорировал ваше предложение расторгнуть договор",
+				"NOT_RECEIVED": "Доставка не удалась",
+				"NULLIFIED": "Все месторождения сожжены",
+				"WAIT": "Ожидание подтверждения депозита",
+				"WAITING": "Ожидание ответа",
+				"WAITING_CANCEL": "Ожидание расторжения контракта",
+				"WAITING_SELLER": "Ожидание доставки"
+			},
+			"SELLER": {
+				"ACCEPTED": "Контракт запущен",
+				"BEING_CANCELLED": "Выполняется отмена",
+				"CANCELLED": "Контракт расторгнут",
+				"COMPLETED": "Контракт завершен",
+				"EXPIRED": "Предложение контракта истекло",
+				"IGNORED": "Вы проигнорировали предложение контракта",
+				"IGNORED_CANCEL": "Вы проигнорировали предложение об отмене",
+				"NEW_CONTRACT": "Новое предложение контракта",
+				"NOT_RECEIVED": "Доставка не удалась",
+				"NULLIFIED": "Все месторождения сожжены",
+				"PROPOSAL_CANCEL": "Новое предложение о расторжении договора и возврате депозитов",
+				"WAIT": "Ожидание подтверждения контракта",
+				"WAITING_BUYER": "Ожидание доставки"
+			}
+		},
+		"TIME_LEFT": {
+			"REMAINING_LESS_ONE": "Меньше часа на ответ",
+			"REMAINING_MANY": "{{time}} часов осталось",
+			"REMAINING_MANY_ALT": "{{time}} часов осталось",
+			"REMAINING_MANY_ALT_RESPONSE": "{{time}} часов осталось",
+			"REMAINING_MANY_ALT_WAITING": "Ожидание {{time}} часов",
+			"REMAINING_MANY_RESPONSE": "{{time}} часов осталось",
+			"REMAINING_MANY_WAITING": "Ожидание {{time}} часов",
+			"REMAINING_ONE": " Осталось{{time}}  часа",
+			"REMAINING_ONE_RESPONSE": " Осталось{{time}}  часа",
+			"REMAINING_ONE_WAITING": "Ожидание {{time}} час"
+		}
+	},
+	"CREATE_WALLET": {
+		"BUTTON_CREATE": "Создать кошелек",
+		"BUTTON_SELECT": "Выберите местоположение кошелька",
+		"CONFIRM": "Подтвердите пароль кошелька",
+		"ERROR_CANNOT_SAVE_SYSTEM": "Файлы кошелька нельзя сохранить в раздел ОС",
+		"ERROR_CANNOT_SAVE_TOP": "Существующие файлы кошелька нельзя заменить или перезаписать",
+		"FORM_ERRORS": {
+			"CONFIRM_NOT_MATCH": "Подтвердить пароль не совпадает",
+			"MAX_LENGTH": "Достигнута максимальная длина имени",
+			"NAME_DUPLICATE": "Имя повторяется",
+			"NAME_REQUIRED": "Имя обязательно"
+		},
+		"NAME": "Имя кошелька",
+		"PASS": "Установить пароль кошелька",
+		"TITLE_SAVE": "Сохраните файл кошелька."
+	},
+	"EDIT_ALIAS": {
+		"BUTTON_EDIT": "редактировать",
+		"COMMENT": {
+			"LABEL": "комментарий",
+			"PLACEHOLDER": "Введите свой комментарий здесь"
+		},
+		"COST": "Плата {{value}} {{currency}}",
+		"FORM_ERRORS": {
+			"MAX_LENGTH": "Достигнута максимальная длина комментария",
+			"NO_MONEY": "У вас недостаточно средств, чтобы изменить комментарий на этот псевдоним"
+		},
+		"NAME": {
+			"LABEL": "кличка",
+			"PLACEHOLDER": "@ Введите псевдоним"
+		}
+	},
+	"ERRORS": {
+		"ACCESS_DENIED": "ДОСТУП ЗАКРЫТ",
+		"BAD_ARG": "Недействительным аргумент",
+		"CORE_BUSY": "Внутренняя ошибка: ядро занято",
+		"DAEMON_BUSY": "Внутренняя ошибка: демон занят",
+		"FILE_EXIST": "Файл с таким именем уже существует. Введите другое имя, чтобы сохранить файл под",
+		"FILE_NOT_FOUND": "Файл не найден",
+		"FILE_NOT_SAVED": "Вы не можете сохранить файл кошелька в этой папке. Выберите другую папку.",
+		"FILE_RESTORED": "Файл кошелька был поврежден. Мы восстановили ключи и кошелек из блокчейна",
+		"NOT_ENOUGH_MONEY": "Недостаточно средств на счету",
+		"NOT_ENOUGH_OUTPUTS_TO_MIX": "Число примесей слишком велико для текущего состояния блокчейна. Недостаточно неизрасходованных выходов для микширования",
+		"NO_MONEY": "Недостаточно денег",
+		"NO_MONEY_REMOVE_OFFER": "Плата за удаление предложения не взимается, но для защиты сети от флуд-транзакций в вашем кошельке должно быть не менее {{fee}} {{currency}} ",
+		"TRANSACTION_ERROR": "Ошибка. Транзакция не завершена.",
+		"TRANSACTION_IS_TO_BIG": "Транзакция превышает лимит сети, отправьте необходимую сумму несколькими транзакциями",
+		"TRANSFER_ATTEMPT": "Нет связи с сетью Letean",
+		"TX_TYPE_COIN_BASE": "Ошибка. Плата не была завершена.",
+		"TX_TYPE_NEW_ALIAS": "Ошибка. Не удалось зарегистрировать псевдоним для сейфа",
+		"TX_TYPE_NEW_ALIAS_END": "Пожалуйста, попробуйте еще раз.",
+		"TX_TYPE_NORMAL": "Ошибка. Оплата с кошелька",
+		"TX_TYPE_NORMAL_END": "не был завершен.",
+		"TX_TYPE_NORMAL_TO": "В",
+		"TX_TYPE_UPDATE_ALIAS": "Ошибка. Не удалось изменить комментарий на псевдоним в сейфе",
+		"WALLET_WATCH_ONLY_NOT_SUPPORTED": "Кошельки только для просмотра можно открыть только через simplewallet.",
+		"WALLET_WRONG_ID": "Неверный идентификатор кошелька",
+		"WRONG_PASSWORD": "Неверный пароль"
+	},
+	"EXPORT_HISTORY": {
+		"CANCEL": "отменить",
+		"EXPORT": "Экспорт в файл...",
+		"EXPORT_BUTTON": "Экспорт истории...",
+		"FILTER": "Фильтр POS-транзакций",
+		"FORMAT:": "Формат",
+		"SAVED_FILE": "Выберите путь для сохранения истории транзакций",
+		"TITLE": "Экспорт истории кошелька",
+		"TOOLTIP": "Экспорт истории транзакций кошелька в файл"
+	},
+	"HISTORY": {
+		"ADDRESS": "Адрес",
+		"AMOUNT": "Количество",
+		"DATE": "Дата",
+		"DETAILS": {
+			"COMMENT": "комментарий",
+			"CONFIRMATION": "подтверждение",
+			"HEIGHT": "Рост",
+			"ID": "номер транзакции",
+			"INPUTS": "входные",
+			"OUTPUTS": "выходы",
+			"PAYMENT_ID": "Идентификатор платежа",
+			"SIZE": "Размер транзакции",
+			"SIZE_VALUE": "{{value}} байт"
+		},
+		"FEE": "плата",
+		"LOCK_TOOLTIP": "Заблокировано до {{date}}",
+		"RECEIVED": "Получено",
+		"SEND": "послал",
+		"STATUS": "Статус",
+		"STATUS_TOOLTIP": "Подтверждения {{current}}/{{total}}",
+		"TYPE_MESSAGES": {
+			"CANCEL_CONTRACT": "Отменить и вернуть депозиты",
+			"COMPLETE_BUYER": "Контракт завершен",
+			"COMPLETE_SELLER": "Контракт завершен",
+			"CREATE_ALIAS": "Плата за присвоение псевдонима",
+			"CREATE_CONTRACT": "Договорное предложение",
+			"HIDDEN": "скрытый",
+			"NULLIFY_CONTRACT": "Сжечь отложения",
+			"PLEDGE_CONTRACT": "Контрактный депозит",
+			"POS_REWARD": "POS вознаграждение",
+			"POW_REWARD": "награда за военнопленных",
+			"PROPOSAL_CANCEL_CONTRACT": "Запрос на отмену",
+			"UNDEFINED": "неопределенный",
+			"UPDATE_ALIAS": "Плата за редактирование псевдонима"
+		}
+	},
+	"LOGIN": {
+		"BUTTON_NEXT": "следующий",
+		"BUTTON_RESET": "Сброс",
+		"BUTTON_SKIP": "Пропускать",
+		"FORM_ERRORS": {
+			"CONFIRM_REQUIRED": "требуется подтверждение",
+			"INVALID_PASS": "Неверный пароль, попробуйте еще раз",
+			"MISMATCH": "Несоответствие",
+			"PASS_REQUIRED": "необходим пароль"
+		},
+		"INCORRECT_PASSWORD": "Неверный пароль",
+		"MASTER_PASS": "Основной пароль",
+		"SETUP_CONFIRM_PASS": "Подтвердите Пароль",
+		"SETUP_MASTER_PASS": "Установить мастер-пароль"
+	},
+	"MAIN": {
+		"BUTTON_NEW_WALLET": "Создать новый кошелек",
+		"BUTTON_OPEN_WALLET": "Открыть существующий кошелек",
+		"BUTTON_RESTORE_BACKUP": "Восстановить из резервной копии",
+		"CHOOSE_PATH": "Пожалуйста, выберите путь",
+		"HELP": "Как создать кошелек?",
+		"TITLE": "Создайте или откройте кошелек, чтобы начать использовать Letean"
+	},
+	"MESSAGES": {
+		"ADDRESS": "Адрес",
+		"MESSAGE": "Сообщение",
+		"SEND_BUTTON": "послать",
+		"SEND_PLACEHOLDER": "Введите сообщение ..."
+	},
+	"MODALS": {
+		"CANCEL": "отменить",
+		"ERROR": "ошибка",
+		"INFO": "Информация",
+		"OK": "Хорошо",
+		"SUCCESS": "успех"
+	},
+	"OPEN_WALLET": {
+		"BUTTON": "Открытый кошелек",
+		"FILE_NOT_FOUND1": "Файл кошелька не найден",
+		"FILE_NOT_FOUND2": "<br/><br/> Возможно, он был переименован или перемещен. <br/> Чтобы открыть его, используйте кнопку \"Открыть кошелек\".",
+		"FORM_ERRORS": {
+			"MAX_LENGTH": "Достигнута максимальная длина имени",
+			"NAME_DUPLICATE": "Имя повторяется",
+			"NAME_REQUIRED": "Имя обязательно"
+		},
+		"MODAL": {
+			"LABEL": "Пароль к этому кошельку",
+			"NOT_FOUND": "не обнаружена",
+			"OPEN": "Открытый кошелек",
+			"SKIP": "Пропускать",
+			"TITLE": "Введите пароль кошелька"
+		},
+		"NAME": "Имя кошелька",
+		"PASS": "Пароль кошелька",
+		"WITH_ADDRESS_ALREADY_OPEN": "Кошелек с этим адресом уже открыт"
+	},
+	"PLACEHOLDERS": {
+		"ADRESS_PLACEHOLDER": "Введите адрес здесь",
+		"AMOUNT_PLACEHOLDER": "Введите сумму здесь",
+		"COMMENT_PLACEHOLDER": "Введите свой комментарий здесь",
+		"CONFIRM_WALET_PASSWORD_PLACEHOLDER": "Подтвердите пароль кошелька здесь",
+		"DEPOSIT_PLACEHOLDER": "Введите свой депозит здесь",
+		"DESCRIPTION_PLACEHOLDER": "Введите описание здесь",
+		"FEE_PLACEHOLDER": "Введите комиссию здесь",
+		"MASTER_PASS_PLACEHOLDER": "Введите мастер-пароль здесь",
+		"NAME_PLACEHOLDER": "Введите имя здесь",
+		"NOTES_PLACEHOLDER": "Введите заметки здесь",
+		"PASSWORD_PLACEHOLDER": "Введите пароль здесь",
+		"PLACEHOLDER_CONFIRM": "Подтвердите новый пароль здесь",
+		"PLACEHOLDER_NEW": "Введите новый пароль здесь",
+		"PLACEHOLDER_OLD": "Введите текущий пароль здесь",
+		"PURCHASE_PAYMENT_PLACEHOLDER": "Введите идентификатор платежа здесь",
+		"SEED_PASSWORD_PLACEHOLDER": "Введите исходный пароль здесь",
+		"SEED_PHRASE_PLACEHOLDER": "Введите исходную фразу здесь",
+		"SELLER_DEPOSIT_PLACEHOLDER": "Введите депозит продавца здесь",
+		"SELLER_PLACEHOLDER": "Введите продавца здесь",
+		"WALET_PASSWORD_PLACEHOLDER": "Введите пароль кошелька здесь",
+		"WALLET_NAME_PLACEHOLDER": "Введите имя кошелька здесь"
+	},
+	"PROGRESS": {
+		"ADD_WALLET": "Добавить кошелек",
+		"CREATE_WALLET": "Создать новый кошелек",
+		"RESTORE_WALLET": "Восстановить из резервной копии",
+		"SELECT_LOCATION": "Выберите местоположение кошелька"
+	},
+	"PURCHASE": {
+		"ACCEPT_STATE_WAIT_BIG": "Контракт запущен",
+		"AMOUNT": "Количество",
+		"BURN_PROPOSAL": "Депозиты сожжены",
+		"BUTTON_CANCEL_BUYER": "Отменить и вернуть депозиты",
+		"BUTTON_CANCEL_SELLER": "Подтвердить и вернуть депозиты",
+		"BUTTON_IGNORE": "Игнорировать и скрыть предложение",
+		"BUTTON_MAKE_PLEDGE": "Принять и внести депозит",
+		"BUTTON_NOT_CANCEL": "Игнорировать запрос",
+		"BUTTON_NULLIFY": "Закрыть и сжечь депозиты",
+		"BUTTON_NULLIFY_SHORT": "жечь",
+		"BUTTON_RECEIVED": "Заполнить и разблокировать депозиты",
+		"BUYER_DEPOSIT": "Депозит покупателя",
+		"CANCEL": "отменить",
+		"COMMENT": "комментарий",
+		"DEALS_CANCELED_WAIT": "Выполняется отмена",
+		"DESCRIPTION": "Описание",
+		"DETAILS": "Дополнительные детали",
+		"FEE": "плата",
+		"FORM_ERRORS": {
+			"ALIAS_NOT_VALID": "Недействительный псевдоним",
+			"AMOUNT_REQUIRED": "Требуемая сумма",
+			"AMOUNT_ZERO": "Сумма не может быть равна нулю",
+			"COMMENT_MAXIMUM": "Достигнута максимальная длина поля",
+			"DESC_MAXIMUM": "Достигнута максимальная длина поля",
+			"DESC_REQUIRED": "Требуется описание",
+			"SELLER_DEPOSIT_REQUIRED": "Требуется залог продавца",
+			"SELLER_NOT_VALID": "Неверный адрес",
+			"SELLER_REQUIRED": "Требуется адрес",
+			"SELLER_SAME": "Использовать отдельный аккаунт",
+			"YOUR_DEPOSIT_REQUIRED": "Требуется депозит"
+		},
+		"HOUR": "час",
+		"HOURS": "часов",
+		"IGNORED_ACCEPT": "Предложение контракта проигнорировано",
+		"IGNORED_CANCEL": "Предложение о расторжении контракта проигнорировано",
+		"NEED_MONEY": "НЕДОСТАТОЧНО СРЕДСТВ",
+		"NULLIFY_QUESTION": "Вы уверены, что хотите сжечь оба депозита?",
+		"PAYMENT": "Идентификатор платежа",
+		"PROGRESS_COMPLETE": "Завершенный",
+		"PROGRESS_NEW": "Новая покупка",
+		"PROGRESS_RECEIVE": "Ответ получен",
+		"PROGRESS_WAIT": "В ожидании ответа",
+		"SAME_AMOUNT": "Такое же количество",
+		"SELLER": "продавец",
+		"SELLER_DEPOSIT": "Депозит продавца",
+		"SEND_BUTTON": "послать",
+		"SEND_CANCEL_PROPOSAL": "Запрос на отмену отправлен",
+		"STATUS_MESSAGES": {
+			"BEING_CANCELLED": "Выполняется отмена",
+			"CANCELLED": "Контракт расторгнут",
+			"COMPLETED": "Контракт завершен",
+			"EXPIRED": "Предложение контракта истекло",
+			"IGNORED_BUYER": "Предложение контракта проигнорировано",
+			"IGNORED_CANCEL_BUYER": "Предложение о расторжении контракта проигнорировано",
+			"IGNORED_CANCEL_SELLER": "Продавец проигнорировал ваше предложение расторгнуть договор",
+			"IGNORED_SELLER": "Продавец проигнорировал ваше предложение контракта",
+			"NEW_PURCHASE": "Новая покупка",
+			"NOT_RECEIVED": "Доставка не удалась",
+			"NULLIFIED": "Все месторождения сожжены",
+			"PROPOSAL_CANCEL_BUYER": "Получен запрос на отмену",
+			"PROPOSAL_CANCEL_SELLER": "Запрос на отмену отправлен",
+			"WAITING_BUYER": "Предложение контракта получено",
+			"WAITING_CONFIRMATION": "Ожидание подтверждения депозита",
+			"WAITING_DELIVERY": "Ожидание доставки",
+			"WAITING_SELLER": "Ожидание ответа"
+		},
+		"SUCCESS_FINISH_PROPOSAL": "Контракт завершен",
+		"WAITING_TIME": "Время отклика",
+		"WAITING_TIME_QUESTION": "Вы уверены, что хотите расторгнуть контракт?",
+		"YOUR_DEPOSIT": "Ваш депозит"
+	},
+	"RESTORE_WALLET": {
+		"BUTTON_CREATE": "Создать кошелек",
+		"BUTTON_SELECT": "Выберите местоположение кошелька",
+		"CHOOSE_PATH": "Пожалуйста, выберите путь",
+		"CONFIRM": "Подтвердите пароль кошелька",
+		"FORM_ERRORS": {
+			"CONFIRM_NOT_MATCH": "Подтвердить пароль не совпадает",
+			"INCORRECT_PASSWORD": "Неверный пароль",
+			"KEY_NOT_VALID": "Ключ недействителен",
+			"KEY_REQUIRED": "Требуется ключ",
+			"MAX_LENGTH": "Достигнута максимальная длина имени",
+			"NAME_DUPLICATE": "Имя повторяется",
+			"NAME_REQUIRED": "Имя обязательно"
+		},
+		"LABEL_NAME": "Имя кошелька",
+		"LABEL_PHRASE_KEY": "Сид-фраза/сид-фраза",
+		"NOT_CORRECT_FILE_OR_PASSWORD": "Неверный файл кошелька или пароль не совпадают",
+		"OK": "Хорошо",
+		"PASS": "Пароль кошелька",
+		"SEED_PASSWORD": "Начальный пароль"
+	},
+	"SEED_PHRASE": {
+		"BUTTON_COPIED": "КОПИРОВАНИЕ",
+		"BUTTON_COPY": "копия",
+		"BUTTON_CREATE_ACCOUNT": "Создать кошелек",
+		"TITLE": "Обязательно храните исходную фразу в надежном месте. Если вы забудете сид-фразу, вы не сможете восстановить свой кошелек."
+	},
+	"SEND": {
+		"ADDRESS": "Адрес",
+		"AMOUNT": "Количество",
+		"BUTTON": "послать",
+		"COMMENT": "комментарий",
+		"DETAILS": "Дополнительные детали",
+		"FEE": "плата",
+		"FORM_ERRORS": {
+			"ADDRESS_NOT_VALID": "Адрес недействителен",
+			"ADDRESS_REQUIRED": "Адрес обязателен",
+			"ALIAS_NOT_VALID": "Псевдоним недействителен",
+			"AMOUNT_REQUIRED": "Требуется сумма",
+			"AMOUNT_ZERO": "Сумма равна нулю",
+			"FEE_MINIMUM": "Минимальная плата: {{fee}}",
+			"FEE_REQUIRED": "Плата требуется",
+			"GREAT_THAN_UNWRAPPED_COINS": "Сумма больше, чем осталось доступных токенов ERC20",
+			"LESS_THAN_ZANO_NEEDED": "Слишком маленькая сумма для покрытия комиссии ERC20",
+			"MAX_LENGTH": "Достигнута максимальная длина комментария",
+			"WRAP_INFO_NULL": "не удалось запросить состояние переноса"
+		},
+		"HIDE": "Скрыть адрес своего кошелька от получателя",
+		"MIXIN": "Миксин",
+		"SUCCESS_SENT": "Транзакция отправлена",
+		"WRAP": {
+			"ESTIMATE": "Оценки транзакций",
+			"FEE": "Плата за транзакцию Ethereum:",
+			"MAIN_TEXT": "Эта транзакция создаст wLethean («Wrapped Lethean»), который будет отправлен на указанный адрес в сети Ethereum.",
+			"TITLE": "Сворачивать",
+			"WILL_RECEIVE": "Вы получите:",
+			"ZANO": "LTHN",
+			"wZANO": "wлетейский"
+		}
+	},
+	"SEND_DETAILS_MODAL": {
+		"TITLE1": "Сделка",
+		"TITLE2": "Детали транзакции"
+	},
+	"SETTINGS": {
+		"APP_LOCK": {
+			"TIME1": "5 мин",
+			"TIME2": "15 мин",
+			"TIME3": "1 час",
+			"TIME4": "никогда",
+			"TITLE": "Блокировать приложение после:"
+		},
+		"APP_LOG_TITLE": "Уровень журнала:",
+		"DARK_THEME": "Темная тема",
+		"FORM_ERRORS": {
+			"CONFIRM_NOT_MATCH": "Подтвердить пароль не совпадает",
+			"PASS_NOT_MATCH": "Неверный пароль",
+			"PASS_REQUIRED": "необходим пароль"
+		},
+		"GRAY_THEME": "Серая тема",
+		"LANGUAGE": {
+			"DE": "Deutsch",
+			"EN": "английский",
+			"FR": "французский",
+			"ID": "индонезийский",
+			"IT": "итальянский",
+			"PT": "португальский",
+			"TITLE": "язык"
+		},
+		"LAST_BUILD": "Текущая сборка: {{value}}",
+		"MASTER_PASSWORD": {
+			"BUTTON": "Сохранить",
+			"CONFIRM": "Подтвердите Пароль",
+			"NEW": "новый пароль",
+			"OLD": "Текущий пароль",
+			"TITLE": "Обновить мастер-пароль"
+		},
+		"NOTIFICATIONS": "Уведомления",
+		"SCALE": {
+			"75": "Масштаб 75%",
+			"100": "100% шкала",
+			"125": "Масштаб 125%",
+			"150": "Масштаб 150%",
+			"TITLE": "Масштаб интерфейса"
+		},
+		"SETTINGS_SAVED": "Сохранено! Настройки обновлены",
+		"TITLE": "настройки",
+		"USE_TOR_TO_RELAY_TRANSACTIONS": "Используйте TOR для ретрансляции транзакций",
+		"WHITE_THEME": "Белая тема"
+	},
+	"SIDEBAR": {
+		"ACCOUNT": {
+			"MESSAGES": "Новые предложения/сообщения",
+			"STAKING": "Ставка",
+			"SYNCING": "Синхронизация кошелька"
+		},
+		"ADD_NEW": "Добавить кошелек",
+		"CONTACTS": "контакты",
+		"CONTACTS_TOOLTIP": "Опция «Контакты» доступна только при включенном мастер-пароле.",
+		"LOG_OUT": "Выйти",
+		"LOG_OUT_TOOLTIP": "Возможность выхода из системы доступна только при включенном мастер-пароле.",
+		"SETTINGS": "настройки",
+		"SYNCHRONIZATION": {
+			"COMPLETE": "завершение",
+			"DOWNLOADING": "Загрузка",
+			"ERROR": "Системная ошибка",
+			"LOADING": "Загрузка данных блокчейна",
+			"MB": "мегабайт",
+			"OFFLINE": "Не в сети",
+			"ONLINE": "онлайн",
+			"SLASH": "/",
+			"SYNCING": "Блок синхронизации"
+		},
+		"TITLE": "бумажники",
+		"UPDATE": {
+			"CRITICAL": "ДОСТУПНО ОБНОВЛЕНИЕ",
+			"CRITICAL_HINT": "Критическое обновление!",
+			"CRITICAL_TOOLTIP": "<span class=\"critical-update\">Доступно критическое обновление.</span><i class=\"icon\"></i><span>Настоятельно рекомендуется обновить!</span>",
+			"IMPORTANT": "ДОСТУПНО ОБНОВЛЕНИЕ",
+			"IMPORTANT_HINT": "Важное обновление!",
+			"IMPORTANT_TOOLTIP": "<span class=\"important-update\">Получить новое обновление.</span><br><span>Важное обновление!</span>",
+			"STANDARD": "ДОСТУПНО ОБНОВЛЕНИЕ",
+			"STANDARD_TOOLTIP": "<span class=\"standard-update\">Получить новое обновление.</span><br><span>Рекомендуется обновление!</span>",
+			"TIME": "Системное время отличается от сетевого",
+			"TIME_TOOLTIP": "<span class=\"wrong-time\">Неверное системное время!</span><br><span>Проверьте и восстановите системное время.</span>"
+		}
+	},
+	"STAKING": {
+		"GROUP": {
+			"DAY": "День",
+			"MONTH": "месяц",
+			"WEEK": "Неделю"
+		},
+		"PERIOD": {
+			"ALL": "все",
+			"MONTH1": "1 месяц",
+			"MONTH3": "3 месяца",
+			"MONTH6": "6 месяцев",
+			"WEEK1": "1 неделя",
+			"WEEK2": "2 недели",
+			"YEAR": "1 год"
+		},
+		"SWITCH": {
+			"OFF": "от",
+			"ON": "На"
+		},
+		"TITLE": "Ставка",
+		"TITLE_GROUP": "Группа:",
+		"TITLE_PENDING": "в ожидании",
+		"TITLE_PERIOD": "Временной период:",
+		"TITLE_TOTAL": "Всего"
+	},
+	"TOR_LIB_STATE": {
+		"STATE_CREATING_STREAM": "Создание потока",
+		"STATE_DOWNLOADING_CONSENSUS": "Загрузка консенсуса",
+		"STATE_FAILED": "Не удалось создать поток",
+		"STATE_INITIALIZING": "Инициализация",
+		"STATE_MAKING_TUNNEL_A": "Строительство туннеля к А",
+		"STATE_MAKING_TUNNEL_B": "Строительство туннеля на Б",
+		"STATE_SENDING": "Отправка транзакции",
+		"STATE_SEND_FAILED": "Отправка не удалась",
+		"STATE_SENT_SUCCESS": "Успешно отправлено!",
+		"STATE_SUCCESS": "Поток создан"
+	},
+	"TRANSFER_ALIAS": {
+		"ADDRESS": {
+			"LABEL": "Передать",
+			"PLACEHOLDER": "Введите адрес здесь"
+		},
+		"BUTTON_CANCEL": "отменить",
+		"BUTTON_TRANSFER": "Перечислить",
+		"COMMENT": {
+			"LABEL": "комментарий",
+			"PLACEHOLDER": "Введите свой комментарий здесь"
+		},
+		"COST": "Комиссия за перевод {{value}} {{currency}}",
+		"FORM_ERRORS": {
+			"ALIAS_EXISTS": "У этой учетной записи уже есть псевдоним",
+			"NO_MONEY": "У вас недостаточно средств для переноса этого псевдонима",
+			"WRONG_ADDRESS": "Кошелек с этой учетной записью не существует"
+		},
+		"NAME": {
+			"LABEL": "кличка",
+			"PLACEHOLDER": "@ Введите псевдоним"
+		},
+		"REQUEST_SEND_REG": "Псевдоним будет передан в течение 10 минут"
+	},
+	"WALLET": {
+		"AVAILABLE_BALANCE": "Доступно <b>{{available}} {{currency}}<b/>",
+		"CONFIRM": {
+			"MESSAGE": "Чтобы получить к нему доступ, вам придется добавить его снова",
+			"TITLE": "Удалить кошелек из списка?"
+		},
+		"DETAILS": "подробности",
+		"LOCK": "Замок",
+		"LOCKED_BALANCE": "Заблокировано <b>{{locked}} {{currency}}<b/>",
+		"LOCKED_BALANCE_LINK": "Что это значит?",
+		"REGISTER_ALIAS": "Зарегистрировать псевдоним",
+		"TABS": {
+			"CONTRACTS": "контракты",
+			"HISTORY": "история",
+			"MESSAGES": "Сообщения",
+			"RECEIVE": "Получать",
+			"SEND": "послать",
+			"STAKING": "Ставка"
+		},
+		"TOOLTIPS": {
+			"CLOSE": "Закрыть кошелек",
+			"EDIT_ALIAS": "Изменить псевдоним",
+			"SETTINGS": "настройки",
+			"TRANSFER_ALIAS": "Перенести псевдоним"
+		}
+	},
+	"WALLET_DETAILS": {
+		"BUTTON_REMOVE": "Закрыть кошелек",
+		"BUTTON_SAVE": "Сохранить",
+		"CREATE_PASSWORD_SECURE": "Создайте пароль для защиты вашего семени",
+		"FORM": {
+			"CONFIRM_PASSWORD": "Подтвердите Пароль",
+			"GENERATE_SECURE_SEED": "Создать безопасное семя",
+			"SECURED_SEED_WILL_REQUIRE": "Secure seed потребует этот пароль для восстановления."
+		},
+		"FORM_ERRORS": {
+			"MAX_LENGTH": "Достигнута максимальная длина имени",
+			"NAME_DUPLICATE": "Имя повторяется",
+			"NAME_REQUIRED": "Имя обязательно",
+			"PASSWORDS_DONT_MATCH": "Пароли не совпадают"
+		},
+		"INFO": "Информация",
+		"LABEL_FILE_LOCATION": "Расположение файла кошелька",
+		"LABEL_NAME": "Имя кошелька",
+		"LABEL_SEED_PHRASE": "Исходная фраза",
+		"REMEMBER_YOU_WILL_REQUIRE": "Безопасное семя потребует пароль для восстановления.",
+		"RESYNC_WALLET": "Повторно синхронизировать данные кошелька",
+		"RESYNC_WALLET_BUTTON": "Повторная синхронизация кошелька",
+		"SEED_IS_SECURED": "Семя защищено",
+		"SEED_IS_UNSECURED": "Семя не защищено",
+		"SEED_PHRASE_HINT": "Нажмите, чтобы открыть исходную фразу",
+		"WALLET_OPTIONS": "Варианты кошелька..."
+	}
 }
