@@ -98,7 +98,7 @@
 			"NAME_REQUIRED": "Nama diperlukan",
 			"SET_MASTER_PASSWORD": "Atur Kata Sandi Utama"
 		},
-		"IMPORT": "Import",
+		"IMPORT": "Impor",
 		"IMPORT_EXPORT": "Import atau ekspor kontak",
 		"OPEN_ADD_WALLET": "Buka/tambahkan dompet",
 		"SEND": "Kirim",
@@ -260,7 +260,7 @@
 			"OUTPUTS": "Output/Keluaran",
 			"PAYMENT_ID": "ID Pembayaran",
 			"SIZE": "Ukuran transaksi",
-			"SIZE_VALUE": "{{value}} bytes"
+			"SIZE_VALUE": "{{value}} Byte"
 		},
 		"FEE": "Biaya",
 		"LOCK_TOOLTIP": "Dikunci sampai {{date}}",
@@ -315,9 +315,9 @@
 	},
 	"MODALS": {
 		"CANCEL": "Membatalkan",
-		"ERROR": "Error",
+		"ERROR": "Kesalahan",
 		"INFO": "Informasi",
-		"OK": "Ok",
+		"OK": "baik",
 		"SUCCESS": "Berhasil"
 	},
 	"OPEN_WALLET": {
@@ -458,7 +458,7 @@
 		"LABEL_NAME": "Nama dompet",
 		"LABEL_PHRASE_KEY": "Seed phrase/ kunci pribadi",
 		"NOT_CORRECT_FILE_OR_PASSWORD": "File dompet tidak valid atau kata sandi tidak sama",
-		"OK": "",
+		"OK": "baik",
 		"PASS": "Katasandi dompet",
 		"SEED_PASSWORD": "Kata sandi benih"
 	},
@@ -489,21 +489,21 @@
 			"WRAP_INFO_NULL": "gagal meminta status bungkus"
 		},
 		"HIDE": "Sembunyikan alamat dompet kamu dari penerima",
-		"MIXIN": "Mixin",
+		"MIXIN": "Campur",
 		"SUCCESS_SENT": "Transaksi dikirim",
 		"WRAP": {
-			"ESTIMATE": "",
-			"FEE": "",
-			"MAIN_TEXT": "",
-			"TITLE": "",
+			"ESTIMATE": "Estimasi Transaksi",
+			"FEE": "Biaya Ethereum Txn:",
+			"MAIN_TEXT": "Transaksi ini akan membuat wLethean (\"Wrapped Lethean\") yang akan dikirim ke alamat yang ditentukan di jaringan Ethereum.",
+			"TITLE": "Membungkus",
 			"WILL_RECEIVE": "Anda akan menerima:",
-			"ZANO": "",
-			"wZANO": ""
+			"ZANO": "LTHN",
+			"wZANO": "wLethean"
 		}
 	},
 	"SEND_DETAILS_MODAL": {
-		"TITLE1": "Transaction",
-		"TITLE2": "Transaction details"
+		"TITLE1": "Transaksi",
+		"TITLE2": "Detil transaksi"
 	},
 	"SETTINGS": {
 		"APP_LOCK": {
@@ -540,10 +540,10 @@
 		},
 		"NOTIFICATIONS": "Notifikasi",
 		"SCALE": {
-			"75": "",
-			"100": "",
-			"125": "",
-			"150": "",
+			"75": "skala 75%.",
+			"100": "skala 100%.",
+			"125": "skala 125%.",
+			"150": "skala 150%.",
 			"TITLE": "Skala antarmuka"
 		},
 		"SETTINGS_SAVED": "Diselamatkan! Pengaturan Diperbarui",
@@ -554,7 +554,7 @@
 	"SIDEBAR": {
 		"ACCOUNT": {
 			"MESSAGES": "Pesan baru/tawaran",
-			"STAKING": "Staking",
+			"STAKING": "Mempertaruhkan",
 			"SYNCING": "Sinkronisasi dompet"
 		},
 		"ADD_NEW": "Tambahkan",
@@ -570,7 +570,7 @@
 			"LOADING": "Memuat data blockchain",
 			"MB": "",
 			"OFFLINE": "Offline",
-			"ONLINE": "Online",
+			"ONLINE": "On line",
 			"SLASH": "",
 			"SYNCING": "Sinkronisasi blockchain"
 		},
@@ -605,25 +605,25 @@
 		},
 		"SWITCH": {
 			"OFF": "Off",
-			"ON": "On"
+			"ON": "Di"
 		},
-		"TITLE": "Staking",
+		"TITLE": "Mempertaruhkan",
 		"TITLE_GROUP": "Kelompok:",
 		"TITLE_PENDING": "Tertunda",
 		"TITLE_PERIOD": "Periode waktu:",
 		"TITLE_TOTAL": "Total"
 	},
 	"TOR_LIB_STATE": {
-		"STATE_CREATING_STREAM": "Creating stream",
-		"STATE_DOWNLOADING_CONSENSUS": "Downloading consensus",
-		"STATE_FAILED": "Failed created stream",
-		"STATE_INITIALIZING": "Initializing",
-		"STATE_MAKING_TUNNEL_A": "Building tunnel to A",
-		"STATE_MAKING_TUNNEL_B": "Building tunnel to B",
-		"STATE_SENDING": "Sending transaction",
-		"STATE_SEND_FAILED": "Sending failed",
-		"STATE_SENT_SUCCESS": "Successfully sent!",
-		"STATE_SUCCESS": "Successfully created stream"
+		"STATE_CREATING_STREAM": "Membuat aliran",
+		"STATE_DOWNLOADING_CONSENSUS": "Mengunduh konsensus",
+		"STATE_FAILED": "Aliran gagal dibuat",
+		"STATE_INITIALIZING": "Inisialisasi",
+		"STATE_MAKING_TUNNEL_A": "Membangun terowongan ke A",
+		"STATE_MAKING_TUNNEL_B": "Membangun terowongan ke B",
+		"STATE_SENDING": "Mengirim transaksi",
+		"STATE_SEND_FAILED": "Pengiriman Gagal",
+		"STATE_SENT_SUCCESS": "Berhasil dikirim!",
+		"STATE_SUCCESS": "Aliran berhasil dibuat"
 	},
 	"TRANSFER_ALIAS": {
 		"ADDRESS": {
@@ -665,7 +665,7 @@
 			"MESSAGES": "Pesan",
 			"RECEIVE": "Terima",
 			"SEND": "Kirim",
-			"STAKING": "Staking"
+			"STAKING": "Mempertaruhkan"
 		},
 		"TOOLTIPS": {
 			"CLOSE": "Tutup dompet",
@@ -692,7 +692,7 @@
 		"INFO": "Info",
 		"LABEL_FILE_LOCATION": "Lokasi file dompet",
 		"LABEL_NAME": "Nama dompet",
-		"LABEL_SEED_PHRASE": "Seed Phrase",
+		"LABEL_SEED_PHRASE": "Ungkapan benih",
 		"REMEMBER_YOU_WILL_REQUIRE": "Benih yang aman akan membutuhkan kata sandi untuk dipulihkan.",
 		"RESYNC_WALLET": "Menyinkronkan ulang data dompet",
 		"RESYNC_WALLET_BUTTON": "Sinkronisasi ulang Dompet",

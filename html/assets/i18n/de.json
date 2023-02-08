@@ -185,7 +185,7 @@
 		"ERROR_CANNOT_SAVE_SYSTEM": "Wallet-Dateien können nicht auf der OS-Partition gespeichert werden",
 		"ERROR_CANNOT_SAVE_TOP": "Bestehende Wallet-Dateien können nicht ersetzt oder überschrieben werden",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
+			"CONFIRM_NOT_MATCH": "Bestätigen Sie, dass das Passwort nicht übereinstimmt",
 			"MAX_LENGTH": "Maximale Namenslänge erreicht",
 			"NAME_DUPLICATE": "Name existiert bereits",
 			"NAME_REQUIRED": "Name ist erforderlich"
@@ -256,11 +256,11 @@
 			"CONFIRMATION": "Bestätigung",
 			"HEIGHT": "Höhe",
 			"ID": "Transaktions-ID",
-			"INPUTS": "Inputs",
-			"OUTPUTS": "Outputs",
+			"INPUTS": "Eingänge",
+			"OUTPUTS": "Ausgänge",
 			"PAYMENT_ID": "Zahlungs-ID",
 			"SIZE": "Transaktionsgröße",
-			"SIZE_VALUE": "{{value}} Bytes"
+			"SIZE_VALUE": " {{value}} Bytes"
 		},
 		"FEE": "Gebühr",
 		"LOCK_TOOLTIP": "Gesperrt bis {{date}}",
@@ -447,7 +447,7 @@
 		"CHOOSE_PATH": "Bitte wählen Sie einen Pfad",
 		"CONFIRM": "Wallet-Passwort bestätigen",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
+			"CONFIRM_NOT_MATCH": "Bestätigen Sie, dass das Passwort nicht übereinstimmt",
 			"INCORRECT_PASSWORD": "Falsches Passwort",
 			"KEY_NOT_VALID": "Schlüssel ungültig",
 			"KEY_REQUIRED": "Schlüssel ist erforderlich",
@@ -458,7 +458,7 @@
 		"LABEL_NAME": "Wallet-Name",
 		"LABEL_PHRASE_KEY": "Seed-Satz / Private-Key",
 		"NOT_CORRECT_FILE_OR_PASSWORD": "Ungültige Wallet-Datei oder Passwort stimmt nicht überein",
-		"OK": "",
+		"OK": "OK",
 		"PASS": "Wallet-Passwort",
 		"SEED_PASSWORD": "Seed-Passwort"
 	},
@@ -489,21 +489,21 @@
 			"WRAP_INFO_NULL": "Wrap-Status konnte nicht angefordert werden"
 		},
 		"HIDE": "Verstecke deine Wallet-Adresse vom Empfänger",
-		"MIXIN": "Mixin",
+		"MIXIN": "Mischen",
 		"SUCCESS_SENT": "Transaktion gesendet",
 		"WRAP": {
-			"ESTIMATE": "",
-			"FEE": "",
-			"MAIN_TEXT": "",
-			"TITLE": "",
+			"ESTIMATE": "Transaktionsschätzungen",
+			"FEE": "Ethereum Txn-Gebühr:",
+			"MAIN_TEXT": "Diese Transaktion erstellt wLethean (\"Wrapped Lethean\"), das an die angegebene Adresse im Ethereum-Netzwerk gesendet wird.",
+			"TITLE": "Wickeln",
 			"WILL_RECEIVE": "Sie erhalten:",
-			"ZANO": "",
-			"wZANO": ""
+			"ZANO": "LTHN",
+			"wZANO": "wLethean"
 		}
 	},
 	"SEND_DETAILS_MODAL": {
-		"TITLE1": "Transaction",
-		"TITLE2": "Transaction details"
+		"TITLE1": "Transaktion",
+		"TITLE2": "Transaktionsdetails"
 	},
 	"SETTINGS": {
 		"APP_LOCK": {
@@ -513,11 +513,11 @@
 			"TIME4": "Nie",
 			"TITLE": "Programm sperren nach:"
 		},
-		"APP_LOG_TITLE": "Log-Level:",
+		"APP_LOG_TITLE": "Protokollebene:",
 		"DARK_THEME": "Nachtmodus",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
-			"PASS_NOT_MATCH": "Old password not match",
+			"CONFIRM_NOT_MATCH": "Bestätigen Sie, dass das Passwort nicht übereinstimmt",
+			"PASS_NOT_MATCH": "Falsches Passwort",
 			"PASS_REQUIRED": "Passwort ist erforderlich"
 		},
 		"GRAY_THEME": "Graumodus",
@@ -533,7 +533,7 @@
 		"LAST_BUILD": "Aktueller Build: {{value}}",
 		"MASTER_PASSWORD": {
 			"BUTTON": "Speichern",
-			"CONFIRM": "New password confirmation",
+			"CONFIRM": "Passwort bestätigen",
 			"NEW": "Neues Passwort",
 			"OLD": "Altes Passwort",
 			"TITLE": "Master-Passwort aktualisieren"
@@ -554,7 +554,7 @@
 	"SIDEBAR": {
 		"ACCOUNT": {
 			"MESSAGES": "Neue Angebote/Nachrichten",
-			"STAKING": "Staking",
+			"STAKING": "Abstecken",
 			"SYNCING": "Wallet synchronisieren"
 		},
 		"ADD_NEW": "Hinzufügen",
@@ -574,7 +574,7 @@
 			"SLASH": "",
 			"SYNCING": "Syncing block"
 		},
-		"TITLE": "Wallets",
+		"TITLE": "Geldbörsen",
 		"UPDATE": {
 			"CRITICAL": "Update verfügbar",
 			"CRITICAL_HINT": "Kritisches Update!",
@@ -607,23 +607,23 @@
 			"OFF": "AUS",
 			"ON": "AN"
 		},
-		"TITLE": "Staking",
+		"TITLE": "Abstecken",
 		"TITLE_GROUP": "Gruppe:",
 		"TITLE_PENDING": "Ausstehend",
 		"TITLE_PERIOD": "Zeitspanne:",
 		"TITLE_TOTAL": "Gesamt"
 	},
 	"TOR_LIB_STATE": {
-		"STATE_CREATING_STREAM": "Creating stream",
-		"STATE_DOWNLOADING_CONSENSUS": "Downloading consensus",
-		"STATE_FAILED": "Failed created stream",
-		"STATE_INITIALIZING": "Initializing",
-		"STATE_MAKING_TUNNEL_A": "Building tunnel to A",
-		"STATE_MAKING_TUNNEL_B": "Building tunnel to B",
-		"STATE_SENDING": "Sending transaction",
-		"STATE_SEND_FAILED": "Sending failed",
-		"STATE_SENT_SUCCESS": "Successfully sent!",
-		"STATE_SUCCESS": "Successfully created stream"
+		"STATE_CREATING_STREAM": "Stream erstellen",
+		"STATE_DOWNLOADING_CONSENSUS": "Konsens herunterladen",
+		"STATE_FAILED": "Fehler beim Erstellen des Streams",
+		"STATE_INITIALIZING": "Initialisierung",
+		"STATE_MAKING_TUNNEL_A": "Tunnelbau nach A",
+		"STATE_MAKING_TUNNEL_B": "Tunnelbau nach B",
+		"STATE_SENDING": "Transaktion senden",
+		"STATE_SEND_FAILED": "Senden fehlgeschlagen",
+		"STATE_SENT_SUCCESS": "Erfolgreich gesendet!",
+		"STATE_SUCCESS": "Stream erfolgreich erstellt"
 	},
 	"TRANSFER_ALIAS": {
 		"ADDRESS": {
@@ -654,7 +654,7 @@
 			"MESSAGE": "Um darauf zuzugreifen, müssen Sie es erneut hinzufügen",
 			"TITLE": "Brieftasche aus der Liste entfernen?"
 		},
-		"DETAILS": "Details",
+		"DETAILS": "Einzelheiten",
 		"LOCK": "Verschlüsseln",
 		"LOCKED_BALANCE": "Gesperrt <b>{{locked}} {{currency}}<b/>",
 		"LOCKED_BALANCE_LINK": "Was bedeutet das?",
@@ -665,7 +665,7 @@
 			"MESSAGES": "Nachrichten",
 			"RECEIVE": "Empfangen",
 			"SEND": "Senden",
-			"STAKING": "Staking"
+			"STAKING": "Abstecken"
 		},
 		"TOOLTIPS": {
 			"CLOSE": "Brieftasche schließen",

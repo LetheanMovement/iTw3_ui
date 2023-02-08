@@ -93,7 +93,7 @@
 			"ADDRESS_NOT_VALID": "Address not valid",
 			"ADDRESS_REQUIRED": "Address is required",
 			"MAX_LENGTH": "Maximum notes length reached",
-			"NAME_DUBLICATED": "Name is dublicated",
+			"NAME_DUBLICATED": "Name is duplicated",
 			"NAME_LENGTH": "The name must be 4-25 characters long",
 			"NAME_REQUIRED": "Name is required",
 			"SET_MASTER_PASSWORD": "Set master password"

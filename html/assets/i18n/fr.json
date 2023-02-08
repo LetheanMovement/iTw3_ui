@@ -86,7 +86,7 @@
 		"FORM": {
 			"ADDRESS": "Adresse",
 			"NAME": "Nom",
-			"NOTES": "Notes"
+			"NOTES": "Remarques"
 		},
 		"FORM_ERRORS": {
 			"ADDRESS_DUBLICATED": "L'addresse est dupliquée",
@@ -104,16 +104,16 @@
 		"SEND": "Envoyer",
 		"SEND_FROM": "Envoyer de",
 		"SEND_TO": "À",
-		"SUCCESS_EXPORT": "Contacts are exported",
-		"SUCCESS_IMPORT": "Contacts are imported",
+		"SUCCESS_EXPORT": "Les contacts sont exportés",
+		"SUCCESS_IMPORT": "Les contacts sont importés",
 		"SUCCESS_SAVE": "Contact modifié",
 		"SUCCESS_SENT": "Contact ajouté",
 		"TABLE": {
 			"ADDRESS": "Adresse",
-			"ALIAS": "Alias",
+			"ALIAS": "alias",
 			"EMPTY": "La liste de contacts est vide",
 			"NAME": "Nom",
-			"NOTES": "Notes"
+			"NOTES": "Remarques"
 		},
 		"TITLE": "Liste de contacts"
 	},
@@ -126,7 +126,7 @@
 		"AMOUNT": "Montant",
 		"COMMENTS": "Commentaires",
 		"CONTRACTS": "Contrats",
-		"DATE": "Date",
+		"DATE": "Rendez-vous amoureux",
 		"EMPTY": "Aucun contrat actif",
 		"LISTING_BUTTON": "Créer une offre",
 		"PURCHASE": "Achat",
@@ -206,7 +206,7 @@
 			"NO_MONEY": "Vous n'avez pas assez de fonds pour changer le commentaire de cet alias"
 		},
 		"NAME": {
-			"LABEL": "Alias",
+			"LABEL": "alias",
 			"PLACEHOLDER": "@ Entrer l'alias"
 		}
 	},
@@ -250,7 +250,7 @@
 	"HISTORY": {
 		"ADDRESS": "Adresse",
 		"AMOUNT": "Montant",
-		"DATE": "Date",
+		"DATE": "Rendez-vous amoureux",
 		"DETAILS": {
 			"COMMENT": "Commentaire",
 			"CONFIRMATION": "Confirmation",
@@ -317,7 +317,7 @@
 		"CANCEL": "annuler",
 		"ERROR": "Erreur",
 		"INFO": "Information",
-		"OK": "OK",
+		"OK": "D'accord",
 		"SUCCESS": "Succès"
 	},
 	"OPEN_WALLET": {
@@ -385,7 +385,7 @@
 		"CANCEL": "Annuler",
 		"COMMENT": "Commentaire",
 		"DEALS_CANCELED_WAIT": "Annulation en cours",
-		"DESCRIPTION": "Description",
+		"DESCRIPTION": "La description",
 		"DETAILS": "Détails supplémentaires",
 		"FEE": "Frais",
 		"FORM_ERRORS": {
@@ -458,7 +458,7 @@
 		"LABEL_NAME": "Nom du portefeuille",
 		"LABEL_PHRASE_KEY": "Phrase de sécurité / clé privée",
 		"NOT_CORRECT_FILE_OR_PASSWORD": "Le fichier est invalide ou mot de passe du portefeuille ne correspond pas",
-		"OK": "",
+		"OK": "D'accord",
 		"PASS": "Mot de passe du portefeuille",
 		"SEED_PASSWORD": "Mot de passe initial"
 	},
@@ -492,23 +492,23 @@
 		"MIXIN": "Mélange",
 		"SUCCESS_SENT": "Transaction envoyée",
 		"WRAP": {
-			"ESTIMATE": "",
-			"FEE": "",
-			"MAIN_TEXT": "",
-			"TITLE": "",
+			"ESTIMATE": "Estimations des transactions",
+			"FEE": "Frais Ethereum Txn :",
+			"MAIN_TEXT": "Cette transaction créera wLethean (\"Wrapped Lethean\") qui sera envoyé à l'adresse spécifiée sur le réseau Ethereum.",
+			"TITLE": "Envelopper",
 			"WILL_RECEIVE": "Vous recevrez :",
-			"ZANO": "",
-			"wZANO": ""
+			"ZANO": "LTHN",
+			"wZANO": "wLethean"
 		}
 	},
 	"SEND_DETAILS_MODAL": {
 		"TITLE1": "Transaction",
-		"TITLE2": "Transaction details"
+		"TITLE2": "Détails de la transaction"
 	},
 	"SETTINGS": {
 		"APP_LOCK": {
 			"TIME1": "5 min",
-			"TIME2": "15 min",
+			"TIME2": "15 minutes",
 			"TIME3": "1 heure",
 			"TIME4": "Jamais",
 			"TITLE": "Verrouiller l'application après :"
@@ -572,7 +572,7 @@
 			"OFFLINE": "Hors ligne",
 			"ONLINE": "En ligne",
 			"SLASH": "",
-			"SYNCING": "Syncing block"
+			"SYNCING": "Bloc de synchronisation"
 		},
 		"TITLE": "Portefeuilles",
 		"UPDATE": {
@@ -604,8 +604,8 @@
 			"YEAR": "1 an"
 		},
 		"SWITCH": {
-			"OFF": "OFF",
-			"ON": "ON"
+			"OFF": "De",
+			"ON": "sur"
 		},
 		"TITLE": "Mise",
 		"TITLE_GROUP": "Groupe :",
@@ -614,16 +614,16 @@
 		"TITLE_TOTAL": "Total"
 	},
 	"TOR_LIB_STATE": {
-		"STATE_CREATING_STREAM": "Creating stream",
-		"STATE_DOWNLOADING_CONSENSUS": "Downloading consensus",
-		"STATE_FAILED": "Failed created stream",
-		"STATE_INITIALIZING": "Initializing",
-		"STATE_MAKING_TUNNEL_A": "Building tunnel to A",
-		"STATE_MAKING_TUNNEL_B": "Building tunnel to B",
-		"STATE_SENDING": "Sending transaction",
-		"STATE_SEND_FAILED": "Sending failed",
-		"STATE_SENT_SUCCESS": "Successfully sent!",
-		"STATE_SUCCESS": "Successfully created stream"
+		"STATE_CREATING_STREAM": "Création de flux",
+		"STATE_DOWNLOADING_CONSENSUS": "Téléchargement du consensus",
+		"STATE_FAILED": "Échec de la création du flux",
+		"STATE_INITIALIZING": "initialisation",
+		"STATE_MAKING_TUNNEL_A": "Construire un tunnel vers A",
+		"STATE_MAKING_TUNNEL_B": "Construire un tunnel vers B",
+		"STATE_SENDING": "Envoi de l'opération",
+		"STATE_SEND_FAILED": "Envoi échoué",
+		"STATE_SENT_SUCCESS": "Envoyé avec succès!",
+		"STATE_SUCCESS": "Flux créé avec succès"
 	},
 	"TRANSFER_ALIAS": {
 		"ADDRESS": {
@@ -643,7 +643,7 @@
 			"WRONG_ADDRESS": "Aucun portefeuille avec ce compte n'existe"
 		},
 		"NAME": {
-			"LABEL": "Alias",
+			"LABEL": "alias",
 			"PLACEHOLDER": "@ Entrer l'alias"
 		},
 		"REQUEST_SEND_REG": "L'alias sera transféré dans les 10 prochaines minutes"
@@ -662,7 +662,7 @@
 		"TABS": {
 			"CONTRACTS": "Contrats",
 			"HISTORY": "Historique",
-			"MESSAGES": "Messages",
+			"MESSAGES": "messages",
 			"RECEIVE": "Recevoir",
 			"SEND": "Envoyer",
 			"STAKING": "Mise"

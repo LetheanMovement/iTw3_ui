@@ -104,13 +104,13 @@
 		"SEND": "Invia",
 		"SEND_FROM": "Invia da",
 		"SEND_TO": "A",
-		"SUCCESS_EXPORT": "Contacts are exported",
-		"SUCCESS_IMPORT": "Contacts are imported",
+		"SUCCESS_EXPORT": "I contatti vengono esportati",
+		"SUCCESS_IMPORT": "I contatti vengono importati",
 		"SUCCESS_SAVE": "Contatto modificato",
 		"SUCCESS_SENT": "Contatto aggiunto",
 		"TABLE": {
 			"ADDRESS": "Indirizzo",
-			"ALIAS": "Alias",
+			"ALIAS": "alias",
 			"EMPTY": "La lista dei contatti è vuota",
 			"NAME": "Nome",
 			"NOTES": "Note"
@@ -206,7 +206,7 @@
 			"NO_MONEY": "Non hai fondi sufficienti per modificare il commento a questo alias"
 		},
 		"NAME": {
-			"LABEL": "Alias",
+			"LABEL": "alias",
 			"PLACEHOLDER": "@ Inserisci alias"
 		}
 	},
@@ -256,8 +256,8 @@
 			"CONFIRMATION": "Conferme",
 			"HEIGHT": "Altezza",
 			"ID": "ID transazione",
-			"INPUTS": "Inputs",
-			"OUTPUTS": "Outputs",
+			"INPUTS": "ingressi",
+			"OUTPUTS": "Uscite",
 			"PAYMENT_ID": "ID pagamento",
 			"SIZE": "Dimensione transazione",
 			"SIZE_VALUE": "{{value}} byte"
@@ -275,7 +275,7 @@
 			"CREATE_ALIAS": "Tassa per l'assegnazione dell'alias",
 			"CREATE_CONTRACT": "Proposta contratto",
 			"HIDDEN": "nascosto",
-			"NULLIFY_CONTRACT": "Burn deposit",
+			"NULLIFY_CONTRACT": "Depositi bruciati",
 			"PLEDGE_CONTRACT": "Deposito contratto",
 			"POS_REWARD": "Ricompensa POS",
 			"POW_REWARD": "Ricompensa POW",
@@ -317,7 +317,7 @@
 		"CANCEL": "Annulla",
 		"ERROR": "Errore",
 		"INFO": "Informazioni",
-		"OK": "OK",
+		"OK": "Ok",
 		"SUCCESS": "Successo"
 	},
 	"OPEN_WALLET": {
@@ -458,7 +458,7 @@
 		"LABEL_NAME": "Nome del portafoglio",
 		"LABEL_PHRASE_KEY": "Frase segreta / chiave privata",
 		"NOT_CORRECT_FILE_OR_PASSWORD": "File del portafoglio non valido o password non corrispondente",
-		"OK": "",
+		"OK": "Ok",
 		"PASS": "Password portafoglio",
 		"SEED_PASSWORD": "Password seme"
 	},
@@ -489,21 +489,21 @@
 			"WRAP_INFO_NULL": "impossibile richiedere lo stato di wrapping"
 		},
 		"HIDE": "Nascondi l'indirizzo del tuo portafoglio dal destinatario",
-		"MIXIN": "Mixin",
+		"MIXIN": "Mescolare",
 		"SUCCESS_SENT": "Transazione inviata",
 		"WRAP": {
-			"ESTIMATE": "",
-			"FEE": "",
-			"MAIN_TEXT": "",
-			"TITLE": "",
+			"ESTIMATE": "Stime di transazione",
+			"FEE": "Commissione Txn Ethereum:",
+			"MAIN_TEXT": "Questa transazione creerà wLethean (\"Wrapped Lethean\") che verrà inviato all'indirizzo specificato sulla rete Ethereum.",
+			"TITLE": "Avvolgere",
 			"WILL_RECEIVE": "Riceverai:",
-			"ZANO": "",
-			"wZANO": ""
+			"ZANO": "LTHN",
+			"wZANO": "wLethean"
 		}
 	},
 	"SEND_DETAILS_MODAL": {
-		"TITLE1": "Transaction",
-		"TITLE2": "Transaction details"
+		"TITLE1": "transazione",
+		"TITLE2": "Dettagli di Transazione"
 	},
 	"SETTINGS": {
 		"APP_LOCK": {
@@ -554,7 +554,7 @@
 	"SIDEBAR": {
 		"ACCOUNT": {
 			"MESSAGES": "Nuove offerte/messaggi",
-			"STAKING": "Staking",
+			"STAKING": "Picchettamento",
 			"SYNCING": "Sincronizzazione portafoglio"
 		},
 		"ADD_NEW": "Aggiungi",
@@ -569,10 +569,10 @@
 			"ERROR": "Errore di sistema",
 			"LOADING": "Caricamento dati blockchain",
 			"MB": "",
-			"OFFLINE": "Offline",
-			"ONLINE": "Online",
+			"OFFLINE": "Disconnesso",
+			"ONLINE": "in linea",
 			"SLASH": "",
-			"SYNCING": "Syncing block"
+			"SYNCING": "Blocco di sincronizzazione"
 		},
 		"TITLE": "Portafogli",
 		"UPDATE": {
@@ -604,26 +604,26 @@
 			"YEAR": "1 anno"
 		},
 		"SWITCH": {
-			"OFF": "OFF",
-			"ON": "ON"
+			"OFF": "via",
+			"ON": "sopra"
 		},
-		"TITLE": "Staking",
+		"TITLE": "Picchettamento",
 		"TITLE_GROUP": "Gruppo:",
 		"TITLE_PENDING": "In sospeso",
 		"TITLE_PERIOD": "Periodo di tempo:",
 		"TITLE_TOTAL": "Totale"
 	},
 	"TOR_LIB_STATE": {
-		"STATE_CREATING_STREAM": "Creating stream",
-		"STATE_DOWNLOADING_CONSENSUS": "Downloading consensus",
-		"STATE_FAILED": "Failed created stream",
-		"STATE_INITIALIZING": "Initializing",
-		"STATE_MAKING_TUNNEL_A": "Building tunnel to A",
-		"STATE_MAKING_TUNNEL_B": "Building tunnel to B",
-		"STATE_SENDING": "Sending transaction",
-		"STATE_SEND_FAILED": "Sending failed",
-		"STATE_SENT_SUCCESS": "Successfully sent!",
-		"STATE_SUCCESS": "Successfully created stream"
+		"STATE_CREATING_STREAM": "Creazione di flusso",
+		"STATE_DOWNLOADING_CONSENSUS": "Download del consenso",
+		"STATE_FAILED": "Flusso creato non riuscito",
+		"STATE_INITIALIZING": "Inizializzazione",
+		"STATE_MAKING_TUNNEL_A": "Costruzione del tunnel per A",
+		"STATE_MAKING_TUNNEL_B": "Costruzione del tunnel verso B",
+		"STATE_SENDING": "Transazione di invio",
+		"STATE_SEND_FAILED": "Invio fallito",
+		"STATE_SENT_SUCCESS": "Inviato con successo!",
+		"STATE_SUCCESS": "Flusso creato correttamente"
 	},
 	"TRANSFER_ALIAS": {
 		"ADDRESS": {
@@ -643,7 +643,7 @@
 			"WRONG_ADDRESS": "Non esiste alcun portafoglio con questo account"
 		},
 		"NAME": {
-			"LABEL": "Alias",
+			"LABEL": "alias",
 			"PLACEHOLDER": "@ Inserisci alias"
 		},
 		"REQUEST_SEND_REG": "L'alias verrà trasferito entro 10 minuti"
@@ -665,7 +665,7 @@
 			"MESSAGES": "Messaggi",
 			"RECEIVE": "Ricevi",
 			"SEND": "Invia",
-			"STAKING": "Staking"
+			"STAKING": "Picchettamento"
 		},
 		"TOOLTIPS": {
 			"CLOSE": "Chiudi portafoglio",
