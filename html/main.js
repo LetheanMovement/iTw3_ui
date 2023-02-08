@@ -138,10 +138,10 @@ var InputValidateDirective = /** @class */ (function () {
         }
         currentValue = _zero_fill.join('.');
         if (currentValue !== originalValue) {
-            // event.target.value = currentValue;
-            // var cursorPosition = event.target.selectionEnd;
-            // event.target.setSelectionRange(cursorPosition, cursorPosition);
-            // event.target.dispatchEvent(new Event('input'));
+            event.target.value = currentValue;
+            var cursorPosition = event.target.selectionEnd;
+            event.target.setSelectionRange(cursorPosition, cursorPosition);
+            event.target.dispatchEvent(new Event('input'));
         }
     };
     InputValidateDirective.prototype.integerValidation = function (event) {
@@ -1953,7 +1953,7 @@ var ParamsType;
     ParamsType["string"] = "string";
 })(ParamsType || (ParamsType = {}));
 var getParamsType = function (value) {
-    if (!value) {
+    if (!value || value === {}) {
         return null;
     }
     var array = Array.isArray(value) && ParamsType.array;
@@ -2223,22 +2223,34 @@ var BackendService = /** @class */ (function () {
             return;
         }
         var that = this;
-        var type = getParamsType(params);
-        params = params && convertorParams(params);
-        if (type === ParamsType.array) {
-            Action.apply(void 0, params.concat([function (resultStr) {
-                    that.commandDebug(command, params, resultStr);
-                    return that.backendCallback(resultStr, params, callback, command);
-                }]));
-            return;
+        console.log(params);
+        if (params === undefined || params === {} || params === '{}') {
+            if (command === 'get_recent_transfers') {
+                this.variablesService.get_recent_transfers = false;
+            }
+            Action(function (resultStr) {
+                that.commandDebug(command, params, resultStr);
+                return that.backendCallback(resultStr, params, callback, command);
+            });
         }
-        if (command === 'get_recent_transfers') {
-            this.variablesService.get_recent_transfers = false;
+        else {
+            var type = getParamsType(params);
+            params = params && convertorParams(params);
+            if (type === ParamsType.array) {
+                Action.apply(void 0, params.concat([function (resultStr) {
+                        that.commandDebug(command, params, resultStr);
+                        return that.backendCallback(resultStr, params, callback, command);
+                    }]));
+                return;
+            }
+            if (command === 'get_recent_transfers') {
+                this.variablesService.get_recent_transfers = false;
+            }
+            Action(params, function (resultStr) {
+                that.commandDebug(command, params, resultStr);
+                return that.backendCallback(resultStr, params, callback, command);
+            });
         }
-        Action(params, function (resultStr) {
-            that.commandDebug(command, params, resultStr);
-            return that.backendCallback(resultStr, params, callback, command);
-        });
     };
     BackendService.prototype.eventSubscribe = function (command, callback) {
         if (command === 'on_core_event') {
@@ -2276,7 +2288,7 @@ var BackendService = /** @class */ (function () {
         return this.runCommand('on_request_quit');
     };
     BackendService.prototype.getAppData = function (callback) {
-        this.runCommand('get_app_data', {}, callback);
+        this.runCommand('get_app_data', undefined, callback);
     };
     BackendService.prototype.storeAppData = function (callback) {
         var _this = this;
@@ -2298,8 +2310,7 @@ var BackendService = /** @class */ (function () {
         this.runCommand('check_master_password', pass, callback);
     };
     BackendService.prototype.getIsDisabledNotifications = function (callback) {
-        var params = {};
-        this.runCommand('get_is_disabled_notifications', params, callback);
+        this.runCommand('get_is_disabled_notifications', undefined, callback);
     };
     BackendService.prototype.setIsDisabledNotifications = function (state) {
         this.runCommand('set_is_disabled_notifications', state);
@@ -2327,7 +2338,7 @@ var BackendService = /** @class */ (function () {
         });
     };
     BackendService.prototype.haveSecureAppData = function (callback) {
-        this.runCommand('have_secure_app_data', {}, callback);
+        this.runCommand('have_secure_app_data', undefined, callback);
     };
     BackendService.prototype.saveFileDialog = function (caption, fileMask, default_path, callback) {
         var dir = default_path ? default_path : '/';
@@ -2424,7 +2435,7 @@ var BackendService = /** @class */ (function () {
         return this.runCommand('set_clipboard', str, callback);
     };
     BackendService.prototype.getClipboard = function (callback) {
-        return this.runCommand('get_clipboard', {}, callback);
+        return this.runCommand('get_clipboard', undefined, callback);
     };
     BackendService.prototype.createProposal = function (wallet_id, title, comment, a_addr, b_addr, to_pay, a_pledge, b_pledge, time, payment_id, callback) {
         var params = {
@@ -2509,7 +2520,7 @@ var BackendService = /** @class */ (function () {
         this.runCommand('start_backend', params, callback);
     };
     BackendService.prototype.getDefaultFee = function (callback) {
-        this.runCommand('get_default_fee', {}, callback);
+        this.runCommand('get_default_fee', undefined, callback);
     };
     BackendService.prototype.setBackendLocalization = function (stringsArray, title, callback) {
         var params = {
@@ -2546,7 +2557,7 @@ var BackendService = /** @class */ (function () {
         this.runCommand('request_alias_update', params, callback);
     };
     BackendService.prototype.getAllAliases = function (callback) {
-        this.runCommand('get_all_aliases', {}, callback);
+        this.runCommand('get_all_aliases', undefined, callback);
     };
     BackendService.prototype.getAliasByName = function (value, callback) {
         return this.runCommand('get_alias_info_by_name', value, callback);
@@ -2614,12 +2625,12 @@ var BackendService = /** @class */ (function () {
         this.runCommand('get_recent_transfers', params, callback);
     };
     BackendService.prototype.getPoolInfo = function (callback) {
-        this.runCommand('get_tx_pool_info', {}, callback);
+        this.runCommand('get_tx_pool_info', undefined, callback);
     };
     BackendService.prototype.getVersion = function (callback) {
         var _this = this;
-        this.runCommand('get_version', {}, function (status, version) {
-            _this.runCommand('get_network_type', {}, function (status_network, type) {
+        this.runCommand('get_version', undefined, function (status, version) {
+            _this.runCommand('get_network_type', undefined, function (status_network, type) {
                 callback(version, type);
             });
         });
@@ -2656,7 +2667,7 @@ var BackendService = /** @class */ (function () {
     };
     BackendService.prototype.getOptions = function () {
         var _this = this;
-        return this.runCommand('get_options', {}, function (status, _a) {
+        return this.runCommand('get_options', undefined, function (status, _a) {
             var disable_price_fetch = _a.disable_price_fetch, use_debug_mode = _a.use_debug_mode;
             _this.variablesService.disable_price_fetch$.next(disable_price_fetch);
             _this.variablesService.use_debug_mode$.next(use_debug_mode);
@@ -3951,11 +3962,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _helpers_services_variables_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./_helpers/services/variables.service */ "./src/app/_helpers/services/variables.service.ts");
 /* harmony import */ var ngx_contextmenu__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ngx-contextmenu */ "./node_modules/ngx-contextmenu/fesm5/ngx-contextmenu.js");
 /* harmony import */ var _helpers_pipes_int_to_money_pipe__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./_helpers/pipes/int-to-money.pipe */ "./src/app/_helpers/pipes/int-to-money.pipe.ts");
-/* harmony import */ var _helpers_services_modal_service__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./_helpers/services/modal.service */ "./src/app/_helpers/services/modal.service.ts");
-/* harmony import */ var _helpers_services_utils_service__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./_helpers/services/utils.service */ "./src/app/_helpers/services/utils.service.ts");
-/* harmony import */ var store__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! store */ "./src/store.ts");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+/* harmony import */ var bignumber_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! bignumber.js */ "./node_modules/bignumber.js/bignumber.js");
+/* harmony import */ var bignumber_js__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(bignumber_js__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _helpers_services_modal_service__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./_helpers/services/modal.service */ "./src/app/_helpers/services/modal.service.ts");
+/* harmony import */ var _helpers_services_utils_service__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./_helpers/services/utils.service */ "./src/app/_helpers/services/utils.service.ts");
+/* harmony import */ var store__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! store */ "./src/store.ts");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3965,6 +3978,7 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -3996,7 +4010,7 @@ var AppComponent = /** @class */ (function () {
         this.firstOnlineState = false;
         this.translateUsed = false;
         this.needOpenWallets = [];
-        this._destroy$ = new rxjs__WEBPACK_IMPORTED_MODULE_11__["Subject"]();
+        this._destroy$ = new rxjs__WEBPACK_IMPORTED_MODULE_12__["Subject"]();
         translate.addLangs(['en', 'fr', 'de', 'it', 'pt']);
         translate.setDefaultLang('en');
         // const browserLang = translate.getBrowserLang();
@@ -4176,10 +4190,10 @@ var AppComponent = /** @class */ (function () {
                 if (!_this.firstOnlineState && data['daemon_network_state'] === 2) {
                     _this.getAliases();
                     _this.backend.getContactAlias();
-                    // this.backend.getDefaultFee((status_fee, data_fee) => {
-                    //    this.variablesService.default_fee_big = new BigNumber(data_fee);
-                    //    this.variablesService.default_fee = this.intToMoneyPipe.transform(data_fee);
-                    // });
+                    _this.backend.getDefaultFee(function (status_fee, data_fee) {
+                        _this.variablesService.default_fee_big = new bignumber_js__WEBPACK_IMPORTED_MODULE_8__["BigNumber"](data_fee);
+                        _this.variablesService.default_fee = _this.intToMoneyPipe.transform(data_fee);
+                    });
                     _this.firstOnlineState = true;
                 }
             });
@@ -4538,7 +4552,7 @@ var AppComponent = /** @class */ (function () {
         }, function (error) {
             console.log(error);
         });
-        this.variablesService.disable_price_fetch$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_12__["takeUntil"])(this._destroy$)).subscribe(function (disable_price_fetch) {
+        this.variablesService.disable_price_fetch$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_13__["takeUntil"])(this._destroy$)).subscribe(function (disable_price_fetch) {
             if (!disable_price_fetch) {
                 _this.getMoneyEquivalent();
                 _this.intervalUpdatePriceState = setInterval(function () {
@@ -4709,7 +4723,7 @@ var AppComponent = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-root',
             template: __webpack_require__(/*! ./app.component.html */ "./src/app/app.component.html"),
-            providers: [_helpers_services_utils_service__WEBPACK_IMPORTED_MODULE_9__["UtilsService"]],
+            providers: [_helpers_services_utils_service__WEBPACK_IMPORTED_MODULE_10__["UtilsService"]],
             styles: [__webpack_require__(/*! ./app.component.scss */ "./src/app/app.component.scss")]
         }),
         __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"],
@@ -4720,9 +4734,9 @@ var AppComponent = /** @class */ (function () {
             _helpers_services_variables_service__WEBPACK_IMPORTED_MODULE_5__["VariablesService"],
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"],
             _helpers_pipes_int_to_money_pipe__WEBPACK_IMPORTED_MODULE_7__["IntToMoneyPipe"],
-            _helpers_services_modal_service__WEBPACK_IMPORTED_MODULE_8__["ModalService"],
-            _helpers_services_utils_service__WEBPACK_IMPORTED_MODULE_9__["UtilsService"],
-            store__WEBPACK_IMPORTED_MODULE_10__["Store"]])
+            _helpers_services_modal_service__WEBPACK_IMPORTED_MODULE_9__["ModalService"],
+            _helpers_services_utils_service__WEBPACK_IMPORTED_MODULE_10__["UtilsService"],
+            store__WEBPACK_IMPORTED_MODULE_11__["Store"]])
     ], AppComponent);
     return AppComponent;
 }());

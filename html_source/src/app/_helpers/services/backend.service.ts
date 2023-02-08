@@ -22,7 +22,7 @@ export enum ParamsType {
 }
 
 export const getParamsType = (value: Params): ParamsType | null => {
-  if (!value) {
+  if (!value || value === {}) {
     return null;
   }
   const array: false | ParamsType.array = Array.isArray(value) && ParamsType.array;
@@ -315,7 +315,7 @@ export class BackendService {
     }
   }
 
-  private runCommand(command, params?: Params, callback?) {
+  private runCommand(command, params?, callback?) {
     if (!this.backendObject) {
       return;
     }
@@ -330,26 +330,37 @@ export class BackendService {
       BackendService.Debug(0, 'Run Command Error! Command "' + command + '" don\'t found in backendObject');
       return;
     }
-
     const that = this;
-    const type: ParamsType = getParamsType(params);
-    params = params && convertorParams(params);
-
-    if (type === ParamsType.array) {
-      Action(...(params as string[]), function (resultStr) {
+    console.log(params);
+    if (params === undefined || params === {} || params === '{}') {
+      if (command === 'get_recent_transfers') {
+        this.variablesService.get_recent_transfers = false;
+      }
+      Action(function (resultStr) {
         that.commandDebug(command, params, resultStr);
         return that.backendCallback(resultStr, params, callback, command);
       });
-      return;
-    }
+    } else {
 
-    if (command === 'get_recent_transfers') {
-      this.variablesService.get_recent_transfers = false;
+      const type: ParamsType = getParamsType(params);
+      params = params && convertorParams(params);
+
+      if (type === ParamsType.array) {
+        Action(...(params as string[]), function (resultStr) {
+          that.commandDebug(command, params, resultStr);
+          return that.backendCallback(resultStr, params, callback, command);
+        });
+        return;
+      }
+
+      if (command === 'get_recent_transfers') {
+        this.variablesService.get_recent_transfers = false;
+      }
+      Action(params, function (resultStr) {
+        that.commandDebug(command, params, resultStr);
+        return that.backendCallback(resultStr, params, callback, command);
+      });
     }
-    Action(params, function (resultStr) {
-      that.commandDebug(command, params, resultStr);
-      return that.backendCallback(resultStr, params, callback, command);
-    });
   }
 
   eventSubscribe(command, callback) {
@@ -391,7 +402,7 @@ export class BackendService {
   }
 
   getAppData(callback) {
-    this.runCommand('get_app_data', {}, callback);
+    this.runCommand('get_app_data', undefined, callback);
   }
 
   storeAppData(callback?) {
@@ -417,8 +428,7 @@ export class BackendService {
   }
 
   getIsDisabledNotifications(callback) {
-    const params = {};
-    this.runCommand('get_is_disabled_notifications', params, callback);
+    this.runCommand('get_is_disabled_notifications', undefined, callback);
   }
 
   setIsDisabledNotifications(state) {
@@ -448,7 +458,7 @@ export class BackendService {
   }
 
   haveSecureAppData(callback) {
-    this.runCommand('have_secure_app_data', {}, callback);
+    this.runCommand('have_secure_app_data', undefined, callback);
   }
 
   saveFileDialog(caption, fileMask, default_path, callback) {
@@ -563,7 +573,7 @@ export class BackendService {
   }
 
   getClipboard(callback) {
-    return this.runCommand('get_clipboard', {}, callback);
+    return this.runCommand('get_clipboard', undefined, callback);
   }
 
   createProposal(wallet_id, title, comment, a_addr, b_addr, to_pay, a_pledge, b_pledge, time, payment_id, callback) {
@@ -660,7 +670,7 @@ export class BackendService {
   }
 
   getDefaultFee(callback) {
-    this.runCommand('get_default_fee', {}, callback);
+    this.runCommand('get_default_fee', undefined, callback);
   }
 
   setBackendLocalization(stringsArray, title, callback?) {
@@ -701,7 +711,7 @@ export class BackendService {
   }
 
   getAllAliases(callback) {
-    this.runCommand('get_all_aliases', {}, callback);
+    this.runCommand('get_all_aliases', undefined, callback);
   }
 
   getAliasByName(value, callback) {
@@ -774,12 +784,12 @@ export class BackendService {
   }
 
   getPoolInfo(callback) {
-    this.runCommand('get_tx_pool_info', {}, callback);
+    this.runCommand('get_tx_pool_info', undefined, callback);
   }
 
   getVersion(callback) {
-    this.runCommand('get_version', {}, (status, version) => {
-      this.runCommand('get_network_type', {}, (status_network, type) => {
+    this.runCommand('get_version', undefined, (status, version) => {
+      this.runCommand('get_network_type', undefined, (status_network, type) => {
         callback(version, type);
       });
     });
@@ -820,7 +830,7 @@ export class BackendService {
   getOptions() {
     return this.runCommand(
       'get_options',
-      {},
+        undefined,
       (status, {disable_price_fetch, use_debug_mode}: { disable_price_fetch: boolean; use_debug_mode: boolean }) => {
         this.variablesService.disable_price_fetch$.next(disable_price_fetch);
         this.variablesService.use_debug_mode$.next(use_debug_mode);
