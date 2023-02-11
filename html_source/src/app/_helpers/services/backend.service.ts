@@ -6,6 +6,7 @@ import { ModalService } from './modal.service';
 import { MoneyToIntPipe } from '../pipes/money-to-int.pipe';
 import JSONBigNumber from 'json-bignumber';
 import { BigNumber } from 'bignumber.js';
+import * as qt from 'qwebchannel';
 
 export interface PramsObj {
   [key: string]: any;
@@ -364,6 +365,8 @@ export class BackendService {
   }
 
   eventSubscribe(command, callback) {
+    console.log(command);
+    console.log(this.backendObject);
     if (command === 'on_core_event') {
       this.backendObject[command].connect(callback);
     } else {
@@ -379,10 +382,21 @@ export class BackendService {
         if (!this.backendLoaded) {
           this.backendLoaded = true;
           const that = this;
-          (<any>window).QWebChannel((<any>window).qt.webChannelTransport, function (channel) {
-            that.backendObject = channel.objects.mediator_object;
-            observer.next('ok');
-          });
+          // console.log(QWebChannel)
+          let websocket = new WebSocket( 'ws://localhost:12345' );
+          websocket.onopen = function (evt) {
+             qt.QWebChannel(websocket, function (channel) {
+              that.backendObject = channel.objects.mediator_object;
+              observer.next('ok');
+            });
+          };
+          // websocket.sendMessage = function (evt) {
+          //   console.log("send message");
+          // }
+          // websocket.messageReceived = function (evt) {
+          //   console.log(evt);
+          // }
+
         } else {
           if (!this.backendObject) {
             observer.error('error');

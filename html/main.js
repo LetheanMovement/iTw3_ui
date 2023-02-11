@@ -1928,6 +1928,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var json_bignumber__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! json-bignumber */ "./node_modules/json-bignumber/src/JSONBigNumber.js");
 /* harmony import */ var bignumber_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! bignumber.js */ "./node_modules/bignumber.js/bignumber.js");
 /* harmony import */ var bignumber_js__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(bignumber_js__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var qwebchannel__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! qwebchannel */ "./node_modules/qwebchannel/qwebchannel.js");
+/* harmony import */ var qwebchannel__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(qwebchannel__WEBPACK_IMPORTED_MODULE_8__);
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1938,6 +1940,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var _a;
+
 
 
 
@@ -2253,6 +2256,8 @@ var BackendService = /** @class */ (function () {
         }
     };
     BackendService.prototype.eventSubscribe = function (command, callback) {
+        console.log(command);
+        console.log(this.backendObject);
         if (command === 'on_core_event') {
             this.backendObject[command].connect(callback);
         }
@@ -2268,10 +2273,20 @@ var BackendService = /** @class */ (function () {
             if (!_this.backendLoaded) {
                 _this.backendLoaded = true;
                 var that_1 = _this;
-                window.QWebChannel(window.qt.webChannelTransport, function (channel) {
-                    that_1.backendObject = channel.objects.mediator_object;
-                    observer.next('ok');
-                });
+                // console.log(QWebChannel)
+                var websocket_1 = new WebSocket('ws://localhost:12345');
+                websocket_1.onopen = function (evt) {
+                    qwebchannel__WEBPACK_IMPORTED_MODULE_8__["QWebChannel"](websocket_1, function (channel) {
+                        that_1.backendObject = channel.objects.mediator_object;
+                        observer.next('ok');
+                    });
+                };
+                // websocket.sendMessage = function (evt) {
+                //   console.log("send message");
+                // }
+                // websocket.messageReceived = function (evt) {
+                //   console.log(evt);
+                // }
             }
             else {
                 if (!_this.backendObject) {
