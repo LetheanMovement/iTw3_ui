@@ -45,6 +45,7 @@ class Wallet {
             fee: null,
             hide: null,
         };
+        console.log('wallet', id, name, pass, path, address, balances, mined, tracking);
         this.wallet_id = id;
         this.name = name;
         this.pass = pass;
@@ -70,6 +71,7 @@ class Wallet {
     }
     set balances(value) {
         const sortedAssets = [];
+        console.log('assets', value);
         if (value) {
             try {
                 const indexLethean = value.findIndex(({ asset_info: { ticker } }) => ticker === 'LTHN');
@@ -315,7 +317,7 @@ class AssetsService {
         this.httpClient = httpClient;
     }
     assetsWhitelist() {
-        return this.httpClient.get('https://zano.org/assets_whitelist.json');
+        return this.httpClient.get('https://wallet.lt.hn/assets_whitelist.json');
     }
 }
 AssetsService.ɵfac = function AssetsService_Factory(t) { return new (t || AssetsService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_1__.HttpClient)); };
@@ -571,8 +573,7 @@ class BackendService {
     this.runCommand(Commands.webkit_launched_script);
   }
 
-  quitRequest() {
-    this.runCommand(Commands.on_request_quit);
+  quitRequest() {//this.runCommand(Commands.on_request_quit);
   }
 
   getAppData(callback) {
@@ -15223,18 +15224,18 @@ class WalletComponent {
         this.walletLoaded = false;
         this.walletSyncVisible = false;
         this.tabs = [
-            // {
-            //   title: 'WALLET.TABS.ASSETS',
-            //   icon: 'balance-icon',
-            //   link: '/assets',
-            //   disabled: true,
-            // },
             {
                 title: 'WALLET.TABS.HISTORY',
                 icon: 'time-circle',
                 link: '/history',
                 disabled: false,
             },
+            // {
+            //   title: 'WALLET.TABS.ASSETS',
+            //   icon: 'balance-icon',
+            //   link: '/assets',
+            //   disabled: false,
+            // },
             {
                 title: 'WALLET.TABS.SEND',
                 icon: 'arrow-up-square',
@@ -15412,9 +15413,9 @@ class WalletComponent {
         });
     }
     setTabsDisabled(disabled) {
-        this.tabs[2].disabled = disabled;
+        this.tabs[1].disabled = disabled;
+        this.tabs[3].disabled = disabled;
         this.tabs[4].disabled = disabled;
-        this.tabs[5].disabled = disabled;
     }
 }
 WalletComponent.ɵfac = function WalletComponent_Factory(t) { return new (t || WalletComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_19__.ActivatedRoute), _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_19__.Router), _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵdirectiveInject"](_api_services_backend_service__WEBPACK_IMPORTED_MODULE_0__.BackendService), _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵdirectiveInject"](_parts_services_variables_service__WEBPACK_IMPORTED_MODULE_7__.VariablesService), _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_14__.NgZone), _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵdirectiveInject"](_ngx_translate_core__WEBPACK_IMPORTED_MODULE_20__.TranslateService), _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵdirectiveInject"](_parts_pipes_int_to_money_pipe_int_to_money_pipe__WEBPACK_IMPORTED_MODULE_8__.IntToMoneyPipe), _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵdirectiveInject"](_store_store__WEBPACK_IMPORTED_MODULE_1__.Store), _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵdirectiveInject"](_angular_cdk_dialog__WEBPACK_IMPORTED_MODULE_21__.Dialog), _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵdirectiveInject"](_parts_services_wallets_service__WEBPACK_IMPORTED_MODULE_9__.WalletsService)); };
@@ -16421,7 +16422,7 @@ function WalletCardComponent_h4_11_Template(rf, ctx) { if (rf & 1) {
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("delay", 500)("placement", "bottom")("timeDelay", 1000)("tooltipClass", "balance-tooltip")("tooltip", ctx_r1.getBalancesTooltip());
     _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpipeBind2"](2, 9, _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpipeBind1"](3, 12, ctx_r1.wallet.getMoneyEquivalentForLethean(ctx_r1.variablesService.moneyEquivalent)), "USD" || 0), " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpipeBind2"](2, 9, _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpipeBind1"](3, 12, ctx_r1.wallet.mined_total), "LTHN "), "\n");
     _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵclassProp"]("red", ctx_r1.variablesService.moneyEquivalentPercent < 0);
     _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](1);
@@ -19677,10 +19678,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _store_store__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @store/store */ 7254);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ 6317);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs */ 9295);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! rxjs/operators */ 635);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ 635);
 /* harmony import */ var _parts_data_assets__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @parts/data/assets */ 2400);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/core */ 3184);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 3184);
 /* harmony import */ var _api_services_assets_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @api/services/assets.service */ 2945);
 
 
@@ -19697,32 +19697,49 @@ class AssetsFacade {
     }
     loadWhitelist() {
         this.loading$.next(true);
-        this.assetsService
-            .assetsWhitelist()
-            .pipe((0,rxjs__WEBPACK_IMPORTED_MODULE_4__.take)(1))
-            .subscribe({
-            next: response => {
-                this.store.set(_store_store__WEBPACK_IMPORTED_MODULE_0__.StateKeys.responseAssetsWhiteList, { response });
-                this.loading$.next(false);
-            },
-            error: () => {
-                this.loading$.next(false);
-            },
+        this.store.set(_store_store__WEBPACK_IMPORTED_MODULE_0__.StateKeys.responseAssetsWhiteList, {
+            "assets": [
+                {
+                    "asset_id": "33f7f5c9233b9f0759cd5966bd96cb014f4a22f01926f9b1c555ed38e307b77f",
+                    "logo": "https://wallet.lt.hn/logos/usdc_logo.png",
+                    "price_url": "https://api.coingecko.com/api/v3/simple/price?ids=usd-coin&vs_currencies=usd&include_24hr_change=true",
+                    "ticker": "WUSD",
+                    "full_name": "Wrapped USD",
+                    "total_max_supply": 10000000000000000000,
+                    "current_supply": 1000000000000000000,
+                    "decimal_point": 10,
+                    "meta_info": ""
+                }
+            ],
+            "signature": ""
         });
+        this.loading$.next(false);
+        // this.assetsService
+        //   .assetsWhitelist()
+        //   .pipe(take(1))
+        //   .subscribe({
+        //     next: response => {
+        //       this.store.set(StateKeys.responseAssetsWhiteList,  response );
+        //       this.loading$.next(false);
+        //     },
+        //     error: () => {
+        //       this.loading$.next(false);
+        //     },
+        //   });
     }
     getWhitelist() {
         return this.store
             .select(_store_store__WEBPACK_IMPORTED_MODULE_0__.StateKeys.responseAssetsWhiteList)
-            .pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_5__.map)(({ assets }) => {
-            return [_parts_data_assets__WEBPACK_IMPORTED_MODULE_1__.lthnAssetInfo];
+            .pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_4__.map)(({ assets }) => {
+            return [_parts_data_assets__WEBPACK_IMPORTED_MODULE_1__.lthnAssetInfo, ...assets];
         }));
     }
     getAssetByIdFromWhitelist(asset_id) {
-        return this.getWhitelist().pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_5__.map)(arr => arr.find(i => i.asset_id === asset_id)));
+        return this.getWhitelist().pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_4__.map)(arr => arr.find(i => i.asset_id === asset_id)));
     }
 }
-AssetsFacade.ɵfac = function AssetsFacade_Factory(t) { return new (t || AssetsFacade)(_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵinject"](_store_store__WEBPACK_IMPORTED_MODULE_0__.Store), _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵinject"](_api_services_assets_service__WEBPACK_IMPORTED_MODULE_2__.AssetsService)); };
-AssetsFacade.ɵprov = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdefineInjectable"]({ token: AssetsFacade, factory: AssetsFacade.ɵfac, providedIn: 'root' });
+AssetsFacade.ɵfac = function AssetsFacade_Factory(t) { return new (t || AssetsFacade)(_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵinject"](_store_store__WEBPACK_IMPORTED_MODULE_0__.Store), _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵinject"](_api_services_assets_service__WEBPACK_IMPORTED_MODULE_2__.AssetsService)); };
+AssetsFacade.ɵprov = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineInjectable"]({ token: AssetsFacade, factory: AssetsFacade.ɵfac, providedIn: 'root' });
 
 
 /***/ }),

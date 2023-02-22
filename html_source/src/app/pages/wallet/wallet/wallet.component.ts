@@ -42,18 +42,18 @@ export class WalletComponent implements OnInit, OnDestroy {
   walletSyncVisible = false;
 
   tabs = [
-    // {
-    //   title: 'WALLET.TABS.ASSETS',
-    //   icon: 'balance-icon',
-    //   link: '/assets',
-    //   disabled: true,
-    // },
     {
       title: 'WALLET.TABS.HISTORY',
       icon: 'time-circle',
       link: '/history',
       disabled: false,
     },
+    // {
+    //   title: 'WALLET.TABS.ASSETS',
+    //   icon: 'balance-icon',
+    //   link: '/assets',
+    //   disabled: false,
+    // },
     {
       title: 'WALLET.TABS.SEND',
       icon: 'arrow-up-square',
@@ -272,8 +272,8 @@ export class WalletComponent implements OnInit, OnDestroy {
   }
 
   setTabsDisabled(disabled: boolean): void {
-    this.tabs[2].disabled = disabled;
+    this.tabs[1].disabled = disabled;
+    this.tabs[3].disabled = disabled;
     this.tabs[4].disabled = disabled;
-    this.tabs[5].disabled = disabled;
   }
 }

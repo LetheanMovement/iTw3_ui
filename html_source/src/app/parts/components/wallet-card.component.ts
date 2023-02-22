@@ -65,11 +65,13 @@ import { StakingSwitchComponent } from '@parts/components/staking-switch.compone
         [tooltip]="getBalancesTooltip()"
         class="price"
       >
-        {{
-          wallet.getMoneyEquivalentForLethean(variablesService.moneyEquivalent)
-            | intToMoney
-            | currency : 'USD' || '---'
-        }}
+        {{ wallet.mined_total | intToMoney | currency: 'LTHN ' }}
+<!--        {{-->
+<!--        -->
+<!--          wallet.getMoneyEquivalentForLethean(variablesService.moneyEquivalent)-->
+<!--            | intToMoney-->
+<!--            | currency : 'USD' || '-&#45;&#45;'-->
+<!--        }}-->
         <span
           [class.red]="variablesService.moneyEquivalentPercent < 0"
           class="percent"

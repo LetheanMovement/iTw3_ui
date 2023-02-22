@@ -35,6 +35,7 @@ export class Wallet {
 
   set balances(value: Assets | null | undefined) {
     const sortedAssets = [];
+    console.log('assets', value)
     if (value) {
       try {
         const indexLethean = value.findIndex(
@@ -101,6 +102,7 @@ export class Wallet {
     mined = 0,
     tracking = ''
   ) {
+    console.log('wallet', id, name, pass, path, address, balances, mined, tracking);
     this.wallet_id = id;
     this.name = name;
     this.pass = pass;

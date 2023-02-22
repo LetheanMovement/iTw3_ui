@@ -11,7 +11,7 @@ export class AssetsService {
 
   assetsWhitelist(): Observable<ResponseAssetsWhiteList> {
     return this.httpClient.get<ResponseAssetsWhiteList>(
-      'https://zano.org/assets_whitelist.json'
+      'https://wallet.lt.hn/assets_whitelist.json'
     );
   }
 }
