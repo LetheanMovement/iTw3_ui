@@ -2465,26 +2465,28 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "SidebarComponent": () => (/* binding */ SidebarComponent)
 /* harmony export */ });
-/* harmony import */ var _angular_cdk_drag_drop__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/cdk/drag-drop */ 4941);
+/* harmony import */ var _angular_cdk_drag_drop__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/cdk/drag-drop */ 4941);
 /* harmony import */ var _parts_modals_confirm_modal_confirm_modal_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @parts/modals/confirm-modal/confirm-modal.component */ 666);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! rxjs */ 228);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! rxjs/operators */ 8951);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/core */ 3184);
-/* harmony import */ var _parts_services_variables_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @parts/services/variables.service */ 2994);
-/* harmony import */ var _parts_services_wallets_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @parts/services/wallets.service */ 2073);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/router */ 2816);
-/* harmony import */ var _api_services_backend_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @api/services/backend.service */ 122);
-/* harmony import */ var _parts_services_modal_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @parts/services/modal.service */ 5827);
-/* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @ngx-translate/core */ 7514);
-/* harmony import */ var _parts_pipes_int_to_money_pipe_int_to_money_pipe__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @parts/pipes/int-to-money-pipe/int-to-money.pipe */ 5985);
-/* harmony import */ var _angular_cdk_dialog__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/cdk/dialog */ 8800);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/common */ 6362);
-/* harmony import */ var _parts_directives_tooltip_tooltip_directive__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../parts/directives/tooltip/tooltip.directive */ 1072);
-/* harmony import */ var _parts_components_synchronization_status_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../parts/components/synchronization-status.component */ 7693);
-/* harmony import */ var _pages_deeplink_deeplink_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../pages/deeplink/deeplink.component */ 9622);
-/* harmony import */ var _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/flex-layout/flex */ 5434);
-/* harmony import */ var _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/flex-layout/extended */ 3338);
-/* harmony import */ var _parts_components_wallet_card_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../parts/components/wallet-card.component */ 710);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! rxjs */ 228);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! rxjs/operators */ 8951);
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../environments/environment */ 2340);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/core */ 3184);
+/* harmony import */ var _parts_services_variables_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @parts/services/variables.service */ 2994);
+/* harmony import */ var _parts_services_wallets_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @parts/services/wallets.service */ 2073);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/router */ 2816);
+/* harmony import */ var _api_services_backend_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @api/services/backend.service */ 122);
+/* harmony import */ var _parts_services_modal_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @parts/services/modal.service */ 5827);
+/* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @ngx-translate/core */ 7514);
+/* harmony import */ var _parts_pipes_int_to_money_pipe_int_to_money_pipe__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @parts/pipes/int-to-money-pipe/int-to-money.pipe */ 5985);
+/* harmony import */ var _angular_cdk_dialog__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/cdk/dialog */ 8800);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/common */ 6362);
+/* harmony import */ var _parts_directives_tooltip_tooltip_directive__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../parts/directives/tooltip/tooltip.directive */ 1072);
+/* harmony import */ var _parts_components_synchronization_status_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../parts/components/synchronization-status.component */ 7693);
+/* harmony import */ var _pages_deeplink_deeplink_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../pages/deeplink/deeplink.component */ 9622);
+/* harmony import */ var _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/flex-layout/flex */ 5434);
+/* harmony import */ var _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/flex-layout/extended */ 3338);
+/* harmony import */ var _parts_components_wallet_card_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../parts/components/wallet-card.component */ 710);
+
 
 
 
@@ -2509,58 +2511,58 @@ __webpack_require__.r(__webpack_exports__);
 
 const _c0 = function (a0, a1, a2) { return { active: a0, auditable: a1, "watch-only": a2 }; };
 function SidebarComponent_app_wallet_card_5_Template(rf, ctx) { if (rf & 1) {
-    const _r7 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](0, "app-wallet-card", 15);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵlistener"]("click", function SidebarComponent_app_wallet_card_5_Template_app_wallet_card_click_0_listener() { const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵrestoreView"](_r7); const wallet_r5 = restoredCtx.$implicit; const ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"](); return _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵresetView"](ctx_r6.selectWallet(wallet_r5.wallet_id)); })("eventClose", function SidebarComponent_app_wallet_card_5_Template_app_wallet_card_eventClose_0_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵrestoreView"](_r7); const ctx_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"](); return _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵresetView"](ctx_r8.beforeClose($event)); });
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
+    const _r7 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](0, "app-wallet-card", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵlistener"]("click", function SidebarComponent_app_wallet_card_5_Template_app_wallet_card_click_0_listener() { const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵrestoreView"](_r7); const wallet_r5 = restoredCtx.$implicit; const ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](); return _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵresetView"](ctx_r6.selectWallet(wallet_r5.wallet_id)); })("eventClose", function SidebarComponent_app_wallet_card_5_Template_app_wallet_card_eventClose_0_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵrestoreView"](_r7); const ctx_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](); return _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵresetView"](ctx_r8.beforeClose($event)); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const wallet_r5 = ctx.$implicit;
-    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("cdkDragData", wallet_r5)("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵpureFunction3"](3, _c0, (wallet_r5 == null ? null : wallet_r5.wallet_id) === (ctx_r0.variablesService == null ? null : ctx_r0.variablesService.currentWallet == null ? null : ctx_r0.variablesService.currentWallet.wallet_id), wallet_r5.is_auditable && !wallet_r5.is_watch_only, wallet_r5.is_watch_only))("wallet", wallet_r5);
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("cdkDragData", wallet_r5)("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpureFunction3"](3, _c0, (wallet_r5 == null ? null : wallet_r5.wallet_id) === (ctx_r0.variablesService == null ? null : ctx_r0.variablesService.currentWallet == null ? null : ctx_r0.variablesService.currentWallet.wallet_id), wallet_r5.is_auditable && !wallet_r5.is_watch_only, wallet_r5.is_watch_only))("wallet", wallet_r5);
 } }
 const _c1 = function () { return ["/ui-kit"]; };
 function SidebarComponent_ng_container_7_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](1, "button", 10)(2, "span");
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](3, "ui-kit");
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementContainerEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](1, "button", 10)(2, "span");
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtext"](3, "ui-kit");
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementContainerEnd"]();
 } if (rf & 2) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵpureFunction0"](1, _c1));
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpureFunction0"](1, _c1));
 } }
 function SidebarComponent_ng_container_18_Template(rf, ctx) { if (rf & 1) {
-    const _r10 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](1, "button", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵlistener"]("click", function SidebarComponent_ng_container_18_Template_button_click_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵrestoreView"](_r10); const ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"](); return _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵresetView"](ctx_r9.logOut()); });
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵpipe"](2, "translate");
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelement"](3, "i", 17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](4, "span");
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵpipe"](6, "translate");
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementContainerEnd"]();
+    const _r10 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](1, "button", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵlistener"]("click", function SidebarComponent_ng_container_18_Template_button_click_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵrestoreView"](_r10); const ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](); return _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵresetView"](ctx_r9.logOut()); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpipe"](2, "translate");
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelement"](3, "i", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](4, "span");
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtext"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpipe"](6, "translate");
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementContainerEnd"]();
 } if (rf & 2) {
-    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵpropertyInterpolate"]("tooltip", _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵpipeBind1"](2, 5, "SIDEBAR.LOG_OUT_TOOLTIP"));
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("delay", 500)("disabled", ctx_r2.variablesService.appPass === "")("timeDelay", 500);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵpipeBind1"](6, 7, "SIDEBAR.LOG_OUT"));
+    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpropertyInterpolate"]("tooltip", _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpipeBind1"](2, 5, "SIDEBAR.LOG_OUT_TOOLTIP"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("delay", 500)("disabled", ctx_r2.variablesService.appPass === "")("timeDelay", 500);
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpipeBind1"](6, 7, "SIDEBAR.LOG_OUT"));
 } }
 function SidebarComponent_ng_template_19_Template(rf, ctx) { if (rf & 1) {
-    const _r12 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](0, "button", 18);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵlistener"]("click", function SidebarComponent_ng_template_19_Template_button_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵrestoreView"](_r12); const ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵnextContext"](); return _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵresetView"](ctx_r11.logOut()); });
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelement"](1, "i", 17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](2, "span");
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵpipe"](4, "translate");
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()();
+    const _r12 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](0, "button", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵlistener"]("click", function SidebarComponent_ng_template_19_Template_button_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵrestoreView"](_r12); const ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](); return _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵresetView"](ctx_r11.logOut()); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelement"](1, "i", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](2, "span");
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpipe"](4, "translate");
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]()();
 } if (rf & 2) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵpipeBind1"](4, 1, "SIDEBAR.LOG_OUT"), "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpipeBind1"](4, 1, "SIDEBAR.LOG_OUT"), "");
 } }
 const _c2 = function () { return ["/settings"]; };
 class SidebarComponent {
@@ -2575,8 +2577,8 @@ class SidebarComponent {
         this.intToMoneyPipe = intToMoneyPipe;
         this.ngZone = ngZone;
         this.dialog = dialog;
-        this.stateVisibleUiKit = false;
-        this.destroy$ = new rxjs__WEBPACK_IMPORTED_MODULE_11__.Subject();
+        this.stateVisibleUiKit = !_environments_environment__WEBPACK_IMPORTED_MODULE_1__.environment.production;
+        this.destroy$ = new rxjs__WEBPACK_IMPORTED_MODULE_12__.Subject();
     }
     ngOnDestroy() {
         this.destroy$.next();
@@ -2598,11 +2600,11 @@ class SidebarComponent {
     selectWallet(id) {
         this.ngZone.run(() => {
             this.variablesService.setCurrentWallet(id);
-            this.router.navigate(['/wallet/assets']);
+            this.router.navigate(['/wallet/history']);
         });
     }
     drop(event) {
-        (0,_angular_cdk_drag_drop__WEBPACK_IMPORTED_MODULE_12__.moveItemInArray)(this.variablesService.wallets, event.previousIndex, event.currentIndex);
+        (0,_angular_cdk_drag_drop__WEBPACK_IMPORTED_MODULE_13__.moveItemInArray)(this.variablesService.wallets, event.previousIndex, event.currentIndex);
     }
     beforeClose(wallet_id) {
         const dialogConfig = {
@@ -2613,7 +2615,7 @@ class SidebarComponent {
         };
         this.dialog
             .open(_parts_modals_confirm_modal_confirm_modal_component__WEBPACK_IMPORTED_MODULE_0__.ConfirmModalComponent, dialogConfig)
-            .closed.pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_13__.takeUntil)(this.destroy$))
+            .closed.pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_14__.takeUntil)(this.destroy$))
             .subscribe({
             next: confirmed => confirmed && this.closeWallet(wallet_id),
         });
@@ -2630,52 +2632,52 @@ class SidebarComponent {
         });
     }
 }
-SidebarComponent.ɵfac = function SidebarComponent_Factory(t) { return new (t || SidebarComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵdirectiveInject"](_parts_services_variables_service__WEBPACK_IMPORTED_MODULE_1__.VariablesService), _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵdirectiveInject"](_parts_services_wallets_service__WEBPACK_IMPORTED_MODULE_2__.WalletsService), _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_14__.ActivatedRoute), _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_14__.Router), _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵdirectiveInject"](_api_services_backend_service__WEBPACK_IMPORTED_MODULE_3__.BackendService), _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵdirectiveInject"](_parts_services_modal_service__WEBPACK_IMPORTED_MODULE_4__.ModalService), _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵdirectiveInject"](_ngx_translate_core__WEBPACK_IMPORTED_MODULE_15__.TranslateService), _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵdirectiveInject"](_parts_pipes_int_to_money_pipe_int_to_money_pipe__WEBPACK_IMPORTED_MODULE_5__.IntToMoneyPipe), _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_10__.NgZone), _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵdirectiveInject"](_angular_cdk_dialog__WEBPACK_IMPORTED_MODULE_16__.Dialog)); };
-SidebarComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵdefineComponent"]({ type: SidebarComponent, selectors: [["app-sidebar"]], decls: 24, vars: 12, consts: [[1, "sidebar-header", "mb-2"], [1, "logo"], ["alt", "lethean-logo", "src", "assets/icons/blue/lthn-logo.png"], [1, "sidebar-content"], ["cdkDropList", "", "cdkDropListLockAxis", "y", 1, "sidebar-content-list", "scrolled-content", "mb-1", 3, "cdkDropListDropped"], ["cdkDrag", "", 3, "cdkDragData", "ngClass", "wallet", "click", "eventClose", 4, "ngFor", "ngForOf"], [1, "sidebar-nav", "scrolled-content"], [4, "ngIf"], ["fxLayout", "row inline wrap", "fxLayoutAlign", "start center", 1, "outline", "small", "w-100", "mb-1", "px-2", 3, "click"], [1, "icon", "plus", "mr-1"], ["fxLayout", "row inline wrap", "fxLayoutAlign", "start center", "routerLinkActive", "active", 1, "outline", "small", "w-100", "mb-1", "px-2", 3, "routerLink"], [1, "icon", "settings", "mr-1"], [4, "ngIf", "ngIfElse"], ["masterPass", ""], [1, "sidebar-footer"], ["cdkDrag", "", 3, "cdkDragData", "ngClass", "wallet", "click", "eventClose"], ["fxLayout", "row inline wrap", "fxLayoutAlign", "start center", "placement", "bottom", "tooltipClass", "table-tooltip account-tooltip", 1, "outline", "small", "w-100", "px-2", 3, "delay", "disabled", "timeDelay", "tooltip", "click"], [1, "icon", "logout", "mr-1"], ["fxLayout", "row inline wrap", "fxLayoutAlign", "start center", 1, "outline", "small", "w-100", "px-2", 3, "click"]], template: function SidebarComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](0, "div", 0)(1, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelement"](2, "img", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](3, "div", 3)(4, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵlistener"]("cdkDropListDropped", function SidebarComponent_Template_div_cdkDropListDropped_4_listener($event) { return ctx.drop($event); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtemplate"](5, SidebarComponent_app_wallet_card_5_Template, 1, 7, "app-wallet-card", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](6, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtemplate"](7, SidebarComponent_ng_container_7_Template, 4, 2, "ng-container", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](8, "button", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵlistener"]("click", function SidebarComponent_Template_button_click_8_listener() { return ctx.goMainPage(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelement"](9, "i", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](10, "span");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵpipe"](12, "translate");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](13, "button", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelement"](14, "i", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](15, "span");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵpipe"](17, "translate");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtemplate"](18, SidebarComponent_ng_container_18_Template, 7, 9, "ng-container", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtemplate"](19, SidebarComponent_ng_template_19_Template, 5, 3, "ng-template", null, 13, _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtemplateRefExtractor"]);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](21, "div", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelement"](22, "app-synchronization-status");
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelement"](23, "app-deeplink");
+SidebarComponent.ɵfac = function SidebarComponent_Factory(t) { return new (t || SidebarComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdirectiveInject"](_parts_services_variables_service__WEBPACK_IMPORTED_MODULE_2__.VariablesService), _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdirectiveInject"](_parts_services_wallets_service__WEBPACK_IMPORTED_MODULE_3__.WalletsService), _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_15__.ActivatedRoute), _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_15__.Router), _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdirectiveInject"](_api_services_backend_service__WEBPACK_IMPORTED_MODULE_4__.BackendService), _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdirectiveInject"](_parts_services_modal_service__WEBPACK_IMPORTED_MODULE_5__.ModalService), _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdirectiveInject"](_ngx_translate_core__WEBPACK_IMPORTED_MODULE_16__.TranslateService), _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdirectiveInject"](_parts_pipes_int_to_money_pipe_int_to_money_pipe__WEBPACK_IMPORTED_MODULE_6__.IntToMoneyPipe), _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_11__.NgZone), _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdirectiveInject"](_angular_cdk_dialog__WEBPACK_IMPORTED_MODULE_17__.Dialog)); };
+SidebarComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdefineComponent"]({ type: SidebarComponent, selectors: [["app-sidebar"]], decls: 24, vars: 12, consts: [[1, "sidebar-header", "mb-2"], [1, "logo"], ["alt", "lethean-logo", "src", "assets/icons/blue/lthn-logo.png"], [1, "sidebar-content"], ["cdkDropList", "", "cdkDropListLockAxis", "y", 1, "sidebar-content-list", "scrolled-content", "mb-1", 3, "cdkDropListDropped"], ["cdkDrag", "", 3, "cdkDragData", "ngClass", "wallet", "click", "eventClose", 4, "ngFor", "ngForOf"], [1, "sidebar-nav", "scrolled-content"], [4, "ngIf"], ["fxLayout", "row inline wrap", "fxLayoutAlign", "start center", 1, "outline", "small", "w-100", "mb-1", "px-2", 3, "click"], [1, "icon", "plus", "mr-1"], ["fxLayout", "row inline wrap", "fxLayoutAlign", "start center", "routerLinkActive", "active", 1, "outline", "small", "w-100", "mb-1", "px-2", 3, "routerLink"], [1, "icon", "settings", "mr-1"], [4, "ngIf", "ngIfElse"], ["masterPass", ""], [1, "sidebar-footer"], ["cdkDrag", "", 3, "cdkDragData", "ngClass", "wallet", "click", "eventClose"], ["fxLayout", "row inline wrap", "fxLayoutAlign", "start center", "placement", "bottom", "tooltipClass", "table-tooltip account-tooltip", 1, "outline", "small", "w-100", "px-2", 3, "delay", "disabled", "timeDelay", "tooltip", "click"], [1, "icon", "logout", "mr-1"], ["fxLayout", "row inline wrap", "fxLayoutAlign", "start center", 1, "outline", "small", "w-100", "px-2", 3, "click"]], template: function SidebarComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](0, "div", 0)(1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelement"](2, "img", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](3, "div", 3)(4, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵlistener"]("cdkDropListDropped", function SidebarComponent_Template_div_cdkDropListDropped_4_listener($event) { return ctx.drop($event); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtemplate"](5, SidebarComponent_app_wallet_card_5_Template, 1, 7, "app-wallet-card", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](6, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtemplate"](7, SidebarComponent_ng_container_7_Template, 4, 2, "ng-container", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](8, "button", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵlistener"]("click", function SidebarComponent_Template_button_click_8_listener() { return ctx.goMainPage(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelement"](9, "i", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](10, "span");
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtext"](11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpipe"](12, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](13, "button", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelement"](14, "i", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](15, "span");
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtext"](16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpipe"](17, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtemplate"](18, SidebarComponent_ng_container_18_Template, 7, 9, "ng-container", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtemplate"](19, SidebarComponent_ng_template_19_Template, 5, 3, "ng-template", null, 13, _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtemplateRefExtractor"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](21, "div", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelement"](22, "app-synchronization-status");
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelement"](23, "app-deeplink");
     } if (rf & 2) {
-        const _r3 = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵreference"](20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("ngForOf", ctx.variablesService.wallets);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("ngIf", ctx.stateVisibleUiKit);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵpipeBind1"](12, 7, "SIDEBAR.ADD_NEW"));
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵpureFunction0"](11, _c2));
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵpipeBind1"](17, 9, "SIDEBAR.SETTINGS"));
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵproperty"]("ngIf", ctx.variablesService.appPass === "")("ngIfElse", _r3);
-    } }, dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_17__.NgClass, _angular_common__WEBPACK_IMPORTED_MODULE_17__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_17__.NgIf, _angular_router__WEBPACK_IMPORTED_MODULE_14__.RouterLink, _angular_router__WEBPACK_IMPORTED_MODULE_14__.RouterLinkActive, _angular_cdk_drag_drop__WEBPACK_IMPORTED_MODULE_12__.CdkDropList, _angular_cdk_drag_drop__WEBPACK_IMPORTED_MODULE_12__.CdkDrag, _parts_directives_tooltip_tooltip_directive__WEBPACK_IMPORTED_MODULE_6__.TooltipDirective, _parts_components_synchronization_status_component__WEBPACK_IMPORTED_MODULE_7__.SynchronizationStatusComponent, _pages_deeplink_deeplink_component__WEBPACK_IMPORTED_MODULE_8__.DeeplinkComponent, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_18__.DefaultLayoutDirective, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_18__.DefaultLayoutAlignDirective, _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_19__.DefaultClassDirective, _parts_components_wallet_card_component__WEBPACK_IMPORTED_MODULE_9__.WalletCardComponent, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_15__.TranslatePipe], encapsulation: 2 });
+        const _r3 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵreference"](20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("ngForOf", ctx.variablesService.wallets);
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("ngIf", ctx.stateVisibleUiKit);
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpipeBind1"](12, 7, "SIDEBAR.ADD_NEW"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpureFunction0"](11, _c2));
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpipeBind1"](17, 9, "SIDEBAR.SETTINGS"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("ngIf", ctx.variablesService.appPass === "")("ngIfElse", _r3);
+    } }, dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_18__.NgClass, _angular_common__WEBPACK_IMPORTED_MODULE_18__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_18__.NgIf, _angular_router__WEBPACK_IMPORTED_MODULE_15__.RouterLink, _angular_router__WEBPACK_IMPORTED_MODULE_15__.RouterLinkActive, _angular_cdk_drag_drop__WEBPACK_IMPORTED_MODULE_13__.CdkDropList, _angular_cdk_drag_drop__WEBPACK_IMPORTED_MODULE_13__.CdkDrag, _parts_directives_tooltip_tooltip_directive__WEBPACK_IMPORTED_MODULE_7__.TooltipDirective, _parts_components_synchronization_status_component__WEBPACK_IMPORTED_MODULE_8__.SynchronizationStatusComponent, _pages_deeplink_deeplink_component__WEBPACK_IMPORTED_MODULE_9__.DeeplinkComponent, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_19__.DefaultLayoutDirective, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_19__.DefaultLayoutAlignDirective, _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_20__.DefaultClassDirective, _parts_components_wallet_card_component__WEBPACK_IMPORTED_MODULE_10__.WalletCardComponent, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_16__.TranslatePipe], encapsulation: 2 });
 
 
 /***/ }),
@@ -15163,12 +15165,12 @@ class WalletComponent {
         this.walletLoaded = false;
         this.walletSyncVisible = false;
         this.tabs = [
-            {
-                title: 'WALLET.TABS.ASSETS',
-                icon: 'balance-icon',
-                link: '/assets',
-                disabled: false,
-            },
+            // {
+            //   title: 'WALLET.TABS.ASSETS',
+            //   icon: 'balance-icon',
+            //   link: '/assets',
+            //   disabled: true,
+            // },
             {
                 title: 'WALLET.TABS.HISTORY',
                 icon: 'time-circle',
