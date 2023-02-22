@@ -65,7 +65,6 @@ import { StakingSwitchComponent } from '@parts/components/staking-switch.compone
         [tooltip]="getBalancesTooltip()"
         class="price"
       >
-        {{ wallet.balances | json }}
         {{
           wallet.getMoneyEquivalentForLethean(variablesService.moneyEquivalent)
             | intToMoney
