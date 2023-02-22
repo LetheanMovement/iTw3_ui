@@ -23,7 +23,7 @@ import { environment} from "../../../environments/environment";
   styles: [],
 })
 export class SidebarComponent implements OnDestroy {
-  stateVisibleUiKit = !environment.production;
+  stateVisibleUiKit = environment.uiKit;
 
   private destroy$ = new Subject<void>();
 
