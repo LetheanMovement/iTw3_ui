@@ -43,6 +43,7 @@
     "ngx-papaparse": "^5.1.0",
     "prettier-eslint": "^15.0.1",
     "qrcode": "^1.5.1",
+    "qwebchannel": "^5.15.0",
     "rxjs": "~7.5.7",
     "save-dev": "0.0.1-security",
     "tslib": "^2.4.1",

@@ -6,6 +6,7 @@ import { ModalService } from '@parts/services/modal.service';
 import { MoneyToIntPipe } from '@parts/pipes/money-to-int-pipe/money-to-int.pipe';
 import JSONBigNumber from 'json-bignumber';
 import { BigNumber } from 'bignumber.js';
+import * as qt from 'qwebchannel';
 import { Alias, ResponseGetWalletInfo } from '../models/wallet.model';
 import {
   ParamsAddCustomAssetId,
@@ -123,6 +124,7 @@ export enum Commands {
   webkit_launched_script = 'webkit_launched_script',
   on_request_quit = 'on_request_quit',
   get_app_data = 'get_app_data',
+  get_data_dir = 'get_data_dir',
   store_app_data = 'store_app_data',
   get_secure_app_data = 'get_secure_app_data',
   set_master_password = 'set_master_password',
@@ -243,13 +245,21 @@ export class BackendService {
     return new Observable(observer => {
       if (!this.backendLoaded) {
         this.backendLoaded = true;
-        (<any>window).QWebChannel(
-          (<any>window).qt.webChannelTransport,
-          channel => {
-            this.backendObject = channel.objects.mediator_object;
+        const that = this;
+        const websocket = new WebSocket( 'ws://localhost:12345' );
+        websocket.onopen = function (evt) {
+          qt.QWebChannel(websocket, function (channel) {
+            that.backendObject = channel.objects.mediator_object;
             observer.next('backendObject loaded');
-          }
-        );
+          });
+        };
+        // (<any>window).QWebChannel(
+        //   (<any>window).qt.webChannelTransport,
+        //   channel => {
+        //     this.backendObject = channel.objects.mediator_object;
+        //     observer.next('backendObject loaded');
+        //   }
+        // );
       } else {
         observer.error('backend not loaded');
         if (!this.backendObject) {
@@ -268,7 +278,7 @@ export class BackendService {
   }
 
   getAppData(callback): void {
-    this.runCommand(Commands.get_app_data, {}, callback);
+    this.runCommand(Commands.get_app_data, undefined, callback);
   }
 
   storeAppData(callback?): void {
@@ -301,8 +311,7 @@ export class BackendService {
   }
 
   getIsDisabledNotifications(callback): void {
-    const params = {};
-    this.runCommand(Commands.get_is_disabled_notifications, params, callback);
+    this.runCommand(Commands.get_is_disabled_notifications, undefined, callback);
   }
 
   setIsDisabledNotifications(state): void {
@@ -334,7 +343,7 @@ export class BackendService {
       dataStore => {
         this.backendCallback(
           dataStore,
-          {},
+          undefined,
           callback,
           Commands.store_secure_app_data
         );
@@ -346,7 +355,7 @@ export class BackendService {
     this.backendObject[Commands.drop_secure_app_data](dataStore => {
       this.backendCallback(
         dataStore,
-        {},
+        undefined,
         callback,
         Commands.drop_secure_app_data
       );
@@ -354,7 +363,7 @@ export class BackendService {
   }
 
   haveSecureAppData(callback): void {
-    this.runCommand(Commands.have_secure_app_data, {}, callback);
+    this.runCommand(Commands.have_secure_app_data, undefined, callback);
   }
 
   saveFileDialog(caption, fileMask, default_path, callback): void {
@@ -484,7 +493,7 @@ export class BackendService {
   }
 
   getClipboard(callback): void {
-    this.runCommand(Commands.get_clipboard, {}, callback);
+    this.runCommand(Commands.get_clipboard, undefined, callback);
   }
 
   createProposal(
@@ -605,7 +614,7 @@ export class BackendService {
   }
 
   getDefaultFee(callback): void {
-    this.runCommand(Commands.get_default_fee, {}, callback);
+    this.runCommand(Commands.get_default_fee, undefined, callback);
   }
 
   setBackendLocalization(stringsArray, title, callback?): void {
@@ -654,7 +663,7 @@ export class BackendService {
   }
 
   getAllAliases(callback): void {
-    this.runCommand(Commands.get_all_aliases, {}, callback);
+    this.runCommand(Commands.get_all_aliases, undefined, callback);
   }
 
   getAliasByName(value, callback): void {
@@ -743,12 +752,12 @@ export class BackendService {
   }
 
   getPoolInfo(callback): void {
-    this.runCommand(Commands.get_tx_pool_info, {}, callback);
+    this.runCommand(Commands.get_tx_pool_info, undefined, callback);
   }
 
   getVersion(callback): void {
-    this.runCommand(Commands.get_version, {}, (status, version) => {
-      this.runCommand(Commands.get_network_type, {}, (status_network, type) => {
+    this.runCommand(Commands.get_version, undefined, (status, version) => {
+      this.runCommand(Commands.get_network_type, undefined, (status_network, type) => {
         callback(version, type);
       });
     });
@@ -806,7 +815,7 @@ export class BackendService {
   getOptions(): any {
     this.runCommand(
       Commands.get_options,
-      {},
+      undefined,
       (
         status,
         {
@@ -819,7 +828,6 @@ export class BackendService {
       }
     );
   }
-
   addCustomAssetId(
     params: ParamsAddCustomAssetId,
     callback: (status: boolean, response_data: ResponseAddCustomAssetId) => void
@@ -1093,11 +1101,22 @@ export class BackendService {
       BackendService.Debug(
         0,
         'Run Command Error! Command "' +
-          command +
-          '" don\'t found in backendObject'
+        command +
+        '" don\'t found in backendObject'
       );
       return;
     }
+    const that = this;
+    if (params === undefined ||  params === '{}') {
+      if (command === 'get_recent_transfers') {
+        this.variablesService.get_recent_transfers = false;
+      }
+      Action(function(resultStr) {
+        that.commandDebug(command, params, resultStr);
+        return that.backendCallback(resultStr, params, callback, command);
+      });
+    } else {
+
 
     const type: ParamsType = getParamsType(params);
     params = params && convertorParams(params);
@@ -1117,5 +1136,6 @@ export class BackendService {
       this.commandDebug(command, params, resultStr);
       return this.backendCallback(resultStr, params, callback, command);
     });
+  }
   }
 }
