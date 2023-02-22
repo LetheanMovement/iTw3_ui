@@ -9,3 +9,7 @@ export function GetUserSelectedDirectoryPath() {
 export function GetUserSelectedFilePath() {
   return window['go']['main']['App']['GetUserSelectedFilePath']();
 }
+
+export function GetUserSelectedSaveFilePath(arg1) {
+  return window['go']['main']['App']['GetUserSelectedSaveFilePath'](arg1);
+}
