@@ -42,12 +42,12 @@ export class WalletComponent implements OnInit, OnDestroy {
   walletSyncVisible = false;
 
   tabs = [
-    {
-      title: 'WALLET.TABS.ASSETS',
-      icon: 'balance-icon',
-      link: '/assets',
-      disabled: false,
-    },
+    // {
+    //   title: 'WALLET.TABS.ASSETS',
+    //   icon: 'balance-icon',
+    //   link: '/assets',
+    //   disabled: true,
+    // },
     {
       title: 'WALLET.TABS.HISTORY',
       icon: 'time-circle',
