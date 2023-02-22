@@ -4,3 +4,5 @@
 export function GetUserSelectedDirectoryPath():Promise<string>;
 
 export function GetUserSelectedFilePath():Promise<string>;
+
+export function GetUserSelectedSaveFilePath(arg1:string):Promise<string>;
