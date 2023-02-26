@@ -1,12 +1,11 @@
 {
-  "name": "zano",
+  "name": "lethean",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build --watch": "ng build --output-path \"../html/\" --watch",
-    "build --html": "ng build --output-path \"../html/\"",
+    "build --watch": "ng build --watch",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
