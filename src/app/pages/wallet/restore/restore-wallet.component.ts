@@ -1,7 +1,7 @@
 import {Component, inject, NgZone, OnDestroy, OnInit} from '@angular/core';
 import {FormBuilder, Validators} from '@angular/forms';
 import {Router} from '@angular/router';
-import {BackendService} from '@api/services/backend.service';
+import { BackendService, Commands } from '@api/services/backend.service';
 import {VariablesService} from '@parts/services/variables.service';
 import {ModalService} from '@parts/services/modal.service';
 import {Wallet} from '@api/models/wallet.model';
@@ -132,7 +132,7 @@ export class RestoreWalletComponent implements OnInit, OnDestroy {
       this.restoreForm.get('name').value.length <=
       this.variablesService.maxWalletNameLength
     ) {
-      this.backend.isValidRestoreWalletText(
+      this.isValidRestoreWalletText(
         {
           seed_phrase: this.restoreForm.get('key').value,
           seed_password: this.restoreForm.get('seedPassword').value,
@@ -140,17 +140,27 @@ export class RestoreWalletComponent implements OnInit, OnDestroy {
         (valid_status, valid_data) => {
           if (valid_data !== 'TRUE') {
             this.ngZone.run(() => {
-              this.restoreForm.get('key').setErrors({key_not_valid: true});
+              this.restoreForm.get('key').setErrors({ key_not_valid: true });
             });
           } else {
-            GetUserSelectedSaveFilePath(this.variablesService.settings.default_path).then((path) => {
-              this.variablesService.settings.default_path =
-                path.substr(0, path.lastIndexOf('/'));
-              this.walletSavedName = path.substr(
-                path.lastIndexOf('/') + 1, path.length - 1
-              );
+            GetUserSelectedSaveFilePath(this.variablesService.settings.default_path).then((save_path) => {
+              if (save_path.lastIndexOf('\\')) {
+                this.variablesService.settings.default_path =
+                  save_path.substr(0, save_path.lastIndexOf('\\'));
+                this.walletSavedName = save_path.substr(
+                  save_path.lastIndexOf('\\') + 1,
+                  save_path.length - 1
+                );
+              } else {
+                this.variablesService.settings.default_path =
+                  save_path.substr(0, save_path.lastIndexOf('/'));
+                this.walletSavedName = save_path.substr(
+                  save_path.lastIndexOf('/') + 1,
+                  save_path.length - 1
+                );
+              }
               this.backend.restoreWallet(
-                path,
+                save_path,
                 this.restoreForm.get('password').value,
                 this.restoreForm.get('key').value,
                 this.restoreForm.get('seedPassword').value,
@@ -243,119 +253,9 @@ export class RestoreWalletComponent implements OnInit, OnDestroy {
                 }
               );
 
-
-            })
-            this.backend.saveFileDialog(
-              this.translate.instant('RESTORE_WALLET.CHOOSE_PATH'),
-              '*',
-              this.variablesService.settings.default_path,
-              (save_status, save_data) => {
-                if (save_status) {
-                  this.variablesService.settings.default_path =
-                    save_data.path.substr(0, save_data.path.lastIndexOf('/'));
-                  this.walletSavedName = save_data.path.substr(
-                    save_data.path.lastIndexOf('/') + 1,
-                    save_data.path.length - 1
-                  );
-                  this.backend.restoreWallet(
-                    save_data.path,
-                    this.restoreForm.get('password').value,
-                    this.restoreForm.get('key').value,
-                    this.restoreForm.get('seedPassword').value,
-                    (restore_status, restore_data) => {
-                      if (restore_status) {
-                        this.wallet.id = restore_data.wallet_id;
-                        this.variablesService.opening_wallet = new Wallet(
-                          restore_data.wallet_id,
-                          this.restoreForm.get('name').value,
-                          this.restoreForm.get('password').value,
-                          restore_data['wi'].path,
-                          restore_data['wi'].address,
-                          restore_data['wi'].balance,
-                          restore_data['wi'].unlocked_balance,
-                          restore_data['wi'].mined_total,
-                          restore_data['wi'].tracking_hey
-                        );
-                        this.variablesService.opening_wallet.is_auditable =
-                          restore_data['wi'].is_auditable;
-                        this.variablesService.opening_wallet.is_watch_only =
-                          restore_data['wi'].is_watch_only;
-                        this.variablesService.opening_wallet.currentPage = 1;
-                        this.variablesService.opening_wallet.alias =
-                          this.backend.getWalletAlias(
-                            this.variablesService.opening_wallet.address
-                          );
-                        this.variablesService.opening_wallet.pages = new Array(
-                          1
-                        ).fill(1);
-                        this.variablesService.opening_wallet.totalPages = 1;
-                        this.variablesService.opening_wallet.currentPage = 1;
-                        this.variablesService.opening_wallet.total_history_item = 0;
-                        this.variablesService.opening_wallet.restore = true;
-                        if (
-                          restore_data.recent_history &&
-                          restore_data.recent_history.history
-                        ) {
-                          this.variablesService.opening_wallet.totalPages =
-                            Math.ceil(
-                              restore_data.recent_history.total_history_items /
-                              this.variablesService.count
-                            );
-                          this.variablesService.opening_wallet.totalPages >
-                          this.variablesService.maxPages
-                            ? (this.variablesService.opening_wallet.pages =
-                              new Array(5)
-                                .fill(1)
-                                .map((value, index) => value + index))
-                            : (this.variablesService.opening_wallet.pages =
-                              new Array(
-                                this.variablesService.opening_wallet.totalPages
-                              )
-                                .fill(1)
-                                .map((value, index) => value + index));
-                          this.variablesService.opening_wallet.prepareHistory(
-                            restore_data.recent_history.history
-                          );
-                        }
-                        this.backend.getContracts(
-                          this.variablesService.opening_wallet.wallet_id,
-                          (contracts_status, contracts_data) => {
-                            if (
-                              contracts_status &&
-                              hasOwnProperty(contracts_data, 'contracts')
-                            ) {
-                              this.ngZone.run(() => {
-                                this.variablesService.opening_wallet.prepareContractsAfterOpen(
-                                  contracts_data.contracts,
-                                  this.variablesService.exp_med_ts,
-                                  this.variablesService.height_app,
-                                  this.variablesService.settings
-                                    .viewedContracts,
-                                  this.variablesService.settings
-                                    .notViewedContracts
-                                );
-                              });
-                            }
-                          }
-                        );
-                        this.ngZone.run(() => {
-                          this.walletSaved = true;
-                          this.progressWidth = '50%';
-                        });
-                      } else {
-                        this.modalService.prepareModal(
-                          'error',
-                          'RESTORE_WALLET.NOT_CORRECT_FILE_OR_PASSWORD'
-                        );
-                      }
-                    }
-                  );
-                }
-              }
-            );
+            });
           }
-        }
-      );
+        });
     }
   }
 
@@ -395,5 +295,12 @@ export class RestoreWalletComponent implements OnInit, OnDestroy {
         });
       });
     }
+  }
+
+  /**
+   * Check if restore wallet text is valid
+   */
+  isValidRestoreWalletText(param, callback): void {
+     this.backend.runCommand(Commands.is_valid_restore_wallet_text, param, callback);
   }
 }
