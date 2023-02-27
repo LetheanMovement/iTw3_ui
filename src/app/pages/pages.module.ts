@@ -9,7 +9,7 @@ import { AddWalletComponent } from './add-wallet/add-wallet.component';
 import { CreateWalletComponent } from './wallet/create/create-wallet.component';
 import { OpenWalletComponent } from './open-wallet/open-wallet.component';
 import { RestoreWalletComponent } from './wallet/restore/restore-wallet.component';
-import { SeedPhraseComponent } from './seed-phrase/seed-phrase.component';
+import { SeedPhraseComponent } from './wallet/seed-phrase/seed-phrase.component';
 import { AssignAliasComponent } from './assign-alias/assign-alias.component';
 import { EditAliasComponent } from './edit-alias/edit-alias.component';
 import { PurchaseComponent } from './wallet/tabs/contracts/purchase/purchase.component';

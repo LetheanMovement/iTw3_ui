@@ -8,7 +8,7 @@ import { LoginComponent } from './auth/login/login.component';
 import { CreateWalletComponent } from './wallet/create/create-wallet.component';
 import { OpenWalletComponent } from './open-wallet/open-wallet.component';
 import { RestoreWalletComponent } from './wallet/restore/restore-wallet.component';
-import { SeedPhraseComponent } from './seed-phrase/seed-phrase.component';
+import { SeedPhraseComponent } from './wallet/seed-phrase/seed-phrase.component';
 import { AssignAliasComponent } from './assign-alias/assign-alias.component';
 import { EditAliasComponent } from './edit-alias/edit-alias.component';
 import { SettingsComponent } from './settings/settings.component';
