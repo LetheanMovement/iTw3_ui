@@ -9,7 +9,6 @@ import { ContractsTabComponent } from './tabs/contracts/contracts-tab/contracts-
 import { ContractsComponent } from './tabs/contracts/contracts.component';
 import { PurchaseComponent } from './tabs/contracts/purchase/purchase.component';
 import { StakingComponent } from './tabs/staking/staking.component';
-import { AssetsComponent } from './tabs/assets/assets.component';
 import { WithSidebarLayoutComponent } from '../../layouts/with-sidebar-layout/with-sidebar-layout.component';
 
 const routes: Routes = [
@@ -21,10 +20,6 @@ const routes: Routes = [
         path: '',
         component: WalletComponent,
         children: [
-          {
-            path: pathsChildrenWallet.assets,
-            component: AssetsComponent,
-          },
           {
             path: pathsChildrenWallet.send,
             component: SendComponent,

@@ -191,8 +191,6 @@ export class SendComponent implements OnInit, OnDestroy {
     hide: new UntypedFormControl(false),
   });
 
-  defaultImgSrc = 'assets/icons/currency-icons/custom_token.svg';
-
   private destroy$ = new Subject<void>();
 
   constructor(
@@ -227,7 +225,6 @@ export class SendComponent implements OnInit, OnDestroy {
     this.sendForm.reset({
       address: this.variablesService.currentWallet.send_data['address'],
       amount: this.variablesService.currentWallet.send_data['amount'],
-      asset: this.variablesService.currentWallet.getBalanceByTicker('LTHN'),
       comment: this.variablesService.currentWallet.send_data['comment'],
       mixin: this.mixin,
       fee:
