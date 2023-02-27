@@ -440,10 +440,6 @@ export class BackendService {
     this.runCommand(Commands.run_wallet, { wallet_id: +wallet_id }, callback);
   }
 
-  isValidRestoreWalletText(param, callback): void {
-    this.runCommand(Commands.is_valid_restore_wallet_text, param, callback);
-  }
-
   restoreWallet(path, pass, seed_phrase, seed_pass, callback): void {
     const params = {
       seed_phrase: seed_phrase,
@@ -462,7 +458,6 @@ export class BackendService {
     mixin,
     comment,
     hide,
-    asset_id: string | null,
     callback
   ): void {
     const params = {
@@ -471,7 +466,6 @@ export class BackendService {
         {
           address: to_address,
           amount: amount,
-          ...(asset_id && { asset_id }),
         },
       ],
       mixin_count: mixin ? parseInt(mixin, 10) : 0,
@@ -1086,7 +1080,7 @@ export class BackendService {
     }
   }
 
-  private runCommand(command: Commands, params?: Params, callback?): any {
+  runCommand(command: Commands, params?: Params, callback?): any {
     if (!this.backendObject) {
       return;
     }
