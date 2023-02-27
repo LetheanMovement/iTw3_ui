@@ -7,7 +7,7 @@ import { LoginComponent } from './auth/login/login.component';
 import { SettingsComponent } from './settings/settings.component';
 import { AddWalletComponent } from './add-wallet/add-wallet.component';
 import { CreateWalletComponent } from './wallet/create/create-wallet.component';
-import { OpenWalletComponent } from './open-wallet/open-wallet.component';
+import { OpenWalletComponent } from './wallet/open-wallet/open-wallet.component';
 import { RestoreWalletComponent } from './wallet/restore/restore-wallet.component';
 import { SeedPhraseComponent } from './wallet/seed-phrase/seed-phrase.component';
 import { AssignAliasComponent } from './assign-alias/assign-alias.component';
