@@ -17,34 +17,7 @@ import { Dialog } from '@angular/cdk/dialog';
 
 @Component({
   selector: 'app-root',
-  template: `
-    <router-outlet
-      *ngIf="[0, 1, 2, 6].indexOf(variablesService.daemon_state) !== -1"
-    ></router-outlet>
-
-    <div
-      *ngIf="[3, 4, 5].indexOf(variablesService.daemon_state) !== -1"
-      class="preloader"
-    >
-      <p *ngIf="variablesService.daemon_state === 3" class="mb-2">
-        {{ 'SIDEBAR.SYNCHRONIZATION.LOADING' | translate }}
-      </p>
-      <p *ngIf="variablesService.daemon_state === 4" class="mb-2">
-        {{ 'SIDEBAR.SYNCHRONIZATION.ERROR' | translate }}
-      </p>
-      <p *ngIf="variablesService.daemon_state === 5" class="mb-2">
-        {{ 'SIDEBAR.SYNCHRONIZATION.COMPLETE' | translate }}
-      </p>
-      <div class="loading-bar"></div>
-    </div>
-
-    <app-register-context-templates></app-register-context-templates>
-
-    <app-open-wallet-modal
-      *ngIf="needOpenWallets.length"
-      [wallets]="needOpenWallets"
-    ></app-open-wallet-modal>
-  `,
+  templateUrl: './app.component.html',
 })
 export class AppComponent implements OnInit, OnDestroy {
   intervalUpdatePriceState;
@@ -137,6 +110,7 @@ export class AppComponent implements OnInit, OnDestroy {
           Commands.quit_requested,
           async () => {
             if (this.onQuitRequest) {
+              console.log('Quit request already processed. Ignoring...');
               return;
             }
 
