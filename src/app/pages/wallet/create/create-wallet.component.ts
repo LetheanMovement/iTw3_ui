@@ -6,7 +6,7 @@ import {ModalService} from '@parts/services/modal.service';
 import {Router} from '@angular/router';
 import {Wallet} from '@api/models/wallet.model';
 import {LetheanValidators, regExpPassword} from '@parts/utils/lthn-validators';
-import {GetUserSelectedSaveFilePath} from "../../../../assets/wailsjs/go/main/App";
+import {GetUserSelectedSaveFilePath} from '../../../../assets/wailsjs/go/main/App';
 
 @Component({
   selector: 'app-create-wallet',
