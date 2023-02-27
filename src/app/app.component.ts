@@ -14,6 +14,7 @@ import { paths, pathsChildrenAuth } from './pages/paths';
 import { hasOwnProperty } from '@parts/functions/hasOwnProperty';
 import { AssetsFacade } from '@store/assets/assets.facade';
 import { Dialog } from '@angular/cdk/dialog';
+import { environment } from '../environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -99,8 +100,8 @@ export class AppComponent implements OnInit, OnDestroy {
 
         this.backendService.start_backend(
           false,
-          '127.0.0.1',
-          11512,
+          environment.backend_host,
+          environment.backend_port,
           (st2, dd2) => {
             console.log(st2, dd2);
           }

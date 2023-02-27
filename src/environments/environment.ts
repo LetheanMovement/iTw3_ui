@@ -4,7 +4,9 @@
 
 export const environment = {
   production: false,
-  uiKit: true
+  uiKit: true,
+  backend_host: '127.0.0.1',
+  backend_port: 11512,
 };
 
 /*
