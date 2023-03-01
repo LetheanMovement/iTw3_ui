@@ -20,9 +20,6 @@ import {
   ConfirmModalData,
 } from '@parts/modals/confirm-modal/confirm-modal.component';
 import { ExportHistoryModalComponent } from './modals/export-history-modal/export-history-modal.component';
-import { AddCustomTokenComponent } from './modals/add-custom-token/add-custom-token.component';
-import { Asset } from '@api/models/assets.model';
-import { AssetDetailsComponent } from '@parts/modals/asset-details/asset-details.component';
 import { WalletsService } from '@parts/services/wallets.service';
 
 @Component({
@@ -48,12 +45,6 @@ export class WalletComponent implements OnInit, OnDestroy {
       link: '/history',
       disabled: false,
     },
-    // {
-    //   title: 'WALLET.TABS.ASSETS',
-    //   icon: 'balance-icon',
-    //   link: '/assets',
-    //   disabled: false,
-    // },
     {
       title: 'WALLET.TABS.SEND',
       icon: 'arrow-up-square',
@@ -171,7 +162,7 @@ export class WalletComponent implements OnInit, OnDestroy {
       .pipe(takeUntil(this.destroy$))
       .subscribe({
         next: () => {
-          this.setTabsDisabled(!this.variablesService.currentWallet.balances);
+          this.setTabsDisabled(!this.variablesService.currentWallet.balance);
         },
       });
   }
@@ -202,28 +193,6 @@ export class WalletComponent implements OnInit, OnDestroy {
       .closed.pipe(takeUntil(this.destroy$))
       .subscribe({
         next: confirmed => confirmed && this.closeWallet(wallet_id),
-      });
-  }
-
-  addCustomToken(): void {
-    this.dialog
-      .open<Asset | undefined>(AddCustomTokenComponent)
-      .closed.pipe(
-        filter(response_data => Boolean(response_data)),
-        takeUntil(this.destroy$)
-      )
-      .subscribe({
-        next: asset => {
-          const dialogConfig: DialogConfig = {
-            data: {
-              asset,
-              title: 'You added new asset',
-            },
-          };
-          this.ngZone.run(() => {
-            this.dialog.open(AssetDetailsComponent, dialogConfig);
-          });
-        },
       });
   }
 
@@ -262,7 +231,7 @@ export class WalletComponent implements OnInit, OnDestroy {
               this.variablesService.currentWallet.wallet_id
             )?.loaded || false;
           if (this.walletLoaded) {
-            this.setTabsDisabled(!this.variablesService.currentWallet.balances);
+            this.setTabsDisabled(!this.variablesService.currentWallet.balance);
           }
         } else {
           this.walletLoaded = false;

@@ -178,7 +178,8 @@ export class AppComponent implements OnInit, OnDestroy {
                   // error
                   // wallet.error = true;
                 }
-                wallet.balances = data.balances;
+                wallet.balance = data.balance;
+                wallet.unlocked_balance = data.unlocked_balance;
                 wallet.mined_total = data.minied_total;
                 wallet.alias_available = data.is_alias_operations_available;
               });
@@ -299,7 +300,6 @@ export class AppComponent implements OnInit, OnDestroy {
         this.backendService.eventSubscribe(Commands.money_transfer, data => {
           console.log('----------------- money_transfer -----------------');
           console.log(data);
-
           if (!data.ti) {
             return;
           }
@@ -313,8 +313,8 @@ export class AppComponent implements OnInit, OnDestroy {
               wallet.history.splice(40, 1);
             }
             this.ngZone.run(() => {
-              wallet.balances = data.balances;
-
+              wallet.balance = data.balance;
+              wallet.unlocked_balance = data.unlocked_balance;
               if (tr_info.tx_type === 6) {
                 this.variablesService.setRefreshStacking(wallet_id);
               }

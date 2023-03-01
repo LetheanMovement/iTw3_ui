@@ -180,10 +180,7 @@ export class TransferAliasComponent implements OnInit {
       comment: alias.comment,
       tracking_key: alias.tracking_key,
     };
-    const unlocked_balance = new BigNumber(
-      this.wallet.getBalanceByTicker('LTHN')?.unlocked || 0
-    );
-    this.notEnoughMoney = unlocked_balance.isLessThan(
+    this.notEnoughMoney = this.wallet.unlocked_balance.isLessThan(
       this.variablesService.default_fee_big
     );
   }

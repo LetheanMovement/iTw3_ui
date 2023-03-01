@@ -241,11 +241,8 @@ export class AssignAliasComponent implements OnInit, OnDestroy {
                           this.variablesService.default_fee_big
                         );
                       }
-                      const unlocked_balance = new BigNumber(
-                        this.wallet.getBalanceByTicker('LTHN')?.unlocked || 0
-                      );
                       this.notEnoughMoney =
-                        this.alias.price.isGreaterThan(unlocked_balance);
+                        this.alias.price.isGreaterThan(this.wallet.unlocked_balance);
                       this.alias.reward = this.intToMoney.transform(
                         this.alias.price,
                         false

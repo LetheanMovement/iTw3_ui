@@ -1,7 +1,6 @@
 <div class="container scrolled-content" fxFlex="1 1 auto">
   <form
     (ngSubmit)="showDialog()"
-    *ngIf="!isLoading"
     [formGroup]="sendForm"
     class="form"
     fxFlex="0 1 50rem"
@@ -139,38 +138,6 @@
       >
         {{ 'SEND.FORM_ERRORS.MAX_LENGTH' | translate }}
       </div>
-    </div>
-
-    <div
-      *ngIf="isWrapShown && wrapInfo && !isLoading"
-      class="wrap mt-2 mb-2 p-2"
-    >
-      <div class="title">
-        {{ 'SEND.WRAP.TITLE' | translate }}
-        <i class="icon info-circle"></i>
-      </div>
-      <div class="text-wrap">
-        {{ 'SEND.WRAP.MAIN_TEXT' | translate }}
-      </div>
-      <div class="title">{{ 'SEND.WRAP.ESTIMATE' | translate }}</div>
-      <table class="text-wrap">
-        <tr>
-          <td>{{ 'SEND.WRAP.WILL_RECEIVE' | translate }}</td>
-          <td *ngIf="!sendForm.controls['amount'].errors">
-            {{ getReceivedValue() | intToMoney }}
-            {{ 'SEND.WRAP.wZANO' | translate }}
-          </td>
-          <td *ngIf="sendForm.controls['amount'].errors">-</td>
-        </tr>
-        <tr>
-          <td>{{ 'SEND.WRAP.FEE' | translate }}</td>
-          <td>
-            {{ wrapInfo?.tx_cost?.lthn_needed_for_erc20 | intToMoney : 3 }}
-            {{ 'SEND.WRAP.LTHN' | translate }}
-            ({{ '$' + wrapInfo.tx_cost?.usd_needed_for_erc20 }})
-          </td>
-        </tr>
-      </table>
     </div>
 
     <div class="details mb-2">

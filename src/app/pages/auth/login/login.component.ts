@@ -385,6 +385,7 @@ export class LoginComponent implements OnInit, OnDestroy {
         (open_status, open_data, open_error) => {
           if (open_status || open_error === 'FILE_RESTORED') {
             openWallets++;
+            console.log('snider', open_data);
             this.ngZone.run(() => {
               const new_wallet = new Wallet(
                 open_data.wallet_id,

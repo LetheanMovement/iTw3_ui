@@ -21,14 +21,6 @@ import { MoneyToIntPipe } from '@parts/pipes/money-to-int-pipe/money-to-int.pipe
 import { takeUntil } from 'rxjs/operators';
 import { Subject } from 'rxjs';
 
-interface WrapInfo {
-  tx_cost: {
-    usd_needed_for_erc20: string;
-    lthn_needed_for_erc20: string;
-  };
-  unwraped_coins_left: string;
-}
-
 @Component({
   selector: 'app-send',
   templateUrl: './send.component.html',
@@ -57,12 +49,6 @@ export class SendComponent implements OnInit, OnDestroy {
 
   mixin: number;
 
-  wrapInfo: WrapInfo;
-
-  isLoading = true;
-
-  isWrapShown = false;
-
   currentAliasAddress: string;
 
   lenghtOfAdress: number;
@@ -82,11 +68,10 @@ export class SendComponent implements OnInit, OnDestroy {
             this.isOpen = false;
             this.backend.validateAddress(g.value, (valid_status, data) => {
               this.ngZone.run(() => {
-                this.isWrapShown = data.error_code === 'WRAP';
                 this.sendForm
                   .get('amount')
                   .setValue(this.sendForm.get('amount').value);
-                if (valid_status === false && !this.isWrapShown) {
+                if (valid_status === false) {
                   g.setErrors(
                     Object.assign({ address_not_valid: true }, g.errors)
                   );
@@ -153,25 +138,6 @@ export class SendComponent implements OnInit, OnDestroy {
           return { zero: true };
         }
         const bigAmount = this.moneyToInt.transform(g.value) as BigNumber;
-        if (this.isWrapShown) {
-          if (!this.wrapInfo) {
-            return { wrap_info_null: true };
-          }
-          if (
-            bigAmount.isGreaterThan(
-              new BigNumber(this.wrapInfo.unwraped_coins_left)
-            )
-          ) {
-            return { great_than_unwraped_coins: true };
-          }
-          if (
-            bigAmount.isLessThan(
-              new BigNumber(this.wrapInfo.tx_cost.lthn_needed_for_erc20)
-            )
-          ) {
-            return { less_than_lthn_needed: true };
-          }
-        }
         return null;
       },
     ]),
@@ -410,15 +376,6 @@ export class SendComponent implements OnInit, OnDestroy {
 
   toggleOptions(): void {
     this.additionalOptions = !this.additionalOptions;
-  }
-
-  getReceivedValue(): number | BigNumber {
-    const amount = this.moneyToInt.transform(this.sendForm.value.amount);
-    const needed = new BigNumber(this.wrapInfo.tx_cost.lthn_needed_for_erc20);
-    if (amount && needed) {
-      return (amount as BigNumber).minus(needed);
-    }
-    return 0;
   }
 
   handeCloseDetailsModal(): void {

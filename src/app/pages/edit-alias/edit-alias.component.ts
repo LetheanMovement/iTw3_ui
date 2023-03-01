@@ -141,10 +141,7 @@ export class EditAliasComponent implements OnInit {
       comment: alias.comment,
     };
     this.oldAliasComment = alias.comment;
-    const balance = new BigNumber(
-      this.wallet.getBalanceByTicker('LTHN')?.unlocked || 0
-    );
-    this.notEnoughMoney = balance.isLessThan(
+    this.notEnoughMoney = this.wallet.unlocked_balance.isLessThan(
       this.variablesService.default_fee_big
     );
   }

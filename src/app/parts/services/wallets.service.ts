@@ -58,7 +58,7 @@ export class WalletsService {
       this.ngZone.run(() => {
         if (status) {
           const { balances } = response_data;
-          wallet.balances = balances;
+          wallet.balance = balances;
         }
       });
     };

@@ -20,42 +20,8 @@ export class Wallet {
   pass: string;
   path: string;
   address: string;
-
-  private _balances$ = new BehaviorSubject<Assets | null | undefined>(
-    undefined
-  );
-
-  get balances$(): Observable<Assets | null | undefined> {
-    return this._balances$.asObservable();
-  }
-
-  get balances(): Assets | null | undefined {
-    return this._balances$.value;
-  }
-
-  set balances(value: Assets | null | undefined) {
-    const sortedAssets = [];
-    console.log('assets', value)
-    if (value) {
-      try {
-        const indexLethean = value.findIndex(
-          ({ asset_info: { ticker } }) => ticker === 'LTHN'
-        );
-        if (indexLethean >= 0) {
-          const assetLethean = value.splice(indexLethean, 1).shift();
-          sortedAssets.push(assetLethean);
-        }
-        const sortedAssetsByBalance = value.sort((a, b) =>
-          new BigNumber(b.total).minus(new BigNumber(a.total)).toNumber()
-        );
-        sortedAssets.push(...sortedAssetsByBalance);
-      } catch (e) {
-      }
-
-    }
-    this._balances$.next(sortedAssets);
-  }
-
+  balance: BigNumber;
+  unlocked_balance: BigNumber;
   mined_total: number;
   tracking_hey: string;
   is_auditable: boolean;
@@ -97,18 +63,19 @@ export class Wallet {
     pass,
     path,
     address,
-    balances,
+    balance,
     unlocked_balance,
     mined = 0,
     tracking = ''
   ) {
-    console.log('wallet', id, name, pass, path, address, balances, mined, tracking);
+    console.log('wallet', id, name, pass, path, address, balance, mined, tracking);
     this.wallet_id = id;
     this.name = name;
     this.pass = pass;
     this.path = path;
     this.address = address;
-    this.balances = balances;
+    this.balance = balance;
+    this.unlocked_balance = unlocked_balance;
     this.mined_total = mined;
     this.tracking_hey = tracking;
 
@@ -124,15 +91,16 @@ export class Wallet {
     this.loaded = false;
   }
 
-  getBalanceByTicker(searchTicker: string): Asset | undefined {
-    return this.balances?.find(
-      ({ asset_info: { ticker } }) => ticker === searchTicker
-    );
+  getMoneyEquivalent(equivalent) {
+    return this.balance.multipliedBy(equivalent).toFixed(0);
   }
 
-  getMoneyEquivalentForLethean(equivalent): string {
-    const balanceLethean = this.getBalanceByTicker('LTHN')?.total || 0;
-    return new BigNumber(balanceLethean).multipliedBy(equivalent).toFixed(0);
+  havePass(): boolean {
+    return (this.pass !== '' && this.pass !== null);
+  }
+
+  isActive(id): boolean {
+    return this.wallet_id === id;
   }
 
   prepareHistoryItem(item: Transaction): any {
@@ -421,7 +389,7 @@ export interface PushOffer {
 
 export interface ResponseGetWalletInfo {
   address: string;
-  balances: Assets;
+  balances: BigNumber;
   is_auditable: boolean;
   is_watch_only: boolean;
   mined_total: number;

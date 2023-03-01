@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { WalletRoutingModule } from './wallet-routing.module';
-import { AssetsComponent } from './tabs/assets/assets.component';
 import { WalletComponent } from './wallet/wallet.component';
 import { FlexLayoutModule, FlexModule } from '@angular/flex-layout';
 import { TooltipModule } from '@parts/directives/tooltip/tooltip.module';
@@ -49,7 +48,6 @@ import { TransactionDetailsComponent } from '@parts/components/transaction-detai
 @NgModule({
   declarations: [
     WalletComponent,
-    AssetsComponent,
     WalletDetailsComponent,
     HistoryComponent,
     StakingComponent,

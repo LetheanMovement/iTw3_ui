@@ -58,20 +58,15 @@ import { StakingSwitchComponent } from '@parts/components/staking-switch.compone
 
       <h4
         *appDisablePriceFetch
-        [delay]="500"
-        [placement]="'bottom'"
-        [timeDelay]="1000"
-        [tooltipClass]="'balance-tooltip'"
-        [tooltip]="getBalancesTooltip()"
         class="price"
       >
-        {{ wallet.mined_total | intToMoney | currency: 'LTHN ' }}
-<!--        {{-->
-<!--        -->
-<!--          wallet.getMoneyEquivalentForLethean(variablesService.moneyEquivalent)-->
-<!--            | intToMoney-->
-<!--            | currency : 'USD' || '-&#45;&#45;'-->
-<!--        }}-->
+        {{ wallet.balance | intToMoney | currency: 'LTHN ' }}
+        {{
+
+          wallet.getMoneyEquivalent(variablesService.moneyEquivalent)
+            | intToMoney
+            | currency : 'USD' || '---'
+        }}
         <span
           [class.red]="variablesService.moneyEquivalentPercent < 0"
           class="percent"
@@ -133,41 +128,4 @@ export class WalletCardComponent {
     private backend: BackendService
   ) {}
 
-  getBalancesTooltip(): HTMLDivElement {
-    const tooltip = document.createElement('div');
-    const scrollWrapper = document.createElement('div');
-    if (!this.wallet || !this.wallet.balances) {
-      return null;
-    }
-    const { balances } = this.wallet;
-
-    scrollWrapper.classList.add('balance-scroll-list');
-    balances.forEach(({ unlocked, total, asset_info: { ticker } }: Asset) => {
-      const available = document.createElement('span');
-      available.setAttribute('class', 'available');
-      available.innerHTML = this.translate.instant('WALLET.AVAILABLE_BALANCE', {
-        available: this.intToMoneyPipe.transform(unlocked),
-        currency: ticker || '---',
-      });
-      scrollWrapper.appendChild(available);
-      const locked = document.createElement('span');
-      locked.setAttribute('class', 'locked');
-      locked.innerHTML = this.translate.instant('WALLET.LOCKED_BALANCE', {
-        locked: this.intToMoneyPipe.transform(
-          new BigNumber(total).minus(unlocked)
-        ),
-        currency: ticker || '---',
-      });
-      scrollWrapper.appendChild(locked);
-    });
-    tooltip.appendChild(scrollWrapper);
-    const link = document.createElement('span');
-    link.setAttribute('class', 'link');
-    link.innerHTML = this.translate.instant('WALLET.LOCKED_BALANCE_LINK');
-    link.addEventListener('click', () => {
-      this.backend.openUrlInBrowser(LOCKED_BALANCE_HELP_PAGE);
-    });
-    tooltip.appendChild(link);
-    return tooltip;
-  }
 }

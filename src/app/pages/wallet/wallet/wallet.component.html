@@ -156,22 +156,6 @@
       </li>
       <li class="item">
         <button
-          (click)="addCustomToken()"
-          [delay]="500"
-          [disabled]="false"
-          [timeDelay]="500"
-          class="w-100 px-2 py-1"
-          placement="left"
-          tooltip="{{ 'WALLET.TOOLTIPS.ADD_CUSTOM_TOKEN' | translate }}"
-          tooltipClass="table-tooltip account-tooltip"
-          type="button"
-        >
-          <i class="icon add mr-1"></i>
-          <span>{{ 'WALLET_DETAILS.ADD_CUSTOM_TOKEN' | translate }}</span>
-        </button>
-      </li>
-      <li class="item">
-        <button
           (click)="exportHistory()"
           [delay]="500"
           [disabled]="variablesService.currentWallet.history.length <= 0"

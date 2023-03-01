@@ -489,25 +489,14 @@ export class HistoryComponent implements OnInit, OnDestroy, AfterViewChecked {
   }
 
   strokeSize(item): number {
-    const rem = this.variablesService.settings.scale;
-    if (
-      (this.variablesService.height_app - item.height >= 10 &&
-        item.height !== 0) ||
-      (item.is_mining === true && item.height === 0)
-    ) {
+    const rem = 8
+    if ((this.variablesService.height_app - item.height >= 10 && item.height !== 0) || (item.is_mining === true && item.height === 0)) {
       return 0;
     } else {
-      if (
-        item.height === 0 ||
-        this.variablesService.height_app - item.height < 0
-      ) {
-        return 4.5 * parseInt(rem, 10);
+      if (item.height === 0 || this.variablesService.height_app - item.height < 0) {
+        return (4.5 * rem);
       } else {
-        return (
-          4.5 * parseInt(rem, 10) -
-          ((4.5 * parseInt(rem, 10)) / 100) *
-            ((this.variablesService.height_app - item.height) * 10)
-        );
+        return ((4.5 * rem) - (((4.5 * rem) / 100) * ((this.variablesService.height_app - item.height) * 10)));
       }
     }
   }
