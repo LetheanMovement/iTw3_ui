@@ -1,26 +1,26 @@
-import {Component, inject, NgZone, OnDestroy, OnInit} from '@angular/core';
-import {FormBuilder, Validators} from '@angular/forms';
-import {Router} from '@angular/router';
+import { Component, inject, NgZone, OnDestroy, OnInit } from '@angular/core';
+import { FormBuilder, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 import { BackendService, Commands } from '@api/services/backend.service';
-import {VariablesService} from '@parts/services/variables.service';
-import {ModalService} from '@parts/services/modal.service';
-import {Wallet} from '@api/models/wallet.model';
-import {TranslateService} from '@ngx-translate/core';
-import {pairwise, startWith, takeUntil} from 'rxjs/operators';
-import {Subject} from 'rxjs';
-import {hasOwnProperty} from '@parts/functions/hasOwnProperty';
-import {LetheanValidators, regExpPassword} from '@parts/utils/lthn-validators';
-import {WalletsService} from '@parts/services/wallets.service';
-import {GetUserSelectedSaveFilePath} from "../../../../assets/wailsjs/go/main/App";
+import { VariablesService } from '@parts/services/variables.service';
+import { ModalService } from '@parts/services/modal.service';
+import { Wallet } from '@api/models/wallet.model';
+import { TranslateService } from '@ngx-translate/core';
+import { pairwise, startWith, takeUntil } from 'rxjs/operators';
+import { Subject } from 'rxjs';
+import { hasOwnProperty } from '@parts/functions/hasOwnProperty';
+import { LetheanValidators, regExpPassword } from '@parts/utils/lthn-validators';
+import { WalletsService } from '@parts/services/wallets.service';
+import { GetUserSelectedSaveFilePath } from '../../../../assets/wailsjs/go/main/App';
 
 @Component({
   selector: 'app-restore-wallet',
   templateUrl: './restore-wallet.component.html',
   styles: [
     `:host {
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
     }`,
   ],
 })
@@ -32,26 +32,26 @@ export class RestoreWalletComponent implements OnInit, OnDestroy {
       name: this.fb.nonNullable.control('', [
         Validators.required,
         LetheanValidators.duplicate(
-          this.variablesService.walletNamesForComparisons
+          this.variablesService.walletNamesForComparisons,
         ),
       ]),
       key: this.fb.nonNullable.control('', Validators.required),
       password: this.fb.nonNullable.control(
         '',
-        Validators.pattern(regExpPassword)
+        Validators.pattern(regExpPassword),
       ),
       confirm: this.fb.nonNullable.control(
         '',
-        Validators.pattern(regExpPassword)
+        Validators.pattern(regExpPassword),
       ),
       seedPassword: this.fb.nonNullable.control(
         '',
-        Validators.pattern(regExpPassword)
+        Validators.pattern(regExpPassword),
       ),
     },
     {
       validators: [LetheanValidators.formMatch('password', 'confirm')],
-    }
+    },
   );
 
   wallet = {
@@ -75,7 +75,7 @@ export class RestoreWalletComponent implements OnInit, OnDestroy {
     private backend: BackendService,
     private modalService: ModalService,
     private ngZone: NgZone,
-    private translate: TranslateService
+    private translate: TranslateService,
   ) {
   }
 
@@ -110,12 +110,12 @@ export class RestoreWalletComponent implements OnInit, OnDestroy {
     const seed_password = this.restoreForm.controls.seedPassword.value;
     const seed_phrase = this.restoreForm.controls.key.value;
     this.backend.getSeedPhraseInfo(
-      {seed_phrase, seed_password},
+      { seed_phrase, seed_password },
       (status, data) => {
         this.ngZone.run(() => {
           this.seedPhraseInfo = data;
         });
-      }
+      },
     );
   }
 
@@ -144,21 +144,14 @@ export class RestoreWalletComponent implements OnInit, OnDestroy {
             });
           } else {
             GetUserSelectedSaveFilePath(this.variablesService.settings.default_path).then((save_path) => {
-              if (save_path.lastIndexOf('\\')) {
-                this.variablesService.settings.default_path =
-                  save_path.substr(0, save_path.lastIndexOf('\\'));
-                this.walletSavedName = save_path.substr(
-                  save_path.lastIndexOf('\\') + 1,
-                  save_path.length - 1
-                );
-              } else {
-                this.variablesService.settings.default_path =
-                  save_path.substr(0, save_path.lastIndexOf('/'));
-                this.walletSavedName = save_path.substr(
-                  save_path.lastIndexOf('/') + 1,
-                  save_path.length - 1
-                );
-              }
+
+              this.variablesService.settings.default_path =
+                save_path.substr(0, save_path.lastIndexOf('/'));
+              this.walletSavedName = save_path.substr(
+                save_path.lastIndexOf('/') + 1,
+                save_path.length - 1,
+              );
+
               this.backend.restoreWallet(
                 save_path,
                 this.restoreForm.get('password').value,
@@ -176,7 +169,7 @@ export class RestoreWalletComponent implements OnInit, OnDestroy {
                       restore_data['wi'].balance,
                       restore_data['wi'].unlocked_balance,
                       restore_data['wi'].mined_total,
-                      restore_data['wi'].tracking_hey
+                      restore_data['wi'].tracking_hey,
                     );
                     this.variablesService.opening_wallet.is_auditable =
                       restore_data['wi'].is_auditable;
@@ -185,10 +178,10 @@ export class RestoreWalletComponent implements OnInit, OnDestroy {
                     this.variablesService.opening_wallet.currentPage = 1;
                     this.variablesService.opening_wallet.alias =
                       this.backend.getWalletAlias(
-                        this.variablesService.opening_wallet.address
+                        this.variablesService.opening_wallet.address,
                       );
                     this.variablesService.opening_wallet.pages = new Array(
-                      1
+                      1,
                     ).fill(1);
                     this.variablesService.opening_wallet.totalPages = 1;
                     this.variablesService.opening_wallet.currentPage = 1;
@@ -201,7 +194,7 @@ export class RestoreWalletComponent implements OnInit, OnDestroy {
                       this.variablesService.opening_wallet.totalPages =
                         Math.ceil(
                           restore_data.recent_history.total_history_items /
-                          this.variablesService.count
+                          this.variablesService.count,
                         );
                       this.variablesService.opening_wallet.totalPages >
                       this.variablesService.maxPages
@@ -211,12 +204,12 @@ export class RestoreWalletComponent implements OnInit, OnDestroy {
                             .map((value, index) => value + index))
                         : (this.variablesService.opening_wallet.pages =
                           new Array(
-                            this.variablesService.opening_wallet.totalPages
+                            this.variablesService.opening_wallet.totalPages,
                           )
                             .fill(1)
                             .map((value, index) => value + index));
                       this.variablesService.opening_wallet.prepareHistory(
-                        restore_data.recent_history.history
+                        restore_data.recent_history.history,
                       );
                     }
                     this.backend.getContracts(
@@ -234,11 +227,11 @@ export class RestoreWalletComponent implements OnInit, OnDestroy {
                               this.variablesService.settings
                                 .viewedContracts,
                               this.variablesService.settings
-                                .notViewedContracts
+                                .notViewedContracts,
                             );
                           });
                         }
-                      }
+                      },
                     );
                     this.ngZone.run(() => {
                       this.walletSaved = true;
@@ -247,10 +240,10 @@ export class RestoreWalletComponent implements OnInit, OnDestroy {
                   } else {
                     this.modalService.prepareModal(
                       'error',
-                      'RESTORE_WALLET.NOT_CORRECT_FILE_OR_PASSWORD'
+                      'RESTORE_WALLET.NOT_CORRECT_FILE_OR_PASSWORD',
                     );
                   }
-                }
+                },
               );
 
             });
@@ -287,7 +280,7 @@ export class RestoreWalletComponent implements OnInit, OnDestroy {
       this.variablesService.opening_wallet = null;
       this.modalService.prepareModal(
         'error',
-        'OPEN_WALLET.WITH_ADDRESS_ALREADY_OPEN'
+        'OPEN_WALLET.WITH_ADDRESS_ALREADY_OPEN',
       );
       this.backend.closeWallet(this.wallet.id, () => {
         this.ngZone.run(() => {
@@ -301,6 +294,6 @@ export class RestoreWalletComponent implements OnInit, OnDestroy {
    * Check if restore wallet text is valid
    */
   isValidRestoreWalletText(param, callback): void {
-     this.backend.runCommand(Commands.is_valid_restore_wallet_text, param, callback);
+    this.backend.runCommand(Commands.is_valid_restore_wallet_text, param, callback);
   }
 }
