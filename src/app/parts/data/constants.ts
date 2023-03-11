@@ -8,6 +8,6 @@ export const CREATE_NEW_WALLET_HELP_PAGE =
 export const LOCKED_BALANCE_HELP_PAGE = 'docs.lt.hn/docs/locked-balance';
 export const DOWNLOADS_PAGE_URL = 'lt.hn/downloads';
 
-export const BLOCK_EXPLORER_TX_URL_PREFIX = 'explorer.lt.hn/transaction/';
+export const BLOCK_EXPLORER_TX_URL_PREFIX = 'explorer.dev.lthn.network/transaction/';
 export const BLOCK_EXPLORER_TN_TX_URL_PREFIX =
-  'explorer.lt.hn/transaction/';
+  'explorer.dev.lthn.network/transaction/';
