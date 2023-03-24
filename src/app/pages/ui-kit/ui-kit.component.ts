@@ -36,6 +36,24 @@ import {
         <h2 class="mb-1">Wallets</h2>
         <app-wallets></app-wallets>
       </div>
+      <div class="mb-2">
+        <h2 class="mb-1">Tabs</h2>
+        <div class="tabs">
+          <div class="tabs-header">
+              <button class="tab-header">
+                <i class="icon mr-1"></i>
+                <span>Title 1</span>
+              </button>
+            <button class="tab-header">
+                <i class="icon mr-1"></i>
+                <span>Title 2</span>
+              </button>
+          </div>
+          <div class="tabs-content">
+            Tab Content
+          </div>
+        </div>
+      </div>
     </div>
   `,
   styles: [],
