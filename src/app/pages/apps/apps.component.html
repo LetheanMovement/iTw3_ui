@@ -1,0 +1,51 @@
+<div class="mb-2">
+  <h2 class="mb-1">App Manager</h2>
+  <div class="tabs">
+    <div class="tabs-header">
+      <button class="tab-header">
+        <i class="icon mr-1"></i>
+        <span>Installable Apps</span>
+      </button>
+      <button class="tab-header">
+        <i class="icon mr-1"></i>
+        <span>Installed</span>
+      </button>
+    </div>
+    <div fxLayout="column" class="tabs-content">
+      <div fxFlex="100" *ngIf="market['dirs']">
+        <button class="p-1 m-1 outline big" (click)="getAppMarket(dir)"
+                *ngFor="let dir of market['dirs']">{{dir}}</button>
+      </div>
+      <div fxFlex="100" *ngIf="market['dirs'].length == 0 && market['apps']">
+        <button class="p-1 m-1 outline big" (click)="getAppMarket()">Back</button>
+      </div>
+
+      <div fxFlex="100">
+        <div class="table-responsive">
+          <table class="table table-striped table-bordered">
+            <thead>
+            <tr>
+              <th>Name</th>
+              <th>Version</th>
+              <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let app of market['apps']">
+              <td>{{ app['name'] }}</td>
+              <td>{{ app['version'] }}</td>
+              <td>
+                <button class="btn btn-bordered" [disabled]="!apps[ app['code']]"
+                        (click)="installApp( app)">{{"WORDS.ACTIONS.INSTALL" | translate}}</button>
+                <button class="btn btn-bordered" [disabled]="apps[ app['code']]"
+                        (click)="removeApp( app)">{{"WORDS.ACTIONS.REMOVE" | translate}}</button>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

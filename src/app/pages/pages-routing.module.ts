@@ -16,6 +16,8 @@ import { DeeplinkComponent } from './deeplink/deeplink.component';
 import { NgModule } from '@angular/core';
 import { ExportImportComponent } from './export-import/export-import.component';
 import { TransferAliasComponent } from './transfer-alias/transfer-alias.component';
+import {DashboardComponent} from "./dashboard/dashboard.component";
+import {AppsComponent} from "./apps/apps.component";
 
 const routes: Routes = [
   {
@@ -160,8 +162,28 @@ const routes: Routes = [
     ],
   },
   {
+    path: paths.dashboard,
+    component: WithSidebarLayoutComponent,
+    children: [
+      {
+        path: '',
+        component: DashboardComponent,
+      },
+    ],
+  },
+  {
+    path: paths.apps,
+    component: WithSidebarLayoutComponent,
+    children: [
+      {
+        path: '',
+        component: AppsComponent,
+      },
+    ],
+  },
+  {
     path: '',
-    redirectTo: paths.addWallet,
+    redirectTo: paths.dashboard,
     pathMatch: 'full',
   },
 ];

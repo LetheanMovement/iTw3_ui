@@ -45,6 +45,8 @@ import { CopyButtonComponent } from '@parts/components/copy-button.component';
 import { StakingSwitchComponent } from '@parts/components/staking-switch.component';
 import { SwitchComponent } from '@parts/components/switch.component';
 import { SynchronizationStatusComponent } from '@parts/components/synchronization-status.component';
+import {AppsModule} from "./apps/apps.module";
+
 
 @NgModule({
   declarations: [
@@ -90,7 +92,7 @@ import { SynchronizationStatusComponent } from '@parts/components/synchronizatio
     InputValidateModule,
     InputDisableSelectionModule,
     BackButtonModule,
-
+  AppsModule,
     // Standalone components
     UiKitComponent,
     CheckboxComponent,

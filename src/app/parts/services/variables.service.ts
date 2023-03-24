@@ -155,6 +155,11 @@ export class VariablesService {
 
   pasteSelectContextMenu: ContextMenuComponent<any>;
 
+  /**
+   * Check if we have the legacy wallet binaries in the system
+   */
+  lethean_legacy_installed = false;
+
   constructor(
     private router: Router,
     private ngZone: NgZone,

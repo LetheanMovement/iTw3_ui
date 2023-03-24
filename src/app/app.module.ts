@@ -20,6 +20,7 @@ import { OpenWalletModalComponent } from '@parts/modals/open-wallet-modal/open-w
 import { FlexModule } from '@angular/flex-layout';
 import { FormsModule } from '@angular/forms';
 import { RegisterContextTemplatesComponent } from '@parts/components/register-context-templates.component';
+import {DashboardModule} from "./pages/dashboard/dashboard.module";
 
 export function highchartsFactory(): any[] {
   highcharts.setOptions({
@@ -50,20 +51,21 @@ export const translateModuleConfig: TranslateModuleConfig = {
 
 @NgModule({
   declarations: [AppComponent, OpenWalletModalComponent],
-  imports: [
-    CommonModule,
-    BrowserModule,
-    BrowserAnimationsModule,
-    HttpClientModule,
-    TranslateModule.forRoot(translateModuleConfig),
-    AppRoutingModule,
-    PagesModule,
-    ChartModule,
-    MoneyToIntPipeModule,
-    FlexModule,
-    FormsModule,
-    RegisterContextTemplatesComponent,
-  ],
+    imports: [
+        CommonModule,
+        BrowserModule,
+        BrowserAnimationsModule,
+        HttpClientModule,
+        TranslateModule.forRoot(translateModuleConfig),
+        AppRoutingModule,
+        PagesModule,
+        ChartModule,
+        MoneyToIntPipeModule,
+        FlexModule,
+        FormsModule,
+        RegisterContextTemplatesComponent,
+        DashboardModule,
+    ],
   providers: [provideHighchartsFactory],
   bootstrap: [AppComponent],
 })
