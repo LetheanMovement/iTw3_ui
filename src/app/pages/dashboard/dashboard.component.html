@@ -1,0 +1,22 @@
+<mat-card>
+  Welcome to Lethean Wallet. This is a beta version of the wallet. Please
+  report any bugs or issues to the Lethean team.
+</mat-card>
+
+<h2>Let's Get Started.</h2>
+
+<mat-card>
+  <mat-card-title>Install Lethean(Legacy)</mat-card-title>
+  <mat-card-actions>
+    <button
+      class="m-1 outline big"
+      mat-raised-button
+      color="primary"
+      [routerLink]="['/','apps']"
+      [disabled]="variablesService.lethean_legacy_installed"
+    >
+      Install
+    </button>
+  </mat-card-actions>
+</mat-card>
+
