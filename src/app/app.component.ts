@@ -915,7 +915,7 @@ export class AppComponent implements OnInit, OnDestroy {
         },
       });
 
-    this.assetsFacade.loadWhitelist();
+    // this.assetsFacade.loadWhitelist();
   }
 
   ngOnDestroy(): void {
