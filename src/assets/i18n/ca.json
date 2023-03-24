@@ -1,371 +1,344 @@
 {
-	"ASSETS": {
-		"DROP_DOWN_MENU": {
-			"ASSET_DETAILS": "Detalls de l'actiu",
-			"REMOVE_ASSET": "Elimina el recurs"
-		},
-		"MODALS": {
-			"ASSET_DETAILS": {
-				"LABELS": {
-					"CURRENT_SUPPLY": "Subministrament actual",
-					"ID": "Identificador d'actiu",
-					"MAX_SUPPLE": "Subministrament màxim",
-					"NAME": "Nom de l'actiu",
-					"TICKER": "ticker"
-				}
-			}
-		},
-		"TABLE": {
-			"LABELS": {
-				"BALANCE": "Equilibri",
-				"NAME": "nom",
-				"PRICE": "preu",
-				"VALUE": "valor"
-			}
-		}
-	},
 	"ASSIGN_ALIAS": {
-		"BUTTON_ASSIGN": "Assign",
+		"BUTTON_ASSIGN": "ASSIGNAR",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "Comentar",
 			"PLACEHOLDER": "Introdueix el teu comentari aquí",
-			"TOOLTIP": "The comment will be visible to anyone who wants to make a payment to your alias. You can provide details about your business, contacts, or include any text. Comments can be edited later."
+			"TOOLTIP": "El comentari serà visible per a qualsevol persona que vulgui fer un pagament al vostre àlies. Pots proporcionar detalls sobre la teva empresa, contactes o incloure qualsevol text. Els comentaris es poden editar més tard."
 		},
-		"COST": "Alias fee {{value}} {{currency}}",
+		"COST": "Comissió d'àlies {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum comment length reached",
-			"NAME_EXISTS": "Alias name already exists",
-			"NAME_LENGTH": "The alias must be 6-25 characters long",
-			"NAME_REQUIRED": "Name is required",
-			"NAME_WRONG": "Invalid name: allowed symbols \"0-9\", \"a-z\", \"-\", \".\"",
-			"NO_MONEY": "You do not have enough funds to assign this alias"
+			"MAX_LENGTH": "S'ha arribat a la longitud màxima dels comentaris",
+			"NAME_EXISTS": "El nom d'àlies ja existeix",
+			"NAME_LENGTH": "El nom d'àlies ha de tenir entre 6 i 25 caràcters",
+			"NAME_REQUIRED": "El nom és obligatori",
+			"NAME_WRONG": "Nom no vàlid: símbols permesos \"0-9\", \"a-z\", \"-\", \".\"",
+			"NO_MONEY": "No teniu prou fons per assignar aquest àlies"
 		},
 		"NAME": {
-			"LABEL": "Alias",
-			"PLACEHOLDER": " Enter alias",
-			"TOOLTIP": "An alias is a shortened form or your account. An alias can only include Latin letters, numbers and characters “.” and “-”. It must start with “@”."
+			"LABEL": "Àlies",
+			"PLACEHOLDER": " Introduïu un àlies",
+			"TOOLTIP": "Un àlies és un formulari escurçat o el vostre compte. Un àlies només pot incloure lletres llatines, números i caràcters \"\". i “-”. Ha de començar per “@”."
 		},
-		"ONE_ALIAS": "You can create only one alias per wallet",
-		"REQUEST_ADD_REG": "The alias will be assigned within 10 minutes"
+		"ONE_ALIAS": "Només podeu crear un àlies per cartera",
+		"REQUEST_ADD_REG": "L'àlies s'assignarà en un termini de 10 minuts"
 	},
 	"BACKEND_LOCALIZATION": {
-		"INCOME_TRANSFER_CONFIRMED": "Payment received",
-		"INCOME_TRANSFER_UNCONFIRMED": "Incoming payment (not confirmed)",
+		"INCOME_TRANSFER_CONFIRMED": "Pagament rebut",
+		"INCOME_TRANSFER_UNCONFIRMED": "Pagament entrant (no confirmat)",
 		"IS_CONFIRMED": "",
-		"IS_MINIMIZE": "Lethean application is minimized to the system tray",
+		"IS_MINIMIZE": "L'aplicació Lethean es redueix al mínim a la safata del sistema",
 		"IS_RECEIVED": "",
-		"LOCKED": "Blocked",
-		"MINED": "Mined",
-		"QUIT": "Quit",
-		"RESTORE": "You can recover it by clicking or using the context menu",
-		"TRAY_MENU_MINIMIZE": "Minimize",
-		"TRAY_MENU_SHOW": "Resize"
+		"LOCKED": "Bloquejat",
+		"MINED": "Minat",
+		"QUIT": "Surt",
+		"RESTORE": "Podeu recuperar-lo fent clic o utilitzant el menú contextual",
+		"TRAY_MENU_MINIMIZE": "Minimitzar",
+		"TRAY_MENU_SHOW": "Canvia la mida"
 	},
 	"BREADCRUMBS": {
-		"ADD_WALLET": "Add wallet",
-		"ASSIGN_ALIAS": "Assign alias",
-		"CONTRACTS": "Contracts",
-		"CREATE_WALLET": "Create new wallet",
-		"EDIT_ALIAS": "Edit alias",
-		"NEW_PURCHASE": "New purchase",
-		"OLD_PURCHASE": "Purchase",
-		"OPEN_WALLET": "Open existing wallet",
-		"RESTORE_WALLET": "Restore from backup",
-		"SAVE_PHRASE": "Save your seed phrase",
-		"TRANSFER_ALIAS": "Transfer alias",
-		"WALLET_DETAILS": "Wallet details"
+		"ADD_WALLET": "Afegeix Wallet",
+		"ASSIGN_ALIAS": "Assigna un àlies",
+		"CONTRACTS": "contractes",
+		"CREATE_WALLET": "Crea una cartera nova",
+		"EDIT_ALIAS": "Edita l'àlies",
+		"NEW_PURCHASE": "Nova compra",
+		"OLD_PURCHASE": "Compra",
+		"OPEN_WALLET": "Obre la cartera existent",
+		"RESTORE_WALLET": "Restaura des de la còpia de seguretat",
+		"SAVE_PHRASE": "Guarda la teva frase de llavor",
+		"TRANSFER_ALIAS": "Transferir àlies",
+		"WALLET_DETAILS": "Detalls de la cartera"
 	},
 	"COMMON": {
-		"BACK": "Go back"
+		"BACK": "Torna"
 	},
 	"CONFIRM": {
-		"BUTTON_CANCEL": "Cancel",
-		"BUTTON_CONFIRM": "Send",
+		"BUTTON_CANCEL": "Cancel · lar",
+		"BUTTON_CONFIRM": "Enviar",
 		"MESSAGE": {
-			"COMMENT": "Comment",
-			"FROM": "From",
-			"SEND": "Send",
-			"TO": "To"
+			"COMMENT": "Comentar",
+			"FROM": "Des de",
+			"SEND": "Enviar",
+			"TO": "a"
 		},
-		"TITLE": "Transaction"
+		"TITLE": "Transacció"
 	},
 	"CONTACTS": {
-		"ADD": "Add/edit contact",
+		"ADD": "Afegir/editar contacte",
 		"ADD_CONTACT": "Afegeix contacte",
 		"BUTTON": {
-			"ADD": "Add contact",
-			"ADD_EDIT": "Add/Save",
-			"DELETE": "Delete",
-			"EDIT": "Edit",
-			"GO_TO_WALLET": "Go to wallet",
-			"IMPORT_EXPORT": "Import/export",
-			"SEND": "Send"
+			"ADD": "Afegeix contacte",
+			"ADD_EDIT": "Afegeix/Desa",
+			"DELETE": "Suprimeix",
+			"EDIT": "Edita",
+			"GO_TO_WALLET": "Anar a la cartera",
+			"IMPORT_EXPORT": "Importació-exportació",
+			"SEND": "Enviar"
 		},
-		"COPY": "- Copy",
-		"ERROR_EMPTY_LIST": "Contact list is empty",
-		"ERROR_EXPORT": "Invalid file type. Save file as .csv",
-		"ERROR_IMPORT": "Error is occured while reading file!",
-		"ERROR_IMPORT_EMPTY": "File is empty",
-		"ERROR_TYPE_FILE": "Please import valid .csv file",
-		"EXPORT": "Export",
+		"COPY": "- Còpia",
+		"ERROR_EMPTY_LIST": "La llista de contactes està buida",
+		"ERROR_EXPORT": "Tipus de fitxer no vàlid. Desa el fitxer com a .csv",
+		"ERROR_IMPORT": "S'ha produït un error en llegir el fitxer!",
+		"ERROR_IMPORT_EMPTY": "El fitxer està buit",
+		"ERROR_TYPE_FILE": "Importa un fitxer .csv vàlid",
+		"EXPORT": "exportació",
 		"FORM": {
-			"ADDRESS": "Address",
-			"NAME": "Name",
-			"NOTES": "Notes"
+			"ADDRESS": "adreça",
+			"NAME": "nom",
+			"NOTES": "NOTES"
 		},
 		"FORM_ERRORS": {
-			"ADDRESS_DUBLICATED": "Address is dublicated",
-			"ADDRESS_NOT_VALID": "Address not valid",
-			"ADDRESS_REQUIRED": "Address is required",
-			"MAX_LENGTH": "Maximum notes length reached",
-			"NAME_DUBLICATED": "Name is dublicated",
-			"NAME_LENGTH": "The name must be 4-25 characters long",
-			"NAME_REQUIRED": "Name is required",
-			"SET_MASTER_PASSWORD": "Set master password"
+			"ADDRESS_DUBLICATED": "L'adreça està duplicada",
+			"ADDRESS_NOT_VALID": "Adreça no vàlida",
+			"ADDRESS_REQUIRED": "L'adreça és necessària",
+			"MAX_LENGTH": "S'ha arribat a la durada màxima de les notes",
+			"NAME_DUBLICATED": "El nom està duplicat",
+			"NAME_LENGTH": "El nom ha de tenir entre 4 i 25 caràcters",
+			"NAME_REQUIRED": "El nom és obligatori",
+			"SET_MASTER_PASSWORD": "Estableix la contrasenya mestra"
 		},
-		"IMPORT": "Import",
-		"IMPORT_EXPORT": "Import or export contacts",
-		"OPEN_ADD_WALLET": "Open/Add wallet",
-		"SEND": "Send",
-		"SEND_FROM": "Send from",
-		"SEND_TO": "To",
-		"SUCCESS_EXPORT": "Contacts are exported",
-		"SUCCESS_IMPORT": "Contacts are imported",
-		"SUCCESS_SAVE": "Contact is edited",
-		"SUCCESS_SENT": "Contact added",
+		"IMPORT": "Importar",
+		"IMPORT_EXPORT": "Importa o exporta contactes",
+		"OPEN_ADD_WALLET": "Obrir/Afegir cartera",
+		"SEND": "Enviar",
+		"SEND_FROM": "Enviar des de",
+		"SEND_TO": "a",
+		"SUCCESS_EXPORT": "Els contactes s'exporten",
+		"SUCCESS_IMPORT": "Els contactes s'importen",
+		"SUCCESS_SAVE": "El contacte està editat",
+		"SUCCESS_SENT": "S'ha afegit el contacte",
 		"TABLE": {
-			"ADDRESS": "Address",
-			"ALIAS": "Alias",
-			"EMPTY": "Contact list is empty",
-			"NAME": "Name",
-			"NOTES": "Notes"
+			"ADDRESS": "adreça",
+			"ALIAS": "Àlies",
+			"EMPTY": "La llista de contactes està buida",
+			"NAME": "nom",
+			"NOTES": "NOTES"
 		},
-		"TITLE": "Contact list"
+		"TITLE": "Llista de contactes"
 	},
 	"CONTEXT_MENU": {
-		"COPY": "copy",
-		"PASTE": "paste",
-		"SELECT": "select all"
+		"COPY": "Copia",
+		"PASTE": "Enganxar",
+		"SELECT": "Seleccionar tot"
 	},
 	"CONTRACTS": {
-		"AMOUNT": "Amount",
-		"COMMENTS": "Comments",
-		"CONTRACTS": "Contracts",
-		"DATE": "Date",
-		"EMPTY": "No active contracts",
-		"LISTING_BUTTON": "Create listing",
-		"PURCHASE": "Purchase",
-		"PURCHASE_BUTTON": "New Purchase",
-		"SELL": "Sell",
-		"STATUS": "Status",
+		"AMOUNT": "Quantitat",
+		"COMMENTS": "comentaris",
+		"CONTRACTS": "contractes",
+		"DATE": "data",
+		"EMPTY": "Sense contractes actius",
+		"LISTING_BUTTON": "Crea un llistat",
+		"PURCHASE": "Compra",
+		"PURCHASE_BUTTON": "Nova compra",
+		"SELL": "VENDRE",
+		"STATUS": "Estat",
 		"STATUS_MESSAGES": {
 			"BUYER": {
-				"ACCEPTED": "Seller accepted your contract proposal",
-				"BEING_CANCELLED": "Cancellation in progress",
-				"CANCELLED": "Contract canceled",
-				"COMPLETED": "Contract completed",
-				"EXPIRED": "The contract proposal has expired",
-				"IGNORED": "Seller ignored your contract proposal",
-				"IGNORED_CANCEL": "The seller ignored your proposal to cancel the contract",
-				"NOT_RECEIVED": "Delivery failed",
-				"NULLIFIED": "All deposits burned",
-				"WAIT": "Waiting for deposits confirmation",
-				"WAITING": "Waiting for response",
-				"WAITING_CANCEL": "Waiting for contract cancellation",
-				"WAITING_SELLER": "Waiting for delivery"
+				"ACCEPTED": "El venedor ha acceptat la vostra proposta de contracte",
+				"BEING_CANCELLED": "Cancel·lació en curs",
+				"CANCELLED": "Contracte cancel·lat",
+				"COMPLETED": "Contracte finalitzat",
+				"EXPIRED": "La proposta de contracte ha caducat",
+				"IGNORED": "El venedor ha ignorat la vostra proposta de contracte",
+				"IGNORED_CANCEL": "El venedor va ignorar la teva proposta de rescindir el contracte",
+				"NOT_RECEIVED": "S'ha produït un error en el lliurament",
+				"NULLIFIED": "Tots els dipòsits cremats",
+				"WAIT": "Esperant la confirmació dels dipòsits",
+				"WAITING": "Esperant resposta",
+				"WAITING_CANCEL": "Esperant la cancel·lació del contracte",
+				"WAITING_SELLER": "Esperant el lliurament"
 			},
 			"SELLER": {
-				"ACCEPTED": "Contract started",
-				"BEING_CANCELLED": "Cancellation in progress",
-				"CANCELLED": "Contract canceled",
-				"COMPLETED": "Contract completed",
-				"EXPIRED": "Contract proposal has expired",
-				"IGNORED": "You ignored contract proposal",
-				"IGNORED_CANCEL": "You ignored cancellation proposal",
-				"NEW_CONTRACT": "New contract proposal",
-				"NOT_RECEIVED": "Delivery failed",
-				"NULLIFIED": "All deposits burned",
-				"PROPOSAL_CANCEL": "New proposal to cancel contract and return deposits",
-				"WAIT": "Waiting for contract confirmation",
-				"WAITING_BUYER": "Waiting for delivery"
+				"ACCEPTED": "",
+				"BEING_CANCELLED": "Cancel·lació en curs",
+				"CANCELLED": "Contracte cancel·lat",
+				"COMPLETED": "Contracte finalitzat",
+				"EXPIRED": "La proposta de contracte ha caducat",
+				"IGNORED": "Has ignorat la proposta de contracte",
+				"IGNORED_CANCEL": "Has ignorat la proposta de cancel·lació",
+				"NEW_CONTRACT": "Nova proposta de contracte",
+				"NOT_RECEIVED": "S'ha produït un error en el lliurament",
+				"NULLIFIED": "Tots els dipòsits cremats",
+				"PROPOSAL_CANCEL": "Nova proposta per cancel·lar contracte i retornar els dipòsits",
+				"WAIT": "Esperant la confirmació del contracte",
+				"WAITING_BUYER": "Esperant el lliurament"
 			}
 		},
 		"TIME_LEFT": {
-			"REMAINING_LESS_ONE": "Less than an hour to respond",
-			"REMAINING_MANY": "{{time}} hours remain",
-			"REMAINING_MANY_ALT": "{{time}} hours remain",
-			"REMAINING_MANY_ALT_RESPONSE": "{{time}} hours remain",
-			"REMAINING_MANY_ALT_WAITING": "Waiting for {{time}} hours",
-			"REMAINING_MANY_RESPONSE": "{{time}} hours remain",
-			"REMAINING_MANY_WAITING": "Waiting for {{time}} hours",
-			"REMAINING_ONE": "{{time}} hour remains",
-			"REMAINING_ONE_RESPONSE": "{{time}} hour remains",
-			"REMAINING_ONE_WAITING": "Waiting for {{time}} hour"
+			"REMAINING_LESS_ONE": "Menys d'una hora per respondre",
+			"REMAINING_MANY": " Queden{{time}} hores",
+			"REMAINING_MANY_ALT": " Queden{{time}} hores",
+			"REMAINING_MANY_ALT_RESPONSE": " Queden{{time}} hores",
+			"REMAINING_MANY_ALT_WAITING": "S'estan esperant {{time}} hores",
+			"REMAINING_MANY_RESPONSE": " Queden{{time}} hores",
+			"REMAINING_MANY_WAITING": "S'estan esperant {{time}} hores",
+			"REMAINING_ONE": " Queda{{time}} hora",
+			"REMAINING_ONE_RESPONSE": " Queda{{time}} hora",
+			"REMAINING_ONE_WAITING": "S'està esperant {{time}} hora"
 		}
 	},
 	"CREATE_WALLET": {
-		"BUTTON_CREATE": "Create wallet",
-		"BUTTON_SELECT": "Select wallet location",
-		"CONFIRM": "Confirm wallet password",
-		"ERROR_CANNOT_SAVE_SYSTEM": "Wallet files cannot be saved to the OS partition",
-		"ERROR_CANNOT_SAVE_TOP": "Existing wallet files cannot be replaced or overwritten",
+		"BUTTON_CREATE": "Crea Wallet",
+		"BUTTON_SELECT": "Seleccioneu Ubicació de Wallet",
+		"CONFIRM": "Confirmeu la contrasenya de la cartera",
+		"ERROR_CANNOT_SAVE_SYSTEM": "Els fitxers de la cartera no es poden desar a la partició del sistema operatiu",
+		"ERROR_CANNOT_SAVE_TOP": "Els fitxers de cartera existents no es poden substituir ni sobreescriure",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required"
+			"CONFIRM_NOT_MATCH": "Confirmeu que la contrasenya no coincideix",
+			"MAX_LENGTH": "S'ha arribat a la longitud màxima del nom",
+			"NAME_DUPLICATE": "El nom és duplicat",
+			"NAME_REQUIRED": "El nom és obligatori"
 		},
-		"NAME": "Wallet name",
-		"PASS": "Set wallet password",
-		"TITLE_SAVE": "Save the wallet file."
+		"NAME": "Nom de la cartera",
+		"PASS": "Estableix la contrasenya de la cartera",
+		"TITLE_SAVE": "Deseu el fitxer de la cartera."
 	},
 	"EDIT_ALIAS": {
-		"BUTTON_EDIT": "Edit",
+		"BUTTON_EDIT": "Edita",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "Comentar",
 			"PLACEHOLDER": "Introdueix el teu comentari aquí"
 		},
-		"COST": "Fee {{value}} {{currency}}",
+		"COST": "Tarifa {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum comment length reached",
-			"NO_MONEY": "You do not have enough funds to change the comment to this alias"
+			"MAX_LENGTH": "S'ha arribat a la longitud màxima dels comentaris",
+			"NO_MONEY": "No teniu prou fons per canviar el comentari a aquest àlies"
 		},
 		"NAME": {
-			"LABEL": "Alias",
-			"PLACEHOLDER": "@ Enter alias"
+			"LABEL": "Àlies",
+			"PLACEHOLDER": "@ Introduïu un àlies"
 		}
 	},
 	"ERRORS": {
-		"ACCESS_DENIED": "Access denied",
-		"BAD_ARG": "Invalid argument",
-		"CORE_BUSY": "Internal error: core is busy",
-		"DAEMON_BUSY": "Internal error: daemon is busy",
-		"FILE_EXIST": "A file with that name already exists. Enter another name to save the file under",
-		"FILE_NOT_FOUND": "File not found",
-		"FILE_NOT_SAVED": "You cannot save a wallet file in this folder. Please choose another folder.",
-		"FILE_RESTORED": "The wallet file was corrupted. We have recovered the keys and the wallet from the blockchain",
-		"NOT_ENOUGH_MONEY": "Insufficient funds in account",
-		"NOT_ENOUGH_OUTPUTS_TO_MIX": "Mix-in number is too big for current blockchain state. There are not enough unspent outputs to mix with",
-		"NO_MONEY": "Not enough money",
-		"NO_MONEY_REMOVE_OFFER": "There is no fee for deleting an offer, but in order to protect the network against flood transactions you need to have at least {{fee}} {{currency}} in your wallet",
-		"TRANSACTION_ERROR": "Error. Transaction not completed.",
-		"TRANSACTION_IS_TO_BIG": "Transaction exceeds network limit, send required amount with multiple transactions",
-		"TRANSFER_ATTEMPT": "There is no connection to Lethean network",
-		"TX_TYPE_COIN_BASE": "Error. The payment was not completed.",
-		"TX_TYPE_NEW_ALIAS": "Error. Failed to register alias to safe",
-		"TX_TYPE_NEW_ALIAS_END": "Please try again.",
-		"TX_TYPE_NORMAL": "Error. The payment from the wallet",
-		"TX_TYPE_NORMAL_END": "was not completed.",
-		"TX_TYPE_NORMAL_TO": "to",
-		"TX_TYPE_UPDATE_ALIAS": "Error. Failed to change comment to alias in safe",
+		"ACCESS_DENIED": "accés denegat",
+		"BAD_ARG": "Argument invàlid",
+		"CORE_BUSY": "Error intern: el nucli està ocupat",
+		"DAEMON_BUSY": "Error intern: el dimoni està ocupat",
+		"FILE_EXIST": "Ja existeix un fitxer amb aquest nom. Introduïu un altre nom per desar el fitxer",
+		"FILE_NOT_FOUND": "Arxiu no trobat",
+		"FILE_NOT_SAVED": "No podeu desar un fitxer de cartera en aquesta carpeta. Si us plau, trieu una altra carpeta.",
+		"FILE_RESTORED": "El fitxer de la cartera està malmès. Hem recuperat les claus i la cartera de la cadena de blocs",
+		"NOT_ENOUGH_MONEY": "Fons insuficients al compte",
+		"NOT_ENOUGH_OUTPUTS_TO_MIX": "El nombre de combinació és massa gran per a l'estat actual de la cadena de blocs. No hi ha prou sortides no gastades per barrejar-hi",
+		"NO_MONEY": "No hi ha prou diners",
+		"NO_MONEY_REMOVE_OFFER": "No hi ha cap taxa per suprimir una oferta, però per protegir la xarxa contra transaccions d'inundació cal que tingueu com a mínim {{fee}} {{currency}} a la vostra cartera",
+		"TRANSACTION_ERROR": "Error. La transacció no s'ha completat.",
+		"TRANSACTION_IS_TO_BIG": "La transacció supera el límit de la xarxa, envieu la quantitat necessària amb diverses transaccions",
+		"TRANSFER_ATTEMPT": "No hi ha connexió a la xarxa Lethean",
+		"TX_TYPE_COIN_BASE": "Error. El pagament no s'ha completat.",
+		"TX_TYPE_NEW_ALIAS": "Error. No s'ha pogut registrar l'àlies com a segur",
+		"TX_TYPE_NEW_ALIAS_END": "Siusplau torna-ho a provar.",
+		"TX_TYPE_NORMAL": "Error. El pagament des de la cartera",
+		"TX_TYPE_NORMAL_END": "no es va completar.",
+		"TX_TYPE_NORMAL_TO": "a",
+		"TX_TYPE_UPDATE_ALIAS": "Error. No s'ha pogut canviar el comentari per àlies a la caixa forta",
 		"WALLET_WATCH_ONLY_NOT_SUPPORTED": "Les carteres només per a rellotges només es poden obrir amb simplewallet",
-		"WALLET_WRONG_ID": "Invalid wallet ID",
-		"WRONG_PASSWORD": "Invalid password"
+		"WALLET_WRONG_ID": "Identificador de cartera no vàlid",
+		"WRONG_PASSWORD": "Contrasenya invàlida"
 	},
 	"EXPORT_HISTORY": {
 		"CANCEL": "Cancel · lar",
 		"EXPORT": "Exporta a un fitxer...",
 		"EXPORT_BUTTON": "Exporta l'historial...",
 		"FILTER": "Filtreu les transaccions TPV",
-		"FORMAT": "format",
-		"FORMAT:": "",
+		"FORMAT:": "format",
 		"SAVED_FILE": "Seleccioneu el camí per desar l'historial de transaccions",
 		"TITLE": "Exporta l'historial de Wallet",
 		"TOOLTIP": "Exporteu l'historial de transaccions de la cartera al fitxer"
 	},
 	"HISTORY": {
-		"ADDRESS": "Address",
-		"AMOUNT": "Amount",
-		"DATE": "Date",
+		"ADDRESS": "adreça",
+		"AMOUNT": "Quantitat",
+		"DATE": "data",
 		"DETAILS": {
-			"COMMENT": "Comment",
-			"CONFIRMATION": "Confirmation",
-			"HEIGHT": "Height",
-			"ID": "Transaction ID",
-			"INPUTS": "Inputs",
-			"OUTPUTS": "Outputs",
-			"PAYMENT_ID": "Payment ID",
-			"SIZE": "Transaction size",
+			"COMMENT": "Comentar",
+			"CONFIRMATION": "confirmació",
+			"HEIGHT": "Alçada",
+			"ID": "Identificador de transacció",
+			"INPUTS": "Entrades",
+			"OUTPUTS": "Sortides",
+			"PAYMENT_ID": "ID de pagament",
+			"SIZE": "Mida de la transacció",
 			"SIZE_VALUE": "{{value}} bytes"
 		},
-		"FEE": "Fee",
-		"LOCK_TOOLTIP": "Locked till {{date}}",
-		"RECEIVED": "Received",
-		"SEND": "Sent",
-		"STATUS": "Status",
-		"STATUS_TOOLTIP": "Confirmations {{current}}/{{total}}",
+		"FEE": "Comissió",
+		"LOCK_TOOLTIP": "Tancat fins a les {{date}}",
+		"RECEIVED": "Rebut",
+		"SEND": "enviat",
+		"STATUS": "Estat",
+		"STATUS_TOOLTIP": "Confirmes {{current}}/{{total}}",
 		"TYPE_MESSAGES": {
-			"CANCEL_CONTRACT": "Cancel and return deposits",
-			"COMPLETE_BUYER": "Contract completed",
-			"COMPLETE_SELLER": "Contract completed",
-			"CREATE_ALIAS": "Fee for assigning alias",
-			"CREATE_CONTRACT": "Contract proposal",
-			"HIDDEN": "hidden",
-			"NULLIFY_CONTRACT": "Burn deposits",
-			"PLEDGE_CONTRACT": "Contract deposit",
-			"POS_REWARD": "POS reward",
-			"POW_REWARD": "POW reward",
-			"PROPOSAL_CANCEL_CONTRACT": "Cancellation request",
-			"UNDEFINED": "Undefined",
-			"UPDATE_ALIAS": "Fee for editing alias"
+			"CANCEL_CONTRACT": "Cancel·la i retorna els dipòsits",
+			"COMPLETE_BUYER": "Contracte finalitzat",
+			"COMPLETE_SELLER": "Contracte finalitzat",
+			"CREATE_ALIAS": "Taxa per assignació d'àlies",
+			"CREATE_CONTRACT": "Proposta de contracte",
+			"HIDDEN": "Amagat",
+			"NULLIFY_CONTRACT": "Cremar dipòsits",
+			"PLEDGE_CONTRACT": "Dipòsit del contracte",
+			"POS_REWARD": "Recompensa TPV",
+			"POW_REWARD": "Recompensa de POW",
+			"PROPOSAL_CANCEL_CONTRACT": "Sol·licitud de cancel·lació",
+			"UNDEFINED": "indefinit",
+			"UPDATE_ALIAS": "Taxa per editar àlies"
 		}
 	},
 	"LOGIN": {
-		"BUTTON_NEXT": "Next",
-		"BUTTON_RESET": "Reset",
-		"BUTTON_SKIP": "Skip",
+		"BUTTON_NEXT": "Pròxim",
+		"BUTTON_RESET": "Restablir",
+		"BUTTON_SKIP": "Ometre",
 		"FORM_ERRORS": {
-			"CONFIRM_REQUIRED": "Confirmation is required",
+			"CONFIRM_REQUIRED": "Cal confirmació",
 			"INVALID_PASS": "La contrasenya no és vàlida, torna-ho a provar",
-			"MISMATCH": "Mismatch",
-			"PASS_REQUIRED": "Password is required"
+			"MISMATCH": "Incompatibilitat",
+			"PASS_REQUIRED": "Es requereix contrasenya"
 		},
-		"INCORRECT_PASSWORD": "Invalid password",
-		"MASTER_PASS": "Master password",
-		"SETUP_CONFIRM_PASS": "Confirm the password",
-		"SETUP_MASTER_PASS": "Setup master password"
+		"INCORRECT_PASSWORD": "Contrasenya invàlida",
+		"MASTER_PASS": "Contrasenya mestra",
+		"SETUP_CONFIRM_PASS": "Confirmeu la contrasenya",
+		"SETUP_MASTER_PASS": "Configura la contrasenya mestra"
 	},
 	"MAIN": {
-		"BUTTON_NEW_WALLET": "Create new wallet",
-		"BUTTON_OPEN_WALLET": "Open existing wallet",
-		"BUTTON_RESTORE_BACKUP": "Restore from backup",
-		"CHOOSE_PATH": "Please choose a path",
-		"HELP": "How to create wallet?",
-		"TITLE": "Create or open the wallet to start using Lethean"
+		"BUTTON_NEW_WALLET": "Crea una cartera nova",
+		"BUTTON_OPEN_WALLET": "Obre la cartera existent",
+		"BUTTON_RESTORE_BACKUP": "Restaura des de la còpia de seguretat",
+		"CHOOSE_PATH": "Si us plau, trieu un camí",
+		"HELP": "Com crear cartera?",
+		"TITLE": "Creeu o obriu la cartera per començar a utilitzar Lethean"
 	},
 	"MESSAGES": {
-		"ADDRESS": "Address",
-		"MESSAGE": "Message",
-		"SEND_BUTTON": "Send",
-		"SEND_PLACEHOLDER": "Type a message..."
+		"ADDRESS": "adreça",
+		"MESSAGE": "missatge",
+		"SEND_BUTTON": "Enviar",
+		"SEND_PLACEHOLDER": "Escriu un missatge..."
 	},
 	"MODALS": {
-		"ADD_TOKEN": "Afegeix un testimoni",
 		"CANCEL": "Cancel · lar",
-		"ERROR": "Error",
-		"INFO": "Information",
-		"OK": "OK",
-		"SUCCESS": "Success"
+		"ERROR": "error",
+		"INFO": "Informació",
+		"OK": "D'acord",
+		"SUCCESS": "Èxit"
 	},
 	"OPEN_WALLET": {
-		"BUTTON": "Open wallet",
-		"FILE_NOT_FOUND1": "Wallet file not found",
-		"FILE_NOT_FOUND2": "<br/><br/> It might have been renamed or moved. <br/> To open it, use the \"Open wallet\" button.",
+		"BUTTON": "Cartera oberta",
+		"FILE_NOT_FOUND1": "No s'ha trobat el fitxer Wallet",
+		"FILE_NOT_FOUND2": "<br/><br/> És possible que s'hagi canviat de nom o s'hagi mogut. <br/> Per obrir-lo, feu servir el botó \"Obre cartera\".",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required"
+			"MAX_LENGTH": "S'ha arribat a la longitud màxima del nom",
+			"NAME_DUPLICATE": "El nom és duplicat",
+			"NAME_REQUIRED": "El nom és obligatori"
 		},
 		"MODAL": {
-			"LABEL": "Password to this wallet",
-			"NOT_FOUND": "Not found",
-			"OPEN": "Open wallet",
-			"SKIP": "Skip",
-			"TITLE": "Type wallet password"
+			"LABEL": "Contrasenya d'aquesta cartera",
+			"NOT_FOUND": "No trobat",
+			"OPEN": "Cartera oberta",
+			"SKIP": "Ometre",
+			"TITLE": "Escriviu la contrasenya de la cartera"
 		},
-		"NAME": "Wallet name",
-		"PASS": "Wallet password",
-		"WITH_ADDRESS_ALREADY_OPEN": "A wallet with this address is already open"
+		"NAME": "Nom de la cartera",
+		"PASS": "Contrasenya de cartera",
+		"WITH_ADDRESS_ALREADY_OPEN": "Una cartera amb aquesta adreça ja està oberta"
 	},
 	"PLACEHOLDERS": {
 		"ADRESS_PLACEHOLDER": "Introduïu l'adreça aquí",
@@ -379,7 +352,6 @@
 		"NAME_PLACEHOLDER": "Introduïu un nom aquí",
 		"NOTES_PLACEHOLDER": "Introduïu una nota aquí",
 		"PASSWORD_PLACEHOLDER": "Introduïu una contrasenya aquí",
-		"PASS_PLACEHOLDER": "Introduïu una contrasenya mestra aquí",
 		"PLACEHOLDER_CONFIRM": "Confirmeu la nova contrasenya aquí",
 		"PLACEHOLDER_NEW": "Introduïu la nova contrasenya aquí",
 		"PLACEHOLDER_OLD": "Introduïu la contrasenya actual aquí",
@@ -392,164 +364,163 @@
 		"WALLET_NAME_PLACEHOLDER": "Introduïu un nom de Wallet aquí"
 	},
 	"PROGRESS": {
-		"ADD_WALLET": "Add wallet",
-		"CREATE_WALLET": "Create new wallet",
-		"RESTORE_WALLET": "Restore from backup",
-		"SELECT_LOCATION": "Select wallet location"
+		"ADD_WALLET": "Afegeix Wallet",
+		"CREATE_WALLET": "Crea una cartera nova",
+		"RESTORE_WALLET": "Restaura des de la còpia de seguretat",
+		"SELECT_LOCATION": "Seleccioneu Ubicació de Wallet"
 	},
 	"PURCHASE": {
-		"ACCEPT_STATE_WAIT_BIG": "Contract started",
-		"AMOUNT": "Amount",
-		"BURN_PROPOSAL": "Deposits burned",
-		"BUTTON_CANCEL_BUYER": "Cancel and return deposits",
-		"BUTTON_CANCEL_SELLER": "Confirm and return deposits",
-		"BUTTON_IGNORE": "Ignore and hide offer",
-		"BUTTON_MAKE_PLEDGE": "Accept and make deposit",
-		"BUTTON_NOT_CANCEL": "Ignore request",
-		"BUTTON_NULLIFY": "Terminate and burn deposits",
-		"BUTTON_NULLIFY_SHORT": "Burn",
-		"BUTTON_RECEIVED": "Complete and release deposits",
-		"BUYER_DEPOSIT": "Buyer deposit",
-		"CANCEL": "Cancel",
-		"COMMENT": "Comment",
-		"DEALS_CANCELED_WAIT": "Cancellation in progress",
-		"DESCRIPTION": "Description",
-		"DETAILS": "Additional details",
-		"FEE": "Fee",
+		"ACCEPT_STATE_WAIT_BIG": "Contracte iniciat",
+		"AMOUNT": "Quantitat",
+		"BURN_PROPOSAL": "Dipòsits cremats",
+		"BUTTON_CANCEL_BUYER": "Cancel·la i retorna els dipòsits",
+		"BUTTON_CANCEL_SELLER": "Confirmar i retornar els dipòsits",
+		"BUTTON_IGNORE": "Ignora i amaga l'oferta",
+		"BUTTON_MAKE_PLEDGE": "Acceptar i fer el dipòsit",
+		"BUTTON_NOT_CANCEL": "Ignora la sol·licitud",
+		"BUTTON_NULLIFY": "Acabar i cremar dipòsits",
+		"BUTTON_NULLIFY_SHORT": "Cremar",
+		"BUTTON_RECEIVED": "Completa i allibera els dipòsits",
+		"BUYER_DEPOSIT": "Dipòsit del comprador",
+		"CANCEL": "Cancel · lar",
+		"COMMENT": "Comentar",
+		"DEALS_CANCELED_WAIT": "Cancel·lació en curs",
+		"DESCRIPTION": "Descripció",
+		"DETAILS": "Detalls Addicionals",
+		"FEE": "Comissió",
 		"FORM_ERRORS": {
-			"ALIAS_NOT_VALID": "Invalid alias",
-			"AMOUNT_REQUIRED": "Amount required",
-			"AMOUNT_ZERO": "Amount cannot be zero",
-			"COMMENT_MAXIMUM": "Maximum field length reached",
-			"DESC_MAXIMUM": "Maximum field length reached",
-			"DESC_REQUIRED": "Description required",
-			"SELLER_DEPOSIT_REQUIRED": "Seller deposit required",
-			"SELLER_NOT_VALID": "Invalid address",
-			"SELLER_REQUIRED": "Address required",
-			"SELLER_SAME": "Use separate account",
-			"YOUR_DEPOSIT_REQUIRED": "Deposit required"
+			"ALIAS_NOT_VALID": "Àlies no vàlid",
+			"AMOUNT_REQUIRED": "Quantitat requerida",
+			"AMOUNT_ZERO": "La quantitat no pot ser zero",
+			"COMMENT_MAXIMUM": "S'ha assolit la longitud màxima del camp",
+			"DESC_MAXIMUM": "S'ha assolit la longitud màxima del camp",
+			"DESC_REQUIRED": "Descripció necessària",
+			"SELLER_DEPOSIT_REQUIRED": "Cal dipòsit del venedor",
+			"SELLER_NOT_VALID": "Adreça no vàlida",
+			"SELLER_REQUIRED": "Adreça necessària",
+			"SELLER_SAME": "Utilitzeu un compte separat",
+			"YOUR_DEPOSIT_REQUIRED": "Cal dipòsit"
 		},
-		"HOUR": "hour",
-		"HOURS": "hours",
-		"IGNORED_ACCEPT": "Contract proposal ignored",
-		"IGNORED_CANCEL": "Contract cancellation proposal ignored",
-		"NEED_MONEY": "Insufficient funds",
-		"NULLIFY_QUESTION": "Are you sure you want to burn both deposits?",
-		"PAYMENT": "Payment ID",
-		"PROGRESS_COMPLETE": "Completed",
-		"PROGRESS_NEW": "New purchase",
-		"PROGRESS_RECEIVE": "Reply received",
-		"PROGRESS_WAIT": "Awaiting reply",
-		"SAME_AMOUNT": "Same amount",
-		"SELLER": "Seller",
-		"SELLER_DEPOSIT": "Seller deposit",
-		"SEND_BUTTON": "Send",
-		"SEND_CANCEL_PROPOSAL": "Cancellation request sent",
+		"HOUR": "Hores",
+		"HOURS": "Hores",
+		"IGNORED_ACCEPT": "S'ha ignorat la proposta de contracte",
+		"IGNORED_CANCEL": "S'ha ignorat la proposta de cancel·lació del contracte",
+		"NEED_MONEY": "Fons insuficients",
+		"NULLIFY_QUESTION": "Esteu segur que voleu cremar els dos dipòsits?",
+		"PAYMENT": "ID de pagament",
+		"PROGRESS_COMPLETE": "Completat",
+		"PROGRESS_NEW": "Nova compra",
+		"PROGRESS_RECEIVE": "Resposta rebuda",
+		"PROGRESS_WAIT": "A l'espera de resposta",
+		"SAME_AMOUNT": "La mateixa quantitat",
+		"SELLER": "Venedor",
+		"SELLER_DEPOSIT": "Dipòsit del venedor",
+		"SEND_BUTTON": "Enviar",
+		"SEND_CANCEL_PROPOSAL": "Sol·licitud de cancel·lació enviada",
 		"STATUS_MESSAGES": {
-			"BEING_CANCELLED": "Cancellation in progress",
-			"CANCELLED": "Contract canceled",
-			"COMPLETED": "Contract completed",
-			"EXPIRED": "Contract proposal expired",
-			"IGNORED_BUYER": "Contract proposal ignored",
-			"IGNORED_CANCEL_BUYER": "Contract cancellation proposal ignored",
-			"IGNORED_CANCEL_SELLER": "The seller ignored your proposal to cancel the contract",
-			"IGNORED_SELLER": "The seller ignored your contract proposal",
-			"NEW_PURCHASE": "New purchase",
-			"NOT_RECEIVED": "Delivery failed",
-			"NULLIFIED": "All deposits burned",
-			"PROPOSAL_CANCEL_BUYER": "Cancellation request received",
-			"PROPOSAL_CANCEL_SELLER": "Cancellation request sent",
-			"WAITING_BUYER": "Contract proposal received",
-			"WAITING_CONFIRMATION": "Waiting for deposits confirmation",
-			"WAITING_DELIVERY": "Waiting for delivery",
-			"WAITING_SELLER": "Waiting for response"
+			"BEING_CANCELLED": "Cancel·lació en curs",
+			"CANCELLED": "Contracte cancel·lat",
+			"COMPLETED": "Contracte finalitzat",
+			"EXPIRED": "La proposta de contracte ha caducat",
+			"IGNORED_BUYER": "S'ha ignorat la proposta de contracte",
+			"IGNORED_CANCEL_BUYER": "S'ha ignorat la proposta de cancel·lació del contracte",
+			"IGNORED_CANCEL_SELLER": "El venedor va ignorar la teva proposta de rescindir el contracte",
+			"IGNORED_SELLER": "El venedor ha ignorat la vostra proposta de contracte",
+			"NEW_PURCHASE": "Nova compra",
+			"NOT_RECEIVED": "S'ha produït un error en el lliurament",
+			"NULLIFIED": "Tots els dipòsits cremats",
+			"PROPOSAL_CANCEL_BUYER": "S'ha rebut la sol·licitud de cancel·lació",
+			"PROPOSAL_CANCEL_SELLER": "Sol·licitud de cancel·lació enviada",
+			"WAITING_BUYER": "S'ha rebut la proposta de contracte",
+			"WAITING_CONFIRMATION": "Esperant la confirmació dels dipòsits",
+			"WAITING_DELIVERY": "Esperant el lliurament",
+			"WAITING_SELLER": "Esperant resposta"
 		},
-		"SUCCESS_FINISH_PROPOSAL": "Contract completed",
-		"WAITING_TIME": "Response time",
-		"WAITING_TIME_QUESTION": "Are you sure you want to cancel the contract?",
-		"YOUR_DEPOSIT": "Your deposit"
+		"SUCCESS_FINISH_PROPOSAL": "Contracte finalitzat",
+		"WAITING_TIME": "Temps de resposta",
+		"WAITING_TIME_QUESTION": "Esteu segur que voleu cancel·lar el contracte?",
+		"YOUR_DEPOSIT": "El teu dipòsit"
 	},
 	"RESTORE_WALLET": {
-		"BUTTON_CREATE": "Create wallet",
-		"BUTTON_SELECT": "Select wallet location",
-		"CHOOSE_PATH": "Please choose a path",
-		"CONFIRM": "Confirm wallet password",
+		"BUTTON_CREATE": "Crea Wallet",
+		"BUTTON_SELECT": "Seleccioneu Ubicació de Wallet",
+		"CHOOSE_PATH": "Si us plau, trieu un camí",
+		"CONFIRM": "Confirmeu la contrasenya de la cartera",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
+			"CONFIRM_NOT_MATCH": "Confirmeu que la contrasenya no coincideix",
 			"INCORRECT_PASSWORD": "Contrasenya incorrecta",
-			"KEY_NOT_VALID": "Key not valid",
-			"KEY_REQUIRED": "Key is required",
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required"
+			"KEY_NOT_VALID": "Clau no valida",
+			"KEY_REQUIRED": "La clau és necessària",
+			"MAX_LENGTH": "S'ha arribat a la longitud màxima del nom",
+			"NAME_DUPLICATE": "El nom és duplicat",
+			"NAME_REQUIRED": "El nom és obligatori"
 		},
-		"LABEL_NAME": "Wallet name",
-		"LABEL_PHRASE_KEY": "Seed phrase / tracking seed",
-		"NOT_CORRECT_FILE_OR_PASSWORD": "Invalid wallet file or password does not match",
+		"LABEL_NAME": "Nom de la cartera",
+		"LABEL_PHRASE_KEY": "Frase de llavor / llavor de seguiment",
+		"NOT_CORRECT_FILE_OR_PASSWORD": "El fitxer de cartera no vàlid o la contrasenya no coincideixen",
 		"OK": "D'acord",
-		"PASS": "Wallet password",
+		"PASS": "Contrasenya de cartera",
 		"SEED_PASSWORD": "Contrasenya de llavor"
 	},
 	"SEED_PHRASE": {
 		"BUTTON_COPIED": "copiat",
-		"BUTTON_COPY": "Copy",
-		"BUTTON_CREATE_ACCOUNT": "Create wallet",
-		"TITLE": "Make sure to keep your seed phrase in a safe place. If you forget your seed phrase you will not be able to recover your wallet."
+		"BUTTON_COPY": "Copia",
+		"BUTTON_CREATE_ACCOUNT": "Crea Wallet",
+		"TITLE": "Assegureu-vos de guardar la vostra frase de llavor en un lloc segur. Si oblideu la vostra frase llavor no podreu recuperar la vostra cartera."
 	},
 	"SEND": {
-		"ADDRESS": "Address",
-		"AMOUNT": "Amount",
-		"BUTTON": "Send",
-		"COMMENT": "Comment",
-		"DETAILS": "Additional details",
-		"FEE": "Fee",
+		"ADDRESS": "adreça",
+		"AMOUNT": "Quantitat",
+		"BUTTON": "Enviar",
+		"COMMENT": "Comentar",
+		"DETAILS": "Detalls Addicionals",
+		"FEE": "Comissió",
 		"FORM_ERRORS": {
-			"ADDRESS_NOT_VALID": "Address not valid",
-			"ADDRESS_REQUIRED": "Address is required",
-			"ALIAS_NOT_VALID": "Alias not valid",
-			"AMOUNT_REQUIRED": "Amount is required",
-			"AMOUNT_ZERO": "Amount is zero",
-			"FEE_MINIMUM": "Minimum fee: {{fee}}",
-			"FEE_REQUIRED": "Fee is required",
+			"ADDRESS_NOT_VALID": "Adreça no vàlida",
+			"ADDRESS_REQUIRED": "L'adreça és necessària",
+			"ALIAS_NOT_VALID": "Àlies no vàlid",
+			"AMOUNT_REQUIRED": "Es requereix quantitat",
+			"AMOUNT_ZERO": "La quantitat és zero",
+			"FEE_MINIMUM": "Tarifa mínima: {{fee}}",
+			"FEE_REQUIRED": "Es requereix una tarifa",
 			"GREAT_THAN_UNWRAPPED_COINS": "La quantitat és superior a les fitxes ERC20 que queden disponibles",
 			"LESS_THAN_ZANO_NEEDED": "Quantitat massa petita per cobrir la quota ERC20",
-			"MAX_LENGTH": "Maximum comment length reached",
+			"MAX_LENGTH": "S'ha arribat a la longitud màxima dels comentaris",
 			"WRAP_INFO_NULL": "no s'ha pogut sol·licitar l'estat d'ajustament"
 		},
-		"HIDE": "Hide your wallet address from recipient",
+		"HIDE": "Amaga l'adreça de la teva cartera al destinatari",
 		"MIXIN": "Mixin",
-		"SUCCESS_SENT": "Transaction sent",
+		"SUCCESS_SENT": "Transacció enviada",
 		"WRAP": {
 			"ESTIMATE": "Estimacions de transaccions",
 			"FEE": "Tarifa Ethereum Txn:",
-			"LTHN": "LTHN",
-			"MAIN_TEXT": "Aquesta transacció crearà wLTHN (\"Wrapped Lethean\") que s'enviarà a l'adreça especificada a la xarxa Ethereum.",
+			"MAIN_TEXT": "Aquesta transacció crearà wLethean (\"Wrapped Lethean\") que s'enviarà a l'adreça especificada a la xarxa Ethereum.",
 			"TITLE": "Embolicar",
 			"WILL_RECEIVE": "Rebràs:",
-			"ZANO": "",
-			"wZANO": "wLTHN"
+			"ZANO": "LTHN",
+			"wZANO": "wLethean"
 		}
 	},
 	"SEND_DETAILS_MODAL": {
-		"TITLE1": "Transaction",
-		"TITLE2": "Transaction details"
+		"TITLE1": "Transacció",
+		"TITLE2": "Detalls de la transacció"
 	},
 	"SETTINGS": {
 		"APP_LOCK": {
 			"TIME1": "5 min",
 			"TIME2": "15 min",
-			"TIME3": "1 hour",
-			"TIME4": "Never",
-			"TITLE": "Lock app after:"
+			"TIME3": "1 hora",
+			"TIME4": "Mai",
+			"TITLE": "Bloqueja l'aplicació després de:"
 		},
-		"APP_LOG_TITLE": "Log level:",
-		"DARK_THEME": "Dark theme",
+		"APP_LOG_TITLE": "Nivell de registre:",
+		"DARK_THEME": "Tema fosc",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
-			"PASS_NOT_MATCH": "Old password not match",
-			"PASS_REQUIRED": "Password is required"
+			"CONFIRM_NOT_MATCH": "Confirmeu que la contrasenya no coincideix",
+			"PASS_NOT_MATCH": "Contrasenya incorrecta",
+			"PASS_REQUIRED": "Es requereix contrasenya"
 		},
-		"GRAY_THEME": "Grey theme",
+		"GRAY_THEME": "Tema gris",
 		"LANGUAGE": {
 			"DE": "Deutsch",
 			"EN": "Anglès",
@@ -559,150 +530,144 @@
 			"PT": "Portuguès",
 			"TITLE": "Llenguatge"
 		},
-		"LAST_BUILD": "Current build: {{value}}",
+		"LAST_BUILD": "Construcció actual: {{value}}",
 		"MASTER_PASSWORD": {
-			"BUTTON": "Save",
-			"CONFIRM": "New password confirmation",
-			"NEW": "New password",
-			"OLD": "Old password",
-			"TITLE": "Update master password"
+			"BUTTON": "Desa",
+			"CONFIRM": "Confirma la contrassenya",
+			"NEW": "Nova contrasenya",
+			"OLD": "contrasenya actual",
+			"TITLE": "Actualitza la contrasenya mestra"
 		},
 		"NOTIFICATIONS": "notificacions",
 		"SCALE": {
-			"75": "75% scale",
-			"100": "100% scale",
-			"125": "125% scale",
-			"150": "150% scale",
+			"75": "escala del 75%.",
+			"100": "100% escala",
+			"125": "escala del 125%.",
+			"150": "escala del 150%.",
 			"TITLE": "Escala d'interfície"
 		},
 		"SETTINGS_SAVED": "Salvat! Configuració actualitzada",
-		"TITLE": "Settings",
+		"TITLE": "configuració",
 		"USE_TOR_TO_RELAY_TRANSACTIONS": "Utilitzeu TOR per retransmetre transaccions",
-		"WHITE_THEME": "White theme"
+		"WHITE_THEME": "Tema blanc"
 	},
 	"SIDEBAR": {
 		"ACCOUNT": {
-			"MESSAGES": "New offers/Messages",
-			"STAKING": "Staking",
-			"SYNCING": "Syncing wallet"
+			"MESSAGES": "Noves ofertes/missatges",
+			"STAKING": "Apostament",
+			"SYNCING": "Sincronitza la cartera"
 		},
-		"ADD_NEW": "Add",
-		"CONTACTS": "Contacts",
+		"ADD_NEW": "Afegeix Wallet",
+		"CONTACTS": "Contactes",
 		"CONTACTS_TOOLTIP": "L'opció de contactes només està disponible amb la contrasenya mestra activada",
 		"LOG_OUT": "Log out",
 		"LOG_OUT_TOOLTIP": "L'opció de tancament de sessió està disponible només amb la contrasenya mestra activada",
-		"SETTINGS": "Settings",
+		"SETTINGS": "configuració",
 		"SYNCHRONIZATION": {
-			"COMPLETE": "Completion",
+			"COMPLETE": "finalització",
 			"DOWNLOADING": "S'està descarregant",
-			"ERROR": "System error",
-			"LOADING": "Loading blockchain data",
-			"MB": "mb",
-			"OFFLINE": "Offline",
-			"ONLINE": "Online",
-			"SLASH": "/",
-			"SYNCING": "Syncing blockchain"
+			"ERROR": "Error del sistema",
+			"LOADING": "Carregant dades de blockchain",
+			"MB": "",
+			"OFFLINE": "Fora de línia",
+			"ONLINE": "En línia",
+			"SLASH": "",
+			"SYNCING": "Bloc de sincronització"
 		},
-		"TITLE": "Wallets",
+		"TITLE": "Carteres",
 		"UPDATE": {
-			"CRITICAL": "Update available",
-			"CRITICAL_HINT": "Critical update!",
-			"CRITICAL_TOOLTIP": "<span class=\"critical-update\">Critical update available.</span><i class=\"icon\"></i><span>Update strongly recommended!</span>",
-			"IMPORTANT": "Update available",
-			"IMPORTANT_HINT": "Important update!",
-			"IMPORTANT_TOOLTIP": "<span class=\"important-update\">Get new update.</span><br><span>Important update!</span>",
-			"STANDARD": "Update available",
-			"STANDARD_TOOLTIP": "<span class=\"standard-update\">Get new update.</span><br><span>Update is recommended!</span>",
-			"TIME": "System time differs from network",
-			"TIME_TOOLTIP": "<span class=\"wrong-time\">Wrong system time!</span><br><span>Check and repair your system time.</span>"
+			"CRITICAL": "actualització disponible",
+			"CRITICAL_HINT": "Actualització crítica!",
+			"CRITICAL_TOOLTIP": "<span class=\"critical-update\">Actualització crítica disponible.</span><i class=\"icon\"></i><span>Actualització molt recomanable!</span>",
+			"IMPORTANT": "actualització disponible",
+			"IMPORTANT_HINT": "Actualització important!",
+			"IMPORTANT_TOOLTIP": "<span class=\"important-update\">Obteniu una actualització nova.</span><br><span>Actualització important!</span>",
+			"STANDARD": "actualització disponible",
+			"STANDARD_TOOLTIP": "<span class=\"standard-update\">Obteniu una actualització nova.</span><br><span>Es recomana l'actualització!</span>",
+			"TIME": "L'hora del sistema és diferent de la de la xarxa",
+			"TIME_TOOLTIP": "<span class=\"wrong-time\">Hora del sistema incorrecta!</span><br><span>Comproveu i repara l'hora del sistema.</span>"
 		}
 	},
 	"STAKING": {
 		"GROUP": {
-			"DAY": "day",
-			"MONTH": "month",
-			"WEEK": "week"
+			"DAY": "Dia",
+			"MONTH": "més",
+			"WEEK": "setmana"
 		},
 		"PERIOD": {
-			"ALL": "All",
-			"MONTH1": "1 month",
-			"MONTH3": "3 month",
-			"MONTH6": "6 month",
-			"WEEK1": "1 week",
-			"WEEK2": "2 week",
-			"YEAR": "1 year"
+			"ALL": "tots",
+			"MONTH1": "1 Mes",
+			"MONTH3": "3 mesos",
+			"MONTH6": "6 Mesos",
+			"WEEK1": "1 setmana",
+			"WEEK2": "2 setmanes",
+			"YEAR": "1 any"
 		},
 		"SWITCH": {
 			"OFF": "OFF",
-			"ON": "ON"
+			"ON": "on"
 		},
-		"TITLE": "Staking",
-		"TITLE_GROUP": "Group:",
-		"TITLE_PENDING": "Pending",
-		"TITLE_PERIOD": "Time period:",
-		"TITLE_TOTAL": "Total"
+		"TITLE": "Apostament",
+		"TITLE_GROUP": "Grup:",
+		"TITLE_PENDING": "PENDENTS",
+		"TITLE_PERIOD": "Període de temps:",
+		"TITLE_TOTAL": "total"
 	},
 	"TOR_LIB_STATE": {
-		"STATE_CREATING_STREAM": "Creating stream",
-		"STATE_DOWNLOADING_CONSENSUS": "Downloading consensus",
-		"STATE_FAILED": "Failed created stream",
-		"STATE_INITIALIZING": "Initializing",
-		"STATE_MAKING_TUNNEL_A": "Building tunnel to A",
-		"STATE_MAKING_TUNNEL_B": "Building tunnel to B",
-		"STATE_SENDING": "Sending transaction",
-		"STATE_SEND_FAILED": "Sending failed",
-		"STATE_SENT_SUCCESS": "Successfully sent!",
-		"STATE_SUCCESS": "Successfully created stream"
+		"STATE_CREATING_STREAM": "Creació d'un flux",
+		"STATE_DOWNLOADING_CONSENSUS": "Descàrrega del consens",
+		"STATE_FAILED": "S'ha produït un error en crear el flux",
+		"STATE_INITIALIZING": "Inicialització",
+		"STATE_MAKING_TUNNEL_A": "Construcció del túnel a A",
+		"STATE_MAKING_TUNNEL_B": "Construcció del túnel a B",
+		"STATE_SENDING": "Transacció d'enviament",
+		"STATE_SEND_FAILED": "No s'ha pogut enviar",
+		"STATE_SENT_SUCCESS": "Enviat amb èxit!",
+		"STATE_SUCCESS": "Emissió creada correctament"
 	},
 	"TRANSFER_ALIAS": {
 		"ADDRESS": {
-			"LABEL": "Transfer to",
+			"LABEL": "Transferir-ho a",
 			"PLACEHOLDER": "Introduïu l'adreça aquí"
 		},
-		"BUTTON_CANCEL": "Cancel",
-		"BUTTON_TRANSFER": "Transfer",
+		"BUTTON_CANCEL": "Cancel · lar",
+		"BUTTON_TRANSFER": "transferència",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "Comentar",
 			"PLACEHOLDER": "Introdueix el teu comentari aquí"
 		},
-		"COST": "Transfer fee {{value}} {{currency}}",
+		"COST": "Comissió de transferència {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"ALIAS_EXISTS": "This account already has an alias",
-			"NO_MONEY": "You do not have enough funds to transfer this alias",
-			"WRONG_ADDRESS": "No wallet with this account exists"
+			"ALIAS_EXISTS": "Aquest compte ja té un àlies",
+			"NO_MONEY": "No teniu prou fons per transferir aquest àlies",
+			"WRONG_ADDRESS": "No existeix cap cartera amb aquest compte"
 		},
 		"NAME": {
-			"LABEL": "Alias",
-			"PLACEHOLDER": "@ Enter alias"
+			"LABEL": "Àlies",
+			"PLACEHOLDER": "@ Introduïu un àlies"
 		},
-		"REQUEST_SEND_REG": "The alias will be transferred within 10 minutes"
+		"REQUEST_SEND_REG": "L'àlies es transferirà en 10 minuts"
 	},
 	"WALLET": {
-		"AVAILABLE_BALANCE": "Available <b>{{available}} {{currency}}<b/>",
+		"AVAILABLE_BALANCE": "Disponible <b>{{available}} {{currency}}<b/>",
 		"CONFIRM": {
 			"MESSAGE": "Per accedir-hi hauràs d'afegir-lo de nou",
 			"TITLE": "Vols suprimir la cartera de la llista?"
 		},
-		"DETAILS": "Details",
-		"LOCK": "Lock",
-		"LOCKED_BALANCE": "Locked <b>{{locked}} {{currency}}<b/>",
-		"LOCKED_BALANCE_LINK": "What does that mean?",
-		"MODAL_ADD_CUSTOM_TOKEN": {
-			"FIELD_TITLE": "Identificador d'actiu",
-			"TITLE": "Afegeix un testimoni personalitzat"
-		},
-		"REGISTER_ALIAS": "Register an alias",
+		"DETAILS": "Detalls",
+		"LOCK": "bloqueig",
+		"LOCKED_BALANCE": "Tancat <b>{{locked}} {{currency}}<b/>",
+		"LOCKED_BALANCE_LINK": "Què vol dir això?",
+		"REGISTER_ALIAS": "Registreu un àlies",
 		"TABS": {
-			"ASSETS": "Assets",
-			"CONTRACTS": "Contracts",
-			"HISTORY": "History",
-			"MESSAGES": "Messages",
-			"RECEIVE": "Receive",
-			"SEND": "Send",
-			"STAKING": "Staking"
+			"CONTRACTS": "contractes",
+			"HISTORY": "Història",
+			"MESSAGES": "missatges",
+			"RECEIVE": "Rebre",
+			"SEND": "Enviar",
+			"STAKING": "Apostament"
 		},
 		"TOOLTIPS": {
-			"ADD_CUSTOM_TOKEN": "Afegeix un testimoni personalitzat",
 			"CLOSE": "Tanca la cartera",
 			"EDIT_ALIAS": "Edita l'àlies",
 			"SETTINGS": "configuració",
@@ -710,9 +675,8 @@
 		}
 	},
 	"WALLET_DETAILS": {
-		"ADD_CUSTOM_TOKEN": "Afegeix un testimoni personalitzat",
-		"BUTTON_REMOVE": "Close wallet",
-		"BUTTON_SAVE": "Save",
+		"BUTTON_REMOVE": "Tanca la cartera",
+		"BUTTON_SAVE": "Desa",
 		"CREATE_PASSWORD_SECURE": "Creeu una contrasenya per protegir la vostra llavor",
 		"FORM": {
 			"CONFIRM_PASSWORD": "Confirma la contrassenya",
@@ -720,21 +684,27 @@
 			"SECURED_SEED_WILL_REQUIRE": "La llavor segura requerirà aquesta contrasenya per restaurar-la."
 		},
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required",
+			"MAX_LENGTH": "S'ha arribat a la longitud màxima del nom",
+			"NAME_DUPLICATE": "El nom és duplicat",
+			"NAME_REQUIRED": "El nom és obligatori",
 			"PASSWORDS_DONT_MATCH": "Les contrasenyes no coincideixen"
 		},
 		"INFO": "Informació",
-		"LABEL_FILE_LOCATION": "Wallet file location",
-		"LABEL_NAME": "Wallet name",
-		"LABEL_SEED_PHRASE": "Seed phrase",
+		"LABEL_FILE_LOCATION": "Ubicació del fitxer Wallet",
+		"LABEL_NAME": "Nom de la cartera",
+		"LABEL_SEED_PHRASE": "Frase llavor",
 		"REMEMBER_YOU_WILL_REQUIRE": "La llavor segura requerirà una contrasenya per restaurar-la.",
 		"RESYNC_WALLET": "Torna a sincronitzar les dades de la cartera",
 		"RESYNC_WALLET_BUTTON": "Resincronitza Wallet",
 		"SEED_IS_SECURED": "La llavor està assegurada",
 		"SEED_IS_UNSECURED": "La llavor no està assegurada",
-		"SEED_PHRASE_HINT": "Click to reveal the seed phrase",
+		"SEED_PHRASE_HINT": "Feu clic per revelar la frase llavor",
 		"WALLET_OPTIONS": "Opcions de cartera..."
+	},
+	"WORDS": {
+		"ACTIONS": {
+			"INSTALL": "Instal·lar",
+			"REMOVE": "Elimina"
+		}
 	}
 }

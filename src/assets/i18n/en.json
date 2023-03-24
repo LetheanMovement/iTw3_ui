@@ -1,29 +1,4 @@
 {
-	"ASSETS": {
-		"DROP_DOWN_MENU": {
-			"ASSET_DETAILS": "Asset Details",
-			"REMOVE_ASSET": "Remove asset"
-		},
-		"MODALS": {
-			"ASSET_DETAILS": {
-				"LABELS": {
-					"CURRENT_SUPPLY": "Current supply",
-					"ID": "Asset ID",
-					"MAX_SUPPLE": "Max supply",
-					"NAME": "Asset name",
-					"TICKER": "Ticker"
-				}
-			}
-		},
-		"TABLE": {
-			"LABELS": {
-				"BALANCE": "Balance",
-				"NAME": "Name",
-				"PRICE": "Price",
-				"VALUE": "Value"
-			}
-		}
-	},
 	"ASSIGN_ALIAS": {
 		"BUTTON_ASSIGN": "Assign",
 		"COMMENT": {
@@ -114,11 +89,11 @@
 			"NOTES": "Notes"
 		},
 		"FORM_ERRORS": {
-			"ADDRESS_DUBLICATED": "Address is dublicated",
+			"ADDRESS_DUBLICATED": "Address is duplicated",
 			"ADDRESS_NOT_VALID": "Address not valid",
 			"ADDRESS_REQUIRED": "Address is required",
 			"MAX_LENGTH": "Maximum notes length reached",
-			"NAME_DUBLICATED": "Name is dublicated",
+			"NAME_DUBLICATED": "Name is duplicated",
 			"NAME_LENGTH": "The name must be 4-25 characters long",
 			"NAME_REQUIRED": "Name is required",
 			"SET_MASTER_PASSWORD": "Set master password"
@@ -267,8 +242,7 @@
 		"EXPORT": "Export to file...",
 		"EXPORT_BUTTON": "Export history...",
 		"FILTER": "Filter POS Transactions",
-		"FORMAT": "Format",
-		"FORMAT:": "",
+		"FORMAT:": "Format",
 		"SAVED_FILE": "Select path to save transactions history ",
 		"TITLE": "Export Wallet History",
 		"TOOLTIP": "Export wallet transactions history to file"
@@ -340,7 +314,6 @@
 		"SEND_PLACEHOLDER": "Type a message..."
 	},
 	"MODALS": {
-		"ADD_TOKEN": "Add token",
 		"CANCEL": "Cancel",
 		"ERROR": "Error",
 		"INFO": "Information",
@@ -379,7 +352,6 @@
 		"NAME_PLACEHOLDER": "Enter a name here",
 		"NOTES_PLACEHOLDER": "Enter a notes here",
 		"PASSWORD_PLACEHOLDER": "Enter a password here",
-		"PASS_PLACEHOLDER": "Enter a master password here",
 		"PLACEHOLDER_CONFIRM": "Confirm new password here",
 		"PLACEHOLDER_NEW": "Enter new password here",
 		"PLACEHOLDER_OLD": "Enter current password here",
@@ -522,12 +494,11 @@
 		"WRAP": {
 			"ESTIMATE": "Transaction Estimates",
 			"FEE": "Ethereum Txn Fee:",
-			"LTHN": "LTHN",
-			"MAIN_TEXT": "This transaction will create wLTHN (\"Wrapped Lethean\") which will be sent to the specified address on the Ethereum network.",
+			"MAIN_TEXT": "This transaction will create wLethean (\"Wrapped Lethean\") which will be sent to the specified address on the Ethereum network.",
 			"TITLE": "Wrap",
 			"WILL_RECEIVE": "You'll receive:",
-			"ZANO": "Lethean",
-			"wZANO": "wLTHN"
+			"ZANO": "LTHN",
+			"wZANO": "wLethean"
 		}
 	},
 	"SEND_DETAILS_MODAL": {
@@ -601,7 +572,7 @@
 			"OFFLINE": "Offline",
 			"ONLINE": "Online",
 			"SLASH": "/",
-			"SYNCING": "Syncing blockchain"
+			"SYNCING": "Syncing block"
 		},
 		"TITLE": "Wallets",
 		"UPDATE": {
@@ -619,9 +590,9 @@
 	},
 	"STAKING": {
 		"GROUP": {
-			"DAY": "Day",
-			"MONTH": "Month",
-			"WEEK": "Week"
+			"DAY": "day",
+			"MONTH": "month",
+			"WEEK": "week"
 		},
 		"PERIOD": {
 			"ALL": "All",
@@ -687,13 +658,8 @@
 		"LOCK": "Lock",
 		"LOCKED_BALANCE": "Locked <b>{{locked}} {{currency}}<b/>",
 		"LOCKED_BALANCE_LINK": "What does that mean?",
-		"MODAL_ADD_CUSTOM_TOKEN": {
-			"FIELD_TITLE": "Asset ID",
-			"TITLE": "Add Custom Token"
-		},
 		"REGISTER_ALIAS": "Register an alias",
 		"TABS": {
-			"ASSETS": "Assets",
 			"CONTRACTS": "Contracts",
 			"HISTORY": "History",
 			"MESSAGES": "Messages",
@@ -702,7 +668,6 @@
 			"STAKING": "Staking"
 		},
 		"TOOLTIPS": {
-			"ADD_CUSTOM_TOKEN": "Add Custom Token",
 			"CLOSE": "Close wallet",
 			"EDIT_ALIAS": "Edit alias",
 			"SETTINGS": "Settings",
@@ -710,7 +675,6 @@
 		}
 	},
 	"WALLET_DETAILS": {
-		"ADD_CUSTOM_TOKEN": "Add Custom Token",
 		"BUTTON_REMOVE": "Close Wallet",
 		"BUTTON_SAVE": "Save",
 		"CREATE_PASSWORD_SECURE": "Create a password to secure your seed",
@@ -736,5 +700,11 @@
 		"SEED_IS_UNSECURED": "Seed is unsecured",
 		"SEED_PHRASE_HINT": "Click to reveal the seed phrase",
 		"WALLET_OPTIONS": "Wallet options..."
+	},
+	"WORDS": {
+		"ACTIONS": {
+			"INSTALL": "Install",
+			"REMOVE": "Remove"
+		}
 	}
 }

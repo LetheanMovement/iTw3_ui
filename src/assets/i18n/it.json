@@ -1,29 +1,4 @@
 {
-	"ASSETS": {
-		"DROP_DOWN_MENU": {
-			"ASSET_DETAILS": "Dettagli risorsa",
-			"REMOVE_ASSET": "Rimuovi risorsa"
-		},
-		"MODALS": {
-			"ASSET_DETAILS": {
-				"LABELS": {
-					"CURRENT_SUPPLY": "Fornitura attuale",
-					"ID": "ID risorsa",
-					"MAX_SUPPLE": "Fornitura massima",
-					"NAME": "Nome risorsa",
-					"TICKER": "Ticker"
-				}
-			}
-		},
-		"TABLE": {
-			"LABELS": {
-				"BALANCE": "Saldo",
-				"NAME": "Nome",
-				"PRICE": "Prezzo",
-				"VALUE": "Valore"
-			}
-		}
-	},
 	"ASSIGN_ALIAS": {
 		"BUTTON_ASSIGN": "Assegna",
 		"COMMENT": {
@@ -41,7 +16,7 @@
 			"NO_MONEY": "Non hai fondi sufficienti per assegnare questo alias"
 		},
 		"NAME": {
-			"LABEL": "Alias",
+			"LABEL": "alias",
 			"PLACEHOLDER": " Inserisci alias",
 			"TOOLTIP": "Un alias è un modulo abbreviato o il tuo account. Un alias può solo includere lettere latine, numeri e caratteri “.” e “-”. Deve iniziare con “@”."
 		},
@@ -102,11 +77,11 @@
 			"SEND": "Invia"
 		},
 		"COPY": "- Copia",
-		"ERROR_EMPTY_LIST": "Contact list is empty",
-		"ERROR_EXPORT": "Invalid file type. Save file as .csv",
+		"ERROR_EMPTY_LIST": "L'elenco dei contatti è vuoto",
+		"ERROR_EXPORT": "Tipo di file non valido. Salva il file come .csv",
 		"ERROR_IMPORT": "Si è verificato un errore durante la lettura del file!",
-		"ERROR_IMPORT_EMPTY": "File is empty",
-		"ERROR_TYPE_FILE": "Please import valid .csv file",
+		"ERROR_IMPORT_EMPTY": "Il file è vuoto",
+		"ERROR_TYPE_FILE": "Importa un file .csv valido",
 		"EXPORT": "Esporta",
 		"FORM": {
 			"ADDRESS": "Indirizzo",
@@ -129,13 +104,13 @@
 		"SEND": "Invia",
 		"SEND_FROM": "Invia da",
 		"SEND_TO": "A",
-		"SUCCESS_EXPORT": "Contacts are exported",
-		"SUCCESS_IMPORT": "Contacts are imported",
+		"SUCCESS_EXPORT": "I contatti vengono esportati",
+		"SUCCESS_IMPORT": "I contatti vengono importati",
 		"SUCCESS_SAVE": "Contatto modificato",
 		"SUCCESS_SENT": "Contatto aggiunto",
 		"TABLE": {
 			"ADDRESS": "Indirizzo",
-			"ALIAS": "Alias",
+			"ALIAS": "alias",
 			"EMPTY": "La lista dei contatti è vuota",
 			"NAME": "Nome",
 			"NOTES": "Note"
@@ -231,7 +206,7 @@
 			"NO_MONEY": "Non hai fondi sufficienti per modificare il commento a questo alias"
 		},
 		"NAME": {
-			"LABEL": "Alias",
+			"LABEL": "alias",
 			"PLACEHOLDER": "@ Inserisci alias"
 		}
 	},
@@ -267,10 +242,9 @@
 		"EXPORT": "Esporta su file...",
 		"EXPORT_BUTTON": "Esporta cronologia...",
 		"FILTER": "Filtra transazioni POS",
-		"FORMAT": "Formato",
-		"FORMAT:": "",
+		"FORMAT:": "Formato",
 		"SAVED_FILE": "Seleziona il percorso per salvare la cronologia delle transazioni",
-		"TITLE": "Esporta cronologia portafoglio",
+		"TITLE": "Esporta la cronologia del portafoglio",
 		"TOOLTIP": "Esporta la cronologia delle transazioni del portafoglio su file"
 	},
 	"HISTORY": {
@@ -282,8 +256,8 @@
 			"CONFIRMATION": "Conferme",
 			"HEIGHT": "Altezza",
 			"ID": "ID transazione",
-			"INPUTS": "Inputs",
-			"OUTPUTS": "Outputs",
+			"INPUTS": "ingressi",
+			"OUTPUTS": "Uscite",
 			"PAYMENT_ID": "ID pagamento",
 			"SIZE": "Dimensione transazione",
 			"SIZE_VALUE": "{{value}} byte"
@@ -301,7 +275,7 @@
 			"CREATE_ALIAS": "Tassa per l'assegnazione dell'alias",
 			"CREATE_CONTRACT": "Proposta contratto",
 			"HIDDEN": "nascosto",
-			"NULLIFY_CONTRACT": "Burn deposit",
+			"NULLIFY_CONTRACT": "Depositi bruciati",
 			"PLEDGE_CONTRACT": "Deposito contratto",
 			"POS_REWARD": "Ricompensa POS",
 			"POW_REWARD": "Ricompensa POW",
@@ -340,11 +314,10 @@
 		"SEND_PLACEHOLDER": "Digita un messaggio..."
 	},
 	"MODALS": {
-		"ADD_TOKEN": "Aggiungi token",
 		"CANCEL": "Annulla",
 		"ERROR": "Errore",
 		"INFO": "Informazioni",
-		"OK": "OK",
+		"OK": "Ok",
 		"SUCCESS": "Successo"
 	},
 	"OPEN_WALLET": {
@@ -369,27 +342,26 @@
 	},
 	"PLACEHOLDERS": {
 		"ADRESS_PLACEHOLDER": "Inserisci qui l'indirizzo",
-		"AMOUNT_PLACEHOLDER": "Inserisci l'importo qui",
+		"AMOUNT_PLACEHOLDER": "Inserisci qui l'importo",
 		"COMMENT_PLACEHOLDER": "Inserisci qui il tuo commento",
-		"CONFIRM_WALET_PASSWORD_PLACEHOLDER": "Conferma qui la password del portafoglio",
+		"CONFIRM_WALET_PASSWORD_PLACEHOLDER": "Conferma la password del portafoglio qui",
 		"DEPOSIT_PLACEHOLDER": "Inserisci qui il tuo deposito",
 		"DESCRIPTION_PLACEHOLDER": "Inserisci qui una descrizione",
-		"FEE_PLACEHOLDER": "Inserisci una commissione qui",
-		"MASTER_PASS_PLACEHOLDER": "Inserisci una password principale qui",
-		"NAME_PLACEHOLDER": "Inserisci un nome qui",
+		"FEE_PLACEHOLDER": "Inserisci qui una commissione",
+		"MASTER_PASS_PLACEHOLDER": "Inserisci qui una password principale",
+		"NAME_PLACEHOLDER": "Immettere un nome qui",
 		"NOTES_PLACEHOLDER": "Inserisci una nota qui",
-		"PASSWORD_PLACEHOLDER": "Inserisci una password qui",
-		"PASS_PLACEHOLDER": "Inserisci una password principale qui",
+		"PASSWORD_PLACEHOLDER": "Inserisci qui una password",
 		"PLACEHOLDER_CONFIRM": "Conferma qui la nuova password",
 		"PLACEHOLDER_NEW": "Inserisci qui la nuova password",
 		"PLACEHOLDER_OLD": "Inserisci qui la password attuale",
 		"PURCHASE_PAYMENT_PLACEHOLDER": "Inserisci qui un ID pagamento",
-		"SEED_PASSWORD_PLACEHOLDER": "Inserisci qui una password iniziale",
+		"SEED_PASSWORD_PLACEHOLDER": "Inserisci qui una password seed",
 		"SEED_PHRASE_PLACEHOLDER": "Inserisci qui una frase seme",
 		"SELLER_DEPOSIT_PLACEHOLDER": "Inserisci qui il deposito del venditore",
 		"SELLER_PLACEHOLDER": "Inserisci qui un venditore",
 		"WALET_PASSWORD_PLACEHOLDER": "Inserisci qui una password per il portafoglio",
-		"WALLET_NAME_PLACEHOLDER": "Inserisci qui un nome portafoglio"
+		"WALLET_NAME_PLACEHOLDER": "Inserisci qui un Nome Portafoglio"
 	},
 	"PROGRESS": {
 		"ADD_WALLET": "Aggiungi portafoglio",
@@ -476,7 +448,7 @@
 		"CONFIRM": "Conferma password portafoglio",
 		"FORM_ERRORS": {
 			"CONFIRM_NOT_MATCH": "La password di conferma non corrisponde",
-			"INCORRECT_PASSWORD": "password errata",
+			"INCORRECT_PASSWORD": "Password errata",
 			"KEY_NOT_VALID": "Chiave non valida",
 			"KEY_REQUIRED": "Chiave richiesta",
 			"MAX_LENGTH": "Lunghezza massima del nome raggiunta",
@@ -486,12 +458,12 @@
 		"LABEL_NAME": "Nome del portafoglio",
 		"LABEL_PHRASE_KEY": "Frase segreta / chiave privata",
 		"NOT_CORRECT_FILE_OR_PASSWORD": "File del portafoglio non valido o password non corrispondente",
-		"OK": "OK",
+		"OK": "Ok",
 		"PASS": "Password portafoglio",
 		"SEED_PASSWORD": "Password seme"
 	},
 	"SEED_PHRASE": {
-		"BUTTON_COPIED": "Copiato",
+		"BUTTON_COPIED": "copiato",
 		"BUTTON_COPY": "Copia",
 		"BUTTON_CREATE_ACCOUNT": "Crea portafoglio",
 		"TITLE": "Assicurati di mantenere la tua frase segreta in un posto sicuro. Se dimentichi la tua frase segreta non sarai in grado di recuperare il tuo portafoglio."
@@ -512,27 +484,26 @@
 			"FEE_MINIMUM": "Costo minimo: {{fee}}",
 			"FEE_REQUIRED": "La commissione è richiesta",
 			"GREAT_THAN_UNWRAPPED_COINS": "L'importo è superiore ai token ERC20 rimasti disponibili",
-			"LESS_THAN_ZANO_NEEDED": "Importo troppo piccolo per coprire la quota ERC20",
+			"LESS_THAN_ZANO_NEEDED": "Importo troppo piccolo per coprire la tariffa ERC20",
 			"MAX_LENGTH": "Lunghezza massima del commento raggiunta",
-			"WRAP_INFO_NULL": "impossibile richiedere lo stato di wrap"
+			"WRAP_INFO_NULL": "impossibile richiedere lo stato di wrapping"
 		},
 		"HIDE": "Nascondi l'indirizzo del tuo portafoglio dal destinatario",
-		"MIXIN": "Mixin",
+		"MIXIN": "Mescolare",
 		"SUCCESS_SENT": "Transazione inviata",
 		"WRAP": {
-			"ESTIMATE": "Stima transazione",
+			"ESTIMATE": "Stime di transazione",
 			"FEE": "Commissione Txn Ethereum:",
-			"LTHN": "LTHN",
-			"MAIN_TEXT": "Questa transazione creerà wLTHN (\"Wrapped Lethean\") che verrà inviato all'indirizzo specificato sulla rete Ethereum.",
-			"TITLE": "Avvolgi",
+			"MAIN_TEXT": "Questa transazione creerà wLethean (\"Wrapped Lethean\") che verrà inviato all'indirizzo specificato sulla rete Ethereum.",
+			"TITLE": "Avvolgere",
 			"WILL_RECEIVE": "Riceverai:",
-			"ZANO": "ZANO",
-			"wZANO": "wLTHN"
+			"ZANO": "LTHN",
+			"wZANO": "wLethean"
 		}
 	},
 	"SEND_DETAILS_MODAL": {
-		"TITLE1": "Transaction",
-		"TITLE2": "Transaction details"
+		"TITLE1": "transazione",
+		"TITLE2": "Dettagli di Transazione"
 	},
 	"SETTINGS": {
 		"APP_LOCK": {
@@ -551,13 +522,13 @@
 		},
 		"GRAY_THEME": "Tema grigio",
 		"LANGUAGE": {
-			"DE": "Deutsch",
-			"EN": "English",
-			"FR": "French",
-			"ID": "Indonesian",
-			"IT": "Italian",
-			"PT": "Portuguese",
-			"TITLE": "Lingua"
+			"DE": "Tedesco",
+			"EN": "Inglese",
+			"FR": "Francese",
+			"ID": "indonesiano",
+			"IT": "Italiano",
+			"PT": "portoghese",
+			"TITLE": "linguaggio"
 		},
 		"LAST_BUILD": "Build attuale: {{value}}",
 		"MASTER_PASSWORD": {
@@ -567,7 +538,7 @@
 			"OLD": "Vecchia password",
 			"TITLE": "Aggiorna password principale"
 		},
-		"NOTIFICATIONS": "Notifiche",
+		"NOTIFICATIONS": "notifiche",
 		"SCALE": {
 			"75": "75% scala",
 			"100": "100% scala",
@@ -577,13 +548,13 @@
 		},
 		"SETTINGS_SAVED": "Salvato! Impostazioni aggiornate",
 		"TITLE": "Impostazioni",
-		"USE_TOR_TO_RELAY_TRANSACTIONS": "Utilizza TOR per inoltrare le transazioni",
+		"USE_TOR_TO_RELAY_TRANSACTIONS": "Usa TOR per inoltrare le transazioni",
 		"WHITE_THEME": "Tema bianco"
 	},
 	"SIDEBAR": {
 		"ACCOUNT": {
 			"MESSAGES": "Nuove offerte/messaggi",
-			"STAKING": "Staking",
+			"STAKING": "Picchettamento",
 			"SYNCING": "Sincronizzazione portafoglio"
 		},
 		"ADD_NEW": "Aggiungi",
@@ -597,11 +568,11 @@
 			"DOWNLOADING": "Download",
 			"ERROR": "Errore di sistema",
 			"LOADING": "Caricamento dati blockchain",
-			"MB": "MB",
-			"OFFLINE": "Offline",
-			"ONLINE": "Online",
-			"SLASH": "/",
-			"SYNCING": "Syncing block"
+			"MB": "",
+			"OFFLINE": "Disconnesso",
+			"ONLINE": "in linea",
+			"SLASH": "",
+			"SYNCING": "Blocco di sincronizzazione"
 		},
 		"TITLE": "Portafogli",
 		"UPDATE": {
@@ -633,26 +604,26 @@
 			"YEAR": "1 anno"
 		},
 		"SWITCH": {
-			"OFF": "OFF",
-			"ON": "ON"
+			"OFF": "via",
+			"ON": "sopra"
 		},
-		"TITLE": "Staking",
+		"TITLE": "Picchettamento",
 		"TITLE_GROUP": "Gruppo:",
 		"TITLE_PENDING": "In sospeso",
 		"TITLE_PERIOD": "Periodo di tempo:",
 		"TITLE_TOTAL": "Totale"
 	},
 	"TOR_LIB_STATE": {
-		"STATE_CREATING_STREAM": "Creating stream",
-		"STATE_DOWNLOADING_CONSENSUS": "Downloading consensus",
-		"STATE_FAILED": "Failed created stream",
-		"STATE_INITIALIZING": "Initializing",
-		"STATE_MAKING_TUNNEL_A": "Building tunnel to A",
-		"STATE_MAKING_TUNNEL_B": "Building tunnel to B",
-		"STATE_SENDING": "Sending transaction",
-		"STATE_SEND_FAILED": "Sending failed",
-		"STATE_SENT_SUCCESS": "Successfully sent!",
-		"STATE_SUCCESS": "Successfully created stream"
+		"STATE_CREATING_STREAM": "Creazione di flusso",
+		"STATE_DOWNLOADING_CONSENSUS": "Download del consenso",
+		"STATE_FAILED": "Flusso creato non riuscito",
+		"STATE_INITIALIZING": "Inizializzazione",
+		"STATE_MAKING_TUNNEL_A": "Costruzione del tunnel per A",
+		"STATE_MAKING_TUNNEL_B": "Costruzione del tunnel verso B",
+		"STATE_SENDING": "Transazione di invio",
+		"STATE_SEND_FAILED": "Invio fallito",
+		"STATE_SENT_SUCCESS": "Inviato con successo!",
+		"STATE_SUCCESS": "Flusso creato correttamente"
 	},
 	"TRANSFER_ALIAS": {
 		"ADDRESS": {
@@ -672,7 +643,7 @@
 			"WRONG_ADDRESS": "Non esiste alcun portafoglio con questo account"
 		},
 		"NAME": {
-			"LABEL": "Alias",
+			"LABEL": "alias",
 			"PLACEHOLDER": "@ Inserisci alias"
 		},
 		"REQUEST_SEND_REG": "L'alias verrà trasferito entro 10 minuti"
@@ -681,19 +652,14 @@
 		"AVAILABLE_BALANCE": "Disponibile <b>{{available}} {{currency}}<b/>",
 		"CONFIRM": {
 			"MESSAGE": "Per accedervi dovrai aggiungerlo di nuovo",
-			"TITLE": "Rimuovere il portafoglio dalla lista?"
+			"TITLE": "Rimuovere il portafoglio dall'elenco?"
 		},
 		"DETAILS": "Dettagli",
 		"LOCK": "Blocca",
 		"LOCKED_BALANCE": "Bloccato <b>{{locked}} {{currency}}<b/>",
 		"LOCKED_BALANCE_LINK": "Che cosa significa?",
-		"MODAL_ADD_CUSTOM_TOKEN": {
-			"FIELD_TITLE": "ID risorsa",
-			"TITLE": "Aggiungi token personalizzato"
-		},
 		"REGISTER_ALIAS": "Registra un alias",
 		"TABS": {
-			"ASSETS": "Risorse",
 			"CONTRACTS": "Contratti",
 			"HISTORY": "Storico",
 			"MESSAGES": "Messaggi",
@@ -702,22 +668,20 @@
 			"STAKING": "Picchettamento"
 		},
 		"TOOLTIPS": {
-			"ADD_CUSTOM_TOKEN": "Aggiungi token personalizzato",
 			"CLOSE": "Chiudi portafoglio",
 			"EDIT_ALIAS": "Modifica alias",
-			"SETTINGS": "Impostazioni",
+			"SETTINGS": "impostazioni",
 			"TRANSFER_ALIAS": "Alias di trasferimento"
 		}
 	},
 	"WALLET_DETAILS": {
-		"ADD_CUSTOM_TOKEN": "Aggiungi token personalizzato",
 		"BUTTON_REMOVE": "Chiudi portafoglio",
 		"BUTTON_SAVE": "Salva",
-		"CREATE_PASSWORD_SECURE": "Crea una password per proteggere il tuo seme",
+		"CREATE_PASSWORD_SECURE": "Crea una password per proteggere il tuo seed",
 		"FORM": {
 			"CONFIRM_PASSWORD": "Conferma password",
 			"GENERATE_SECURE_SEED": "Genera seme sicuro",
-			"SECURED_SEED_WILL_REQUIRE": "Secure seed richiederà il ripristino di questa password."
+			"SECURED_SEED_WILL_REQUIRE": "Il seme sicuro richiederà il ripristino di questa password."
 		},
 		"FORM_ERRORS": {
 			"MAX_LENGTH": "Lunghezza massima del nome raggiunta",
@@ -729,12 +693,18 @@
 		"LABEL_FILE_LOCATION": "Posizione file portafoglio",
 		"LABEL_NAME": "Nome portafoglio",
 		"LABEL_SEED_PHRASE": "Frase segreta",
-		"REMEMBER_YOU_WILL_REQUIRE": "Secure seed richiederà la password per il ripristino.",
+		"REMEMBER_YOU_WILL_REQUIRE": "Il seme sicuro richiederà la password per il ripristino.",
 		"RESYNC_WALLET": "Risincronizza i dati del portafoglio",
 		"RESYNC_WALLET_BUTTON": "Risincronizza il portafoglio",
-		"SEED_IS_SECURED": "Il seme è protetto",
+		"SEED_IS_SECURED": "Il seme è assicurato",
 		"SEED_IS_UNSECURED": "Il seme non è protetto",
 		"SEED_PHRASE_HINT": "Clicca per rivelare la frase segreta",
 		"WALLET_OPTIONS": "Opzioni portafoglio..."
+	},
+	"WORDS": {
+		"ACTIONS": {
+			"INSTALL": "installare",
+			"REMOVE": "Rimuovere"
+		}
 	}
 }

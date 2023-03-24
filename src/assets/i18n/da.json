@@ -1,371 +1,344 @@
 {
-	"ASSETS": {
-		"DROP_DOWN_MENU": {
-			"ASSET_DETAILS": "Aktivdetaljer",
-			"REMOVE_ASSET": "Fjern aktiv"
-		},
-		"MODALS": {
-			"ASSET_DETAILS": {
-				"LABELS": {
-					"CURRENT_SUPPLY": "Nuværende forsyning",
-					"ID": "Aktiv-id",
-					"MAX_SUPPLE": "Max udbud",
-					"NAME": "Aktivets navn",
-					"TICKER": "Ticker"
-				}
-			}
-		},
-		"TABLE": {
-			"LABELS": {
-				"BALANCE": "Balance",
-				"NAME": "Navn",
-				"PRICE": "Pris",
-				"VALUE": "Værdi"
-			}
-		}
-	},
 	"ASSIGN_ALIAS": {
-		"BUTTON_ASSIGN": "Assign",
+		"BUTTON_ASSIGN": "Tildel",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "kommentar",
 			"PLACEHOLDER": "Indtast din kommentar her",
-			"TOOLTIP": "The comment will be visible to anyone who wants to make a payment to your alias. You can provide details about your business, contacts, or include any text. Comments can be edited later."
+			"TOOLTIP": "Kommentaren vil være synlig for alle, der ønsker at foretage en betaling til dit alias. Du kan angive detaljer om din virksomhed, kontakter eller inkludere enhver tekst. Kommentarer kan redigeres senere."
 		},
-		"COST": "Alias fee {{value}} {{currency}}",
+		"COST": "Aliasgebyr {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum comment length reached",
-			"NAME_EXISTS": "Alias name already exists",
-			"NAME_LENGTH": "The alias must be 6-25 characters long",
-			"NAME_REQUIRED": "Name is required",
-			"NAME_WRONG": "Invalid name: allowed symbols \"0-9\", \"a-z\", \"-\", \".\"",
-			"NO_MONEY": "You do not have enough funds to assign this alias"
+			"MAX_LENGTH": "Den maksimale kommentarlængde er nået",
+			"NAME_EXISTS": "Aliasnavnet findes allerede",
+			"NAME_LENGTH": "Aliasnavnet skal være på 6-25 tegn",
+			"NAME_REQUIRED": "Navn kræves",
+			"NAME_WRONG": "Ugyldigt navn: tilladte symboler \"0-9\", \"a-z\", \"-\", \".\"",
+			"NO_MONEY": "Du har ikke penge nok til at tildele dette alias"
 		},
 		"NAME": {
 			"LABEL": "Alias",
-			"PLACEHOLDER": " Enter alias",
-			"TOOLTIP": "An alias is a shortened form or your account. An alias can only include Latin letters, numbers and characters “.” and “-”. It must start with “@”."
+			"PLACEHOLDER": " Indtast alias",
+			"TOOLTIP": "Et alias er en forkortet formular eller din konto. Et alias kan kun indeholde latinske bogstaver, tal og tegn \".\" og \"-\". Det skal starte med \"@\"."
 		},
-		"ONE_ALIAS": "You can create only one alias per wallet",
-		"REQUEST_ADD_REG": "The alias will be assigned within 10 minutes"
+		"ONE_ALIAS": "Du kan kun oprette ét alias pr. tegnebog",
+		"REQUEST_ADD_REG": "Aliaset vil blive tildelt inden for 10 minutter"
 	},
 	"BACKEND_LOCALIZATION": {
-		"INCOME_TRANSFER_CONFIRMED": "Payment received",
-		"INCOME_TRANSFER_UNCONFIRMED": "Incoming payment (not confirmed)",
+		"INCOME_TRANSFER_CONFIRMED": "Betaling modtaget",
+		"INCOME_TRANSFER_UNCONFIRMED": "Indgående betaling (ikke bekræftet)",
 		"IS_CONFIRMED": "",
-		"IS_MINIMIZE": "Lethean application is minimized to the system tray",
+		"IS_MINIMIZE": "Lethean applikation er minimeret til proceslinjen",
 		"IS_RECEIVED": "",
-		"LOCKED": "Blocked",
-		"MINED": "Mined",
-		"QUIT": "Quit",
-		"RESTORE": "You can recover it by clicking or using the context menu",
-		"TRAY_MENU_MINIMIZE": "Minimize",
+		"LOCKED": "blokeret",
+		"MINED": "Udvundet",
+		"QUIT": "Afslut",
+		"RESTORE": "Du kan gendanne den ved at klikke eller bruge kontekstmenuen",
+		"TRAY_MENU_MINIMIZE": "Minimer",
 		"TRAY_MENU_SHOW": "Resize"
 	},
 	"BREADCRUMBS": {
-		"ADD_WALLET": "Add wallet",
-		"ASSIGN_ALIAS": "Assign alias",
-		"CONTRACTS": "Contracts",
-		"CREATE_WALLET": "Create new wallet",
-		"EDIT_ALIAS": "Edit alias",
-		"NEW_PURCHASE": "New purchase",
-		"OLD_PURCHASE": "Purchase",
-		"OPEN_WALLET": "Open existing wallet",
-		"RESTORE_WALLET": "Restore from backup",
-		"SAVE_PHRASE": "Save your seed phrase",
-		"TRANSFER_ALIAS": "Transfer alias",
-		"WALLET_DETAILS": "Wallet details"
+		"ADD_WALLET": "Tilføj tegnebog",
+		"ASSIGN_ALIAS": "Tildel alias",
+		"CONTRACTS": "Kontrakter",
+		"CREATE_WALLET": "Opret ny tegnebog",
+		"EDIT_ALIAS": "Rediger alias",
+		"NEW_PURCHASE": "Nyt køb",
+		"OLD_PURCHASE": "Køb",
+		"OPEN_WALLET": "Åbn eksisterende tegnebog",
+		"RESTORE_WALLET": "Gendan fra backup",
+		"SAVE_PHRASE": "Gem din frøsætning",
+		"TRANSFER_ALIAS": "Overfør alias",
+		"WALLET_DETAILS": "Pung detaljer"
 	},
 	"COMMON": {
-		"BACK": "Go back"
+		"BACK": "Gå tilbage"
 	},
 	"CONFIRM": {
-		"BUTTON_CANCEL": "Cancel",
-		"BUTTON_CONFIRM": "Send",
+		"BUTTON_CANCEL": "afbestille",
+		"BUTTON_CONFIRM": "Sende",
 		"MESSAGE": {
-			"COMMENT": "Comment",
-			"FROM": "From",
-			"SEND": "Send",
-			"TO": "To"
+			"COMMENT": "kommentar",
+			"FROM": "Fra",
+			"SEND": "Sende",
+			"TO": "Til"
 		},
-		"TITLE": "Transaction"
+		"TITLE": "Transaktion"
 	},
 	"CONTACTS": {
-		"ADD": "Add/edit contact",
+		"ADD": "Tilføj/rediger kontakt",
 		"ADD_CONTACT": "Tilføj kontakt",
 		"BUTTON": {
-			"ADD": "Add contact",
-			"ADD_EDIT": "Add/Save",
-			"DELETE": "Delete",
-			"EDIT": "Edit",
-			"GO_TO_WALLET": "Go to wallet",
-			"IMPORT_EXPORT": "Import/export",
-			"SEND": "Send"
+			"ADD": "Tilføj kontakt",
+			"ADD_EDIT": "Tilføj/Gem",
+			"DELETE": "Slet",
+			"EDIT": "Redigere",
+			"GO_TO_WALLET": "Gå til tegnebogen",
+			"IMPORT_EXPORT": "Import Eksport",
+			"SEND": "Sende"
 		},
-		"COPY": "- Copy",
-		"ERROR_EMPTY_LIST": "Contact list is empty",
-		"ERROR_EXPORT": "Invalid file type. Save file as .csv",
-		"ERROR_IMPORT": "Error is occured while reading file!",
-		"ERROR_IMPORT_EMPTY": "File is empty",
-		"ERROR_TYPE_FILE": "Please import valid .csv file",
-		"EXPORT": "Export",
+		"COPY": "- Kopi",
+		"ERROR_EMPTY_LIST": "Kontaktlisten er tom",
+		"ERROR_EXPORT": "Ugyldig filtype. Gem fil som .csv",
+		"ERROR_IMPORT": "Der opstod en fejl under læsning af filen!",
+		"ERROR_IMPORT_EMPTY": "filen er tom",
+		"ERROR_TYPE_FILE": "Importer venligst en gyldig .csv-fil",
+		"EXPORT": "Eksport",
 		"FORM": {
-			"ADDRESS": "Address",
-			"NAME": "Name",
-			"NOTES": "Notes"
+			"ADDRESS": "adresse",
+			"NAME": "Navn",
+			"NOTES": "Noter"
 		},
 		"FORM_ERRORS": {
-			"ADDRESS_DUBLICATED": "Address is dublicated",
-			"ADDRESS_NOT_VALID": "Address not valid",
-			"ADDRESS_REQUIRED": "Address is required",
-			"MAX_LENGTH": "Maximum notes length reached",
-			"NAME_DUBLICATED": "Name is dublicated",
-			"NAME_LENGTH": "The name must be 4-25 characters long",
-			"NAME_REQUIRED": "Name is required",
-			"SET_MASTER_PASSWORD": "Set master password"
+			"ADDRESS_DUBLICATED": "Adressen er duplikeret",
+			"ADDRESS_NOT_VALID": "Adressen er ikke gyldig",
+			"ADDRESS_REQUIRED": "Adresse er påkrævet",
+			"MAX_LENGTH": "Maksimal nodelængde nået",
+			"NAME_DUBLICATED": "Navnet er duplikeret",
+			"NAME_LENGTH": "Navnet skal være 4-25 tegn langt",
+			"NAME_REQUIRED": "Navn kræves",
+			"SET_MASTER_PASSWORD": "Indstil hovedadgangskode"
 		},
-		"IMPORT": "Import",
-		"IMPORT_EXPORT": "Import or export contacts",
-		"OPEN_ADD_WALLET": "Open/Add wallet",
-		"SEND": "Send",
-		"SEND_FROM": "Send from",
-		"SEND_TO": "To",
-		"SUCCESS_EXPORT": "Contacts are exported",
-		"SUCCESS_IMPORT": "Contacts are imported",
-		"SUCCESS_SAVE": "Contact is edited",
-		"SUCCESS_SENT": "Contact added",
+		"IMPORT": "Importere",
+		"IMPORT_EXPORT": "Importer eller eksporter kontakter",
+		"OPEN_ADD_WALLET": "Åbn/tilføj tegnebog",
+		"SEND": "Sende",
+		"SEND_FROM": "Send fra",
+		"SEND_TO": "Til",
+		"SUCCESS_EXPORT": "Kontakter eksporteres",
+		"SUCCESS_IMPORT": "Kontakter importeres",
+		"SUCCESS_SAVE": "Kontakten er redigeret",
+		"SUCCESS_SENT": "Kontakt tilføjet",
 		"TABLE": {
-			"ADDRESS": "Address",
+			"ADDRESS": "adresse",
 			"ALIAS": "Alias",
-			"EMPTY": "Contact list is empty",
-			"NAME": "Name",
-			"NOTES": "Notes"
+			"EMPTY": "Kontaktlisten er tom",
+			"NAME": "Navn",
+			"NOTES": "Noter"
 		},
-		"TITLE": "Contact list"
+		"TITLE": "Kontakt liste"
 	},
 	"CONTEXT_MENU": {
-		"COPY": "copy",
-		"PASTE": "paste",
-		"SELECT": "select all"
+		"COPY": "Kopi",
+		"PASTE": "sæt ind",
+		"SELECT": "Vælg alle"
 	},
 	"CONTRACTS": {
-		"AMOUNT": "Amount",
-		"COMMENTS": "Comments",
-		"CONTRACTS": "Contracts",
-		"DATE": "Date",
-		"EMPTY": "No active contracts",
-		"LISTING_BUTTON": "Create listing",
-		"PURCHASE": "Purchase",
-		"PURCHASE_BUTTON": "New Purchase",
-		"SELL": "Sell",
-		"STATUS": "Status",
+		"AMOUNT": "Beløb",
+		"COMMENTS": "Kommentarer",
+		"CONTRACTS": "Kontrakter",
+		"DATE": "Dato",
+		"EMPTY": "Ingen aktive kontrakter",
+		"LISTING_BUTTON": "Opret fortegnelse",
+		"PURCHASE": "Køb",
+		"PURCHASE_BUTTON": "Nyt køb",
+		"SELL": "Sælge",
+		"STATUS": "status",
 		"STATUS_MESSAGES": {
 			"BUYER": {
-				"ACCEPTED": "Seller accepted your contract proposal",
-				"BEING_CANCELLED": "Cancellation in progress",
-				"CANCELLED": "Contract canceled",
-				"COMPLETED": "Contract completed",
-				"EXPIRED": "The contract proposal has expired",
-				"IGNORED": "Seller ignored your contract proposal",
-				"IGNORED_CANCEL": "The seller ignored your proposal to cancel the contract",
-				"NOT_RECEIVED": "Delivery failed",
-				"NULLIFIED": "All deposits burned",
-				"WAIT": "Waiting for deposits confirmation",
-				"WAITING": "Waiting for response",
-				"WAITING_CANCEL": "Waiting for contract cancellation",
-				"WAITING_SELLER": "Waiting for delivery"
+				"ACCEPTED": "Sælger accepterede dit kontraktforslag",
+				"BEING_CANCELLED": "Aflysning i gang",
+				"CANCELLED": "Kontrakt annulleret",
+				"COMPLETED": "Kontrakt afsluttet",
+				"EXPIRED": "Kontraktforslaget er udløbet",
+				"IGNORED": "Sælger ignorerede dit kontraktforslag",
+				"IGNORED_CANCEL": "Sælger ignorerede dit forslag om at annullere kontrakten",
+				"NOT_RECEIVED": "Levering mislykkedes",
+				"NULLIFIED": "Alle aflejringer brændt",
+				"WAIT": "Venter på indbetalingsbekræftelse",
+				"WAITING": "Venter på svar",
+				"WAITING_CANCEL": "Afventer kontraktopsigelse",
+				"WAITING_SELLER": "Venter på levering"
 			},
 			"SELLER": {
-				"ACCEPTED": "Contract started",
-				"BEING_CANCELLED": "Cancellation in progress",
-				"CANCELLED": "Contract canceled",
-				"COMPLETED": "Contract completed",
-				"EXPIRED": "Contract proposal has expired",
-				"IGNORED": "You ignored contract proposal",
-				"IGNORED_CANCEL": "You ignored cancellation proposal",
-				"NEW_CONTRACT": "New contract proposal",
-				"NOT_RECEIVED": "Delivery failed",
-				"NULLIFIED": "All deposits burned",
-				"PROPOSAL_CANCEL": "New proposal to cancel contract and return deposits",
-				"WAIT": "Waiting for contract confirmation",
-				"WAITING_BUYER": "Waiting for delivery"
+				"ACCEPTED": "",
+				"BEING_CANCELLED": "Aflysning i gang",
+				"CANCELLED": "Kontrakt annulleret",
+				"COMPLETED": "Kontrakt afsluttet",
+				"EXPIRED": "Kontraktforslaget er udløbet",
+				"IGNORED": "Du ignorerede kontraktforslaget",
+				"IGNORED_CANCEL": "Du ignorerede annulleringsforslaget",
+				"NEW_CONTRACT": "Nyt kontraktforslag",
+				"NOT_RECEIVED": "Levering mislykkedes",
+				"NULLIFIED": "Alle aflejringer brændt",
+				"PROPOSAL_CANCEL": "Nyt forslag om at annullere kontrakt og returnere indskud",
+				"WAIT": "Afventer kontraktbekræftelse",
+				"WAITING_BUYER": "Venter på levering"
 			}
 		},
 		"TIME_LEFT": {
-			"REMAINING_LESS_ONE": "Less than an hour to respond",
-			"REMAINING_MANY": "{{time}} hours remain",
-			"REMAINING_MANY_ALT": "{{time}} hours remain",
-			"REMAINING_MANY_ALT_RESPONSE": "{{time}} hours remain",
-			"REMAINING_MANY_ALT_WAITING": "Waiting for {{time}} hours",
-			"REMAINING_MANY_RESPONSE": "{{time}} hours remain",
-			"REMAINING_MANY_WAITING": "Waiting for {{time}} hours",
-			"REMAINING_ONE": "{{time}} hour remains",
-			"REMAINING_ONE_RESPONSE": "{{time}} hour remains",
-			"REMAINING_ONE_WAITING": "Waiting for {{time}} hour"
+			"REMAINING_LESS_ONE": "Mindre end en time til at svare",
+			"REMAINING_MANY": "{{time}} timer tilbage",
+			"REMAINING_MANY_ALT": "{{time}} timer tilbage",
+			"REMAINING_MANY_ALT_RESPONSE": "{{time}} timer tilbage",
+			"REMAINING_MANY_ALT_WAITING": "Venter i {{time}} timer",
+			"REMAINING_MANY_RESPONSE": "{{time}} timer tilbage",
+			"REMAINING_MANY_WAITING": "Venter i {{time}} timer",
+			"REMAINING_ONE": "{{time}} time tilbage",
+			"REMAINING_ONE_RESPONSE": "{{time}} time tilbage",
+			"REMAINING_ONE_WAITING": "Venter i {{time}} time"
 		}
 	},
 	"CREATE_WALLET": {
-		"BUTTON_CREATE": "Create wallet",
-		"BUTTON_SELECT": "Select wallet location",
-		"CONFIRM": "Confirm wallet password",
-		"ERROR_CANNOT_SAVE_SYSTEM": "Wallet files cannot be saved to the OS partition",
-		"ERROR_CANNOT_SAVE_TOP": "Existing wallet files cannot be replaced or overwritten",
+		"BUTTON_CREATE": "Opret tegnebog",
+		"BUTTON_SELECT": "Vælg Tegnebogsplacering",
+		"CONFIRM": "Bekræft tegnebogsadgangskode",
+		"ERROR_CANNOT_SAVE_SYSTEM": "Tegnebogsfiler kan ikke gemmes på OS-partitionen",
+		"ERROR_CANNOT_SAVE_TOP": "Eksisterende tegnebogsfiler kan ikke erstattes eller overskrives",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required"
+			"CONFIRM_NOT_MATCH": "Bekræft, at adgangskoden ikke stemmer overens",
+			"MAX_LENGTH": "Maksimal navnelængde nået",
+			"NAME_DUPLICATE": "Navnet er dublet",
+			"NAME_REQUIRED": "Navn kræves"
 		},
-		"NAME": "Wallet name",
-		"PASS": "Set wallet password",
-		"TITLE_SAVE": "Save the wallet file."
+		"NAME": "Tegnebogsnavn",
+		"PASS": "Indstil tegnebogsadgangskode",
+		"TITLE_SAVE": "Gem tegnebogsfilen."
 	},
 	"EDIT_ALIAS": {
-		"BUTTON_EDIT": "Edit",
+		"BUTTON_EDIT": "Redigere",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "kommentar",
 			"PLACEHOLDER": "Indtast din kommentar her"
 		},
-		"COST": "Fee {{value}} {{currency}}",
+		"COST": "Gebyr {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum comment length reached",
-			"NO_MONEY": "You do not have enough funds to change the comment to this alias"
+			"MAX_LENGTH": "Den maksimale kommentarlængde er nået",
+			"NO_MONEY": "Du har ikke penge nok til at ændre kommentaren til dette alias"
 		},
 		"NAME": {
 			"LABEL": "Alias",
-			"PLACEHOLDER": "@ Enter alias"
+			"PLACEHOLDER": "@ Indtast alias"
 		}
 	},
 	"ERRORS": {
-		"ACCESS_DENIED": "Access denied",
-		"BAD_ARG": "Invalid argument",
-		"CORE_BUSY": "Internal error: core is busy",
-		"DAEMON_BUSY": "Internal error: daemon is busy",
-		"FILE_EXIST": "A file with that name already exists. Enter another name to save the file under",
-		"FILE_NOT_FOUND": "File not found",
-		"FILE_NOT_SAVED": "You cannot save a wallet file in this folder. Please choose another folder.",
-		"FILE_RESTORED": "The wallet file was corrupted. We have recovered the keys and the wallet from the blockchain",
-		"NOT_ENOUGH_MONEY": "Insufficient funds in account",
-		"NOT_ENOUGH_OUTPUTS_TO_MIX": "Mix-in number is too big for current blockchain state. There are not enough unspent outputs to mix with",
-		"NO_MONEY": "Not enough money",
-		"NO_MONEY_REMOVE_OFFER": "There is no fee for deleting an offer, but in order to protect the network against flood transactions you need to have at least {{fee}} {{currency}} in your wallet",
-		"TRANSACTION_ERROR": "Error. Transaction not completed.",
-		"TRANSACTION_IS_TO_BIG": "Transaction exceeds network limit, send required amount with multiple transactions",
-		"TRANSFER_ATTEMPT": "There is no connection to Lethean network",
-		"TX_TYPE_COIN_BASE": "Error. The payment was not completed.",
-		"TX_TYPE_NEW_ALIAS": "Error. Failed to register alias to safe",
-		"TX_TYPE_NEW_ALIAS_END": "Please try again.",
-		"TX_TYPE_NORMAL": "Error. The payment from the wallet",
-		"TX_TYPE_NORMAL_END": "was not completed.",
-		"TX_TYPE_NORMAL_TO": "to",
-		"TX_TYPE_UPDATE_ALIAS": "Error. Failed to change comment to alias in safe",
+		"ACCESS_DENIED": "Adgang nægtet",
+		"BAD_ARG": "Ugyldigt argument",
+		"CORE_BUSY": "Intern fejl: kernen er optaget",
+		"DAEMON_BUSY": "Intern fejl: dæmonen er optaget",
+		"FILE_EXIST": "Der findes allerede en fil med det navn. Indtast et andet navn for at gemme filen under",
+		"FILE_NOT_FOUND": "Fil ikke fundet",
+		"FILE_NOT_SAVED": "Du kan ikke gemme en tegnebogsfil i denne mappe. Vælg venligst en anden mappe.",
+		"FILE_RESTORED": "Tegnebogsfilen var beskadiget. Vi har genfundet nøglerne og tegnebogen fra blockchain",
+		"NOT_ENOUGH_MONEY": "Utilstrækkelige midler på konto",
+		"NOT_ENOUGH_OUTPUTS_TO_MIX": "Blandingsnummeret er for stort til den nuværende blockchain-tilstand. Der er ikke nok ubrugte output at blande med",
+		"NO_MONEY": "Ikke nok penge",
+		"NO_MONEY_REMOVE_OFFER": "Der er intet gebyr for at slette et tilbud, men for at beskytte netværket mod oversvømmelsestransaktioner skal du have mindst {{fee}} {{currency}} i din tegnebog",
+		"TRANSACTION_ERROR": "Fejl. Transaktion ikke gennemført.",
+		"TRANSACTION_IS_TO_BIG": "Transaktionen overskrider netværksgrænsen, send det nødvendige beløb med flere transaktioner",
+		"TRANSFER_ATTEMPT": "Der er ingen forbindelse til Lethean-netværket",
+		"TX_TYPE_COIN_BASE": "Fejl. Betalingen blev ikke gennemført.",
+		"TX_TYPE_NEW_ALIAS": "Fejl. Det lykkedes ikke at registrere alias til sikker",
+		"TX_TYPE_NEW_ALIAS_END": "Prøv igen.",
+		"TX_TYPE_NORMAL": "Fejl. Betalingen fra pungen",
+		"TX_TYPE_NORMAL_END": "blev ikke afsluttet.",
+		"TX_TYPE_NORMAL_TO": "Til",
+		"TX_TYPE_UPDATE_ALIAS": "Fejl. Kunne ikke ændre kommentar til alias i safe",
 		"WALLET_WATCH_ONLY_NOT_SUPPORTED": "Watch-only wallets kan kun åbnes af simplewallet",
-		"WALLET_WRONG_ID": "Invalid wallet ID",
-		"WRONG_PASSWORD": "Invalid password"
+		"WALLET_WRONG_ID": "Ugyldigt tegnebogs-id",
+		"WRONG_PASSWORD": "forkert kodeord"
 	},
 	"EXPORT_HISTORY": {
 		"CANCEL": "afbestille",
 		"EXPORT": "Eksporter til fil...",
 		"EXPORT_BUTTON": "Eksporter historik...",
 		"FILTER": "Filtrer POS-transaktioner",
-		"FORMAT": "Format",
-		"FORMAT:": "",
+		"FORMAT:": "Format",
 		"SAVED_FILE": "Vælg sti for at gemme transaktionshistorikken",
 		"TITLE": "Eksporter tegnebogshistorik",
 		"TOOLTIP": "Eksporter tegnebogstransaktionshistorik til fil"
 	},
 	"HISTORY": {
-		"ADDRESS": "Address",
-		"AMOUNT": "Amount",
-		"DATE": "Date",
+		"ADDRESS": "adresse",
+		"AMOUNT": "Beløb",
+		"DATE": "Dato",
 		"DETAILS": {
-			"COMMENT": "Comment",
-			"CONFIRMATION": "Confirmation",
-			"HEIGHT": "Height",
-			"ID": "Transaction ID",
-			"INPUTS": "Inputs",
-			"OUTPUTS": "Outputs",
-			"PAYMENT_ID": "Payment ID",
-			"SIZE": "Transaction size",
-			"SIZE_VALUE": "{{value}} bytes"
+			"COMMENT": "kommentar",
+			"CONFIRMATION": "Bekræftelse",
+			"HEIGHT": "Højde",
+			"ID": "Transaktions ID",
+			"INPUTS": "Indgange",
+			"OUTPUTS": "Udgange",
+			"PAYMENT_ID": "Betalings-id",
+			"SIZE": "Transaktionsstørrelse",
+			"SIZE_VALUE": " {{value}} bytes"
 		},
-		"FEE": "Fee",
-		"LOCK_TOOLTIP": "Locked till {{date}}",
-		"RECEIVED": "Received",
-		"SEND": "Sent",
-		"STATUS": "Status",
-		"STATUS_TOOLTIP": "Confirmations {{current}}/{{total}}",
+		"FEE": "Betaling",
+		"LOCK_TOOLTIP": "Låst til {{date}}",
+		"RECEIVED": "Modtaget",
+		"SEND": "Sendt",
+		"STATUS": "status",
+		"STATUS_TOOLTIP": "Bekræftelser {{current}}/{{total}}",
 		"TYPE_MESSAGES": {
-			"CANCEL_CONTRACT": "Cancel and return deposits",
-			"COMPLETE_BUYER": "Contract completed",
-			"COMPLETE_SELLER": "Contract completed",
-			"CREATE_ALIAS": "Fee for assigning alias",
-			"CREATE_CONTRACT": "Contract proposal",
-			"HIDDEN": "hidden",
-			"NULLIFY_CONTRACT": "Burn deposits",
-			"PLEDGE_CONTRACT": "Contract deposit",
-			"POS_REWARD": "POS reward",
-			"POW_REWARD": "POW reward",
-			"PROPOSAL_CANCEL_CONTRACT": "Cancellation request",
-			"UNDEFINED": "Undefined",
-			"UPDATE_ALIAS": "Fee for editing alias"
+			"CANCEL_CONTRACT": "Annuller og returner indbetalinger",
+			"COMPLETE_BUYER": "Kontrakt afsluttet",
+			"COMPLETE_SELLER": "Kontrakt afsluttet",
+			"CREATE_ALIAS": "Gebyr for tildeling af alias",
+			"CREATE_CONTRACT": "Kontraktforslag",
+			"HIDDEN": "Skjult",
+			"NULLIFY_CONTRACT": "Brænd aflejringer",
+			"PLEDGE_CONTRACT": "Kontraktindskud",
+			"POS_REWARD": "POS belønning",
+			"POW_REWARD": "POW belønning",
+			"PROPOSAL_CANCEL_CONTRACT": "Annulleringsanmodning",
+			"UNDEFINED": "Udefineret",
+			"UPDATE_ALIAS": "Gebyr for redigering af alias"
 		}
 	},
 	"LOGIN": {
-		"BUTTON_NEXT": "Next",
-		"BUTTON_RESET": "Reset",
-		"BUTTON_SKIP": "Skip",
+		"BUTTON_NEXT": "Næste",
+		"BUTTON_RESET": "Nulstil",
+		"BUTTON_SKIP": "Springe",
 		"FORM_ERRORS": {
-			"CONFIRM_REQUIRED": "Confirmation is required",
+			"CONFIRM_REQUIRED": "Bekræftelse er påkrævet",
 			"INVALID_PASS": "Ugyldig adgangskode. Prøv igen",
 			"MISMATCH": "Mismatch",
-			"PASS_REQUIRED": "Password is required"
+			"PASS_REQUIRED": "adgangskode er påkrævet"
 		},
-		"INCORRECT_PASSWORD": "Invalid password",
-		"MASTER_PASS": "Master password",
-		"SETUP_CONFIRM_PASS": "Confirm the password",
-		"SETUP_MASTER_PASS": "Setup master password"
+		"INCORRECT_PASSWORD": "forkert kodeord",
+		"MASTER_PASS": "Hovedadgangskode",
+		"SETUP_CONFIRM_PASS": "Bekræft adgangskoden",
+		"SETUP_MASTER_PASS": "Opsæt hovedadgangskode"
 	},
 	"MAIN": {
-		"BUTTON_NEW_WALLET": "Create new wallet",
-		"BUTTON_OPEN_WALLET": "Open existing wallet",
-		"BUTTON_RESTORE_BACKUP": "Restore from backup",
-		"CHOOSE_PATH": "Please choose a path",
-		"HELP": "How to create wallet?",
-		"TITLE": "Create or open the wallet to start using Lethean"
+		"BUTTON_NEW_WALLET": "Opret ny tegnebog",
+		"BUTTON_OPEN_WALLET": "Åbn eksisterende tegnebog",
+		"BUTTON_RESTORE_BACKUP": "Gendan fra backup",
+		"CHOOSE_PATH": "Vælg venligst en sti",
+		"HELP": "Hvordan opretter man tegnebog?",
+		"TITLE": "Opret eller åbn tegnebogen for at begynde at bruge Lethean"
 	},
 	"MESSAGES": {
-		"ADDRESS": "Address",
-		"MESSAGE": "Message",
-		"SEND_BUTTON": "Send",
-		"SEND_PLACEHOLDER": "Type a message..."
+		"ADDRESS": "adresse",
+		"MESSAGE": "Besked",
+		"SEND_BUTTON": "Sende",
+		"SEND_PLACEHOLDER": "Skriv en meddelelse ..."
 	},
 	"MODALS": {
-		"ADD_TOKEN": "Tilføj token",
 		"CANCEL": "afbestille",
-		"ERROR": "Error",
+		"ERROR": "Fejl",
 		"INFO": "Information",
-		"OK": "OK",
-		"SUCCESS": "Success"
+		"OK": "Okay",
+		"SUCCESS": "Succes"
 	},
 	"OPEN_WALLET": {
-		"BUTTON": "Open wallet",
-		"FILE_NOT_FOUND1": "Wallet file not found",
-		"FILE_NOT_FOUND2": "<br/><br/> It might have been renamed or moved. <br/> To open it, use the \"Open wallet\" button.",
+		"BUTTON": "Åben tegnebog",
+		"FILE_NOT_FOUND1": "Tegnebogsfil blev ikke fundet",
+		"FILE_NOT_FOUND2": "<br/><br/> Det kan være blevet omdøbt eller flyttet. <br/> Brug knappen \"Åbn tegnebog\" for at åbne den.",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required"
+			"MAX_LENGTH": "Maksimal navnelængde nået",
+			"NAME_DUPLICATE": "Navnet er dublet",
+			"NAME_REQUIRED": "Navn kræves"
 		},
 		"MODAL": {
-			"LABEL": "Password to this wallet",
-			"NOT_FOUND": "Not found",
-			"OPEN": "Open wallet",
-			"SKIP": "Skip",
-			"TITLE": "Type wallet password"
+			"LABEL": "Adgangskode til denne tegnebog",
+			"NOT_FOUND": "Ikke fundet",
+			"OPEN": "Åben tegnebog",
+			"SKIP": "Springe",
+			"TITLE": "Indtast tegnebogsadgangskode"
 		},
-		"NAME": "Wallet name",
-		"PASS": "Wallet password",
-		"WITH_ADDRESS_ALREADY_OPEN": "A wallet with this address is already open"
+		"NAME": "Tegnebogsnavn",
+		"PASS": "Wallet-adgangskode",
+		"WITH_ADDRESS_ALREADY_OPEN": "En tegnebog med denne adresse er allerede åben"
 	},
 	"PLACEHOLDERS": {
 		"ADRESS_PLACEHOLDER": "Indtast adresse her",
@@ -379,7 +352,6 @@
 		"NAME_PLACEHOLDER": "Indtast et navn her",
 		"NOTES_PLACEHOLDER": "Indtast en note her",
 		"PASSWORD_PLACEHOLDER": "Indtast en adgangskode her",
-		"PASS_PLACEHOLDER": "Indtast en hovedadgangskode her",
 		"PLACEHOLDER_CONFIRM": "Bekræft ny adgangskode her",
 		"PLACEHOLDER_NEW": "Indtast ny adgangskode her",
 		"PLACEHOLDER_OLD": "Indtast den aktuelle adgangskode her",
@@ -392,164 +364,163 @@
 		"WALLET_NAME_PLACEHOLDER": "Indtast et tegnebogsnavn her"
 	},
 	"PROGRESS": {
-		"ADD_WALLET": "Add wallet",
-		"CREATE_WALLET": "Create new wallet",
-		"RESTORE_WALLET": "Restore from backup",
-		"SELECT_LOCATION": "Select wallet location"
+		"ADD_WALLET": "Tilføj tegnebog",
+		"CREATE_WALLET": "Opret ny tegnebog",
+		"RESTORE_WALLET": "Gendan fra backup",
+		"SELECT_LOCATION": "Vælg Tegnebogsplacering"
 	},
 	"PURCHASE": {
-		"ACCEPT_STATE_WAIT_BIG": "Contract started",
-		"AMOUNT": "Amount",
-		"BURN_PROPOSAL": "Deposits burned",
-		"BUTTON_CANCEL_BUYER": "Cancel and return deposits",
-		"BUTTON_CANCEL_SELLER": "Confirm and return deposits",
-		"BUTTON_IGNORE": "Ignore and hide offer",
-		"BUTTON_MAKE_PLEDGE": "Accept and make deposit",
-		"BUTTON_NOT_CANCEL": "Ignore request",
-		"BUTTON_NULLIFY": "Terminate and burn deposits",
-		"BUTTON_NULLIFY_SHORT": "Burn",
-		"BUTTON_RECEIVED": "Complete and release deposits",
-		"BUYER_DEPOSIT": "Buyer deposit",
-		"CANCEL": "Cancel",
-		"COMMENT": "Comment",
-		"DEALS_CANCELED_WAIT": "Cancellation in progress",
-		"DESCRIPTION": "Description",
-		"DETAILS": "Additional details",
-		"FEE": "Fee",
+		"ACCEPT_STATE_WAIT_BIG": "Kontrakt startet",
+		"AMOUNT": "Beløb",
+		"BURN_PROPOSAL": "Aflejringer brændt",
+		"BUTTON_CANCEL_BUYER": "Annuller og returner indbetalinger",
+		"BUTTON_CANCEL_SELLER": "Bekræft og returner indbetalinger",
+		"BUTTON_IGNORE": "Ignorer og skjul tilbud",
+		"BUTTON_MAKE_PLEDGE": "Accepter og lav indbetaling",
+		"BUTTON_NOT_CANCEL": "Ignorer anmodning",
+		"BUTTON_NULLIFY": "Afslut og brænd aflejringer",
+		"BUTTON_NULLIFY_SHORT": "Brænde",
+		"BUTTON_RECEIVED": "Gennemfør og frigiv indskud",
+		"BUYER_DEPOSIT": "Købers depositum",
+		"CANCEL": "afbestille",
+		"COMMENT": "kommentar",
+		"DEALS_CANCELED_WAIT": "Aflysning i gang",
+		"DESCRIPTION": "Beskrivelse",
+		"DETAILS": "Yderligere detaljer",
+		"FEE": "Betaling",
 		"FORM_ERRORS": {
-			"ALIAS_NOT_VALID": "Invalid alias",
-			"AMOUNT_REQUIRED": "Amount required",
-			"AMOUNT_ZERO": "Amount cannot be zero",
-			"COMMENT_MAXIMUM": "Maximum field length reached",
-			"DESC_MAXIMUM": "Maximum field length reached",
-			"DESC_REQUIRED": "Description required",
-			"SELLER_DEPOSIT_REQUIRED": "Seller deposit required",
-			"SELLER_NOT_VALID": "Invalid address",
-			"SELLER_REQUIRED": "Address required",
-			"SELLER_SAME": "Use separate account",
-			"YOUR_DEPOSIT_REQUIRED": "Deposit required"
+			"ALIAS_NOT_VALID": "Ugyldigt alias",
+			"AMOUNT_REQUIRED": "Beløb påkrævet",
+			"AMOUNT_ZERO": "Beløbet kan ikke være nul",
+			"COMMENT_MAXIMUM": "Maksimal feltlængde nået",
+			"DESC_MAXIMUM": "Maksimal feltlængde nået",
+			"DESC_REQUIRED": "Beskrivelse påkrævet",
+			"SELLER_DEPOSIT_REQUIRED": "Sælger depositum påkrævet",
+			"SELLER_NOT_VALID": "Ugyldig adresse",
+			"SELLER_REQUIRED": "Adresse påkrævet",
+			"SELLER_SAME": "Brug separat konto",
+			"YOUR_DEPOSIT_REQUIRED": "Depositum påkrævet"
 		},
-		"HOUR": "hour",
-		"HOURS": "hours",
-		"IGNORED_ACCEPT": "Contract proposal ignored",
-		"IGNORED_CANCEL": "Contract cancellation proposal ignored",
-		"NEED_MONEY": "Insufficient funds",
-		"NULLIFY_QUESTION": "Are you sure you want to burn both deposits?",
-		"PAYMENT": "Payment ID",
-		"PROGRESS_COMPLETE": "Completed",
-		"PROGRESS_NEW": "New purchase",
-		"PROGRESS_RECEIVE": "Reply received",
-		"PROGRESS_WAIT": "Awaiting reply",
-		"SAME_AMOUNT": "Same amount",
-		"SELLER": "Seller",
-		"SELLER_DEPOSIT": "Seller deposit",
-		"SEND_BUTTON": "Send",
-		"SEND_CANCEL_PROPOSAL": "Cancellation request sent",
+		"HOUR": "Time",
+		"HOURS": "Timer",
+		"IGNORED_ACCEPT": "Kontraktforslag ignoreret",
+		"IGNORED_CANCEL": "Forslaget om kontraktophævelse ignoreret",
+		"NEED_MONEY": "Ikke nok penge",
+		"NULLIFY_QUESTION": "Er du sikker på, at du vil brænde begge indskud?",
+		"PAYMENT": "Betalings-id",
+		"PROGRESS_COMPLETE": "afsluttet",
+		"PROGRESS_NEW": "Nyt køb",
+		"PROGRESS_RECEIVE": "Svar modtaget",
+		"PROGRESS_WAIT": "Afventer svar",
+		"SAME_AMOUNT": "Samme beløb",
+		"SELLER": "Sælger",
+		"SELLER_DEPOSIT": "Sælgers depositum",
+		"SEND_BUTTON": "Sende",
+		"SEND_CANCEL_PROPOSAL": "Annulleringsanmodning sendt",
 		"STATUS_MESSAGES": {
-			"BEING_CANCELLED": "Cancellation in progress",
-			"CANCELLED": "Contract canceled",
-			"COMPLETED": "Contract completed",
-			"EXPIRED": "Contract proposal expired",
-			"IGNORED_BUYER": "Contract proposal ignored",
-			"IGNORED_CANCEL_BUYER": "Contract cancellation proposal ignored",
-			"IGNORED_CANCEL_SELLER": "The seller ignored your proposal to cancel the contract",
-			"IGNORED_SELLER": "The seller ignored your contract proposal",
-			"NEW_PURCHASE": "New purchase",
-			"NOT_RECEIVED": "Delivery failed",
-			"NULLIFIED": "All deposits burned",
-			"PROPOSAL_CANCEL_BUYER": "Cancellation request received",
-			"PROPOSAL_CANCEL_SELLER": "Cancellation request sent",
-			"WAITING_BUYER": "Contract proposal received",
-			"WAITING_CONFIRMATION": "Waiting for deposits confirmation",
-			"WAITING_DELIVERY": "Waiting for delivery",
-			"WAITING_SELLER": "Waiting for response"
+			"BEING_CANCELLED": "Aflysning i gang",
+			"CANCELLED": "Kontrakt annulleret",
+			"COMPLETED": "Kontrakt afsluttet",
+			"EXPIRED": "Kontraktforslag er udløbet",
+			"IGNORED_BUYER": "Kontraktforslag ignoreret",
+			"IGNORED_CANCEL_BUYER": "Forslaget om kontraktophævelse ignoreret",
+			"IGNORED_CANCEL_SELLER": "Sælger ignorerede dit forslag om at annullere kontrakten",
+			"IGNORED_SELLER": "Sælgeren ignorerede dit kontraktforslag",
+			"NEW_PURCHASE": "Nyt køb",
+			"NOT_RECEIVED": "Levering mislykkedes",
+			"NULLIFIED": "Alle aflejringer brændt",
+			"PROPOSAL_CANCEL_BUYER": "Annulleringsanmodning modtaget",
+			"PROPOSAL_CANCEL_SELLER": "Annulleringsanmodning sendt",
+			"WAITING_BUYER": "Kontraktforslag modtaget",
+			"WAITING_CONFIRMATION": "Venter på indbetalingsbekræftelse",
+			"WAITING_DELIVERY": "Venter på levering",
+			"WAITING_SELLER": "Venter på svar"
 		},
-		"SUCCESS_FINISH_PROPOSAL": "Contract completed",
-		"WAITING_TIME": "Response time",
-		"WAITING_TIME_QUESTION": "Are you sure you want to cancel the contract?",
-		"YOUR_DEPOSIT": "Your deposit"
+		"SUCCESS_FINISH_PROPOSAL": "Kontrakt afsluttet",
+		"WAITING_TIME": "Responstid",
+		"WAITING_TIME_QUESTION": "Er du sikker på, at du vil annullere kontrakten?",
+		"YOUR_DEPOSIT": "Dit indskud"
 	},
 	"RESTORE_WALLET": {
-		"BUTTON_CREATE": "Create wallet",
-		"BUTTON_SELECT": "Select wallet location",
-		"CHOOSE_PATH": "Please choose a path",
-		"CONFIRM": "Confirm wallet password",
+		"BUTTON_CREATE": "Opret tegnebog",
+		"BUTTON_SELECT": "Vælg Tegnebogsplacering",
+		"CHOOSE_PATH": "Vælg venligst en sti",
+		"CONFIRM": "Bekræft tegnebogsadgangskode",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
+			"CONFIRM_NOT_MATCH": "Bekræft, at adgangskoden ikke stemmer overens",
 			"INCORRECT_PASSWORD": "forkert kodeord",
-			"KEY_NOT_VALID": "Key not valid",
-			"KEY_REQUIRED": "Key is required",
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required"
+			"KEY_NOT_VALID": "Nøglen er ikke gyldig",
+			"KEY_REQUIRED": "Nøgle er påkrævet",
+			"MAX_LENGTH": "Maksimal navnelængde nået",
+			"NAME_DUPLICATE": "Navnet er dublet",
+			"NAME_REQUIRED": "Navn kræves"
 		},
-		"LABEL_NAME": "Wallet name",
-		"LABEL_PHRASE_KEY": "Seed phrase / tracking seed",
-		"NOT_CORRECT_FILE_OR_PASSWORD": "Invalid wallet file or password does not match",
+		"LABEL_NAME": "Tegnebogsnavn",
+		"LABEL_PHRASE_KEY": "Frøsætning / sporingsfrø",
+		"NOT_CORRECT_FILE_OR_PASSWORD": "Ugyldig tegnebogsfil eller adgangskode stemmer ikke overens",
 		"OK": "Okay",
-		"PASS": "Wallet password",
+		"PASS": "Wallet-adgangskode",
 		"SEED_PASSWORD": "Seed-adgangskode"
 	},
 	"SEED_PHRASE": {
 		"BUTTON_COPIED": "Kopieret",
-		"BUTTON_COPY": "Copy",
-		"BUTTON_CREATE_ACCOUNT": "Create wallet",
-		"TITLE": "Make sure to keep your seed phrase in a safe place. If you forget your seed phrase you will not be able to recover your wallet."
+		"BUTTON_COPY": "Kopi",
+		"BUTTON_CREATE_ACCOUNT": "Opret tegnebog",
+		"TITLE": "Sørg for at opbevare din frøsætning på et sikkert sted. Hvis du glemmer din frøsætning, vil du ikke være i stand til at gendanne din pung."
 	},
 	"SEND": {
-		"ADDRESS": "Address",
-		"AMOUNT": "Amount",
-		"BUTTON": "Send",
-		"COMMENT": "Comment",
-		"DETAILS": "Additional details",
-		"FEE": "Fee",
+		"ADDRESS": "adresse",
+		"AMOUNT": "Beløb",
+		"BUTTON": "Sende",
+		"COMMENT": "kommentar",
+		"DETAILS": "Yderligere detaljer",
+		"FEE": "Betaling",
 		"FORM_ERRORS": {
-			"ADDRESS_NOT_VALID": "Address not valid",
-			"ADDRESS_REQUIRED": "Address is required",
-			"ALIAS_NOT_VALID": "Alias not valid",
-			"AMOUNT_REQUIRED": "Amount is required",
-			"AMOUNT_ZERO": "Amount is zero",
-			"FEE_MINIMUM": "Minimum fee: {{fee}}",
-			"FEE_REQUIRED": "Fee is required",
+			"ADDRESS_NOT_VALID": "Adressen er ikke gyldig",
+			"ADDRESS_REQUIRED": "Adresse er påkrævet",
+			"ALIAS_NOT_VALID": "Alias er ikke gyldigt",
+			"AMOUNT_REQUIRED": "Beløb kræves",
+			"AMOUNT_ZERO": "Beløbet er nul",
+			"FEE_MINIMUM": "Minimumsgebyr: {{fee}}",
+			"FEE_REQUIRED": "Gebyr er påkrævet",
 			"GREAT_THAN_UNWRAPPED_COINS": "Beløbet er større end ERC20-tokens, der er tilbage",
 			"LESS_THAN_ZANO_NEEDED": "For lille beløb til at dække ERC20-gebyret",
-			"MAX_LENGTH": "Maximum comment length reached",
+			"MAX_LENGTH": "Den maksimale kommentarlængde er nået",
 			"WRAP_INFO_NULL": "kunne ikke anmode om ombrydningstilstand"
 		},
-		"HIDE": "Hide your wallet address from recipient",
-		"MIXIN": "Mixin",
-		"SUCCESS_SENT": "Transaction sent",
+		"HIDE": "Skjul din tegnebogsadresse for modtageren",
+		"MIXIN": "Blanding",
+		"SUCCESS_SENT": "Transaktion sendt",
 		"WRAP": {
 			"ESTIMATE": "Transaktionsestimater",
 			"FEE": "Ethereum Txn-gebyr:",
-			"LTHN": "LTHN",
-			"MAIN_TEXT": "Denne transaktion vil skabe wLTHN (\"Wrapped Lethean\"), som vil blive sendt til den angivne adresse på Ethereum-netværket.",
+			"MAIN_TEXT": "Denne transaktion vil skabe wLethean (\"Wrapped Lethean\"), som vil blive sendt til den angivne adresse på Ethereum-netværket.",
 			"TITLE": "Indpakning",
 			"WILL_RECEIVE": "Du modtager:",
-			"ZANO": "",
-			"wZANO": "wLTHN"
+			"ZANO": "LTHN",
+			"wZANO": "wLethean"
 		}
 	},
 	"SEND_DETAILS_MODAL": {
-		"TITLE1": "Transaction",
-		"TITLE2": "Transaction details"
+		"TITLE1": "Transaktion",
+		"TITLE2": "Overførselsdetaljer"
 	},
 	"SETTINGS": {
 		"APP_LOCK": {
 			"TIME1": "5 min",
 			"TIME2": "15 min",
-			"TIME3": "1 hour",
-			"TIME4": "Never",
-			"TITLE": "Lock app after:"
+			"TIME3": "1 time",
+			"TIME4": "Aldrig",
+			"TITLE": "Lås app efter:"
 		},
-		"APP_LOG_TITLE": "Log level:",
-		"DARK_THEME": "Dark theme",
+		"APP_LOG_TITLE": "Log niveau:",
+		"DARK_THEME": "Mørkt tema",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
-			"PASS_NOT_MATCH": "Old password not match",
-			"PASS_REQUIRED": "Password is required"
+			"CONFIRM_NOT_MATCH": "Bekræft, at adgangskoden ikke stemmer overens",
+			"PASS_NOT_MATCH": "forkert kodeord",
+			"PASS_REQUIRED": "adgangskode er påkrævet"
 		},
-		"GRAY_THEME": "Grey theme",
+		"GRAY_THEME": "Grå tema",
 		"LANGUAGE": {
 			"DE": "Deutsch",
 			"EN": "engelsk",
@@ -559,150 +530,144 @@
 			"PT": "portugisisk",
 			"TITLE": "Sprog"
 		},
-		"LAST_BUILD": "Current build: {{value}}",
+		"LAST_BUILD": "Nuværende build: {{value}}",
 		"MASTER_PASSWORD": {
-			"BUTTON": "Save",
-			"CONFIRM": "New password confirmation",
-			"NEW": "New password",
-			"OLD": "Old password",
-			"TITLE": "Update master password"
+			"BUTTON": "Gemme",
+			"CONFIRM": "Bekræft kodeord",
+			"NEW": "Nyt kodeord",
+			"OLD": "Nuværende kodeord",
+			"TITLE": "Opdater hovedadgangskoden"
 		},
 		"NOTIFICATIONS": "underretninger",
 		"SCALE": {
-			"75": "75% scale",
-			"100": "100% scale",
-			"125": "125% scale",
-			"150": "150% scale",
+			"75": "75 % skala",
+			"100": "100% skala",
+			"125": "125 % skala",
+			"150": "150% skala",
 			"TITLE": "Interface skala"
 		},
 		"SETTINGS_SAVED": "Gemt! Indstillinger opdateret",
-		"TITLE": "Settings",
+		"TITLE": "INDSTILLINGER",
 		"USE_TOR_TO_RELAY_TRANSACTIONS": "Brug TOR til at videresende transaktioner",
-		"WHITE_THEME": "White theme"
+		"WHITE_THEME": "Hvidt tema"
 	},
 	"SIDEBAR": {
 		"ACCOUNT": {
-			"MESSAGES": "New offers/Messages",
-			"STAKING": "Staking",
-			"SYNCING": "Syncing wallet"
+			"MESSAGES": "Nye tilbud/beskeder",
+			"STAKING": "Indsats",
+			"SYNCING": "Synkroniserer tegnebog"
 		},
-		"ADD_NEW": "Add",
-		"CONTACTS": "Contacts",
+		"ADD_NEW": "Tilføj tegnebog",
+		"CONTACTS": "Kontakter",
 		"CONTACTS_TOOLTIP": "Indstillingen Kontakter er kun tilgængelig med hovedadgangskode aktiveret",
 		"LOG_OUT": "Log out",
 		"LOG_OUT_TOOLTIP": "Logout-indstillingen er kun tilgængelig med hovedadgangskode aktiveret",
-		"SETTINGS": "Settings",
+		"SETTINGS": "INDSTILLINGER",
 		"SYNCHRONIZATION": {
-			"COMPLETE": "Completion",
+			"COMPLETE": "færdiggørelse",
 			"DOWNLOADING": "Downloading",
-			"ERROR": "System error",
-			"LOADING": "Loading blockchain data",
-			"MB": "Mb",
+			"ERROR": "Systemfejl",
+			"LOADING": "Indlæser blockchain-data",
+			"MB": "",
 			"OFFLINE": "Offline",
 			"ONLINE": "Online",
-			"SLASH": "/",
-			"SYNCING": "Syncing blockchain"
+			"SLASH": "",
+			"SYNCING": "Synkroniseringsblok"
 		},
-		"TITLE": "Wallets",
+		"TITLE": "Tegnebøger",
 		"UPDATE": {
-			"CRITICAL": "Update available",
-			"CRITICAL_HINT": "Critical update!",
-			"CRITICAL_TOOLTIP": "<span class=\"critical-update\">Critical update available.</span><i class=\"icon\"></i><span>Update strongly recommended!</span>",
-			"IMPORTANT": "Update available",
-			"IMPORTANT_HINT": "Important update!",
-			"IMPORTANT_TOOLTIP": "<span class=\"important-update\">Get new update.</span><br><span>Important update!</span>",
-			"STANDARD": "Update available",
-			"STANDARD_TOOLTIP": "<span class=\"standard-update\">Get new update.</span><br><span>Update is recommended!</span>",
-			"TIME": "System time differs from network",
-			"TIME_TOOLTIP": "<span class=\"wrong-time\">Wrong system time!</span><br><span>Check and repair your system time.</span>"
+			"CRITICAL": "Opdatering tilgængelig",
+			"CRITICAL_HINT": "Kritisk opdatering!",
+			"CRITICAL_TOOLTIP": "<span class=\"critical-update\">Kritisk opdatering tilgængelig.</span><i class=\"icon\"></i><span>Opdatering anbefales stærkt!</span>",
+			"IMPORTANT": "Opdatering tilgængelig",
+			"IMPORTANT_HINT": "Vigtig opdatering!",
+			"IMPORTANT_TOOLTIP": "<span class=\"important-update\">Få ny opdatering.</span><br><span>Vigtig opdatering!</span>",
+			"STANDARD": "Opdatering tilgængelig",
+			"STANDARD_TOOLTIP": "<span class=\"standard-update\">Få ny opdatering.</span><br><span>Opdatering anbefales!</span>",
+			"TIME": "Systemtiden er forskellig fra netværket",
+			"TIME_TOOLTIP": "<span class=\"wrong-time\">Forkert systemtid!</span><br><span>Tjek og reparer din systemtid.</span>"
 		}
 	},
 	"STAKING": {
 		"GROUP": {
-			"DAY": "day",
-			"MONTH": "month",
-			"WEEK": "week"
+			"DAY": "dag",
+			"MONTH": "Måned",
+			"WEEK": "Uge"
 		},
 		"PERIOD": {
-			"ALL": "All",
-			"MONTH1": "1 month",
-			"MONTH3": "3 month",
-			"MONTH6": "6 month",
-			"WEEK1": "1 week",
-			"WEEK2": "2 week",
-			"YEAR": "1 year"
+			"ALL": "Alle",
+			"MONTH1": "1 måned",
+			"MONTH3": "3 måneder",
+			"MONTH6": "6 måneder",
+			"WEEK1": "En uge",
+			"WEEK2": "2 uge",
+			"YEAR": "1 år"
 		},
 		"SWITCH": {
-			"OFF": "OFF",
-			"ON": "ON"
+			"OFF": "Af",
+			"ON": "På"
 		},
-		"TITLE": "Staking",
-		"TITLE_GROUP": "Group:",
-		"TITLE_PENDING": "Pending",
-		"TITLE_PERIOD": "Time period:",
-		"TITLE_TOTAL": "Total"
+		"TITLE": "Indsats",
+		"TITLE_GROUP": "Gruppe:",
+		"TITLE_PENDING": "Verserende",
+		"TITLE_PERIOD": "Tidsperiode:",
+		"TITLE_TOTAL": "i alt"
 	},
 	"TOR_LIB_STATE": {
-		"STATE_CREATING_STREAM": "Creating stream",
-		"STATE_DOWNLOADING_CONSENSUS": "Downloading consensus",
-		"STATE_FAILED": "Failed created stream",
-		"STATE_INITIALIZING": "Initializing",
-		"STATE_MAKING_TUNNEL_A": "Building tunnel to A",
-		"STATE_MAKING_TUNNEL_B": "Building tunnel to B",
-		"STATE_SENDING": "Sending transaction",
-		"STATE_SEND_FAILED": "Sending failed",
-		"STATE_SENT_SUCCESS": "Successfully sent!",
-		"STATE_SUCCESS": "Successfully created stream"
+		"STATE_CREATING_STREAM": "Opretter stream",
+		"STATE_DOWNLOADING_CONSENSUS": "Downloader konsensus",
+		"STATE_FAILED": "Mislykket oprettet stream",
+		"STATE_INITIALIZING": "Initialiserer",
+		"STATE_MAKING_TUNNEL_A": "Bygning af tunnel til A",
+		"STATE_MAKING_TUNNEL_B": "Bygning af tunnel til B",
+		"STATE_SENDING": "Sender transaktion",
+		"STATE_SEND_FAILED": "Afsendelse mislykkedes",
+		"STATE_SENT_SUCCESS": "Sendt med succes!",
+		"STATE_SUCCESS": "Stream blev oprettet"
 	},
 	"TRANSFER_ALIAS": {
 		"ADDRESS": {
-			"LABEL": "Transfer to",
+			"LABEL": "Overfør til",
 			"PLACEHOLDER": "Indtast adresse her"
 		},
-		"BUTTON_CANCEL": "Cancel",
-		"BUTTON_TRANSFER": "Transfer",
+		"BUTTON_CANCEL": "afbestille",
+		"BUTTON_TRANSFER": "overførsel",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "kommentar",
 			"PLACEHOLDER": "Indtast din kommentar her"
 		},
-		"COST": "Transfer fee {{value}} {{currency}}",
+		"COST": "Overførselsgebyr {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"ALIAS_EXISTS": "This account already has an alias",
-			"NO_MONEY": "You do not have enough funds to transfer this alias",
-			"WRONG_ADDRESS": "No wallet with this account exists"
+			"ALIAS_EXISTS": "Denne konto har allerede et alias",
+			"NO_MONEY": "Du har ikke penge nok til at overføre dette alias",
+			"WRONG_ADDRESS": "Der findes ingen tegnebog med denne konto"
 		},
 		"NAME": {
 			"LABEL": "Alias",
-			"PLACEHOLDER": "@ Enter alias"
+			"PLACEHOLDER": "@ Indtast alias"
 		},
-		"REQUEST_SEND_REG": "The alias will be transferred within 10 minutes"
+		"REQUEST_SEND_REG": "Aliaset vil blive overført inden for 10 minutter"
 	},
 	"WALLET": {
-		"AVAILABLE_BALANCE": "Available <b>{{available}} {{currency}}<b/>",
+		"AVAILABLE_BALANCE": "Tilgængelig <b>{{available}} {{currency}}<b/>",
 		"CONFIRM": {
 			"MESSAGE": "For at få adgang til det skal du tilføje det igen",
 			"TITLE": "Vil du fjerne tegnebogen fra listen?"
 		},
-		"DETAILS": "Details",
-		"LOCK": "Lock",
-		"LOCKED_BALANCE": "Locked <b>{{locked}} {{currency}}<b/>",
-		"LOCKED_BALANCE_LINK": "What does that mean?",
-		"MODAL_ADD_CUSTOM_TOKEN": {
-			"FIELD_TITLE": "Aktiv-id",
-			"TITLE": "Tilføj brugerdefineret token"
-		},
-		"REGISTER_ALIAS": "Register an alias",
+		"DETAILS": "detaljer",
+		"LOCK": "Låse",
+		"LOCKED_BALANCE": "Låst <b>{{locked}} {{currency}}<b/>",
+		"LOCKED_BALANCE_LINK": "Hvad betyder det?",
+		"REGISTER_ALIAS": "Registrer et alias",
 		"TABS": {
-			"ASSETS": "Assets",
-			"CONTRACTS": "Contracts",
-			"HISTORY": "History",
-			"MESSAGES": "Messages",
-			"RECEIVE": "Receive",
-			"SEND": "Send",
-			"STAKING": "Staking"
+			"CONTRACTS": "Kontrakter",
+			"HISTORY": "Historie",
+			"MESSAGES": "Beskeder",
+			"RECEIVE": "Modtage",
+			"SEND": "Sende",
+			"STAKING": "Indsats"
 		},
 		"TOOLTIPS": {
-			"ADD_CUSTOM_TOKEN": "Tilføj brugerdefineret token",
 			"CLOSE": "Luk tegnebogen",
 			"EDIT_ALIAS": "Rediger alias",
 			"SETTINGS": "INDSTILLINGER",
@@ -710,9 +675,8 @@
 		}
 	},
 	"WALLET_DETAILS": {
-		"ADD_CUSTOM_TOKEN": "Tilføj brugerdefineret token",
-		"BUTTON_REMOVE": "Close wallet",
-		"BUTTON_SAVE": "Save",
+		"BUTTON_REMOVE": "Luk tegnebogen",
+		"BUTTON_SAVE": "Gemme",
 		"CREATE_PASSWORD_SECURE": "Opret en adgangskode for at sikre dit frø",
 		"FORM": {
 			"CONFIRM_PASSWORD": "Bekræft kodeord",
@@ -720,21 +684,27 @@
 			"SECURED_SEED_WILL_REQUIRE": "Secure Seed vil kræve denne adgangskode for at gendanne."
 		},
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required",
+			"MAX_LENGTH": "Maksimal navnelængde nået",
+			"NAME_DUPLICATE": "Navnet er dublet",
+			"NAME_REQUIRED": "Navn kræves",
 			"PASSWORDS_DONT_MATCH": "Passwords matcher ikke"
 		},
 		"INFO": "info",
-		"LABEL_FILE_LOCATION": "Wallet file location",
-		"LABEL_NAME": "Wallet name",
-		"LABEL_SEED_PHRASE": "Seed phrase",
+		"LABEL_FILE_LOCATION": "Placering af tegnebogsfil",
+		"LABEL_NAME": "Tegnebogsnavn",
+		"LABEL_SEED_PHRASE": "Frøsætning",
 		"REMEMBER_YOU_WILL_REQUIRE": "Secure seed kræver adgangskode for at gendanne.",
 		"RESYNC_WALLET": "Gensynkroniser tegnebogsdata",
 		"RESYNC_WALLET_BUTTON": "Synkroniser tegnebogen igen",
 		"SEED_IS_SECURED": "Frø er sikret",
 		"SEED_IS_UNSECURED": "Frø er usikret",
-		"SEED_PHRASE_HINT": "Click to reveal the seed phrase",
+		"SEED_PHRASE_HINT": "Klik for at afsløre frøsætningen",
 		"WALLET_OPTIONS": "Tegnebogsmuligheder..."
+	},
+	"WORDS": {
+		"ACTIONS": {
+			"INSTALL": "installere",
+			"REMOVE": "Fjerne"
+		}
 	}
 }

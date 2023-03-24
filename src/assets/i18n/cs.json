@@ -1,65 +1,40 @@
 {
-	"ASSETS": {
-		"DROP_DOWN_MENU": {
-			"ASSET_DETAILS": "Podrobnosti o majetku",
-			"REMOVE_ASSET": "Odebrat aktivum"
-		},
-		"MODALS": {
-			"ASSET_DETAILS": {
-				"LABELS": {
-					"CURRENT_SUPPLY": "Proudové napájení",
-					"ID": "ID aktiva",
-					"MAX_SUPPLE": "Max",
-					"NAME": "Název aktiva",
-					"TICKER": "ticker"
-				}
-			}
-		},
-		"TABLE": {
-			"LABELS": {
-				"BALANCE": "Zůstatek",
-				"NAME": "název",
-				"PRICE": "Cena",
-				"VALUE": "Hodnota"
-			}
-		}
-	},
 	"ASSIGN_ALIAS": {
-		"BUTTON_ASSIGN": "Assign",
+		"BUTTON_ASSIGN": "Přiřadit",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "Komentář",
 			"PLACEHOLDER": "Zde zadejte svůj komentář",
-			"TOOLTIP": "The comment will be visible to anyone who wants to make a payment to your alias. You can provide details about your business, contacts, or include any text. Comments can be edited later."
+			"TOOLTIP": "Komentář bude viditelný pro každého, kdo chce provést platbu na váš alias. Můžete uvést podrobnosti o své firmě, kontakty nebo vložit libovolný text. Komentáře lze později upravit."
 		},
-		"COST": "Alias fee {{value}} {{currency}}",
+		"COST": "Poplatek za alias {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum comment length reached",
-			"NAME_EXISTS": "Alias name already exists",
-			"NAME_LENGTH": "The alias must be 6-25 characters long",
-			"NAME_REQUIRED": "Name is required",
-			"NAME_WRONG": "Invalid name: allowed symbols \"0-9\", \"a-z\", \"-\", \".\"",
-			"NO_MONEY": "You do not have enough funds to assign this alias"
+			"MAX_LENGTH": "Bylo dosaženo maximální délky komentáře",
+			"NAME_EXISTS": "Název aliasu již existuje",
+			"NAME_LENGTH": "Název aliasu musí mít 6–25 znaků",
+			"NAME_REQUIRED": "Jméno je povinné",
+			"NAME_WRONG": "Neplatný název: povolené symboly \"0-9\", \"a-z\", \"-\", \".\"",
+			"NO_MONEY": "K přiřazení tohoto aliasu nemáte dostatek prostředků"
 		},
 		"NAME": {
 			"LABEL": "Alias",
-			"PLACEHOLDER": " Enter alias",
-			"TOOLTIP": "An alias is a shortened form or your account. An alias can only include Latin letters, numbers and characters “.” and “-”. It must start with “@”."
+			"PLACEHOLDER": " Zadejte alias",
+			"TOOLTIP": "Alias je zkrácený formulář nebo váš účet. Alias může obsahovat pouze latinská písmena, čísla a znaky „.“ a \"-\". Musí začínat znakem „@“."
 		},
-		"ONE_ALIAS": "You can create only one alias per wallet",
-		"REQUEST_ADD_REG": "The alias will be assigned within 10 minutes"
+		"ONE_ALIAS": "Pro každou peněženku můžete vytvořit pouze jeden alias",
+		"REQUEST_ADD_REG": "Alias bude přidělen do 10 minut"
 	},
 	"BACKEND_LOCALIZATION": {
-		"INCOME_TRANSFER_CONFIRMED": "Payment received",
-		"INCOME_TRANSFER_UNCONFIRMED": "Incoming payment (not confirmed)",
+		"INCOME_TRANSFER_CONFIRMED": "platba přijata",
+		"INCOME_TRANSFER_UNCONFIRMED": "Příchozí platba (nepotvrzeno)",
 		"IS_CONFIRMED": "",
-		"IS_MINIMIZE": "Lethean application is minimized to the system tray",
+		"IS_MINIMIZE": "Aplikace Lethean je minimalizována na systémovou lištu",
 		"IS_RECEIVED": "",
-		"LOCKED": "Blocked",
-		"MINED": "Mined",
-		"QUIT": "Quit",
-		"RESTORE": "You can recover it by clicking or using the context menu",
-		"TRAY_MENU_MINIMIZE": "Minimize",
-		"TRAY_MENU_SHOW": "Resize"
+		"LOCKED": "Blokováno",
+		"MINED": "Vytěženo",
+		"QUIT": "Přestat",
+		"RESTORE": "Můžete jej obnovit kliknutím nebo pomocí kontextové nabídky",
+		"TRAY_MENU_MINIMIZE": "Minimalizovat",
+		"TRAY_MENU_SHOW": "Změnit velikost"
 	},
 	"BREADCRUMBS": {
 		"ADD_WALLET": "Přidat peněženku",
@@ -79,128 +54,128 @@
 		"BACK": "Jít zpět"
 	},
 	"CONFIRM": {
-		"BUTTON_CANCEL": "Cancel",
-		"BUTTON_CONFIRM": "Send",
+		"BUTTON_CANCEL": "zrušení",
+		"BUTTON_CONFIRM": "Poslat",
 		"MESSAGE": {
-			"COMMENT": "Comment",
-			"FROM": "From",
-			"SEND": "Send",
-			"TO": "To"
+			"COMMENT": "Komentář",
+			"FROM": "z",
+			"SEND": "Poslat",
+			"TO": "na"
 		},
-		"TITLE": "Transaction"
+		"TITLE": "Transakce"
 	},
 	"CONTACTS": {
-		"ADD": "Add/edit contact",
+		"ADD": "Přidat/upravit kontakt",
 		"ADD_CONTACT": "Přidat kontakt",
 		"BUTTON": {
-			"ADD": "Add contact",
-			"ADD_EDIT": "Add/Save",
-			"DELETE": "Delete",
-			"EDIT": "Edit",
-			"GO_TO_WALLET": "Go to wallet",
-			"IMPORT_EXPORT": "Import/export",
-			"SEND": "Send"
+			"ADD": "Přidat kontakt",
+			"ADD_EDIT": "Přidat/Uložit",
+			"DELETE": "Odstranit",
+			"EDIT": "Upravit",
+			"GO_TO_WALLET": "Přejděte do peněženky",
+			"IMPORT_EXPORT": "Import Export",
+			"SEND": "Poslat"
 		},
-		"COPY": "- Copy",
-		"ERROR_EMPTY_LIST": "Contact list is empty",
-		"ERROR_EXPORT": "Invalid file type. Save file as .csv",
-		"ERROR_IMPORT": "Error is occured while reading file!",
-		"ERROR_IMPORT_EMPTY": "File is empty",
-		"ERROR_TYPE_FILE": "Please import valid .csv file",
-		"EXPORT": "Export",
+		"COPY": "- Kopírovat",
+		"ERROR_EMPTY_LIST": "Seznam kontaktů je prázdný",
+		"ERROR_EXPORT": "Neplatný typ souboru. Uložit soubor jako .csv",
+		"ERROR_IMPORT": "Při čtení souboru došlo k chybě!",
+		"ERROR_IMPORT_EMPTY": "Soubor je prázdný",
+		"ERROR_TYPE_FILE": "Importujte prosím platný soubor .csv",
+		"EXPORT": "Vývozní",
 		"FORM": {
-			"ADDRESS": "Address",
-			"NAME": "Name",
-			"NOTES": "Notes"
+			"ADDRESS": "Adresa",
+			"NAME": "název",
+			"NOTES": "Poznámky"
 		},
 		"FORM_ERRORS": {
-			"ADDRESS_DUBLICATED": "Address is dublicated",
-			"ADDRESS_NOT_VALID": "Address not valid",
-			"ADDRESS_REQUIRED": "Address is required",
-			"MAX_LENGTH": "Maximum notes length reached",
-			"NAME_DUBLICATED": "Name is dublicated",
-			"NAME_LENGTH": "The name must be 4-25 characters long",
-			"NAME_REQUIRED": "Name is required",
-			"SET_MASTER_PASSWORD": "Set master password"
+			"ADDRESS_DUBLICATED": "Adresa je duplicitní",
+			"ADDRESS_NOT_VALID": "Adresa není platná",
+			"ADDRESS_REQUIRED": "Adresa je povinná",
+			"MAX_LENGTH": "Byla dosažena maximální délka poznámek",
+			"NAME_DUBLICATED": "Jméno je duplicitní",
+			"NAME_LENGTH": "Název musí mít 4–25 znaků",
+			"NAME_REQUIRED": "Jméno je povinné",
+			"SET_MASTER_PASSWORD": "Nastavte hlavní heslo"
 		},
 		"IMPORT": "Import",
-		"IMPORT_EXPORT": "Import or export contacts",
-		"OPEN_ADD_WALLET": "Open/Add wallet",
-		"SEND": "Send",
-		"SEND_FROM": "Send from",
-		"SEND_TO": "To",
-		"SUCCESS_EXPORT": "Contacts are exported",
-		"SUCCESS_IMPORT": "Contacts are imported",
-		"SUCCESS_SAVE": "Contact is edited",
-		"SUCCESS_SENT": "Contact added",
+		"IMPORT_EXPORT": "Importujte nebo exportujte kontakty",
+		"OPEN_ADD_WALLET": "Otevřít/Přidat peněženku",
+		"SEND": "Poslat",
+		"SEND_FROM": "Odeslat z",
+		"SEND_TO": "na",
+		"SUCCESS_EXPORT": "Kontakty jsou exportovány",
+		"SUCCESS_IMPORT": "Kontakty jsou importovány",
+		"SUCCESS_SAVE": "Kontakt je upraven",
+		"SUCCESS_SENT": "Kontakt přidán",
 		"TABLE": {
-			"ADDRESS": "Address",
+			"ADDRESS": "Adresa",
 			"ALIAS": "Alias",
-			"EMPTY": "Contact list is empty",
-			"NAME": "Name",
-			"NOTES": "Notes"
+			"EMPTY": "Seznam kontaktů je prázdný",
+			"NAME": "název",
+			"NOTES": "Poznámky"
 		},
-		"TITLE": "Contact list"
+		"TITLE": "Seznam kontaktů"
 	},
 	"CONTEXT_MENU": {
-		"COPY": "copy",
-		"PASTE": "paste",
-		"SELECT": "select all"
+		"COPY": "kopírovat",
+		"PASTE": "Vložit",
+		"SELECT": "Vybrat vše"
 	},
 	"CONTRACTS": {
-		"AMOUNT": "Amount",
-		"COMMENTS": "Comments",
-		"CONTRACTS": "Contracts",
-		"DATE": "Date",
-		"EMPTY": "No active contracts",
-		"LISTING_BUTTON": "Create listing",
-		"PURCHASE": "Purchase",
-		"PURCHASE_BUTTON": "New Purchase",
-		"SELL": "Sell",
-		"STATUS": "Status",
+		"AMOUNT": "Množství",
+		"COMMENTS": "Poznámky",
+		"CONTRACTS": "smlouvy",
+		"DATE": "datum",
+		"EMPTY": "Žádné aktivní smlouvy",
+		"LISTING_BUTTON": "Vytvořit zápis",
+		"PURCHASE": "Nákup",
+		"PURCHASE_BUTTON": "Nový nákup",
+		"SELL": "Prodat",
+		"STATUS": "Postavení",
 		"STATUS_MESSAGES": {
 			"BUYER": {
-				"ACCEPTED": "Seller accepted your contract proposal",
-				"BEING_CANCELLED": "Cancellation in progress",
-				"CANCELLED": "Contract canceled",
-				"COMPLETED": "Contract completed",
-				"EXPIRED": "The contract proposal has expired",
-				"IGNORED": "Seller ignored your contract proposal",
-				"IGNORED_CANCEL": "The seller ignored your proposal to cancel the contract",
-				"NOT_RECEIVED": "Delivery failed",
-				"NULLIFIED": "All deposits burned",
-				"WAIT": "Waiting for deposits confirmation",
-				"WAITING": "Waiting for response",
-				"WAITING_CANCEL": "Waiting for contract cancellation",
-				"WAITING_SELLER": "Waiting for delivery"
+				"ACCEPTED": "Prodejce přijal váš návrh smlouvy",
+				"BEING_CANCELLED": "Probíhá zrušení",
+				"CANCELLED": "Smlouva zrušena",
+				"COMPLETED": "Smlouva dokončena",
+				"EXPIRED": "Platnost návrhu smlouvy vypršela",
+				"IGNORED": "Prodejce ignoroval váš návrh smlouvy",
+				"IGNORED_CANCEL": "Prodejce váš návrh na zrušení smlouvy ignoroval",
+				"NOT_RECEIVED": "Dodání selhalo",
+				"NULLIFIED": "Všechny nánosy shořely",
+				"WAIT": "Čekání na potvrzení vkladů",
+				"WAITING": "Čekání na odpověď",
+				"WAITING_CANCEL": "Čekání na zrušení smlouvy",
+				"WAITING_SELLER": "Čekání na doručení"
 			},
 			"SELLER": {
-				"ACCEPTED": "Contract started",
-				"BEING_CANCELLED": "Cancellation in progress",
-				"CANCELLED": "Contract canceled",
-				"COMPLETED": "Contract completed",
-				"EXPIRED": "Contract proposal has expired",
-				"IGNORED": "You ignored contract proposal",
-				"IGNORED_CANCEL": "You ignored cancellation proposal",
-				"NEW_CONTRACT": "New contract proposal",
-				"NOT_RECEIVED": "Delivery failed",
-				"NULLIFIED": "All deposits burned",
-				"PROPOSAL_CANCEL": "New proposal to cancel contract and return deposits",
-				"WAIT": "Waiting for contract confirmation",
-				"WAITING_BUYER": "Waiting for delivery"
+				"ACCEPTED": "",
+				"BEING_CANCELLED": "Probíhá zrušení",
+				"CANCELLED": "Smlouva zrušena",
+				"COMPLETED": "Smlouva dokončena",
+				"EXPIRED": "Platnost návrhu smlouvy vypršela",
+				"IGNORED": "Ignoroval jste návrh smlouvy",
+				"IGNORED_CANCEL": "Ignorovali jste návrh na zrušení",
+				"NEW_CONTRACT": "Návrh nové smlouvy",
+				"NOT_RECEIVED": "Dodání selhalo",
+				"NULLIFIED": "Všechny nánosy shořely",
+				"PROPOSAL_CANCEL": "Nový návrh na zrušení smlouvy a vrácení záloh",
+				"WAIT": "Čekání na potvrzení smlouvy",
+				"WAITING_BUYER": "Čekání na doručení"
 			}
 		},
 		"TIME_LEFT": {
-			"REMAINING_LESS_ONE": "Less than an hour to respond",
-			"REMAINING_MANY": "{{time}} hours remain",
-			"REMAINING_MANY_ALT": "{{time}} hours remain",
-			"REMAINING_MANY_ALT_RESPONSE": "{{time}} hours remain",
-			"REMAINING_MANY_ALT_WAITING": "Waiting for {{time}} hours",
-			"REMAINING_MANY_RESPONSE": "{{time}} hours remain",
-			"REMAINING_MANY_WAITING": "Waiting for {{time}} hours",
-			"REMAINING_ONE": "{{time}} hour remains",
-			"REMAINING_ONE_RESPONSE": "{{time}} hour remains",
-			"REMAINING_ONE_WAITING": "Waiting for {{time}} hour"
+			"REMAINING_LESS_ONE": "Odpověď trvá méně než hodinu",
+			"REMAINING_MANY": " Zbývá{{time}} hodin",
+			"REMAINING_MANY_ALT": " Zbývá{{time}} hodin",
+			"REMAINING_MANY_ALT_RESPONSE": " Zbývá{{time}} hodin",
+			"REMAINING_MANY_ALT_WAITING": "Čekání po dobu {{time}} hodin",
+			"REMAINING_MANY_RESPONSE": " Zbývá{{time}} hodin",
+			"REMAINING_MANY_WAITING": "Čekání po dobu {{time}} hodin",
+			"REMAINING_ONE": " Zbývá{{time}} hodina",
+			"REMAINING_ONE_RESPONSE": " Zbývá{{time}} hodina",
+			"REMAINING_ONE_WAITING": "Čeká se {{time}} hodina"
 		}
 	},
 	"CREATE_WALLET": {
@@ -210,7 +185,7 @@
 		"ERROR_CANNOT_SAVE_SYSTEM": "Soubory peněženky nelze uložit na diskový oddíl s operačním systémem",
 		"ERROR_CANNOT_SAVE_TOP": "Stávající soubory peněženky nelze nahradit nebo přepsat",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
+			"CONFIRM_NOT_MATCH": "Potvrďte, že se heslo neshoduje",
 			"MAX_LENGTH": "Dosáhli jste maximální délky názvu",
 			"NAME_DUPLICATE": "Název je duplicitní",
 			"NAME_REQUIRED": "Název je povinný"
@@ -220,94 +195,93 @@
 		"TITLE_SAVE": "Uložte soubor peněženky."
 	},
 	"EDIT_ALIAS": {
-		"BUTTON_EDIT": "Edit",
+		"BUTTON_EDIT": "Upravit",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "Komentář",
 			"PLACEHOLDER": "Zde zadejte svůj komentář"
 		},
-		"COST": "Fee {{value}} {{currency}}",
+		"COST": "Poplatek {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum comment length reached",
-			"NO_MONEY": "You do not have enough funds to change the comment to this alias"
+			"MAX_LENGTH": "Bylo dosaženo maximální délky komentáře",
+			"NO_MONEY": "Nemáte dostatek prostředků na změnu komentáře na tento alias"
 		},
 		"NAME": {
 			"LABEL": "Alias",
-			"PLACEHOLDER": "@ Enter alias"
+			"PLACEHOLDER": "@ Zadejte alias"
 		}
 	},
 	"ERRORS": {
-		"ACCESS_DENIED": "Access denied",
-		"BAD_ARG": "Invalid argument",
-		"CORE_BUSY": "Internal error: core is busy",
-		"DAEMON_BUSY": "Internal error: daemon is busy",
-		"FILE_EXIST": "A file with that name already exists. Enter another name to save the file under",
-		"FILE_NOT_FOUND": "File not found",
-		"FILE_NOT_SAVED": "You cannot save a wallet file in this folder. Please choose another folder.",
-		"FILE_RESTORED": "The wallet file was corrupted. We have recovered the keys and the wallet from the blockchain",
-		"NOT_ENOUGH_MONEY": "Insufficient funds in account",
-		"NOT_ENOUGH_OUTPUTS_TO_MIX": "Mix-in number is too big for current blockchain state. There are not enough unspent outputs to mix with",
-		"NO_MONEY": "Not enough money",
-		"NO_MONEY_REMOVE_OFFER": "There is no fee for deleting an offer, but in order to protect the network against flood transactions you need to have at least {{fee}} {{currency}} in your wallet",
-		"TRANSACTION_ERROR": "Error. Transaction not completed.",
-		"TRANSACTION_IS_TO_BIG": "Transaction exceeds network limit, send required amount with multiple transactions",
-		"TRANSFER_ATTEMPT": "There is no connection to Lethean network",
-		"TX_TYPE_COIN_BASE": "Error. The payment was not completed.",
-		"TX_TYPE_NEW_ALIAS": "Error. Failed to register alias to safe",
-		"TX_TYPE_NEW_ALIAS_END": "Please try again.",
-		"TX_TYPE_NORMAL": "Error. The payment from the wallet",
-		"TX_TYPE_NORMAL_END": "was not completed.",
-		"TX_TYPE_NORMAL_TO": "to",
-		"TX_TYPE_UPDATE_ALIAS": "Error. Failed to change comment to alias in safe",
+		"ACCESS_DENIED": "Přístup odepřen",
+		"BAD_ARG": "Neplatný argument",
+		"CORE_BUSY": "Vnitřní chyba: jádro je zaneprázdněné",
+		"DAEMON_BUSY": "Interní chyba: démon je zaneprázdněn",
+		"FILE_EXIST": "Soubor s tímto názvem již existuje. Zadejte jiný název, pod kterým se má soubor uložit",
+		"FILE_NOT_FOUND": "Soubor nenalezen",
+		"FILE_NOT_SAVED": "Do této složky nemůžete uložit soubor peněženky. Vyberte prosím jinou složku.",
+		"FILE_RESTORED": "Soubor peněženky byl poškozen. Získali jsme klíče a peněženku z blockchainu",
+		"NOT_ENOUGH_MONEY": "Nedostatek prostředků na účtu",
+		"NOT_ENOUGH_OUTPUTS_TO_MIX": "Počet smíšených vstupů je pro současný stav blockchainu příliš velký. Není dostatek nevyužitých výstupů, se kterými by se bylo možné smíchat",
+		"NO_MONEY": "Nedostatek peněz",
+		"NO_MONEY_REMOVE_OFFER": "Za smazání nabídky se neplatí, ale pro ochranu sítě před záplavovými transakcemi musíte mít v peněžence alespoň {{fee}} {{currency}} ",
+		"TRANSACTION_ERROR": "Chyba. Transakce nebyla dokončena.",
+		"TRANSACTION_IS_TO_BIG": "Transakce překračuje limit sítě, odešlete požadovanou částku s více transakcemi",
+		"TRANSFER_ATTEMPT": "Neexistuje žádné připojení k síti Lethean",
+		"TX_TYPE_COIN_BASE": "Chyba. Platba nebyla dokončena.",
+		"TX_TYPE_NEW_ALIAS": "Chyba. Nepodařilo se zaregistrovat alias do trezoru",
+		"TX_TYPE_NEW_ALIAS_END": "Prosím zkuste to znovu.",
+		"TX_TYPE_NORMAL": "Chyba. Platba z peněženky",
+		"TX_TYPE_NORMAL_END": "nebyla dokončena.",
+		"TX_TYPE_NORMAL_TO": "na",
+		"TX_TYPE_UPDATE_ALIAS": "Chyba. Nepodařilo se změnit komentář na alias v bezpečí",
 		"WALLET_WATCH_ONLY_NOT_SUPPORTED": "Peněženky pouze pro hodinky lze otevřít pouze pomocí simplewallet",
-		"WALLET_WRONG_ID": "Invalid wallet ID",
-		"WRONG_PASSWORD": "Invalid password"
+		"WALLET_WRONG_ID": "Neplatné ID peněženky",
+		"WRONG_PASSWORD": "Neplatné heslo"
 	},
 	"EXPORT_HISTORY": {
 		"CANCEL": "zrušení",
 		"EXPORT": "Exportovat do souboru...",
 		"EXPORT_BUTTON": "Exportovat historii...",
 		"FILTER": "Filtrujte POS transakce",
-		"FORMAT": "Formát",
-		"FORMAT:": "",
+		"FORMAT:": "Formát",
 		"SAVED_FILE": "Vyberte cestu k uložení historie transakcí",
 		"TITLE": "Exportovat historii Peněženky",
 		"TOOLTIP": "Export historie transakcí peněženky do souboru"
 	},
 	"HISTORY": {
-		"ADDRESS": "Address",
-		"AMOUNT": "Amount",
-		"DATE": "Date",
+		"ADDRESS": "Adresa",
+		"AMOUNT": "Množství",
+		"DATE": "datum",
 		"DETAILS": {
-			"COMMENT": "Comment",
-			"CONFIRMATION": "Confirmation",
-			"HEIGHT": "Height",
-			"ID": "Transaction ID",
-			"INPUTS": "Inputs",
-			"OUTPUTS": "Outputs",
-			"PAYMENT_ID": "Payment ID",
-			"SIZE": "Transaction size",
-			"SIZE_VALUE": "{{value}} bytes"
+			"COMMENT": "Komentář",
+			"CONFIRMATION": "potvrzení",
+			"HEIGHT": "Výška",
+			"ID": "ID transakce",
+			"INPUTS": "Vstupy",
+			"OUTPUTS": "Výstupy",
+			"PAYMENT_ID": "ID platby",
+			"SIZE": "Velikost transakce",
+			"SIZE_VALUE": "{{value}} bajtů"
 		},
-		"FEE": "Fee",
-		"LOCK_TOOLTIP": "Locked till {{date}}",
-		"RECEIVED": "Received",
-		"SEND": "Sent",
-		"STATUS": "Status",
-		"STATUS_TOOLTIP": "Confirmations {{current}}/{{total}}",
+		"FEE": "Poplatek",
+		"LOCK_TOOLTIP": "Uzamčeno do {{date}}",
+		"RECEIVED": "přijata",
+		"SEND": "odesláno",
+		"STATUS": "Postavení",
+		"STATUS_TOOLTIP": "Potvrzení {{current}}/{{total}}",
 		"TYPE_MESSAGES": {
-			"CANCEL_CONTRACT": "Cancel and return deposits",
-			"COMPLETE_BUYER": "Contract completed",
-			"COMPLETE_SELLER": "Contract completed",
-			"CREATE_ALIAS": "Fee for assigning alias",
-			"CREATE_CONTRACT": "Contract proposal",
-			"HIDDEN": "hidden",
-			"NULLIFY_CONTRACT": "Burn deposits",
-			"PLEDGE_CONTRACT": "Contract deposit",
-			"POS_REWARD": "POS reward",
-			"POW_REWARD": "POW reward",
-			"PROPOSAL_CANCEL_CONTRACT": "Cancellation request",
-			"UNDEFINED": "Undefined",
-			"UPDATE_ALIAS": "Fee for editing alias"
+			"CANCEL_CONTRACT": "Zrušit a vrátit vklady",
+			"COMPLETE_BUYER": "Smlouva dokončena",
+			"COMPLETE_SELLER": "Smlouva dokončena",
+			"CREATE_ALIAS": "Poplatek za přidělení aliasu",
+			"CREATE_CONTRACT": "Návrh smlouvy",
+			"HIDDEN": "Skrytý",
+			"NULLIFY_CONTRACT": "Spálit usazeniny",
+			"PLEDGE_CONTRACT": "Smluvní záloha",
+			"POS_REWARD": "POS odměna",
+			"POW_REWARD": "POW odměna",
+			"PROPOSAL_CANCEL_CONTRACT": "Žádost o zrušení",
+			"UNDEFINED": "Nedefinováno",
+			"UPDATE_ALIAS": "Poplatek za úpravu aliasu"
 		}
 	},
 	"LOGIN": {
@@ -334,38 +308,37 @@
 		"TITLE": "Chcete-li začít používat Lethean, vytvořte nebo otevřete peněženku"
 	},
 	"MESSAGES": {
-		"ADDRESS": "Address",
-		"MESSAGE": "Message",
-		"SEND_BUTTON": "Send",
-		"SEND_PLACEHOLDER": "Type a message..."
+		"ADDRESS": "Adresa",
+		"MESSAGE": "Zpráva",
+		"SEND_BUTTON": "Poslat",
+		"SEND_PLACEHOLDER": "Napište zprávu..."
 	},
 	"MODALS": {
-		"ADD_TOKEN": "Přidat token",
 		"CANCEL": "zrušení",
-		"ERROR": "Error",
-		"INFO": "Information",
+		"ERROR": "Chyba",
+		"INFO": "informace",
 		"OK": "OK",
-		"SUCCESS": "Success"
+		"SUCCESS": "Úspěch"
 	},
 	"OPEN_WALLET": {
-		"BUTTON": "Open wallet",
-		"FILE_NOT_FOUND1": "Wallet file not found",
-		"FILE_NOT_FOUND2": "<br/><br/> It might have been renamed or moved. <br/> To open it, use the \"Open wallet\" button.",
+		"BUTTON": "Otevřená peněženka",
+		"FILE_NOT_FOUND1": "Soubor peněženky nebyl nalezen",
+		"FILE_NOT_FOUND2": "<br/><br/> Možná byl přejmenován nebo přesunut. <br/> Chcete-li ji otevřít, použijte tlačítko „Otevřít peněženku“.",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required"
+			"MAX_LENGTH": "Bylo dosaženo maximální délky názvu",
+			"NAME_DUPLICATE": "Jméno je duplicitní",
+			"NAME_REQUIRED": "Jméno je povinné"
 		},
 		"MODAL": {
-			"LABEL": "Password to this wallet",
-			"NOT_FOUND": "Not found",
-			"OPEN": "Open wallet",
-			"SKIP": "Skip",
-			"TITLE": "Type wallet password"
+			"LABEL": "Heslo k této peněžence",
+			"NOT_FOUND": "Nenalezeno",
+			"OPEN": "Otevřená peněženka",
+			"SKIP": "Přeskočit",
+			"TITLE": "Zadejte heslo peněženky"
 		},
-		"NAME": "Wallet name",
-		"PASS": "Wallet password",
-		"WITH_ADDRESS_ALREADY_OPEN": "A wallet with this address is already open"
+		"NAME": "Název peněženky",
+		"PASS": "Heslo peněľenky",
+		"WITH_ADDRESS_ALREADY_OPEN": "Peněženka s touto adresou je již otevřena"
 	},
 	"PLACEHOLDERS": {
 		"ADRESS_PLACEHOLDER": "Zde zadejte adresu",
@@ -379,7 +352,6 @@
 		"NAME_PLACEHOLDER": "Zde zadejte jméno",
 		"NOTES_PLACEHOLDER": "Zde zadejte poznámky",
 		"PASSWORD_PLACEHOLDER": "Zde zadejte heslo",
-		"PASS_PLACEHOLDER": "Zde zadejte hlavní heslo",
 		"PLACEHOLDER_CONFIRM": "Zde potvrďte nové heslo",
 		"PLACEHOLDER_NEW": "Zde zadejte nové heslo",
 		"PLACEHOLDER_OLD": "Zde zadejte aktuální heslo",
@@ -392,164 +364,163 @@
 		"WALLET_NAME_PLACEHOLDER": "Zde zadejte název peněženky"
 	},
 	"PROGRESS": {
-		"ADD_WALLET": "Add wallet",
-		"CREATE_WALLET": "Create new wallet",
-		"RESTORE_WALLET": "Restore from backup",
-		"SELECT_LOCATION": "Select wallet location"
+		"ADD_WALLET": "Přidat peněženku",
+		"CREATE_WALLET": "Vytvořte novou peněženku",
+		"RESTORE_WALLET": "Obnovení ze zálohy",
+		"SELECT_LOCATION": "Vyberte umístění peněženky"
 	},
 	"PURCHASE": {
-		"ACCEPT_STATE_WAIT_BIG": "Contract started",
-		"AMOUNT": "Amount",
-		"BURN_PROPOSAL": "Deposits burned",
-		"BUTTON_CANCEL_BUYER": "Cancel and return deposits",
-		"BUTTON_CANCEL_SELLER": "Confirm and return deposits",
-		"BUTTON_IGNORE": "Ignore and hide offer",
-		"BUTTON_MAKE_PLEDGE": "Accept and make deposit",
-		"BUTTON_NOT_CANCEL": "Ignore request",
-		"BUTTON_NULLIFY": "Terminate and burn deposits",
-		"BUTTON_NULLIFY_SHORT": "Burn",
-		"BUTTON_RECEIVED": "Complete and release deposits",
-		"BUYER_DEPOSIT": "Buyer deposit",
-		"CANCEL": "Cancel",
-		"COMMENT": "Comment",
-		"DEALS_CANCELED_WAIT": "Cancellation in progress",
-		"DESCRIPTION": "Description",
-		"DETAILS": "Additional details",
-		"FEE": "Fee",
+		"ACCEPT_STATE_WAIT_BIG": "Smlouva zahájena",
+		"AMOUNT": "Množství",
+		"BURN_PROPOSAL": "Vklady spáleny",
+		"BUTTON_CANCEL_BUYER": "Zrušit a vrátit vklady",
+		"BUTTON_CANCEL_SELLER": "Potvrďte a vraťte vklady",
+		"BUTTON_IGNORE": "Ignorovat a skrýt nabídku",
+		"BUTTON_MAKE_PLEDGE": "Přijměte a proveďte vklad",
+		"BUTTON_NOT_CANCEL": "Ignorovat požadavek",
+		"BUTTON_NULLIFY": "Ukončete a spalte usazeniny",
+		"BUTTON_NULLIFY_SHORT": "Hořet",
+		"BUTTON_RECEIVED": "Dokončete a uvolněte vklady",
+		"BUYER_DEPOSIT": "Záloha kupujícího",
+		"CANCEL": "zrušení",
+		"COMMENT": "Komentář",
+		"DEALS_CANCELED_WAIT": "Probíhá zrušení",
+		"DESCRIPTION": "Popis",
+		"DETAILS": "Další detaily",
+		"FEE": "Poplatek",
 		"FORM_ERRORS": {
-			"ALIAS_NOT_VALID": "Invalid alias",
-			"AMOUNT_REQUIRED": "Amount required",
-			"AMOUNT_ZERO": "Amount cannot be zero",
-			"COMMENT_MAXIMUM": "Maximum field length reached",
-			"DESC_MAXIMUM": "Maximum field length reached",
-			"DESC_REQUIRED": "Description required",
-			"SELLER_DEPOSIT_REQUIRED": "Seller deposit required",
-			"SELLER_NOT_VALID": "Invalid address",
-			"SELLER_REQUIRED": "Address required",
-			"SELLER_SAME": "Use separate account",
-			"YOUR_DEPOSIT_REQUIRED": "Deposit required"
+			"ALIAS_NOT_VALID": "Neplatný alias",
+			"AMOUNT_REQUIRED": "Požadovaná částka",
+			"AMOUNT_ZERO": "Částka nemůže být nula",
+			"COMMENT_MAXIMUM": "Dosažena maximální délka pole",
+			"DESC_MAXIMUM": "Dosažena maximální délka pole",
+			"DESC_REQUIRED": "Je vyžadován popis",
+			"SELLER_DEPOSIT_REQUIRED": "Je vyžadována záloha prodávajícího",
+			"SELLER_NOT_VALID": "Neplatná adresa",
+			"SELLER_REQUIRED": "Je vyžadována adresa",
+			"SELLER_SAME": "Použijte samostatný účet",
+			"YOUR_DEPOSIT_REQUIRED": "Je vyžadována záloha"
 		},
-		"HOUR": "hour",
-		"HOURS": "hours",
-		"IGNORED_ACCEPT": "Contract proposal ignored",
-		"IGNORED_CANCEL": "Contract cancellation proposal ignored",
-		"NEED_MONEY": "Insufficient funds",
-		"NULLIFY_QUESTION": "Are you sure you want to burn both deposits?",
-		"PAYMENT": "Payment ID",
-		"PROGRESS_COMPLETE": "Completed",
-		"PROGRESS_NEW": "New purchase",
-		"PROGRESS_RECEIVE": "Reply received",
-		"PROGRESS_WAIT": "Awaiting reply",
-		"SAME_AMOUNT": "Same amount",
-		"SELLER": "Seller",
-		"SELLER_DEPOSIT": "Seller deposit",
-		"SEND_BUTTON": "Send",
-		"SEND_CANCEL_PROPOSAL": "Cancellation request sent",
+		"HOUR": "Hodina",
+		"HOURS": "Hodiny",
+		"IGNORED_ACCEPT": "Návrh smlouvy ignorován",
+		"IGNORED_CANCEL": "Návrh na zrušení smlouvy byl ignorován",
+		"NEED_MONEY": "Nedostatečné finanční prostředky",
+		"NULLIFY_QUESTION": "Opravdu chcete spálit oba vklady?",
+		"PAYMENT": "ID platby",
+		"PROGRESS_COMPLETE": "Dokončeno",
+		"PROGRESS_NEW": "Nový nákup",
+		"PROGRESS_RECEIVE": "Odpověď přijata",
+		"PROGRESS_WAIT": "Čekání na odpověď",
+		"SAME_AMOUNT": "Stejné množství",
+		"SELLER": "Prodávající",
+		"SELLER_DEPOSIT": "Záloha prodávajícího",
+		"SEND_BUTTON": "Poslat",
+		"SEND_CANCEL_PROPOSAL": "Žádost o zrušení odeslána",
 		"STATUS_MESSAGES": {
-			"BEING_CANCELLED": "Cancellation in progress",
-			"CANCELLED": "Contract canceled",
-			"COMPLETED": "Contract completed",
-			"EXPIRED": "Contract proposal expired",
-			"IGNORED_BUYER": "Contract proposal ignored",
-			"IGNORED_CANCEL_BUYER": "Contract cancellation proposal ignored",
-			"IGNORED_CANCEL_SELLER": "The seller ignored your proposal to cancel the contract",
-			"IGNORED_SELLER": "The seller ignored your contract proposal",
-			"NEW_PURCHASE": "New purchase",
-			"NOT_RECEIVED": "Delivery failed",
-			"NULLIFIED": "All deposits burned",
-			"PROPOSAL_CANCEL_BUYER": "Cancellation request received",
-			"PROPOSAL_CANCEL_SELLER": "Cancellation request sent",
-			"WAITING_BUYER": "Contract proposal received",
-			"WAITING_CONFIRMATION": "Waiting for deposits confirmation",
-			"WAITING_DELIVERY": "Waiting for delivery",
-			"WAITING_SELLER": "Waiting for response"
+			"BEING_CANCELLED": "Probíhá zrušení",
+			"CANCELLED": "Smlouva zrušena",
+			"COMPLETED": "Smlouva dokončena",
+			"EXPIRED": "Platnost návrhu smlouvy vypršela",
+			"IGNORED_BUYER": "Návrh smlouvy ignorován",
+			"IGNORED_CANCEL_BUYER": "Návrh na zrušení smlouvy byl ignorován",
+			"IGNORED_CANCEL_SELLER": "Prodejce váš návrh na zrušení smlouvy ignoroval",
+			"IGNORED_SELLER": "Prodejce ignoroval váš návrh smlouvy",
+			"NEW_PURCHASE": "Nový nákup",
+			"NOT_RECEIVED": "Dodání selhalo",
+			"NULLIFIED": "Všechny nánosy shořely",
+			"PROPOSAL_CANCEL_BUYER": "Žádost o zrušení přijata",
+			"PROPOSAL_CANCEL_SELLER": "Žádost o zrušení odeslána",
+			"WAITING_BUYER": "Návrh smlouvy přijat",
+			"WAITING_CONFIRMATION": "Čekání na potvrzení vkladů",
+			"WAITING_DELIVERY": "Čekání na doručení",
+			"WAITING_SELLER": "Čekání na odpověď"
 		},
-		"SUCCESS_FINISH_PROPOSAL": "Contract completed",
-		"WAITING_TIME": "Response time",
-		"WAITING_TIME_QUESTION": "Are you sure you want to cancel the contract?",
-		"YOUR_DEPOSIT": "Your deposit"
+		"SUCCESS_FINISH_PROPOSAL": "Smlouva dokončena",
+		"WAITING_TIME": "Doba odezvy",
+		"WAITING_TIME_QUESTION": "Opravdu chcete zrušit smlouvu?",
+		"YOUR_DEPOSIT": "Váš vklad"
 	},
 	"RESTORE_WALLET": {
-		"BUTTON_CREATE": "Create wallet",
-		"BUTTON_SELECT": "Select wallet location",
-		"CHOOSE_PATH": "Please choose a path",
-		"CONFIRM": "Confirm wallet password",
+		"BUTTON_CREATE": "Vytvořit peněženku",
+		"BUTTON_SELECT": "Vyberte umístění peněženky",
+		"CHOOSE_PATH": "Vyberte prosím cestu",
+		"CONFIRM": "Potvrďte heslo peněženky",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
+			"CONFIRM_NOT_MATCH": "Potvrďte, že se heslo neshoduje",
 			"INCORRECT_PASSWORD": "Nesprávné heslo",
-			"KEY_NOT_VALID": "Key not valid",
-			"KEY_REQUIRED": "Key is required",
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required"
+			"KEY_NOT_VALID": "Klíč není platný",
+			"KEY_REQUIRED": "Je vyžadován klíč",
+			"MAX_LENGTH": "Bylo dosaženo maximální délky názvu",
+			"NAME_DUPLICATE": "Jméno je duplicitní",
+			"NAME_REQUIRED": "Jméno je povinné"
 		},
-		"LABEL_NAME": "Wallet name",
-		"LABEL_PHRASE_KEY": "Seed phrase / tracking seed",
-		"NOT_CORRECT_FILE_OR_PASSWORD": "Invalid wallet file or password does not match",
+		"LABEL_NAME": "Název peněženky",
+		"LABEL_PHRASE_KEY": "Fráze osiva / sledovací osivo",
+		"NOT_CORRECT_FILE_OR_PASSWORD": "Neplatný soubor peněženky nebo heslo neodpovídá",
 		"OK": "OK",
-		"PASS": "Wallet password",
+		"PASS": "Heslo peněľenky",
 		"SEED_PASSWORD": "Seed heslo"
 	},
 	"SEED_PHRASE": {
 		"BUTTON_COPIED": "kopírovat",
-		"BUTTON_COPY": "Copy",
-		"BUTTON_CREATE_ACCOUNT": "Create wallet",
-		"TITLE": "Make sure to keep your seed phrase in a safe place. If you forget your seed phrase you will not be able to recover your wallet."
+		"BUTTON_COPY": "kopírovat",
+		"BUTTON_CREATE_ACCOUNT": "Vytvořit peněženku",
+		"TITLE": "Zajistěte, aby byla vaše počáteční fráze uložena na bezpečném místě. Pokud zapomenete svou počáteční frázi, nebudete moci obnovit svou peněženku."
 	},
 	"SEND": {
-		"ADDRESS": "Address",
-		"AMOUNT": "Amount",
-		"BUTTON": "Send",
-		"COMMENT": "Comment",
-		"DETAILS": "Additional details",
-		"FEE": "Fee",
+		"ADDRESS": "Adresa",
+		"AMOUNT": "Množství",
+		"BUTTON": "Poslat",
+		"COMMENT": "Komentář",
+		"DETAILS": "Další detaily",
+		"FEE": "Poplatek",
 		"FORM_ERRORS": {
-			"ADDRESS_NOT_VALID": "Address not valid",
-			"ADDRESS_REQUIRED": "Address is required",
-			"ALIAS_NOT_VALID": "Alias not valid",
-			"AMOUNT_REQUIRED": "Amount is required",
-			"AMOUNT_ZERO": "Amount is zero",
-			"FEE_MINIMUM": "Minimum fee: {{fee}}",
-			"FEE_REQUIRED": "Fee is required",
+			"ADDRESS_NOT_VALID": "Adresa není platná",
+			"ADDRESS_REQUIRED": "Adresa je povinná",
+			"ALIAS_NOT_VALID": "Alias není platný",
+			"AMOUNT_REQUIRED": "Částka je povinná",
+			"AMOUNT_ZERO": "Částka je nula",
+			"FEE_MINIMUM": "Minimální poplatek: {{fee}}",
+			"FEE_REQUIRED": "Poplatek je vyžadován",
 			"GREAT_THAN_UNWRAPPED_COINS": "Částka je větší než zbývajících 20 tokenů ERC",
 			"LESS_THAN_ZANO_NEEDED": "Příliš malá částka na pokrytí poplatku ERC20",
-			"MAX_LENGTH": "Maximum comment length reached",
+			"MAX_LENGTH": "Bylo dosaženo maximální délky komentáře",
 			"WRAP_INFO_NULL": "se nepodařilo požádat o stav zalomení"
 		},
-		"HIDE": "Hide your wallet address from recipient",
+		"HIDE": "Skryjte adresu své peněženky před příjemcem",
 		"MIXIN": "Mixin",
-		"SUCCESS_SENT": "Transaction sent",
+		"SUCCESS_SENT": "Transakce odeslána",
 		"WRAP": {
 			"ESTIMATE": "Odhady transakcí",
 			"FEE": "Poplatek Ethereum Txn:",
-			"LTHN": "LTHN",
-			"MAIN_TEXT": "Tato transakce vytvoří wLTHN (\"Wrapped Lethean\"), které bude odesláno na zadanou adresu v síti Ethereum.",
+			"MAIN_TEXT": "Tato transakce vytvoří wLethean („zabalený Lethean“), který bude odeslán na zadanou adresu v síti Ethereum.",
 			"TITLE": "Zabalit",
 			"WILL_RECEIVE": "Obdržíte:",
-			"ZANO": "",
-			"wZANO": "wLTHN"
+			"ZANO": "LTHN",
+			"wZANO": "wLethean"
 		}
 	},
 	"SEND_DETAILS_MODAL": {
-		"TITLE1": "Transaction",
-		"TITLE2": "Transaction details"
+		"TITLE1": "Transakce",
+		"TITLE2": "Detaily transakce"
 	},
 	"SETTINGS": {
 		"APP_LOCK": {
-			"TIME1": "5 min",
+			"TIME1": "5 minut",
 			"TIME2": "15 min",
-			"TIME3": "1 hour",
-			"TIME4": "Never",
-			"TITLE": "Lock app after:"
+			"TIME3": "1 hodina",
+			"TIME4": "Nikdy",
+			"TITLE": "Uzamknout aplikaci po:"
 		},
-		"APP_LOG_TITLE": "Log level:",
-		"DARK_THEME": "Dark theme",
+		"APP_LOG_TITLE": "Úroveň protokolu:",
+		"DARK_THEME": "Tmavé téma",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
-			"PASS_NOT_MATCH": "Old password not match",
-			"PASS_REQUIRED": "Password is required"
+			"CONFIRM_NOT_MATCH": "Potvrďte, že se heslo neshoduje",
+			"PASS_NOT_MATCH": "Nesprávné heslo",
+			"PASS_REQUIRED": "Heslo je vyžadováno"
 		},
-		"GRAY_THEME": "Grey theme",
+		"GRAY_THEME": "Šedý motiv",
 		"LANGUAGE": {
 			"DE": "Deutsch",
 			"EN": "Angličtina",
@@ -559,35 +530,35 @@
 			"PT": "portugalština",
 			"TITLE": "jazyk"
 		},
-		"LAST_BUILD": "Current build: {{value}}",
+		"LAST_BUILD": "Aktuální sestavení: {{value}}",
 		"MASTER_PASSWORD": {
-			"BUTTON": "Save",
-			"CONFIRM": "New password confirmation",
-			"NEW": "New password",
-			"OLD": "Old password",
-			"TITLE": "Update master password"
+			"BUTTON": "Uložit",
+			"CONFIRM": "Potvrďte heslo",
+			"NEW": "Nové heslo",
+			"OLD": "Aktuální heslo",
+			"TITLE": "Aktualizujte hlavní heslo"
 		},
 		"NOTIFICATIONS": "Oznámení",
 		"SCALE": {
-			"75": "75% scale",
-			"100": "100% scale",
-			"125": "125% scale",
-			"150": "150% scale",
+			"75": "75% měřítko",
+			"100": "100% měřítko",
+			"125": "125% měřítko",
+			"150": "150% měřítko",
 			"TITLE": "Měřítko rozhraní"
 		},
 		"SETTINGS_SAVED": "Uložené! Nastavení aktualizováno",
-		"TITLE": "Settings",
+		"TITLE": "NASTAVENÍ",
 		"USE_TOR_TO_RELAY_TRANSACTIONS": "Použijte TOR k přenosu transakcí",
-		"WHITE_THEME": "White theme"
+		"WHITE_THEME": "Bílé téma"
 	},
 	"SIDEBAR": {
 		"ACCOUNT": {
 			"MESSAGES": "Nové nabídky/zprávy",
-			"STAKING": "Staking",
+			"STAKING": "Vytyčování",
 			"SYNCING": "Synchronizace pěněženky"
 		},
 		"ADD_NEW": "Přidat",
-		"CONTACTS": "Contacts",
+		"CONTACTS": "Kontakty",
 		"CONTACTS_TOOLTIP": "Možnost Kontakty je k dispozici pouze s povoleným hlavním heslem",
 		"LOG_OUT": "Odhlásit se",
 		"LOG_OUT_TOOLTIP": "Možnost odhlášení je k dispozici pouze s povoleným hlavním heslem",
@@ -597,10 +568,10 @@
 			"DOWNLOADING": "Stahování",
 			"ERROR": "Chyba systému",
 			"LOADING": "Nahrávání blockchainových dat",
-			"MB": "MB",
+			"MB": "",
 			"OFFLINE": "Offline",
 			"ONLINE": "Online",
-			"SLASH": "/",
+			"SLASH": "",
 			"SYNCING": "Sychronizace blockchainu"
 		},
 		"TITLE": "Peněženky",
@@ -619,90 +590,84 @@
 	},
 	"STAKING": {
 		"GROUP": {
-			"DAY": "day",
-			"MONTH": "month",
-			"WEEK": "week"
+			"DAY": "den",
+			"MONTH": "Měsíc",
+			"WEEK": "Týden"
 		},
 		"PERIOD": {
-			"ALL": "All",
-			"MONTH1": "1 month",
-			"MONTH3": "3 month",
-			"MONTH6": "6 month",
-			"WEEK1": "1 week",
-			"WEEK2": "2 week",
-			"YEAR": "1 year"
+			"ALL": "Všechno",
+			"MONTH1": "1 měsíc",
+			"MONTH3": "3 měsíce",
+			"MONTH6": "6 měsíců",
+			"WEEK1": "1 týden",
+			"WEEK2": "2 týden",
+			"YEAR": "1 rok"
 		},
 		"SWITCH": {
-			"OFF": "OFF",
-			"ON": "ON"
+			"OFF": "vypnuto",
+			"ON": "na"
 		},
-		"TITLE": "Staking",
-		"TITLE_GROUP": "Group:",
-		"TITLE_PENDING": "Pending",
-		"TITLE_PERIOD": "Time period:",
-		"TITLE_TOTAL": "Total"
+		"TITLE": "Vytyčování",
+		"TITLE_GROUP": "skupina:",
+		"TITLE_PENDING": "čekající",
+		"TITLE_PERIOD": "Časový úsek:",
+		"TITLE_TOTAL": "Celkový"
 	},
 	"TOR_LIB_STATE": {
-		"STATE_CREATING_STREAM": "Creating stream",
-		"STATE_DOWNLOADING_CONSENSUS": "Downloading consensus",
-		"STATE_FAILED": "Failed created stream",
-		"STATE_INITIALIZING": "Initializing",
-		"STATE_MAKING_TUNNEL_A": "Building tunnel to A",
-		"STATE_MAKING_TUNNEL_B": "Building tunnel to B",
-		"STATE_SENDING": "Sending transaction",
-		"STATE_SEND_FAILED": "Sending failed",
-		"STATE_SENT_SUCCESS": "Successfully sent!",
-		"STATE_SUCCESS": "Successfully created stream"
+		"STATE_CREATING_STREAM": "Vytváření streamu",
+		"STATE_DOWNLOADING_CONSENSUS": "Stahování konsensu",
+		"STATE_FAILED": "Vytvoření streamu se nezdařilo",
+		"STATE_INITIALIZING": "Inicializace",
+		"STATE_MAKING_TUNNEL_A": "Stavba tunelu do A",
+		"STATE_MAKING_TUNNEL_B": "Stavba tunelu do B",
+		"STATE_SENDING": "Odeslání transakce",
+		"STATE_SEND_FAILED": "Odeslání se nezdařilo",
+		"STATE_SENT_SUCCESS": "Úspěšně odesláno!",
+		"STATE_SUCCESS": "Stream byl úspěšně vytvořen"
 	},
 	"TRANSFER_ALIAS": {
 		"ADDRESS": {
-			"LABEL": "Transfer to",
+			"LABEL": "Přenést do",
 			"PLACEHOLDER": "Zde zadejte adresu"
 		},
-		"BUTTON_CANCEL": "Cancel",
-		"BUTTON_TRANSFER": "Transfer",
+		"BUTTON_CANCEL": "zrušení",
+		"BUTTON_TRANSFER": "Převod",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "Komentář",
 			"PLACEHOLDER": "Zde zadejte svůj komentář"
 		},
-		"COST": "Transfer fee {{value}} {{currency}}",
+		"COST": "Poplatek za převod {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"ALIAS_EXISTS": "This account already has an alias",
-			"NO_MONEY": "You do not have enough funds to transfer this alias",
-			"WRONG_ADDRESS": "No wallet with this account exists"
+			"ALIAS_EXISTS": "Tento účet již má alias",
+			"NO_MONEY": "Na převod tohoto aliasu nemáte dostatek prostředků",
+			"WRONG_ADDRESS": "Žádná peněženka s tímto účtem neexistuje"
 		},
 		"NAME": {
 			"LABEL": "Alias",
-			"PLACEHOLDER": "@ Enter alias"
+			"PLACEHOLDER": "@ Zadejte alias"
 		},
-		"REQUEST_SEND_REG": "The alias will be transferred within 10 minutes"
+		"REQUEST_SEND_REG": "Alias bude přenesen do 10 minut"
 	},
 	"WALLET": {
-		"AVAILABLE_BALANCE": "Available <b>{{available}} {{currency}}<b/>",
+		"AVAILABLE_BALANCE": "Dostupné <b>{{available}} {{currency}}<b/>",
 		"CONFIRM": {
 			"MESSAGE": "Chcete-li k němu získat přístup, musíte jej znovu přidat",
 			"TITLE": "Odebrat peněženku ze seznamu?"
 		},
-		"DETAILS": "Details",
-		"LOCK": "Lock",
-		"LOCKED_BALANCE": "Locked <b>{{locked}} {{currency}}<b/>",
-		"LOCKED_BALANCE_LINK": "What does that mean?",
-		"MODAL_ADD_CUSTOM_TOKEN": {
-			"FIELD_TITLE": "ID aktiva",
-			"TITLE": "Přidat vlastní token"
-		},
-		"REGISTER_ALIAS": "Register an alias",
+		"DETAILS": "Podrobnosti",
+		"LOCK": "Zámek",
+		"LOCKED_BALANCE": "Uzamčeno <b>{{locked}} {{currency}}<b/>",
+		"LOCKED_BALANCE_LINK": "Co to znamená?",
+		"REGISTER_ALIAS": "Zaregistrujte si alias",
 		"TABS": {
-			"ASSETS": "Assets",
-			"CONTRACTS": "Contracts",
-			"HISTORY": "History",
-			"MESSAGES": "Messages",
-			"RECEIVE": "Receive",
-			"SEND": "Send",
-			"STAKING": "Staking"
+			"CONTRACTS": "smlouvy",
+			"HISTORY": "Dějiny",
+			"MESSAGES": "ZPRÁVY",
+			"RECEIVE": "Dostávat",
+			"SEND": "Poslat",
+			"STAKING": "Vytyčování"
 		},
 		"TOOLTIPS": {
-			"ADD_CUSTOM_TOKEN": "Přidat vlastní token",
 			"CLOSE": "Zavřít peněženku",
 			"EDIT_ALIAS": "Upravit alias",
 			"SETTINGS": "NASTAVENÍ",
@@ -710,9 +675,8 @@
 		}
 	},
 	"WALLET_DETAILS": {
-		"ADD_CUSTOM_TOKEN": "Přidat vlastní token",
-		"BUTTON_REMOVE": "Close wallet",
-		"BUTTON_SAVE": "Save",
+		"BUTTON_REMOVE": "Zavřít peněženku",
+		"BUTTON_SAVE": "Uložit",
 		"CREATE_PASSWORD_SECURE": "Vytvořte si heslo pro zabezpečení vašeho semene",
 		"FORM": {
 			"CONFIRM_PASSWORD": "Potvrďte heslo",
@@ -720,21 +684,27 @@
 			"SECURED_SEED_WILL_REQUIRE": "Secure seed bude vyžadovat toto heslo k obnovení."
 		},
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required",
+			"MAX_LENGTH": "Bylo dosaženo maximální délky názvu",
+			"NAME_DUPLICATE": "Jméno je duplicitní",
+			"NAME_REQUIRED": "Jméno je povinné",
 			"PASSWORDS_DONT_MATCH": "Hesla neodpovídají"
 		},
 		"INFO": "informace",
-		"LABEL_FILE_LOCATION": "Wallet file location",
-		"LABEL_NAME": "Wallet name",
-		"LABEL_SEED_PHRASE": "Seed phrase",
+		"LABEL_FILE_LOCATION": "Umístění souboru peněženky",
+		"LABEL_NAME": "Název peněženky",
+		"LABEL_SEED_PHRASE": "Semená fráze",
 		"REMEMBER_YOU_WILL_REQUIRE": "Zabezpečené seed bude vyžadovat heslo k obnovení.",
 		"RESYNC_WALLET": "Znovu synchronizujte data peněženky",
 		"RESYNC_WALLET_BUTTON": "Znovu synchronizovat peněženku",
 		"SEED_IS_SECURED": "Osivo je zajištěno",
 		"SEED_IS_UNSECURED": "Osivo je nezajištěné",
-		"SEED_PHRASE_HINT": "Click to reveal the seed phrase",
+		"SEED_PHRASE_HINT": "Kliknutím zobrazíte frázi semena",
 		"WALLET_OPTIONS": "Možnosti peněženky..."
+	},
+	"WORDS": {
+		"ACTIONS": {
+			"INSTALL": "Nainstalujte",
+			"REMOVE": "Odstranit"
+		}
 	}
 }

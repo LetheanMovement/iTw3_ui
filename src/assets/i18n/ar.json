@@ -1,371 +1,344 @@
 {
-	"ASSETS": {
-		"DROP_DOWN_MENU": {
-			"ASSET_DETAILS": "تفاصيل الأصول",
-			"REMOVE_ASSET": "إزالة الأصل"
-		},
-		"MODALS": {
-			"ASSET_DETAILS": {
-				"LABELS": {
-					"CURRENT_SUPPLY": "العرض الحالي",
-					"ID": "معرف الأصول",
-					"MAX_SUPPLE": "ماكس العرض",
-					"NAME": "اسم الأصل",
-					"TICKER": "شريط"
-				}
-			}
-		},
-		"TABLE": {
-			"LABELS": {
-				"BALANCE": "توازن",
-				"NAME": "اسم",
-				"PRICE": "السعر",
-				"VALUE": "القيمة"
-			}
-		}
-	},
 	"ASSIGN_ALIAS": {
-		"BUTTON_ASSIGN": "Assign",
+		"BUTTON_ASSIGN": "تعيين",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "تعليق",
 			"PLACEHOLDER": "أدخل تعليقك هنا",
-			"TOOLTIP": "The comment will be visible to anyone who wants to make a payment to your alias. You can provide details about your business, contacts, or include any text. Comments can be edited later."
+			"TOOLTIP": "سيكون التعليق مرئيًا لأي شخص يريد إجراء الدفع لاسمك المستعار. يمكنك تقديم تفاصيل حول عملك أو جهات اتصالك أو تضمين أي نص. يمكن تحرير التعليقات في وقت لاحق."
 		},
-		"COST": "Alias fee {{value}} {{currency}}",
+		"COST": "رسوم الاسم المستعار {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum comment length reached",
-			"NAME_EXISTS": "Alias name already exists",
-			"NAME_LENGTH": "The alias must be 6-25 characters long",
-			"NAME_REQUIRED": "Name is required",
-			"NAME_WRONG": "Invalid name: allowed symbols \"0-9\", \"a-z\", \"-\", \".\"",
-			"NO_MONEY": "You do not have enough funds to assign this alias"
+			"MAX_LENGTH": "تم بلوغ الحد الأقصى لطول التعليق",
+			"NAME_EXISTS": "الاسم المستعار موجود بالفعل",
+			"NAME_LENGTH": "يجب أن يتكون الاسم المستعار من 6-25 حرفًا",
+			"NAME_REQUIRED": "مطلوب اسم",
+			"NAME_WRONG": "اسم غير صالح: الرموز المسموح بها \"0-9\" ، \"a-z\" ، \"-\" ، \".\"",
+			"NO_MONEY": "ليس لديك أموال كافية لتعيين هذا الاسم المستعار"
 		},
 		"NAME": {
-			"LABEL": "Alias",
-			"PLACEHOLDER": " Enter alias",
-			"TOOLTIP": "An alias is a shortened form or your account. An alias can only include Latin letters, numbers and characters “.” and “-”. It must start with “@”."
+			"LABEL": "الاسم المستعار",
+			"PLACEHOLDER": " أدخل الاسم المستعار",
+			"TOOLTIP": "الاسم المستعار هو نموذج مختصر أو حسابك. يمكن أن يتضمن الاسم المستعار أحرفًا وأرقامًا وأحرفًا لاتينية فقط \".\" و \"-\". يجب أن يبدأ بـ \"@\"."
 		},
-		"ONE_ALIAS": "You can create only one alias per wallet",
-		"REQUEST_ADD_REG": "The alias will be assigned within 10 minutes"
+		"ONE_ALIAS": "يمكنك إنشاء اسم مستعار واحد فقط لكل محفظة",
+		"REQUEST_ADD_REG": "سيتم تعيين الاسم المستعار في غضون 10 دقائق"
 	},
 	"BACKEND_LOCALIZATION": {
-		"INCOME_TRANSFER_CONFIRMED": "Payment received",
-		"INCOME_TRANSFER_UNCONFIRMED": "Incoming payment (not confirmed)",
+		"INCOME_TRANSFER_CONFIRMED": "تلقى الدفع",
+		"INCOME_TRANSFER_UNCONFIRMED": "دفعة واردة (غير مؤكدة)",
 		"IS_CONFIRMED": "",
-		"IS_MINIMIZE": "Lethean application is minimized to the system tray",
+		"IS_MINIMIZE": "يتم تصغير التطبيق Lethean إلى علبة النظام",
 		"IS_RECEIVED": "",
-		"LOCKED": "Blocked",
-		"MINED": "Mined",
-		"QUIT": "Quit",
-		"RESTORE": "You can recover it by clicking or using the context menu",
-		"TRAY_MENU_MINIMIZE": "Minimize",
-		"TRAY_MENU_SHOW": "Resize"
+		"LOCKED": "BLOCKED",
+		"MINED": "عقل",
+		"QUIT": "استقال",
+		"RESTORE": "يمكنك استعادتها بالنقر فوق قائمة السياق أو استخدامها",
+		"TRAY_MENU_MINIMIZE": "خفض",
+		"TRAY_MENU_SHOW": "تغيير"
 	},
 	"BREADCRUMBS": {
-		"ADD_WALLET": "Add wallet",
-		"ASSIGN_ALIAS": "Assign alias",
-		"CONTRACTS": "Contracts",
-		"CREATE_WALLET": "Create new wallet",
-		"EDIT_ALIAS": "Edit alias",
-		"NEW_PURCHASE": "New purchase",
-		"OLD_PURCHASE": "Purchase",
-		"OPEN_WALLET": "Open existing wallet",
-		"RESTORE_WALLET": "Restore from backup",
-		"SAVE_PHRASE": "Save your seed phrase",
-		"TRANSFER_ALIAS": "Transfer alias",
-		"WALLET_DETAILS": "Wallet details"
+		"ADD_WALLET": "أضف المحفظة",
+		"ASSIGN_ALIAS": "تعيين الاسم المستعار",
+		"CONTRACTS": "انكماش",
+		"CREATE_WALLET": "إنشاء محفظة جديدة",
+		"EDIT_ALIAS": "تعديل الاسم المستعار",
+		"NEW_PURCHASE": "شراء جديدة",
+		"OLD_PURCHASE": "شراء",
+		"OPEN_WALLET": "افتح المحفظة الموجودة",
+		"RESTORE_WALLET": "استعادة من النسخة الاحتياطية",
+		"SAVE_PHRASE": "احفظ عبارة البذور الخاصة بك",
+		"TRANSFER_ALIAS": "نقل الاسم المستعار",
+		"WALLET_DETAILS": "تفاصيل المحفظة"
 	},
 	"COMMON": {
-		"BACK": "Go back"
+		"BACK": "عد"
 	},
 	"CONFIRM": {
-		"BUTTON_CANCEL": "Cancel",
-		"BUTTON_CONFIRM": "Send",
+		"BUTTON_CANCEL": "إلغاء",
+		"BUTTON_CONFIRM": "إرسال",
 		"MESSAGE": {
-			"COMMENT": "Comment",
-			"FROM": "From",
-			"SEND": "Send",
-			"TO": "To"
+			"COMMENT": "تعليق",
+			"FROM": "من عند",
+			"SEND": "إرسال",
+			"TO": "إلى"
 		},
-		"TITLE": "Transaction"
+		"TITLE": "عملية تجارية"
 	},
 	"CONTACTS": {
-		"ADD": "Add/edit contact",
+		"ADD": "إضافة / تحرير جهة اتصال",
 		"ADD_CONTACT": "إضافة جهة اتصال",
 		"BUTTON": {
-			"ADD": "Add contact",
-			"ADD_EDIT": "Add/Save",
-			"DELETE": "Delete",
-			"EDIT": "Edit",
-			"GO_TO_WALLET": "Go to wallet",
-			"IMPORT_EXPORT": "Import/export",
-			"SEND": "Send"
+			"ADD": "إضافة جهة اتصال",
+			"ADD_EDIT": "إضافة / حفظ",
+			"DELETE": "حذف",
+			"EDIT": "تصحيح",
+			"GO_TO_WALLET": "انتقل إلى Wallet",
+			"IMPORT_EXPORT": "استيراد و تصدير",
+			"SEND": "إرسال"
 		},
-		"COPY": "- Copy",
-		"ERROR_EMPTY_LIST": "Contact list is empty",
-		"ERROR_EXPORT": "Invalid file type. Save file as .csv",
-		"ERROR_IMPORT": "Error is occured while reading file!",
-		"ERROR_IMPORT_EMPTY": "File is empty",
-		"ERROR_TYPE_FILE": "Please import valid .csv file",
-		"EXPORT": "Export",
+		"COPY": "- ينسخ",
+		"ERROR_EMPTY_LIST": "قائمة جهات الاتصال فارغة",
+		"ERROR_EXPORT": "نوع الملف غير صالح. احفظ الملف كملف csv",
+		"ERROR_IMPORT": "حدث خطأ أثناء قراءة الملف!",
+		"ERROR_IMPORT_EMPTY": "الملف فارغ",
+		"ERROR_TYPE_FILE": "يرجى استيراد ملف .csv صالح",
+		"EXPORT": "تصدير",
 		"FORM": {
-			"ADDRESS": "Address",
-			"NAME": "Name",
-			"NOTES": "Notes"
+			"ADDRESS": "عنوان",
+			"NAME": "اسم",
+			"NOTES": "ملاحظات"
 		},
 		"FORM_ERRORS": {
-			"ADDRESS_DUBLICATED": "Address is dublicated",
-			"ADDRESS_NOT_VALID": "Address not valid",
-			"ADDRESS_REQUIRED": "Address is required",
-			"MAX_LENGTH": "Maximum notes length reached",
-			"NAME_DUBLICATED": "Name is dublicated",
-			"NAME_LENGTH": "The name must be 4-25 characters long",
-			"NAME_REQUIRED": "Name is required",
-			"SET_MASTER_PASSWORD": "Set master password"
+			"ADDRESS_DUBLICATED": "العنوان مكرر",
+			"ADDRESS_NOT_VALID": "العنوان غير صحيح",
+			"ADDRESS_REQUIRED": "العنوان مطلوب",
+			"MAX_LENGTH": "تم الوصول إلى الحد الأقصى لطول الأوراق النقدية",
+			"NAME_DUBLICATED": "الاسم مكرر",
+			"NAME_LENGTH": "يجب أن يتكون الاسم من 4-25 حرفًا",
+			"NAME_REQUIRED": "مطلوب اسم",
+			"SET_MASTER_PASSWORD": "تعيين كلمة مرور رئيسية"
 		},
-		"IMPORT": "Import",
-		"IMPORT_EXPORT": "Import or export contacts",
-		"OPEN_ADD_WALLET": "Open/Add wallet",
-		"SEND": "Send",
-		"SEND_FROM": "Send from",
-		"SEND_TO": "To",
-		"SUCCESS_EXPORT": "Contacts are exported",
-		"SUCCESS_IMPORT": "Contacts are imported",
-		"SUCCESS_SAVE": "Contact is edited",
-		"SUCCESS_SENT": "Contact added",
+		"IMPORT": "استيراد",
+		"IMPORT_EXPORT": "استيراد أو تصدير جهات الاتصال",
+		"OPEN_ADD_WALLET": "فتح / إضافة المحفظة",
+		"SEND": "إرسال",
+		"SEND_FROM": "ارسل من",
+		"SEND_TO": "إلى",
+		"SUCCESS_EXPORT": "يتم تصدير جهات الاتصال",
+		"SUCCESS_IMPORT": "يتم استيراد جهات الاتصال",
+		"SUCCESS_SAVE": "تم تحرير جهة الاتصال",
+		"SUCCESS_SENT": "تمت إضافة جهة الاتصال",
 		"TABLE": {
-			"ADDRESS": "Address",
-			"ALIAS": "Alias",
-			"EMPTY": "Contact list is empty",
-			"NAME": "Name",
-			"NOTES": "Notes"
+			"ADDRESS": "عنوان",
+			"ALIAS": "الاسم المستعار",
+			"EMPTY": "قائمة جهات الاتصال فارغة",
+			"NAME": "اسم",
+			"NOTES": "ملاحظات"
 		},
-		"TITLE": "Contact list"
+		"TITLE": "قائمة الإتصال"
 	},
 	"CONTEXT_MENU": {
-		"COPY": "copy",
-		"PASTE": "paste",
-		"SELECT": "select all"
+		"COPY": "نسخ",
+		"PASTE": "معجون",
+		"SELECT": "اختر الكل"
 	},
 	"CONTRACTS": {
-		"AMOUNT": "Amount",
-		"COMMENTS": "Comments",
-		"CONTRACTS": "Contracts",
-		"DATE": "Date",
-		"EMPTY": "No active contracts",
-		"LISTING_BUTTON": "Create listing",
-		"PURCHASE": "Purchase",
-		"PURCHASE_BUTTON": "New Purchase",
-		"SELL": "Sell",
-		"STATUS": "Status",
+		"AMOUNT": "كمية",
+		"COMMENTS": "تعليقات",
+		"CONTRACTS": "انكماش",
+		"DATE": "تاريخ",
+		"EMPTY": "لا توجد عقود نشطة",
+		"LISTING_BUTTON": "إنشاء قائمة",
+		"PURCHASE": "شراء",
+		"PURCHASE_BUTTON": "شراء جديدة",
+		"SELL": "يبيع",
+		"STATUS": "الحالة",
 		"STATUS_MESSAGES": {
 			"BUYER": {
-				"ACCEPTED": "Seller accepted your contract proposal",
-				"BEING_CANCELLED": "Cancellation in progress",
-				"CANCELLED": "Contract canceled",
-				"COMPLETED": "Contract completed",
-				"EXPIRED": "The contract proposal has expired",
-				"IGNORED": "Seller ignored your contract proposal",
-				"IGNORED_CANCEL": "The seller ignored your proposal to cancel the contract",
-				"NOT_RECEIVED": "Delivery failed",
-				"NULLIFIED": "All deposits burned",
-				"WAIT": "Waiting for deposits confirmation",
-				"WAITING": "Waiting for response",
-				"WAITING_CANCEL": "Waiting for contract cancellation",
-				"WAITING_SELLER": "Waiting for delivery"
+				"ACCEPTED": "قبل البائع اقتراح العقد الخاص بك",
+				"BEING_CANCELLED": "الإلغاء قيد التقدم",
+				"CANCELLED": "تم إلغاء العقد",
+				"COMPLETED": "اكتمل العقد",
+				"EXPIRED": "انتهت صلاحية عرض العقد",
+				"IGNORED": "تجاهل البائع عرض العقد الخاص بك",
+				"IGNORED_CANCEL": "تجاهل البائع اقتراحك بإلغاء العقد",
+				"NOT_RECEIVED": "فشل التسليم",
+				"NULLIFIED": "احترقت جميع الودائع",
+				"WAIT": "في انتظار تأكيد الإيداع",
+				"WAITING": "بإنتظار الرد",
+				"WAITING_CANCEL": "في انتظار إلغاء العقد",
+				"WAITING_SELLER": "بانتظار الطلبية"
 			},
 			"SELLER": {
-				"ACCEPTED": "Contract started",
-				"BEING_CANCELLED": "Cancellation in progress",
-				"CANCELLED": "Contract canceled",
-				"COMPLETED": "Contract completed",
-				"EXPIRED": "Contract proposal has expired",
-				"IGNORED": "You ignored contract proposal",
-				"IGNORED_CANCEL": "You ignored cancellation proposal",
-				"NEW_CONTRACT": "New contract proposal",
-				"NOT_RECEIVED": "Delivery failed",
-				"NULLIFIED": "All deposits burned",
-				"PROPOSAL_CANCEL": "New proposal to cancel contract and return deposits",
-				"WAIT": "Waiting for contract confirmation",
-				"WAITING_BUYER": "Waiting for delivery"
+				"ACCEPTED": "",
+				"BEING_CANCELLED": "الإلغاء قيد التقدم",
+				"CANCELLED": "تم إلغاء العقد",
+				"COMPLETED": "اكتمل العقد",
+				"EXPIRED": "انتهى عرض العقد",
+				"IGNORED": "لقد تجاهلت اقتراح العقد",
+				"IGNORED_CANCEL": "لقد تجاهلت اقتراح الإلغاء",
+				"NEW_CONTRACT": "اقتراح عقد جديد",
+				"NOT_RECEIVED": "فشل التسليم",
+				"NULLIFIED": "احترقت جميع الودائع",
+				"PROPOSAL_CANCEL": "اقتراح جديد لإلغاء العقد وإعادة الودائع",
+				"WAIT": "في انتظار تأكيد العقد",
+				"WAITING_BUYER": "بانتظار الطلبية"
 			}
 		},
 		"TIME_LEFT": {
-			"REMAINING_LESS_ONE": "Less than an hour to respond",
-			"REMAINING_MANY": "{{time}} hours remain",
-			"REMAINING_MANY_ALT": "{{time}} hours remain",
-			"REMAINING_MANY_ALT_RESPONSE": "{{time}} hours remain",
-			"REMAINING_MANY_ALT_WAITING": "Waiting for {{time}} hours",
-			"REMAINING_MANY_RESPONSE": "{{time}} hours remain",
-			"REMAINING_MANY_WAITING": "Waiting for {{time}} hours",
-			"REMAINING_ONE": "{{time}} hour remains",
-			"REMAINING_ONE_RESPONSE": "{{time}} hour remains",
-			"REMAINING_ONE_WAITING": "Waiting for {{time}} hour"
+			"REMAINING_LESS_ONE": "أقل من ساعة للرد",
+			"REMAINING_MANY": "{{time}} ساعة متبقية",
+			"REMAINING_MANY_ALT": "{{time}} ساعة متبقية",
+			"REMAINING_MANY_ALT_RESPONSE": "{{time}} ساعة متبقية",
+			"REMAINING_MANY_ALT_WAITING": "في انتظار {{time}} ساعة",
+			"REMAINING_MANY_RESPONSE": "{{time}} ساعة متبقية",
+			"REMAINING_MANY_WAITING": "في انتظار {{time}} ساعة",
+			"REMAINING_ONE": " تبقى{{time}} ساعة",
+			"REMAINING_ONE_RESPONSE": " تبقى{{time}} ساعة",
+			"REMAINING_ONE_WAITING": "في انتظار {{time}} ساعة"
 		}
 	},
 	"CREATE_WALLET": {
-		"BUTTON_CREATE": "Create wallet",
-		"BUTTON_SELECT": "Select wallet location",
-		"CONFIRM": "Confirm wallet password",
-		"ERROR_CANNOT_SAVE_SYSTEM": "Wallet files cannot be saved to the OS partition",
-		"ERROR_CANNOT_SAVE_TOP": "Existing wallet files cannot be replaced or overwritten",
+		"BUTTON_CREATE": "إنشاء المحفظة",
+		"BUTTON_SELECT": "حدد موقع المحفظة",
+		"CONFIRM": "قم بتأكيد كلمة مرور المحفظة",
+		"ERROR_CANNOT_SAVE_SYSTEM": "لا يمكن حفظ ملفات المحفظة في قسم نظام التشغيل",
+		"ERROR_CANNOT_SAVE_TOP": "لا يمكن استبدال ملفات المحفظة الحالية أو الكتابة فوقها",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required"
+			"CONFIRM_NOT_MATCH": "تأكيد كلمة المرور غير متطابق",
+			"MAX_LENGTH": "تم الوصول إلى الحد الأقصى لطول الاسم",
+			"NAME_DUPLICATE": "الاسم مكرر",
+			"NAME_REQUIRED": "مطلوب اسم"
 		},
-		"NAME": "Wallet name",
-		"PASS": "Set wallet password",
-		"TITLE_SAVE": "Save the wallet file."
+		"NAME": "اسم المحفظة",
+		"PASS": "تعيين كلمة مرور المحفظة",
+		"TITLE_SAVE": "احفظ ملف المحفظة."
 	},
 	"EDIT_ALIAS": {
-		"BUTTON_EDIT": "Edit",
+		"BUTTON_EDIT": "تصحيح",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "تعليق",
 			"PLACEHOLDER": "أدخل تعليقك هنا"
 		},
-		"COST": "Fee {{value}} {{currency}}",
+		"COST": "الرسوم {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum comment length reached",
-			"NO_MONEY": "You do not have enough funds to change the comment to this alias"
+			"MAX_LENGTH": "تم بلوغ الحد الأقصى لطول التعليق",
+			"NO_MONEY": "ليس لديك أموال كافية لتغيير التعليق إلى هذا الاسم المستعار"
 		},
 		"NAME": {
-			"LABEL": "Alias",
-			"PLACEHOLDER": "@ Enter alias"
+			"LABEL": "الاسم المستعار",
+			"PLACEHOLDER": "@ أدخل الاسم المستعار"
 		}
 	},
 	"ERRORS": {
-		"ACCESS_DENIED": "Access denied",
-		"BAD_ARG": "Invalid argument",
-		"CORE_BUSY": "Internal error: core is busy",
-		"DAEMON_BUSY": "Internal error: daemon is busy",
-		"FILE_EXIST": "A file with that name already exists. Enter another name to save the file under",
-		"FILE_NOT_FOUND": "File not found",
-		"FILE_NOT_SAVED": "You cannot save a wallet file in this folder. Please choose another folder.",
-		"FILE_RESTORED": "The wallet file was corrupted. We have recovered the keys and the wallet from the blockchain",
-		"NOT_ENOUGH_MONEY": "Insufficient funds in account",
-		"NOT_ENOUGH_OUTPUTS_TO_MIX": "Mix-in number is too big for current blockchain state. There are not enough unspent outputs to mix with",
-		"NO_MONEY": "Not enough money",
-		"NO_MONEY_REMOVE_OFFER": "There is no fee for deleting an offer, but in order to protect the network against flood transactions you need to have at least {{fee}} {{currency}} in your wallet",
-		"TRANSACTION_ERROR": "Error. Transaction not completed.",
-		"TRANSACTION_IS_TO_BIG": "Transaction exceeds network limit, send required amount with multiple transactions",
-		"TRANSFER_ATTEMPT": "There is no connection to Lethean network",
-		"TX_TYPE_COIN_BASE": "Error. The payment was not completed.",
-		"TX_TYPE_NEW_ALIAS": "Error. Failed to register alias to safe",
-		"TX_TYPE_NEW_ALIAS_END": "Please try again.",
-		"TX_TYPE_NORMAL": "Error. The payment from the wallet",
-		"TX_TYPE_NORMAL_END": "was not completed.",
-		"TX_TYPE_NORMAL_TO": "to",
-		"TX_TYPE_UPDATE_ALIAS": "Error. Failed to change comment to alias in safe",
+		"ACCESS_DENIED": "تم الرفض",
+		"BAD_ARG": "سيطة غير صالحة",
+		"CORE_BUSY": "خطأ داخلي: النواة مشغولة",
+		"DAEMON_BUSY": "خطأ داخلي: البرنامج الخفي مشغول",
+		"FILE_EXIST": "يوجد ملف بهذا الاسم بالفعل. أدخل اسمًا آخر لحفظ الملف تحته",
+		"FILE_NOT_FOUND": "لم يتم العثور على الملف",
+		"FILE_NOT_SAVED": "لا يمكنك حفظ ملف المحفظة في هذا المجلد. الرجاء اختيار مجلد آخر.",
+		"FILE_RESTORED": "ملف المحفظة تالف. لقد استعدنا المفاتيح والمحفظة من blockchain",
+		"NOT_ENOUGH_MONEY": "أموال غير كافية في الحساب",
+		"NOT_ENOUGH_OUTPUTS_TO_MIX": "رقم الخلط كبير جدًا بالنسبة لحالة blockchain الحالية. لا توجد مخرجات غير منفقة كافية للاختلاط معها",
+		"NO_MONEY": "مال غير كاف",
+		"NO_MONEY_REMOVE_OFFER": "لا توجد رسوم على حذف عرض ما ، ولكن لحماية الشبكة من معاملات الفيضانات ، يجب أن يكون لديك على الأقل {{fee}} {{currency}} في محفظتك",
+		"TRANSACTION_ERROR": "خطأ. الصفقة لم تكتمل.",
+		"TRANSACTION_IS_TO_BIG": "تجاوزت المعاملة حد الشبكة ، أرسل المبلغ المطلوب مع معاملات متعددة",
+		"TRANSFER_ATTEMPT": "لا يوجد اتصال بشبكة Lethean",
+		"TX_TYPE_COIN_BASE": "خطأ. الدفع لم يكتمل.",
+		"TX_TYPE_NEW_ALIAS": "خطأ. فشل في تسجيل الاسم المستعار في مكان آمن",
+		"TX_TYPE_NEW_ALIAS_END": "حاول مرة اخرى.",
+		"TX_TYPE_NORMAL": "خطأ. الدفع من المحفظة",
+		"TX_TYPE_NORMAL_END": "لم يكتمل.",
+		"TX_TYPE_NORMAL_TO": "إلى",
+		"TX_TYPE_UPDATE_ALIAS": "خطأ. فشل تغيير التعليق إلى الاسم المستعار في مكان آمن",
 		"WALLET_WATCH_ONLY_NOT_SUPPORTED": "لا يمكن فتح محافظ الساعات فقط إلا من خلال محفظة بسيطة",
-		"WALLET_WRONG_ID": "Invalid wallet ID",
-		"WRONG_PASSWORD": "Invalid password"
+		"WALLET_WRONG_ID": "معرف المحفظة غير صالح",
+		"WRONG_PASSWORD": "رمز مرور خاطئ"
 	},
 	"EXPORT_HISTORY": {
 		"CANCEL": "إلغاء",
 		"EXPORT": "تصدير إلى ملف ...",
 		"EXPORT_BUTTON": "محفوظات التصدير ...",
 		"FILTER": "تصفية معاملات نقاط البيع",
-		"FORMAT": "شكل",
-		"FORMAT:": "",
+		"FORMAT:": "شكل",
 		"SAVED_FILE": "حدد المسار لحفظ سجل المعاملات",
 		"TITLE": "تصدير محفوظات المحفظة",
 		"TOOLTIP": "تصدير سجل معاملات المحفظة إلى ملف"
 	},
 	"HISTORY": {
-		"ADDRESS": "Address",
-		"AMOUNT": "Amount",
-		"DATE": "Date",
+		"ADDRESS": "عنوان",
+		"AMOUNT": "كمية",
+		"DATE": "تاريخ",
 		"DETAILS": {
-			"COMMENT": "Comment",
-			"CONFIRMATION": "Confirmation",
-			"HEIGHT": "Height",
-			"ID": "Transaction ID",
-			"INPUTS": "Inputs",
-			"OUTPUTS": "Outputs",
-			"PAYMENT_ID": "Payment ID",
-			"SIZE": "Transaction size",
-			"SIZE_VALUE": "{{value}} bytes"
+			"COMMENT": "تعليق",
+			"CONFIRMATION": "التأكيد",
+			"HEIGHT": "ارتفاع",
+			"ID": "معرف المعاملة",
+			"INPUTS": "المدخلات",
+			"OUTPUTS": "المخرجات",
+			"PAYMENT_ID": "معرف الدفع",
+			"SIZE": "حجم الصفقة",
+			"SIZE_VALUE": "{{value}} بايت"
 		},
-		"FEE": "Fee",
-		"LOCK_TOOLTIP": "Locked till {{date}}",
-		"RECEIVED": "Received",
-		"SEND": "Sent",
-		"STATUS": "Status",
-		"STATUS_TOOLTIP": "Confirmations {{current}}/{{total}}",
+		"FEE": "رسوم",
+		"LOCK_TOOLTIP": "مقفول حتى {{date}}",
+		"RECEIVED": "تم الاستلام",
+		"SEND": "أرسلت",
+		"STATUS": "الحالة",
+		"STATUS_TOOLTIP": "تأكيدات {{current}}/{{total}}",
 		"TYPE_MESSAGES": {
-			"CANCEL_CONTRACT": "Cancel and return deposits",
-			"COMPLETE_BUYER": "Contract completed",
-			"COMPLETE_SELLER": "Contract completed",
-			"CREATE_ALIAS": "Fee for assigning alias",
-			"CREATE_CONTRACT": "Contract proposal",
-			"HIDDEN": "hidden",
-			"NULLIFY_CONTRACT": "Burn deposits",
-			"PLEDGE_CONTRACT": "Contract deposit",
-			"POS_REWARD": "POS reward",
-			"POW_REWARD": "POW reward",
-			"PROPOSAL_CANCEL_CONTRACT": "Cancellation request",
-			"UNDEFINED": "Undefined",
-			"UPDATE_ALIAS": "Fee for editing alias"
+			"CANCEL_CONTRACT": "إلغاء وإعادة الودائع",
+			"COMPLETE_BUYER": "اكتمل العقد",
+			"COMPLETE_SELLER": "اكتمل العقد",
+			"CREATE_ALIAS": "رسوم تعيين الاسم المستعار",
+			"CREATE_CONTRACT": "اقتراح العقد",
+			"HIDDEN": "مخفي",
+			"NULLIFY_CONTRACT": "حرق الرواسب",
+			"PLEDGE_CONTRACT": "إيداع العقد",
+			"POS_REWARD": "مكافأة نقاط البيع",
+			"POW_REWARD": "مكافأة أسير الحرب",
+			"PROPOSAL_CANCEL_CONTRACT": "طلب إلغاء",
+			"UNDEFINED": "غير معرف",
+			"UPDATE_ALIAS": "رسوم تحرير الاسم المستعار"
 		}
 	},
 	"LOGIN": {
-		"BUTTON_NEXT": "Next",
-		"BUTTON_RESET": "Reset",
-		"BUTTON_SKIP": "Skip",
+		"BUTTON_NEXT": "التالى",
+		"BUTTON_RESET": "إعادة تعيين",
+		"BUTTON_SKIP": "تخطى",
 		"FORM_ERRORS": {
-			"CONFIRM_REQUIRED": "Confirmation is required",
+			"CONFIRM_REQUIRED": "التأكيد مطلوب",
 			"INVALID_PASS": "كلمة مرور غير صالحة ، حاول مرة أخرى",
-			"MISMATCH": "Mismatch",
-			"PASS_REQUIRED": "Password is required"
+			"MISMATCH": "عدم تطابق",
+			"PASS_REQUIRED": "كلمة المرور مطلوبة"
 		},
-		"INCORRECT_PASSWORD": "Invalid password",
-		"MASTER_PASS": "Master password",
-		"SETUP_CONFIRM_PASS": "Confirm the password",
-		"SETUP_MASTER_PASS": "Setup master password"
+		"INCORRECT_PASSWORD": "رمز مرور خاطئ",
+		"MASTER_PASS": "كلمة السر الرئيسية",
+		"SETUP_CONFIRM_PASS": "قم بتأكيد كلمة المرور",
+		"SETUP_MASTER_PASS": "إعداد كلمة السر الرئيسية"
 	},
 	"MAIN": {
-		"BUTTON_NEW_WALLET": "Create new wallet",
-		"BUTTON_OPEN_WALLET": "Open existing wallet",
-		"BUTTON_RESTORE_BACKUP": "Restore from backup",
-		"CHOOSE_PATH": "Please choose a path",
-		"HELP": "How to create wallet?",
-		"TITLE": "Create or open the wallet to start using Lethean"
+		"BUTTON_NEW_WALLET": "إنشاء محفظة جديدة",
+		"BUTTON_OPEN_WALLET": "افتح المحفظة الموجودة",
+		"BUTTON_RESTORE_BACKUP": "استعادة من النسخة الاحتياطية",
+		"CHOOSE_PATH": "الرجاء اختيار مسار",
+		"HELP": "كيفية إنشاء المحفظة؟",
+		"TITLE": "قم بإنشاء أو فتح المحفظة لبدء استخدام Lethean"
 	},
 	"MESSAGES": {
-		"ADDRESS": "Address",
-		"MESSAGE": "Message",
-		"SEND_BUTTON": "Send",
-		"SEND_PLACEHOLDER": "Type a message..."
+		"ADDRESS": "عنوان",
+		"MESSAGE": "رسالة",
+		"SEND_BUTTON": "إرسال",
+		"SEND_PLACEHOLDER": "اكتب رسالة ..."
 	},
 	"MODALS": {
-		"ADD_TOKEN": "أضف رمزًا",
 		"CANCEL": "إلغاء",
-		"ERROR": "Error",
-		"INFO": "Information",
-		"OK": "OK",
-		"SUCCESS": "Success"
+		"ERROR": "خطأ",
+		"INFO": "معلومات",
+		"OK": "حسنا",
+		"SUCCESS": "نجاح"
 	},
 	"OPEN_WALLET": {
-		"BUTTON": "Open wallet",
-		"FILE_NOT_FOUND1": "Wallet file not found",
-		"FILE_NOT_FOUND2": "<br/><br/> It might have been renamed or moved. <br/> To open it, use the \"Open wallet\" button.",
+		"BUTTON": "افتح المحفظة",
+		"FILE_NOT_FOUND1": "ملف المحفظة غير موجود",
+		"FILE_NOT_FOUND2": "<br/><br/> ربما تمت إعادة تسميته أو نقله. <br/> لفتحها ، استخدم زر \"فتح المحفظة\".",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required"
+			"MAX_LENGTH": "تم الوصول إلى الحد الأقصى لطول الاسم",
+			"NAME_DUPLICATE": "الاسم مكرر",
+			"NAME_REQUIRED": "مطلوب اسم"
 		},
 		"MODAL": {
-			"LABEL": "Password to this wallet",
-			"NOT_FOUND": "Not found",
-			"OPEN": "Open wallet",
-			"SKIP": "Skip",
-			"TITLE": "Type wallet password"
+			"LABEL": "كلمة السر لهذه المحفظة",
+			"NOT_FOUND": "غير معثور عليه",
+			"OPEN": "افتح المحفظة",
+			"SKIP": "تخطى",
+			"TITLE": "اكتب كلمة مرور المحفظة"
 		},
-		"NAME": "Wallet name",
-		"PASS": "Wallet password",
-		"WITH_ADDRESS_ALREADY_OPEN": "A wallet with this address is already open"
+		"NAME": "اسم المحفظة",
+		"PASS": "كلمة مرور المحفظة",
+		"WITH_ADDRESS_ALREADY_OPEN": "محفظة بهذا العنوان مفتوحة بالفعل"
 	},
 	"PLACEHOLDERS": {
 		"ADRESS_PLACEHOLDER": "أدخل العنوان هنا",
@@ -379,7 +352,6 @@
 		"NAME_PLACEHOLDER": "أدخل اسمًا هنا",
 		"NOTES_PLACEHOLDER": "أدخل الملاحظات هنا",
 		"PASSWORD_PLACEHOLDER": "أدخل كلمة المرور هنا",
-		"PASS_PLACEHOLDER": "أدخل كلمة مرور رئيسية هنا",
 		"PLACEHOLDER_CONFIRM": "قم بتأكيد كلمة المرور الجديدة هنا",
 		"PLACEHOLDER_NEW": "أدخل كلمة المرور الجديدة هنا",
 		"PLACEHOLDER_OLD": "أدخل كلمة المرور الحالية هنا",
@@ -392,164 +364,163 @@
 		"WALLET_NAME_PLACEHOLDER": "أدخل اسم المحفظة هنا"
 	},
 	"PROGRESS": {
-		"ADD_WALLET": "Add wallet",
-		"CREATE_WALLET": "Create new wallet",
-		"RESTORE_WALLET": "Restore from backup",
-		"SELECT_LOCATION": "Select wallet location"
+		"ADD_WALLET": "أضف المحفظة",
+		"CREATE_WALLET": "إنشاء محفظة جديدة",
+		"RESTORE_WALLET": "استعادة من النسخة الاحتياطية",
+		"SELECT_LOCATION": "حدد موقع المحفظة"
 	},
 	"PURCHASE": {
-		"ACCEPT_STATE_WAIT_BIG": "Contract started",
-		"AMOUNT": "Amount",
-		"BURN_PROPOSAL": "Deposits burned",
-		"BUTTON_CANCEL_BUYER": "Cancel and return deposits",
-		"BUTTON_CANCEL_SELLER": "Confirm and return deposits",
-		"BUTTON_IGNORE": "Ignore and hide offer",
-		"BUTTON_MAKE_PLEDGE": "Accept and make deposit",
-		"BUTTON_NOT_CANCEL": "Ignore request",
-		"BUTTON_NULLIFY": "Terminate and burn deposits",
-		"BUTTON_NULLIFY_SHORT": "Burn",
-		"BUTTON_RECEIVED": "Complete and release deposits",
-		"BUYER_DEPOSIT": "Buyer deposit",
-		"CANCEL": "Cancel",
-		"COMMENT": "Comment",
-		"DEALS_CANCELED_WAIT": "Cancellation in progress",
-		"DESCRIPTION": "Description",
-		"DETAILS": "Additional details",
-		"FEE": "Fee",
+		"ACCEPT_STATE_WAIT_BIG": "بدأ العقد",
+		"AMOUNT": "كمية",
+		"BURN_PROPOSAL": "الودائع المحروقة",
+		"BUTTON_CANCEL_BUYER": "إلغاء وإعادة الودائع",
+		"BUTTON_CANCEL_SELLER": "تأكيد وإرجاع الودائع",
+		"BUTTON_IGNORE": "تجاهل العرض وإخفائه",
+		"BUTTON_MAKE_PLEDGE": "قبول وإيداع",
+		"BUTTON_NOT_CANCEL": "تجاهل الطلب",
+		"BUTTON_NULLIFY": "إنهاء وحرق الودائع",
+		"BUTTON_NULLIFY_SHORT": "يحرق",
+		"BUTTON_RECEIVED": "أكمل ودفع الودائع",
+		"BUYER_DEPOSIT": "إيداع المشتري",
+		"CANCEL": "إلغاء",
+		"COMMENT": "تعليق",
+		"DEALS_CANCELED_WAIT": "الإلغاء قيد التقدم",
+		"DESCRIPTION": "وصف",
+		"DETAILS": "تفاصيل اضافية",
+		"FEE": "رسوم",
 		"FORM_ERRORS": {
-			"ALIAS_NOT_VALID": "Invalid alias",
-			"AMOUNT_REQUIRED": "Amount required",
-			"AMOUNT_ZERO": "Amount cannot be zero",
-			"COMMENT_MAXIMUM": "Maximum field length reached",
-			"DESC_MAXIMUM": "Maximum field length reached",
-			"DESC_REQUIRED": "Description required",
-			"SELLER_DEPOSIT_REQUIRED": "Seller deposit required",
-			"SELLER_NOT_VALID": "Invalid address",
-			"SELLER_REQUIRED": "Address required",
-			"SELLER_SAME": "Use separate account",
-			"YOUR_DEPOSIT_REQUIRED": "Deposit required"
+			"ALIAS_NOT_VALID": "الاسم المستعار غير صالح",
+			"AMOUNT_REQUIRED": "كمية مطلوبة",
+			"AMOUNT_ZERO": "لا يمكن أن يكون المبلغ صفرًا",
+			"COMMENT_MAXIMUM": "تم الوصول إلى الحد الأقصى لطول الحقل",
+			"DESC_MAXIMUM": "تم الوصول إلى الحد الأقصى لطول الحقل",
+			"DESC_REQUIRED": "الوصف مطلوب",
+			"SELLER_DEPOSIT_REQUIRED": "إيداع البائع مطلوب",
+			"SELLER_NOT_VALID": "عنوان خاطئ",
+			"SELLER_REQUIRED": "العنوان مطلوب",
+			"SELLER_SAME": "استخدم حساب منفصل",
+			"YOUR_DEPOSIT_REQUIRED": "يتطلب عربون"
 		},
-		"HOUR": "hour",
-		"HOURS": "hours",
-		"IGNORED_ACCEPT": "Contract proposal ignored",
-		"IGNORED_CANCEL": "Contract cancellation proposal ignored",
-		"NEED_MONEY": "Insufficient funds",
-		"NULLIFY_QUESTION": "Are you sure you want to burn both deposits?",
-		"PAYMENT": "Payment ID",
-		"PROGRESS_COMPLETE": "Completed",
-		"PROGRESS_NEW": "New purchase",
-		"PROGRESS_RECEIVE": "Reply received",
-		"PROGRESS_WAIT": "Awaiting reply",
-		"SAME_AMOUNT": "Same amount",
-		"SELLER": "Seller",
-		"SELLER_DEPOSIT": "Seller deposit",
-		"SEND_BUTTON": "Send",
-		"SEND_CANCEL_PROPOSAL": "Cancellation request sent",
+		"HOUR": "ساعة",
+		"HOURS": "ساعات",
+		"IGNORED_ACCEPT": "تم تجاهل اقتراح العقد",
+		"IGNORED_CANCEL": "تم تجاهل اقتراح إلغاء العقد",
+		"NEED_MONEY": "رصيد غير كاف",
+		"NULLIFY_QUESTION": "هل أنت متأكد أنك تريد حرق كلا الرواسب؟",
+		"PAYMENT": "معرف الدفع",
+		"PROGRESS_COMPLETE": "منجز",
+		"PROGRESS_NEW": "شراء جديدة",
+		"PROGRESS_RECEIVE": "تم استلام الرد",
+		"PROGRESS_WAIT": "في انتظار الرد",
+		"SAME_AMOUNT": "نفس المبلغ",
+		"SELLER": "تاجر",
+		"SELLER_DEPOSIT": "إيداع البائع",
+		"SEND_BUTTON": "إرسال",
+		"SEND_CANCEL_PROPOSAL": "تم إرسال طلب الإلغاء",
 		"STATUS_MESSAGES": {
-			"BEING_CANCELLED": "Cancellation in progress",
-			"CANCELLED": "Contract canceled",
-			"COMPLETED": "Contract completed",
-			"EXPIRED": "Contract proposal expired",
-			"IGNORED_BUYER": "Contract proposal ignored",
-			"IGNORED_CANCEL_BUYER": "Contract cancellation proposal ignored",
-			"IGNORED_CANCEL_SELLER": "The seller ignored your proposal to cancel the contract",
-			"IGNORED_SELLER": "The seller ignored your contract proposal",
-			"NEW_PURCHASE": "New purchase",
-			"NOT_RECEIVED": "Delivery failed",
-			"NULLIFIED": "All deposits burned",
-			"PROPOSAL_CANCEL_BUYER": "Cancellation request received",
-			"PROPOSAL_CANCEL_SELLER": "Cancellation request sent",
-			"WAITING_BUYER": "Contract proposal received",
-			"WAITING_CONFIRMATION": "Waiting for deposits confirmation",
-			"WAITING_DELIVERY": "Waiting for delivery",
-			"WAITING_SELLER": "Waiting for response"
+			"BEING_CANCELLED": "الإلغاء قيد التقدم",
+			"CANCELLED": "تم إلغاء العقد",
+			"COMPLETED": "اكتمل العقد",
+			"EXPIRED": "عرض العقد منتهي الصلاحية",
+			"IGNORED_BUYER": "تم تجاهل اقتراح العقد",
+			"IGNORED_CANCEL_BUYER": "تم تجاهل اقتراح إلغاء العقد",
+			"IGNORED_CANCEL_SELLER": "تجاهل البائع اقتراحك بإلغاء العقد",
+			"IGNORED_SELLER": "تجاهل البائع عرض العقد الخاص بك",
+			"NEW_PURCHASE": "شراء جديدة",
+			"NOT_RECEIVED": "فشل التسليم",
+			"NULLIFIED": "احترقت جميع الودائع",
+			"PROPOSAL_CANCEL_BUYER": "تم استلام طلب الإلغاء",
+			"PROPOSAL_CANCEL_SELLER": "تم إرسال طلب الإلغاء",
+			"WAITING_BUYER": "تم استلام اقتراح العقد",
+			"WAITING_CONFIRMATION": "في انتظار تأكيد الإيداع",
+			"WAITING_DELIVERY": "بانتظار الطلبية",
+			"WAITING_SELLER": "بإنتظار الرد"
 		},
-		"SUCCESS_FINISH_PROPOSAL": "Contract completed",
-		"WAITING_TIME": "Response time",
-		"WAITING_TIME_QUESTION": "Are you sure you want to cancel the contract?",
-		"YOUR_DEPOSIT": "Your deposit"
+		"SUCCESS_FINISH_PROPOSAL": "اكتمل العقد",
+		"WAITING_TIME": "وقت الاستجابة",
+		"WAITING_TIME_QUESTION": "هل أنت متأكد أنك تريد إلغاء العقد؟",
+		"YOUR_DEPOSIT": "إيداعك"
 	},
 	"RESTORE_WALLET": {
-		"BUTTON_CREATE": "Create wallet",
-		"BUTTON_SELECT": "Select wallet location",
-		"CHOOSE_PATH": "Please choose a path",
-		"CONFIRM": "Confirm wallet password",
+		"BUTTON_CREATE": "إنشاء المحفظة",
+		"BUTTON_SELECT": "حدد موقع المحفظة",
+		"CHOOSE_PATH": "الرجاء اختيار مسار",
+		"CONFIRM": "قم بتأكيد كلمة مرور المحفظة",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
+			"CONFIRM_NOT_MATCH": "تأكيد كلمة المرور غير متطابق",
 			"INCORRECT_PASSWORD": "كلمة سر خاطئة",
-			"KEY_NOT_VALID": "Key not valid",
-			"KEY_REQUIRED": "Key is required",
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required"
+			"KEY_NOT_VALID": "المفتاح غير صالح",
+			"KEY_REQUIRED": "المفتاح مطلوب",
+			"MAX_LENGTH": "تم الوصول إلى الحد الأقصى لطول الاسم",
+			"NAME_DUPLICATE": "الاسم مكرر",
+			"NAME_REQUIRED": "مطلوب اسم"
 		},
-		"LABEL_NAME": "Wallet name",
-		"LABEL_PHRASE_KEY": "Seed phrase / tracking seed",
-		"NOT_CORRECT_FILE_OR_PASSWORD": "Invalid wallet file or password does not match",
+		"LABEL_NAME": "اسم المحفظة",
+		"LABEL_PHRASE_KEY": "عبارة البذور / تتبع البذور",
+		"NOT_CORRECT_FILE_OR_PASSWORD": "ملف المحفظة غير صالح أو كلمة المرور غير متطابقة",
 		"OK": "حسنا",
-		"PASS": "Wallet password",
+		"PASS": "كلمة مرور المحفظة",
 		"SEED_PASSWORD": "كلمة مرور البذور"
 	},
 	"SEED_PHRASE": {
 		"BUTTON_COPIED": "نسخ",
-		"BUTTON_COPY": "Copy",
-		"BUTTON_CREATE_ACCOUNT": "Create wallet",
-		"TITLE": "Make sure to keep your seed phrase in a safe place. If you forget your seed phrase you will not be able to recover your wallet."
+		"BUTTON_COPY": "نسخ",
+		"BUTTON_CREATE_ACCOUNT": "إنشاء المحفظة",
+		"TITLE": "تأكد من الاحتفاظ بعبارة البذور الخاصة بك في مكان آمن. إذا نسيت عبارة البداية الخاصة بك ، فلن تتمكن من استرداد محفظتك."
 	},
 	"SEND": {
-		"ADDRESS": "Address",
-		"AMOUNT": "Amount",
-		"BUTTON": "Send",
-		"COMMENT": "Comment",
-		"DETAILS": "Additional details",
-		"FEE": "Fee",
+		"ADDRESS": "عنوان",
+		"AMOUNT": "كمية",
+		"BUTTON": "إرسال",
+		"COMMENT": "تعليق",
+		"DETAILS": "تفاصيل اضافية",
+		"FEE": "رسوم",
 		"FORM_ERRORS": {
-			"ADDRESS_NOT_VALID": "Address not valid",
-			"ADDRESS_REQUIRED": "Address is required",
-			"ALIAS_NOT_VALID": "Alias not valid",
-			"AMOUNT_REQUIRED": "Amount is required",
-			"AMOUNT_ZERO": "Amount is zero",
-			"FEE_MINIMUM": "Minimum fee: {{fee}}",
-			"FEE_REQUIRED": "Fee is required",
+			"ADDRESS_NOT_VALID": "العنوان غير صحيح",
+			"ADDRESS_REQUIRED": "العنوان مطلوب",
+			"ALIAS_NOT_VALID": "الاسم المستعار غير صالح",
+			"AMOUNT_REQUIRED": "المبلغ مطلوب",
+			"AMOUNT_ZERO": "المبلغ صفر",
+			"FEE_MINIMUM": "الحد الأدنى للرسوم: {{fee}}",
+			"FEE_REQUIRED": "الرسوم مطلوبة",
 			"GREAT_THAN_UNWRAPPED_COINS": "المبلغ أكبر من رموز ERC20 المتبقية المتاحة",
 			"LESS_THAN_ZANO_NEEDED": "مبلغ صغير جدًا لتغطية رسوم ERC20",
-			"MAX_LENGTH": "Maximum comment length reached",
+			"MAX_LENGTH": "تم بلوغ الحد الأقصى لطول التعليق",
 			"WRAP_INFO_NULL": "فشل في طلب حالة الالتفاف"
 		},
-		"HIDE": "Hide your wallet address from recipient",
-		"MIXIN": "Mixin",
-		"SUCCESS_SENT": "Transaction sent",
+		"HIDE": "إخفاء عنوان محفظتك من المستلم",
+		"MIXIN": "ميكسين",
+		"SUCCESS_SENT": "تم إرسال المعاملة",
 		"WRAP": {
 			"ESTIMATE": "تقديرات المعاملات",
 			"FEE": "رسوم Ethereum Txn:",
-			"LTHN": "LTHN",
-			"MAIN_TEXT": "ستؤدي هذه المعاملة إلى إنشاء wLTHN (\"Wrapped Lethean\") والذي سيتم إرساله إلى العنوان المحدد على شبكة Ethereum.",
+			"MAIN_TEXT": "ستؤدي هذه المعاملة إلى إنشاء wLethean (\"Wrapped Lethean\") والذي سيتم إرساله إلى العنوان المحدد على شبكة Ethereum.",
 			"TITLE": "طَوّق",
 			"WILL_RECEIVE": "سوف تتلقى:",
-			"ZANO": "",
-			"wZANO": "wLTHN"
+			"ZANO": "LTHN",
+			"wZANO": "wLethean"
 		}
 	},
 	"SEND_DETAILS_MODAL": {
-		"TITLE1": "Transaction",
-		"TITLE2": "Transaction details"
+		"TITLE1": "عملية تجارية",
+		"TITLE2": "تفاصيل الصفقه"
 	},
 	"SETTINGS": {
 		"APP_LOCK": {
-			"TIME1": "5 min",
-			"TIME2": "15 min",
-			"TIME3": "1 hour",
-			"TIME4": "Never",
-			"TITLE": "Lock app after:"
+			"TIME1": "5 دقائق",
+			"TIME2": "15 دقيقة",
+			"TIME3": "ساعة واحدة",
+			"TIME4": "أبدا",
+			"TITLE": "قفل التطبيق بعد:"
 		},
-		"APP_LOG_TITLE": "Log level:",
-		"DARK_THEME": "Dark theme",
+		"APP_LOG_TITLE": "تسجيل مستوى:",
+		"DARK_THEME": "موضوع الظلام",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
-			"PASS_NOT_MATCH": "Old password not match",
-			"PASS_REQUIRED": "Password is required"
+			"CONFIRM_NOT_MATCH": "تأكيد كلمة المرور غير متطابق",
+			"PASS_NOT_MATCH": "كلمة سر خاطئة",
+			"PASS_REQUIRED": "كلمة المرور مطلوبة"
 		},
-		"GRAY_THEME": "Grey theme",
+		"GRAY_THEME": "موضوع رمادي",
 		"LANGUAGE": {
 			"DE": "الألمانية",
 			"EN": "الإنجليزية",
@@ -559,150 +530,144 @@
 			"PT": "البرتغالية",
 			"TITLE": "لغة"
 		},
-		"LAST_BUILD": "Current build: {{value}}",
+		"LAST_BUILD": "الإصدار الحالي: {{value}}",
 		"MASTER_PASSWORD": {
-			"BUTTON": "Save",
-			"CONFIRM": "New password confirmation",
-			"NEW": "New password",
-			"OLD": "Old password",
-			"TITLE": "Update master password"
+			"BUTTON": "حفظ",
+			"CONFIRM": "تأكيد كلمة المرور",
+			"NEW": "كلمة السر الجديدة",
+			"OLD": "كلمة المرور الحالي",
+			"TITLE": "تحديث كلمة المرور الرئيسية"
 		},
 		"NOTIFICATIONS": "إخطارات",
 		"SCALE": {
-			"75": "75% scale",
-			"100": "100% scale",
-			"125": "125% scale",
-			"150": "150% scale",
+			"75": "مقياس 75٪",
+			"100": "مقياس 100٪",
+			"125": "مقياس 125٪",
+			"150": "مقياس 150٪",
 			"TITLE": "مقياس الواجهة"
 		},
 		"SETTINGS_SAVED": "أنقذ! تم تحديث الإعدادات",
-		"TITLE": "Settings",
+		"TITLE": "الإعدادات",
 		"USE_TOR_TO_RELAY_TRANSACTIONS": "استخدم TOR لترحيل المعاملات",
-		"WHITE_THEME": "White theme"
+		"WHITE_THEME": "مظهر أبيض"
 	},
 	"SIDEBAR": {
 		"ACCOUNT": {
-			"MESSAGES": "New offers/Messages",
+			"MESSAGES": "العروض / الرسائل الجديدة",
 			"STAKING": "Staking",
-			"SYNCING": "Syncing wallet"
+			"SYNCING": "مزامنة المحفظة"
 		},
-		"ADD_NEW": "Add",
-		"CONTACTS": "Contacts",
+		"ADD_NEW": "أضف المحفظة",
+		"CONTACTS": "جهات الاتصال",
 		"CONTACTS_TOOLTIP": "يتوفر خيار جهات الاتصال فقط مع تمكين Master Password",
 		"LOG_OUT": "Log out",
 		"LOG_OUT_TOOLTIP": "خيار تسجيل الخروج متاح فقط مع تمكين كلمة المرور الرئيسية",
-		"SETTINGS": "Settings",
+		"SETTINGS": "الإعدادات",
 		"SYNCHRONIZATION": {
-			"COMPLETE": "Completion",
+			"COMPLETE": "إكمال",
 			"DOWNLOADING": "جارى التحميل",
-			"ERROR": "System error",
-			"LOADING": "Loading blockchain data",
-			"MB": "ميغابايت",
-			"OFFLINE": "Offline",
-			"ONLINE": "Online",
-			"SLASH": "/",
-			"SYNCING": "Syncing blockchain"
+			"ERROR": "خطأ بالنظام",
+			"LOADING": "تحميل بيانات blockchain",
+			"MB": "",
+			"OFFLINE": "غير متصل على الانترنت",
+			"ONLINE": "عبر الانترنت",
+			"SLASH": "",
+			"SYNCING": "كتلة المزامنة"
 		},
-		"TITLE": "Wallets",
+		"TITLE": "محافظ",
 		"UPDATE": {
-			"CRITICAL": "Update available",
-			"CRITICAL_HINT": "Critical update!",
-			"CRITICAL_TOOLTIP": "<span class=\"critical-update\">Critical update available.</span><i class=\"icon\"></i><span>Update strongly recommended!</span>",
-			"IMPORTANT": "Update available",
-			"IMPORTANT_HINT": "Important update!",
-			"IMPORTANT_TOOLTIP": "<span class=\"important-update\">Get new update.</span><br><span>Important update!</span>",
-			"STANDARD": "Update available",
-			"STANDARD_TOOLTIP": "<span class=\"standard-update\">Get new update.</span><br><span>Update is recommended!</span>",
-			"TIME": "System time differs from network",
-			"TIME_TOOLTIP": "<span class=\"wrong-time\">Wrong system time!</span><br><span>Check and repair your system time.</span>"
+			"CRITICAL": "التحديث متاح",
+			"CRITICAL_HINT": "تحديث مهم!",
+			"CRITICAL_TOOLTIP": "<span class=\"critical-update\">يتوفر تحديث مهم.</span><i class=\"icon\"></i><span>التحديث مستحسن بشدة!</span>",
+			"IMPORTANT": "التحديث متاح",
+			"IMPORTANT_HINT": "تحديث مهم!",
+			"IMPORTANT_TOOLTIP": "<span class=\"important-update\">احصل على تحديث جديد.</span><br><span>تحديث مهم!</span>",
+			"STANDARD": "التحديث متاح",
+			"STANDARD_TOOLTIP": "<span class=\"standard-update\">احصل على تحديث جديد.</span><br><span>التحديث موصى به!</span>",
+			"TIME": "يختلف وقت النظام عن الشبكة",
+			"TIME_TOOLTIP": "<span class=\"wrong-time\">وقت النظام خاطئ!</span><br><span>تحقق من وقت النظام وأصلحه.</span>"
 		}
 	},
 	"STAKING": {
 		"GROUP": {
-			"DAY": "day",
-			"MONTH": "month",
-			"WEEK": "week"
+			"DAY": "يوم",
+			"MONTH": "شهر",
+			"WEEK": "أسبوع"
 		},
 		"PERIOD": {
-			"ALL": "All",
-			"MONTH1": "1 month",
-			"MONTH3": "3 month",
-			"MONTH6": "6 month",
-			"WEEK1": "1 week",
-			"WEEK2": "2 week",
-			"YEAR": "1 year"
+			"ALL": "الكل",
+			"MONTH1": "شهر واحد",
+			"MONTH3": "3 أشهر",
+			"MONTH6": "6 شهور",
+			"WEEK1": "أسبوع 1",
+			"WEEK2": "2 اسبوع",
+			"YEAR": "1 سنة"
 		},
 		"SWITCH": {
-			"OFF": "OFF",
-			"ON": "ON"
+			"OFF": "إيقاف",
+			"ON": "على"
 		},
 		"TITLE": "Staking",
-		"TITLE_GROUP": "Group:",
-		"TITLE_PENDING": "Pending",
-		"TITLE_PERIOD": "Time period:",
-		"TITLE_TOTAL": "Total"
+		"TITLE_GROUP": "مجموعة:",
+		"TITLE_PENDING": "قيد الانتظار",
+		"TITLE_PERIOD": "فترة زمنية:",
+		"TITLE_TOTAL": "مجموع"
 	},
 	"TOR_LIB_STATE": {
-		"STATE_CREATING_STREAM": "Creating stream",
-		"STATE_DOWNLOADING_CONSENSUS": "Downloading consensus",
-		"STATE_FAILED": "Failed created stream",
-		"STATE_INITIALIZING": "Initializing",
-		"STATE_MAKING_TUNNEL_A": "Building tunnel to A",
-		"STATE_MAKING_TUNNEL_B": "Building tunnel to B",
-		"STATE_SENDING": "Sending transaction",
-		"STATE_SEND_FAILED": "Sending failed",
-		"STATE_SENT_SUCCESS": "Successfully sent!",
-		"STATE_SUCCESS": "Successfully created stream"
+		"STATE_CREATING_STREAM": "إنشاء تيار",
+		"STATE_DOWNLOADING_CONSENSUS": "تحميل الإجماع",
+		"STATE_FAILED": "فشل إنشاء الدفق",
+		"STATE_INITIALIZING": "جار تهيئة",
+		"STATE_MAKING_TUNNEL_A": "بناء نفق ل A",
+		"STATE_MAKING_TUNNEL_B": "بناء نفق ل B",
+		"STATE_SENDING": "إرسال المعاملة",
+		"STATE_SEND_FAILED": "لقد تعذر الارسال",
+		"STATE_SENT_SUCCESS": "أرسلت بنجاح!",
+		"STATE_SUCCESS": "تم إنشاء الدفق بنجاح"
 	},
 	"TRANSFER_ALIAS": {
 		"ADDRESS": {
-			"LABEL": "Transfer to",
+			"LABEL": "حول إلى",
 			"PLACEHOLDER": "أدخل العنوان هنا"
 		},
-		"BUTTON_CANCEL": "Cancel",
-		"BUTTON_TRANSFER": "Transfer",
+		"BUTTON_CANCEL": "إلغاء",
+		"BUTTON_TRANSFER": "نقل",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "تعليق",
 			"PLACEHOLDER": "أدخل تعليقك هنا"
 		},
-		"COST": "Transfer fee {{value}} {{currency}}",
+		"COST": "رسوم التحويل {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"ALIAS_EXISTS": "This account already has an alias",
-			"NO_MONEY": "You do not have enough funds to transfer this alias",
-			"WRONG_ADDRESS": "No wallet with this account exists"
+			"ALIAS_EXISTS": "هذا الحساب له بالفعل اسم مستعار",
+			"NO_MONEY": "ليس لديك أموال كافية لنقل هذا الاسم المستعار",
+			"WRONG_ADDRESS": "لا توجد محفظة مع هذا الحساب"
 		},
 		"NAME": {
-			"LABEL": "Alias",
-			"PLACEHOLDER": "@ Enter alias"
+			"LABEL": "الاسم المستعار",
+			"PLACEHOLDER": "@ أدخل الاسم المستعار"
 		},
-		"REQUEST_SEND_REG": "The alias will be transferred within 10 minutes"
+		"REQUEST_SEND_REG": "سيتم نقل الاسم المستعار في غضون 10 دقائق"
 	},
 	"WALLET": {
-		"AVAILABLE_BALANCE": "Available <b>{{available}} {{currency}}<b/>",
+		"AVAILABLE_BALANCE": "متاح <b>{{available}} {{currency}}<b/>",
 		"CONFIRM": {
 			"MESSAGE": "للوصول إليه ، عليك إضافته مرة أخرى",
 			"TITLE": "إزالة المحفظة من القائمة؟"
 		},
-		"DETAILS": "Details",
-		"LOCK": "Lock",
-		"LOCKED_BALANCE": "Locked <b>{{locked}} {{currency}}<b/>",
-		"LOCKED_BALANCE_LINK": "What does that mean?",
-		"MODAL_ADD_CUSTOM_TOKEN": {
-			"FIELD_TITLE": "معرف الأصول",
-			"TITLE": "أضف رمز مخصص"
-		},
-		"REGISTER_ALIAS": "Register an alias",
+		"DETAILS": "تفاصيل",
+		"LOCK": "قفل",
+		"LOCKED_BALANCE": "مغلق <b>{{locked}} {{currency}}<b/>",
+		"LOCKED_BALANCE_LINK": "ماذا يعني ذالك؟",
+		"REGISTER_ALIAS": "قم بتسجيل اسم مستعار",
 		"TABS": {
-			"ASSETS": "Assets",
-			"CONTRACTS": "Contracts",
-			"HISTORY": "History",
-			"MESSAGES": "Messages",
-			"RECEIVE": "Receive",
-			"SEND": "Send",
+			"CONTRACTS": "انكماش",
+			"HISTORY": "التاريخ",
+			"MESSAGES": "رسائل",
+			"RECEIVE": "تسلم",
+			"SEND": "إرسال",
 			"STAKING": "Staking"
 		},
 		"TOOLTIPS": {
-			"ADD_CUSTOM_TOKEN": "أضف رمز مخصص",
 			"CLOSE": "أغلق المحفظة",
 			"EDIT_ALIAS": "تعديل الاسم المستعار",
 			"SETTINGS": "الإعدادات",
@@ -710,9 +675,8 @@
 		}
 	},
 	"WALLET_DETAILS": {
-		"ADD_CUSTOM_TOKEN": "أضف رمز مخصص",
-		"BUTTON_REMOVE": "Close wallet",
-		"BUTTON_SAVE": "Save",
+		"BUTTON_REMOVE": "أغلق المحفظة",
+		"BUTTON_SAVE": "حفظ",
 		"CREATE_PASSWORD_SECURE": "قم بإنشاء كلمة مرور لتأمين البذور الخاصة بك",
 		"FORM": {
 			"CONFIRM_PASSWORD": "تأكيد كلمة المرور",
@@ -720,21 +684,27 @@
 			"SECURED_SEED_WILL_REQUIRE": "سوف تتطلب البذور الآمنة كلمة المرور هذه للاستعادة."
 		},
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required",
+			"MAX_LENGTH": "تم الوصول إلى الحد الأقصى لطول الاسم",
+			"NAME_DUPLICATE": "الاسم مكرر",
+			"NAME_REQUIRED": "مطلوب اسم",
 			"PASSWORDS_DONT_MATCH": "كلمتا المرور غير متطابقتين"
 		},
 		"INFO": "معلومات",
-		"LABEL_FILE_LOCATION": "Wallet file location",
-		"LABEL_NAME": "Wallet name",
-		"LABEL_SEED_PHRASE": "Seed phrase",
+		"LABEL_FILE_LOCATION": "موقع ملف المحفظة",
+		"LABEL_NAME": "اسم المحفظة",
+		"LABEL_SEED_PHRASE": "عبارة البذور",
 		"REMEMBER_YOU_WILL_REQUIRE": "سوف تتطلب البذور الآمنة كلمة مرور لاستعادتها.",
 		"RESYNC_WALLET": "إعادة مزامنة بيانات المحفظة",
 		"RESYNC_WALLET_BUTTON": "محفظة Resync",
 		"SEED_IS_SECURED": "البذور مؤمنة",
 		"SEED_IS_UNSECURED": "البذور غير مضمونة",
-		"SEED_PHRASE_HINT": "Click to reveal the seed phrase",
+		"SEED_PHRASE_HINT": "انقر للكشف عن العبارة الأولية",
 		"WALLET_OPTIONS": "خيارات المحفظة ..."
+	},
+	"WORDS": {
+		"ACTIONS": {
+			"INSTALL": "التثبت",
+			"REMOVE": "إزالة"
+		}
 	}
 }

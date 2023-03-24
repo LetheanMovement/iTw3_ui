@@ -1,371 +1,344 @@
 {
-	"ASSETS": {
-		"DROP_DOWN_MENU": {
-			"ASSET_DETAILS": "Eszköz részletei",
-			"REMOVE_ASSET": "Eszköz eltávolítása"
-		},
-		"MODALS": {
-			"ASSET_DETAILS": {
-				"LABELS": {
-					"CURRENT_SUPPLY": "Jelenlegi kínálat",
-					"ID": "Eszközazonosító",
-					"MAX_SUPPLE": "Max ellátás",
-					"NAME": "eszköz neve",
-					"TICKER": "Ketyegő"
-				}
-			}
-		},
-		"TABLE": {
-			"LABELS": {
-				"BALANCE": "Egyensúly",
-				"NAME": "Név",
-				"PRICE": "Ár",
-				"VALUE": "érték"
-			}
-		}
-	},
 	"ASSIGN_ALIAS": {
-		"BUTTON_ASSIGN": "Assign",
+		"BUTTON_ASSIGN": "Hozzárendelni",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "Megjegyzés",
 			"PLACEHOLDER": "Írja be megjegyzését ide",
-			"TOOLTIP": "The comment will be visible to anyone who wants to make a payment to your alias. You can provide details about your business, contacts, or include any text. Comments can be edited later."
+			"TOOLTIP": "A megjegyzés mindenki számára látható lesz, aki be akar fizetni az Ön aliasára. Megadhat részleteket vállalkozásáról, névjegyeiről, vagy bármilyen szöveget megadhat. A megjegyzések később szerkeszthetők."
 		},
-		"COST": "Alias fee {{value}} {{currency}}",
+		"COST": "Alias díja: {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum comment length reached",
-			"NAME_EXISTS": "Alias name already exists",
-			"NAME_LENGTH": "The alias must be 6-25 characters long",
-			"NAME_REQUIRED": "Name is required",
-			"NAME_WRONG": "Invalid name: allowed symbols \"0-9\", \"a-z\", \"-\", \".\"",
-			"NO_MONEY": "You do not have enough funds to assign this alias"
+			"MAX_LENGTH": "Elérte a megjegyzés maximális hosszát",
+			"NAME_EXISTS": "Az álnév már létezik",
+			"NAME_LENGTH": "Az alias nevének 6-25 karakter hosszúnak kell lennie",
+			"NAME_REQUIRED": "A név szükséges",
+			"NAME_WRONG": "Érvénytelen név: megengedett szimbólumok \"0-9\", \"a-z\", \"-\", \".\"",
+			"NO_MONEY": "Nincs elég pénze ennek az aliasnak a hozzárendeléséhez"
 		},
 		"NAME": {
-			"LABEL": "Alias",
-			"PLACEHOLDER": " Enter alias",
-			"TOOLTIP": "An alias is a shortened form or your account. An alias can only include Latin letters, numbers and characters “.” and “-”. It must start with “@”."
+			"LABEL": "Álnév",
+			"PLACEHOLDER": " Adja meg az aliast",
+			"TOOLTIP": "Az alias egy rövidített űrlap vagy az Ön fiókja. Az alias csak latin betűket, számokat és „” karaktereket tartalmazhat. és a „-”. „@”-al kell kezdődnie."
 		},
-		"ONE_ALIAS": "You can create only one alias per wallet",
-		"REQUEST_ADD_REG": "The alias will be assigned within 10 minutes"
+		"ONE_ALIAS": "Pénztárcánként csak egy aliast hozhat létre",
+		"REQUEST_ADD_REG": "Az alias hozzárendelése 10 percen belül megtörténik"
 	},
 	"BACKEND_LOCALIZATION": {
-		"INCOME_TRANSFER_CONFIRMED": "Payment received",
-		"INCOME_TRANSFER_UNCONFIRMED": "Incoming payment (not confirmed)",
+		"INCOME_TRANSFER_CONFIRMED": "Fizetés beérkezett",
+		"INCOME_TRANSFER_UNCONFIRMED": "Bejövő fizetés (nem megerősítve)",
 		"IS_CONFIRMED": "",
-		"IS_MINIMIZE": "Lethean application is minimized to the system tray",
+		"IS_MINIMIZE": "A Lethean alkalmazás a rendszertálcára van csökkentve",
 		"IS_RECEIVED": "",
-		"LOCKED": "Blocked",
-		"MINED": "Mined",
+		"LOCKED": "Zárolt",
+		"MINED": "Bányászott",
 		"QUIT": "Quit",
-		"RESTORE": "You can recover it by clicking or using the context menu",
-		"TRAY_MENU_MINIMIZE": "Minimize",
-		"TRAY_MENU_SHOW": "Resize"
+		"RESTORE": "Visszaállíthatja a helyi menüre kattintva vagy a helyi menü használatával",
+		"TRAY_MENU_MINIMIZE": "Minimalizálja",
+		"TRAY_MENU_SHOW": "Átméretezés"
 	},
 	"BREADCRUMBS": {
-		"ADD_WALLET": "Add wallet",
-		"ASSIGN_ALIAS": "Assign alias",
-		"CONTRACTS": "Contracts",
-		"CREATE_WALLET": "Create new wallet",
-		"EDIT_ALIAS": "Edit alias",
-		"NEW_PURCHASE": "New purchase",
-		"OLD_PURCHASE": "Purchase",
-		"OPEN_WALLET": "Open existing wallet",
-		"RESTORE_WALLET": "Restore from backup",
-		"SAVE_PHRASE": "Save your seed phrase",
-		"TRANSFER_ALIAS": "Transfer alias",
-		"WALLET_DETAILS": "Wallet details"
+		"ADD_WALLET": "Pénztárca hozzáadása",
+		"ASSIGN_ALIAS": "Alias hozzárendelése",
+		"CONTRACTS": "Szerződések",
+		"CREATE_WALLET": "Hozzon létre új pénztárcát",
+		"EDIT_ALIAS": "Alias szerkesztése",
+		"NEW_PURCHASE": "Új vásárlás",
+		"OLD_PURCHASE": "Vásárlás",
+		"OPEN_WALLET": "Nyissa meg a meglévő pénztárcát",
+		"RESTORE_WALLET": "Visszaállítás biztonsági másolatból",
+		"SAVE_PHRASE": "Mentse el a mag kifejezést",
+		"TRANSFER_ALIAS": "Átviteli álnév",
+		"WALLET_DETAILS": "Pénztárca adatai"
 	},
 	"COMMON": {
-		"BACK": "Go back"
+		"BACK": "Menjen vissza"
 	},
 	"CONFIRM": {
-		"BUTTON_CANCEL": "Cancel",
-		"BUTTON_CONFIRM": "Send",
+		"BUTTON_CANCEL": "Megszünteti",
+		"BUTTON_CONFIRM": "Elküld",
 		"MESSAGE": {
-			"COMMENT": "Comment",
-			"FROM": "From",
-			"SEND": "Send",
-			"TO": "To"
+			"COMMENT": "Megjegyzés",
+			"FROM": "Tól től",
+			"SEND": "Elküld",
+			"TO": "nak nek"
 		},
-		"TITLE": "Transaction"
+		"TITLE": "Tranzakció"
 	},
 	"CONTACTS": {
-		"ADD": "Add/edit contact",
+		"ADD": "Névjegy hozzáadása/szerkesztése",
 		"ADD_CONTACT": "Kapcsolat hozzáadása",
 		"BUTTON": {
-			"ADD": "Add contact",
-			"ADD_EDIT": "Add/Save",
-			"DELETE": "Delete",
-			"EDIT": "Edit",
-			"GO_TO_WALLET": "Go to wallet",
-			"IMPORT_EXPORT": "Import/export",
-			"SEND": "Send"
+			"ADD": "Kapcsolat hozzáadása",
+			"ADD_EDIT": "Hozzáadás/Mentés",
+			"DELETE": "Töröl",
+			"EDIT": "szerkesztése",
+			"GO_TO_WALLET": "Menj a pénztárcához",
+			"IMPORT_EXPORT": "Import Export",
+			"SEND": "Elküld"
 		},
-		"COPY": "- Copy",
-		"ERROR_EMPTY_LIST": "Contact list is empty",
-		"ERROR_EXPORT": "Invalid file type. Save file as .csv",
-		"ERROR_IMPORT": "Error is occured while reading file!",
-		"ERROR_IMPORT_EMPTY": "File is empty",
-		"ERROR_TYPE_FILE": "Please import valid .csv file",
+		"COPY": "- Másoljon",
+		"ERROR_EMPTY_LIST": "A névjegyzék üres",
+		"ERROR_EXPORT": "Érvénytelen fájltípus. Fájl mentése .csv formátumban",
+		"ERROR_IMPORT": "Hiba történt a fájl olvasása közben!",
+		"ERROR_IMPORT_EMPTY": "A fájl üres",
+		"ERROR_TYPE_FILE": "Kérjük, importáljon érvényes .csv fájlt",
 		"EXPORT": "Export",
 		"FORM": {
-			"ADDRESS": "Address",
-			"NAME": "Name",
-			"NOTES": "Notes"
+			"ADDRESS": "Cím",
+			"NAME": "Név",
+			"NOTES": "Megjegyzések"
 		},
 		"FORM_ERRORS": {
-			"ADDRESS_DUBLICATED": "Address is dublicated",
-			"ADDRESS_NOT_VALID": "Address not valid",
-			"ADDRESS_REQUIRED": "Address is required",
-			"MAX_LENGTH": "Maximum notes length reached",
-			"NAME_DUBLICATED": "Name is dublicated",
-			"NAME_LENGTH": "The name must be 4-25 characters long",
-			"NAME_REQUIRED": "Name is required",
-			"SET_MASTER_PASSWORD": "Set master password"
+			"ADDRESS_DUBLICATED": "A cím duplikált",
+			"ADDRESS_NOT_VALID": "A cím nem érvényes",
+			"ADDRESS_REQUIRED": "Cím szükséges",
+			"MAX_LENGTH": "Elérte a jegyzetek maximális hosszát",
+			"NAME_DUBLICATED": "A név duplikált",
+			"NAME_LENGTH": "A névnek 4-25 karakter hosszúnak kell lennie",
+			"NAME_REQUIRED": "A név szükséges",
+			"SET_MASTER_PASSWORD": "Állítsa be a fő jelszót"
 		},
-		"IMPORT": "Import",
-		"IMPORT_EXPORT": "Import or export contacts",
-		"OPEN_ADD_WALLET": "Open/Add wallet",
-		"SEND": "Send",
-		"SEND_FROM": "Send from",
-		"SEND_TO": "To",
-		"SUCCESS_EXPORT": "Contacts are exported",
-		"SUCCESS_IMPORT": "Contacts are imported",
-		"SUCCESS_SAVE": "Contact is edited",
-		"SUCCESS_SENT": "Contact added",
+		"IMPORT": "import",
+		"IMPORT_EXPORT": "Névjegyek importálása vagy exportálása",
+		"OPEN_ADD_WALLET": "Tárca megnyitása/hozzáadása",
+		"SEND": "Elküld",
+		"SEND_FROM": "Küldés innen",
+		"SEND_TO": "nak nek",
+		"SUCCESS_EXPORT": "A névjegyek exportálása megtörténik",
+		"SUCCESS_IMPORT": "A névjegyek importálva vannak",
+		"SUCCESS_SAVE": "A névjegy szerkesztve",
+		"SUCCESS_SENT": "Kapcsolat hozzáadva",
 		"TABLE": {
-			"ADDRESS": "Address",
-			"ALIAS": "Alias",
-			"EMPTY": "Contact list is empty",
-			"NAME": "Name",
-			"NOTES": "Notes"
+			"ADDRESS": "Cím",
+			"ALIAS": "Álnév",
+			"EMPTY": "A névjegyzék üres",
+			"NAME": "Név",
+			"NOTES": "Megjegyzések"
 		},
-		"TITLE": "Contact list"
+		"TITLE": "Névjegyzék"
 	},
 	"CONTEXT_MENU": {
-		"COPY": "copy",
-		"PASTE": "paste",
-		"SELECT": "select all"
+		"COPY": "másolat",
+		"PASTE": "Paszta",
+		"SELECT": "Mindet kiválaszt"
 	},
 	"CONTRACTS": {
-		"AMOUNT": "Amount",
-		"COMMENTS": "Comments",
-		"CONTRACTS": "Contracts",
-		"DATE": "Date",
-		"EMPTY": "No active contracts",
-		"LISTING_BUTTON": "Create listing",
-		"PURCHASE": "Purchase",
-		"PURCHASE_BUTTON": "New Purchase",
-		"SELL": "Sell",
-		"STATUS": "Status",
+		"AMOUNT": "ÖSSZEG",
+		"COMMENTS": "Hozzászólások",
+		"CONTRACTS": "Szerződések",
+		"DATE": "Dátum",
+		"EMPTY": "Nincsenek aktív szerződések",
+		"LISTING_BUTTON": "Lista létrehozása",
+		"PURCHASE": "Vásárlás",
+		"PURCHASE_BUTTON": "Új vásárlás",
+		"SELL": "elad",
+		"STATUS": "Állapot",
 		"STATUS_MESSAGES": {
 			"BUYER": {
-				"ACCEPTED": "Seller accepted your contract proposal",
-				"BEING_CANCELLED": "Cancellation in progress",
-				"CANCELLED": "Contract canceled",
-				"COMPLETED": "Contract completed",
-				"EXPIRED": "The contract proposal has expired",
-				"IGNORED": "Seller ignored your contract proposal",
-				"IGNORED_CANCEL": "The seller ignored your proposal to cancel the contract",
-				"NOT_RECEIVED": "Delivery failed",
-				"NULLIFIED": "All deposits burned",
-				"WAIT": "Waiting for deposits confirmation",
-				"WAITING": "Waiting for response",
-				"WAITING_CANCEL": "Waiting for contract cancellation",
-				"WAITING_SELLER": "Waiting for delivery"
+				"ACCEPTED": "Az eladó elfogadta a szerződéses ajánlatát",
+				"BEING_CANCELLED": "Lemondás folyamatban",
+				"CANCELLED": "Felmondott szerződés",
+				"COMPLETED": "A szerződés elkészült",
+				"EXPIRED": "A szerződésjavaslat lejárt",
+				"IGNORED": "Az eladó figyelmen kívül hagyta a szerződési javaslatát",
+				"IGNORED_CANCEL": "Az eladó figyelmen kívül hagyta a szerződés felmondására vonatkozó javaslatát",
+				"NOT_RECEIVED": "A küldés meghiusult",
+				"NULLIFIED": "Minden lerakódás leégett",
+				"WAIT": "Várakozás a befizetés megerősítésére",
+				"WAITING": "Válaszra várva",
+				"WAITING_CANCEL": "Várakozás a szerződés felmondására",
+				"WAITING_SELLER": "Szállításra várva"
 			},
 			"SELLER": {
-				"ACCEPTED": "Contract started",
-				"BEING_CANCELLED": "Cancellation in progress",
-				"CANCELLED": "Contract canceled",
-				"COMPLETED": "Contract completed",
-				"EXPIRED": "Contract proposal has expired",
-				"IGNORED": "You ignored contract proposal",
-				"IGNORED_CANCEL": "You ignored cancellation proposal",
-				"NEW_CONTRACT": "New contract proposal",
-				"NOT_RECEIVED": "Delivery failed",
-				"NULLIFIED": "All deposits burned",
-				"PROPOSAL_CANCEL": "New proposal to cancel contract and return deposits",
-				"WAIT": "Waiting for contract confirmation",
-				"WAITING_BUYER": "Waiting for delivery"
+				"ACCEPTED": "",
+				"BEING_CANCELLED": "Lemondás folyamatban",
+				"CANCELLED": "Felmondott szerződés",
+				"COMPLETED": "A szerződés elkészült",
+				"EXPIRED": "A szerződésjavaslat lejárt",
+				"IGNORED": "Figyelmen kívül hagyta a szerződésjavaslatot",
+				"IGNORED_CANCEL": "Figyelmen kívül hagyta a törlési javaslatot",
+				"NEW_CONTRACT": "Új szerződési javaslat",
+				"NOT_RECEIVED": "A küldés meghiusult",
+				"NULLIFIED": "Minden lerakódás leégett",
+				"PROPOSAL_CANCEL": "Új javaslat a szerződés felmondására és a kaució visszatérítésére",
+				"WAIT": "Várakozás a szerződés megerősítésére",
+				"WAITING_BUYER": "Szállításra várva"
 			}
 		},
 		"TIME_LEFT": {
-			"REMAINING_LESS_ONE": "Less than an hour to respond",
-			"REMAINING_MANY": "{{time}} hours remain",
-			"REMAINING_MANY_ALT": "{{time}} hours remain",
-			"REMAINING_MANY_ALT_RESPONSE": "{{time}} hours remain",
-			"REMAINING_MANY_ALT_WAITING": "Waiting for {{time}} hours",
-			"REMAINING_MANY_RESPONSE": "{{time}} hours remain",
-			"REMAINING_MANY_WAITING": "Waiting for {{time}} hours",
-			"REMAINING_ONE": "{{time}} hour remains",
-			"REMAINING_ONE_RESPONSE": "{{time}} hour remains",
-			"REMAINING_ONE_WAITING": "Waiting for {{time}} hour"
+			"REMAINING_LESS_ONE": "Kevesebb, mint egy óra válaszolni",
+			"REMAINING_MANY": "{{time}} óra van hátra",
+			"REMAINING_MANY_ALT": "{{time}} óra van hátra",
+			"REMAINING_MANY_ALT_RESPONSE": "{{time}} óra van hátra",
+			"REMAINING_MANY_ALT_WAITING": "Várakozás {{time}} órát",
+			"REMAINING_MANY_RESPONSE": "{{time}} óra van hátra",
+			"REMAINING_MANY_WAITING": "Várakozás {{time}} órát",
+			"REMAINING_ONE": "{{time}} óra van hátra",
+			"REMAINING_ONE_RESPONSE": "{{time}} óra van hátra",
+			"REMAINING_ONE_WAITING": "Várakozás {{time}} órát"
 		}
 	},
 	"CREATE_WALLET": {
-		"BUTTON_CREATE": "Create wallet",
-		"BUTTON_SELECT": "Select wallet location",
-		"CONFIRM": "Confirm wallet password",
-		"ERROR_CANNOT_SAVE_SYSTEM": "Wallet files cannot be saved to the OS partition",
-		"ERROR_CANNOT_SAVE_TOP": "Existing wallet files cannot be replaced or overwritten",
+		"BUTTON_CREATE": "Pénztárca létrehozása",
+		"BUTTON_SELECT": "Válassza a Wallet helye lehetőséget",
+		"CONFIRM": "Erősítse meg a pénztárca jelszavát",
+		"ERROR_CANNOT_SAVE_SYSTEM": "A Wallet-fájlok nem menthetők az operációs rendszer partíciójára",
+		"ERROR_CANNOT_SAVE_TOP": "A meglévő pénztárca fájlok nem cserélhetők vagy írhatók felül",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required"
+			"CONFIRM_NOT_MATCH": "Erősítse meg, hogy a jelszó nem egyezik",
+			"MAX_LENGTH": "Elérte a név maximális hosszát",
+			"NAME_DUPLICATE": "A név ismétlődő",
+			"NAME_REQUIRED": "A név szükséges"
 		},
-		"NAME": "Wallet name",
-		"PASS": "Set wallet password",
-		"TITLE_SAVE": "Save the wallet file."
+		"NAME": "Pénztárca neve",
+		"PASS": "Állítsa be a pénztárca jelszavát",
+		"TITLE_SAVE": "Mentse el a pénztárca fájlt."
 	},
 	"EDIT_ALIAS": {
-		"BUTTON_EDIT": "Edit",
+		"BUTTON_EDIT": "szerkesztése",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "Megjegyzés",
 			"PLACEHOLDER": "Írja be megjegyzését ide"
 		},
-		"COST": "Fee {{value}} {{currency}}",
+		"COST": "Díj: {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum comment length reached",
-			"NO_MONEY": "You do not have enough funds to change the comment to this alias"
+			"MAX_LENGTH": "Elérte a megjegyzés maximális hosszát",
+			"NO_MONEY": "Nincs elég pénze ahhoz, hogy a megjegyzést erre az aliasra módosítsa"
 		},
 		"NAME": {
-			"LABEL": "Alias",
-			"PLACEHOLDER": "@ Enter alias"
+			"LABEL": "Álnév",
+			"PLACEHOLDER": "@ Írja be az álnevet"
 		}
 	},
 	"ERRORS": {
-		"ACCESS_DENIED": "Access denied",
-		"BAD_ARG": "Invalid argument",
-		"CORE_BUSY": "Internal error: core is busy",
-		"DAEMON_BUSY": "Internal error: daemon is busy",
-		"FILE_EXIST": "A file with that name already exists. Enter another name to save the file under",
-		"FILE_NOT_FOUND": "File not found",
-		"FILE_NOT_SAVED": "You cannot save a wallet file in this folder. Please choose another folder.",
-		"FILE_RESTORED": "The wallet file was corrupted. We have recovered the keys and the wallet from the blockchain",
-		"NOT_ENOUGH_MONEY": "Insufficient funds in account",
+		"ACCESS_DENIED": "Hozzáférés megtagadva",
+		"BAD_ARG": "Hibás érvelés",
+		"CORE_BUSY": "Belső hiba: a mag foglalt",
+		"DAEMON_BUSY": "Belső hiba: a démon foglalt",
+		"FILE_EXIST": "Már létezik ilyen nevű fájl. Adjon meg egy másik nevet a fájl mentéséhez",
+		"FILE_NOT_FOUND": "Fájl nem található",
+		"FILE_NOT_SAVED": "Nem menthet pénztárcafájlt ebbe a mappába. Kérjük, válasszon másik mappát.",
+		"FILE_RESTORED": "A pénztárca fájl sérült. Visszaszereztük a kulcsokat és a pénztárcát a blokkláncból",
+		"NOT_ENOUGH_MONEY": "Nincs elég pénz a számlán",
 		"NOT_ENOUGH_OUTPUTS_TO_MIX": "Mix-in number is too big for current blockchain state. There are not enough unspent outputs to mix with",
-		"NO_MONEY": "Not enough money",
-		"NO_MONEY_REMOVE_OFFER": "There is no fee for deleting an offer, but in order to protect the network against flood transactions you need to have at least {{fee}} {{currency}} in your wallet",
-		"TRANSACTION_ERROR": "Error. Transaction not completed.",
-		"TRANSACTION_IS_TO_BIG": "Transaction exceeds network limit, send required amount with multiple transactions",
-		"TRANSFER_ATTEMPT": "There is no connection to Lethean network",
-		"TX_TYPE_COIN_BASE": "Error. The payment was not completed.",
-		"TX_TYPE_NEW_ALIAS": "Error. Failed to register alias to safe",
-		"TX_TYPE_NEW_ALIAS_END": "Please try again.",
-		"TX_TYPE_NORMAL": "Error. The payment from the wallet",
-		"TX_TYPE_NORMAL_END": "was not completed.",
-		"TX_TYPE_NORMAL_TO": "to",
-		"TX_TYPE_UPDATE_ALIAS": "Error. Failed to change comment to alias in safe",
+		"NO_MONEY": "Nem elég pénz",
+		"NO_MONEY_REMOVE_OFFER": "Az ajánlat törlése nem jár díjjal, de a hálózat árvízi tranzakciók elleni védelme érdekében legalább {{fee}} {{currency}} összegnek kell lennie a pénztárcájában",
+		"TRANSACTION_ERROR": "Hiba. A tranzakció nem fejeződött be.",
+		"TRANSACTION_IS_TO_BIG": "A tranzakció meghaladja a hálózati korlátot, küldje el a szükséges összeget több tranzakcióval",
+		"TRANSFER_ATTEMPT": "Nincs kapcsolat a Lethean hálózattal",
+		"TX_TYPE_COIN_BASE": "Hiba. A fizetés nem fejeződött be.",
+		"TX_TYPE_NEW_ALIAS": "Hiba. Nem sikerült regisztrálni az álnevet a biztonságos helyre",
+		"TX_TYPE_NEW_ALIAS_END": "Kérlek próbáld újra.",
+		"TX_TYPE_NORMAL": "Hiba. Fizetés a pénztárcából",
+		"TX_TYPE_NORMAL_END": "nem fejeződött be.",
+		"TX_TYPE_NORMAL_TO": "nak nek",
+		"TX_TYPE_UPDATE_ALIAS": "Hiba. Nem sikerült a megjegyzést aliasra módosítani a széfben",
 		"WALLET_WATCH_ONLY_NOT_SUPPORTED": "A csak órás pénztárcák csak egyszerű pénztárcával nyithatók meg",
-		"WALLET_WRONG_ID": "Invalid wallet ID",
-		"WRONG_PASSWORD": "Invalid password"
+		"WALLET_WRONG_ID": "Érvénytelen pénztárcaazonosító",
+		"WRONG_PASSWORD": "Érvénytelen jelszó"
 	},
 	"EXPORT_HISTORY": {
 		"CANCEL": "Megszünteti",
 		"EXPORT": "Exportálás fájlba...",
 		"EXPORT_BUTTON": "Előzmények exportálása...",
 		"FILTER": "POS-tranzakciók szűrése",
-		"FORMAT": "Formátum",
-		"FORMAT:": "",
+		"FORMAT:": "Formátum",
 		"SAVED_FILE": "Válassza ki az elérési utat a tranzakciók előzményeinek mentéséhez",
 		"TITLE": "Wallet-előzmények exportálása",
 		"TOOLTIP": "A Wallet-tranzakciók előzményeinek exportálása fájlba"
 	},
 	"HISTORY": {
-		"ADDRESS": "Address",
-		"AMOUNT": "Amount",
-		"DATE": "Date",
+		"ADDRESS": "Cím",
+		"AMOUNT": "ÖSSZEG",
+		"DATE": "Dátum",
 		"DETAILS": {
-			"COMMENT": "Comment",
-			"CONFIRMATION": "Confirmation",
-			"HEIGHT": "Height",
-			"ID": "Transaction ID",
-			"INPUTS": "Inputs",
-			"OUTPUTS": "Outputs",
-			"PAYMENT_ID": "Payment ID",
-			"SIZE": "Transaction size",
-			"SIZE_VALUE": "{{value}} bytes"
+			"COMMENT": "Megjegyzés",
+			"CONFIRMATION": "megerősítés",
+			"HEIGHT": "Magasság",
+			"ID": "Tranzakció azonosítója",
+			"INPUTS": "Bemenetek",
+			"OUTPUTS": "Kimenetek",
+			"PAYMENT_ID": "Fizetési azonosító",
+			"SIZE": "Tranzakció mérete",
+			"SIZE_VALUE": "{{value}} bájt"
 		},
-		"FEE": "Fee",
-		"LOCK_TOOLTIP": "Locked till {{date}}",
-		"RECEIVED": "Received",
-		"SEND": "Sent",
-		"STATUS": "Status",
-		"STATUS_TOOLTIP": "Confirmations {{current}}/{{total}}",
+		"FEE": "Díj",
+		"LOCK_TOOLTIP": "Lezárva eddig: {{date}}",
+		"RECEIVED": "kapott",
+		"SEND": "küldött",
+		"STATUS": "Állapot",
+		"STATUS_TOOLTIP": "Megerősítések: {{current}}/{{total}}",
 		"TYPE_MESSAGES": {
-			"CANCEL_CONTRACT": "Cancel and return deposits",
-			"COMPLETE_BUYER": "Contract completed",
-			"COMPLETE_SELLER": "Contract completed",
-			"CREATE_ALIAS": "Fee for assigning alias",
-			"CREATE_CONTRACT": "Contract proposal",
-			"HIDDEN": "hidden",
-			"NULLIFY_CONTRACT": "Burn deposits",
-			"PLEDGE_CONTRACT": "Contract deposit",
-			"POS_REWARD": "POS reward",
-			"POW_REWARD": "POW reward",
-			"PROPOSAL_CANCEL_CONTRACT": "Cancellation request",
-			"UNDEFINED": "Undefined",
-			"UPDATE_ALIAS": "Fee for editing alias"
+			"CANCEL_CONTRACT": "A betétek törlése és visszaküldése",
+			"COMPLETE_BUYER": "A szerződés elkészült",
+			"COMPLETE_SELLER": "A szerződés elkészült",
+			"CREATE_ALIAS": "Az álnév hozzárendelésének díja",
+			"CREATE_CONTRACT": "Szerződésjavaslat",
+			"HIDDEN": "Rejtett",
+			"NULLIFY_CONTRACT": "Lerakódásokat éget el",
+			"PLEDGE_CONTRACT": "Szerződéses letét",
+			"POS_REWARD": "POS jutalom",
+			"POW_REWARD": "hadifogoly jutalom",
+			"PROPOSAL_CANCEL_CONTRACT": "Lemondási kérelem",
+			"UNDEFINED": "Határozatlan",
+			"UPDATE_ALIAS": "Az alias szerkesztésének díja"
 		}
 	},
 	"LOGIN": {
-		"BUTTON_NEXT": "Next",
-		"BUTTON_RESET": "Reset",
+		"BUTTON_NEXT": "Következő",
+		"BUTTON_RESET": "Visszaállítás",
 		"BUTTON_SKIP": "Skip",
 		"FORM_ERRORS": {
-			"CONFIRM_REQUIRED": "Confirmation is required",
+			"CONFIRM_REQUIRED": "Megerősítés szükséges",
 			"INVALID_PASS": "Érvénytelen jelszó, próbálkozzon újra",
-			"MISMATCH": "Mismatch",
-			"PASS_REQUIRED": "Password is required"
+			"MISMATCH": "eltérés",
+			"PASS_REQUIRED": "Jelszó szükséges"
 		},
-		"INCORRECT_PASSWORD": "Invalid password",
-		"MASTER_PASS": "Master password",
-		"SETUP_CONFIRM_PASS": "Confirm the password",
-		"SETUP_MASTER_PASS": "Setup master password"
+		"INCORRECT_PASSWORD": "Érvénytelen jelszó",
+		"MASTER_PASS": "Mesterjelszó",
+		"SETUP_CONFIRM_PASS": "Erősítse meg a jelszót",
+		"SETUP_MASTER_PASS": "Fő jelszó beállítása"
 	},
 	"MAIN": {
-		"BUTTON_NEW_WALLET": "Create new wallet",
-		"BUTTON_OPEN_WALLET": "Open existing wallet",
-		"BUTTON_RESTORE_BACKUP": "Restore from backup",
-		"CHOOSE_PATH": "Please choose a path",
-		"HELP": "How to create wallet?",
-		"TITLE": "Create or open the wallet to start using Lethean"
+		"BUTTON_NEW_WALLET": "Hozzon létre új pénztárcát",
+		"BUTTON_OPEN_WALLET": "Nyissa meg a meglévő pénztárcát",
+		"BUTTON_RESTORE_BACKUP": "Visszaállítás biztonsági másolatból",
+		"CHOOSE_PATH": "Kérjük, válasszon egy utat",
+		"HELP": "Hogyan készítsünk pénztárcát?",
+		"TITLE": "A Lethean használatának megkezdéséhez hozza létre vagy nyissa meg a pénztárcát"
 	},
 	"MESSAGES": {
-		"ADDRESS": "Address",
-		"MESSAGE": "Message",
-		"SEND_BUTTON": "Send",
-		"SEND_PLACEHOLDER": "Type a message..."
+		"ADDRESS": "Cím",
+		"MESSAGE": "Üzenet",
+		"SEND_BUTTON": "Elküld",
+		"SEND_PLACEHOLDER": "Írjon be egy üzenetet..."
 	},
 	"MODALS": {
-		"ADD_TOKEN": "Token hozzáadása",
 		"CANCEL": "Megszünteti",
-		"ERROR": "Error",
-		"INFO": "Information",
-		"OK": "OK",
-		"SUCCESS": "Success"
+		"ERROR": "Hiba",
+		"INFO": "Információ",
+		"OK": "Rendben",
+		"SUCCESS": "Siker"
 	},
 	"OPEN_WALLET": {
-		"BUTTON": "Open wallet",
-		"FILE_NOT_FOUND1": "Wallet file not found",
-		"FILE_NOT_FOUND2": "<br/><br/> It might have been renamed or moved. <br/> To open it, use the \"Open wallet\" button.",
+		"BUTTON": "Nyissa meg a Pénztárcát",
+		"FILE_NOT_FOUND1": "Wallet-fájl nem található",
+		"FILE_NOT_FOUND2": "<br/><br/> Lehet, hogy átnevezték vagy áthelyezték. <br/> A megnyitásához használja a „pénztárca megnyitása” gombot.",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required"
+			"MAX_LENGTH": "Elérte a név maximális hosszát",
+			"NAME_DUPLICATE": "A név ismétlődő",
+			"NAME_REQUIRED": "A név szükséges"
 		},
 		"MODAL": {
-			"LABEL": "Password to this wallet",
-			"NOT_FOUND": "Not found",
-			"OPEN": "Open wallet",
+			"LABEL": "Jelszó ehhez a pénztárcához",
+			"NOT_FOUND": "Nem található",
+			"OPEN": "Nyissa meg a Pénztárcát",
 			"SKIP": "Skip",
-			"TITLE": "Type wallet password"
+			"TITLE": "Írja be a pénztárca jelszavát"
 		},
-		"NAME": "Wallet name",
-		"PASS": "Wallet password",
-		"WITH_ADDRESS_ALREADY_OPEN": "A wallet with this address is already open"
+		"NAME": "Pénztárca neve",
+		"PASS": "Pénztárca jelszava",
+		"WITH_ADDRESS_ALREADY_OPEN": "Az ezzel a címmel rendelkező pénztárca már nyitva van"
 	},
 	"PLACEHOLDERS": {
 		"ADRESS_PLACEHOLDER": "Adja meg itt a címet",
@@ -379,7 +352,6 @@
 		"NAME_PLACEHOLDER": "Írjon be egy nevet ide",
 		"NOTES_PLACEHOLDER": "Írjon be egy megjegyzést ide",
 		"PASSWORD_PLACEHOLDER": "Adjon meg egy jelszót itt",
-		"PASS_PLACEHOLDER": "Adja meg itt a fő jelszót",
 		"PLACEHOLDER_CONFIRM": "Erősítse meg az új jelszót itt",
 		"PLACEHOLDER_NEW": "Ide írd be az új jelszót",
 		"PLACEHOLDER_OLD": "Ide írja be az aktuális jelszót",
@@ -392,164 +364,163 @@
 		"WALLET_NAME_PLACEHOLDER": "Adja meg itt a Wallet nevét"
 	},
 	"PROGRESS": {
-		"ADD_WALLET": "Add wallet",
-		"CREATE_WALLET": "Create new wallet",
-		"RESTORE_WALLET": "Restore from backup",
-		"SELECT_LOCATION": "Select wallet location"
+		"ADD_WALLET": "Pénztárca hozzáadása",
+		"CREATE_WALLET": "Hozzon létre új pénztárcát",
+		"RESTORE_WALLET": "Visszaállítás biztonsági másolatból",
+		"SELECT_LOCATION": "Válassza a Wallet helye lehetőséget"
 	},
 	"PURCHASE": {
-		"ACCEPT_STATE_WAIT_BIG": "Contract started",
-		"AMOUNT": "Amount",
-		"BURN_PROPOSAL": "Deposits burned",
-		"BUTTON_CANCEL_BUYER": "Cancel and return deposits",
-		"BUTTON_CANCEL_SELLER": "Confirm and return deposits",
-		"BUTTON_IGNORE": "Ignore and hide offer",
-		"BUTTON_MAKE_PLEDGE": "Accept and make deposit",
-		"BUTTON_NOT_CANCEL": "Ignore request",
-		"BUTTON_NULLIFY": "Terminate and burn deposits",
-		"BUTTON_NULLIFY_SHORT": "Burn",
-		"BUTTON_RECEIVED": "Complete and release deposits",
-		"BUYER_DEPOSIT": "Buyer deposit",
-		"CANCEL": "Cancel",
-		"COMMENT": "Comment",
-		"DEALS_CANCELED_WAIT": "Cancellation in progress",
-		"DESCRIPTION": "Description",
-		"DETAILS": "Additional details",
-		"FEE": "Fee",
+		"ACCEPT_STATE_WAIT_BIG": "Megkezdődött a szerződés",
+		"AMOUNT": "ÖSSZEG",
+		"BURN_PROPOSAL": "A betétek elégettek",
+		"BUTTON_CANCEL_BUYER": "A betétek törlése és visszaküldése",
+		"BUTTON_CANCEL_SELLER": "Erősítse meg és térítse vissza a betéteket",
+		"BUTTON_IGNORE": "Ajánlat figyelmen kívül hagyása és elrejtése",
+		"BUTTON_MAKE_PLEDGE": "Fogadja el és tegyen letétet",
+		"BUTTON_NOT_CANCEL": "A kérés figyelmen kívül hagyása",
+		"BUTTON_NULLIFY": "Szüntesse meg és égesse el a lerakódásokat",
+		"BUTTON_NULLIFY_SHORT": "Éget",
+		"BUTTON_RECEIVED": "Töltse ki és engedje el a betéteket",
+		"BUYER_DEPOSIT": "Vevő letét",
+		"CANCEL": "Megszünteti",
+		"COMMENT": "Megjegyzés",
+		"DEALS_CANCELED_WAIT": "Lemondás folyamatban",
+		"DESCRIPTION": "Leírás",
+		"DETAILS": "További részletek",
+		"FEE": "Díj",
 		"FORM_ERRORS": {
-			"ALIAS_NOT_VALID": "Invalid alias",
-			"AMOUNT_REQUIRED": "Amount required",
-			"AMOUNT_ZERO": "Amount cannot be zero",
-			"COMMENT_MAXIMUM": "Maximum field length reached",
-			"DESC_MAXIMUM": "Maximum field length reached",
-			"DESC_REQUIRED": "Description required",
-			"SELLER_DEPOSIT_REQUIRED": "Seller deposit required",
-			"SELLER_NOT_VALID": "Invalid address",
-			"SELLER_REQUIRED": "Address required",
-			"SELLER_SAME": "Use separate account",
-			"YOUR_DEPOSIT_REQUIRED": "Deposit required"
+			"ALIAS_NOT_VALID": "Érvénytelen alias",
+			"AMOUNT_REQUIRED": "Szükséges összeg",
+			"AMOUNT_ZERO": "Az összeg nem lehet nulla",
+			"COMMENT_MAXIMUM": "Elérte a mező maximális hosszát",
+			"DESC_MAXIMUM": "Elérte a mező maximális hosszát",
+			"DESC_REQUIRED": "Leírás szükséges",
+			"SELLER_DEPOSIT_REQUIRED": "Eladó kaució szükséges",
+			"SELLER_NOT_VALID": "Helytelen cím",
+			"SELLER_REQUIRED": "Cím szükséges",
+			"SELLER_SAME": "Használjon külön fiókot",
+			"YOUR_DEPOSIT_REQUIRED": "Kaució szükséges"
 		},
-		"HOUR": "hour",
-		"HOURS": "hours",
-		"IGNORED_ACCEPT": "Contract proposal ignored",
-		"IGNORED_CANCEL": "Contract cancellation proposal ignored",
-		"NEED_MONEY": "Insufficient funds",
-		"NULLIFY_QUESTION": "Are you sure you want to burn both deposits?",
-		"PAYMENT": "Payment ID",
-		"PROGRESS_COMPLETE": "Completed",
-		"PROGRESS_NEW": "New purchase",
-		"PROGRESS_RECEIVE": "Reply received",
-		"PROGRESS_WAIT": "Awaiting reply",
-		"SAME_AMOUNT": "Same amount",
-		"SELLER": "Seller",
-		"SELLER_DEPOSIT": "Seller deposit",
-		"SEND_BUTTON": "Send",
-		"SEND_CANCEL_PROPOSAL": "Cancellation request sent",
+		"HOUR": "Óra",
+		"HOURS": "Órák",
+		"IGNORED_ACCEPT": "A szerződésjavaslat figyelmen kívül hagyva",
+		"IGNORED_CANCEL": "A szerződés felmondási javaslat figyelmen kívül hagyva",
+		"NEED_MONEY": "FEDEZETHIÁNY",
+		"NULLIFY_QUESTION": "Biztos, hogy mindkét betétet el akarja égetni?",
+		"PAYMENT": "Fizetési azonosító",
+		"PROGRESS_COMPLETE": "befejezték",
+		"PROGRESS_NEW": "Új vásárlás",
+		"PROGRESS_RECEIVE": "Válasz érkezett",
+		"PROGRESS_WAIT": "Válaszra várva",
+		"SAME_AMOUNT": "Ugyanannyi",
+		"SELLER": "Eladó",
+		"SELLER_DEPOSIT": "Eladó letét",
+		"SEND_BUTTON": "Elküld",
+		"SEND_CANCEL_PROPOSAL": "Lemondási kérelem elküldve",
 		"STATUS_MESSAGES": {
-			"BEING_CANCELLED": "Cancellation in progress",
-			"CANCELLED": "Contract canceled",
-			"COMPLETED": "Contract completed",
-			"EXPIRED": "Contract proposal expired",
-			"IGNORED_BUYER": "Contract proposal ignored",
-			"IGNORED_CANCEL_BUYER": "Contract cancellation proposal ignored",
-			"IGNORED_CANCEL_SELLER": "The seller ignored your proposal to cancel the contract",
-			"IGNORED_SELLER": "The seller ignored your contract proposal",
-			"NEW_PURCHASE": "New purchase",
-			"NOT_RECEIVED": "Delivery failed",
-			"NULLIFIED": "All deposits burned",
-			"PROPOSAL_CANCEL_BUYER": "Cancellation request received",
-			"PROPOSAL_CANCEL_SELLER": "Cancellation request sent",
-			"WAITING_BUYER": "Contract proposal received",
-			"WAITING_CONFIRMATION": "Waiting for deposits confirmation",
-			"WAITING_DELIVERY": "Waiting for delivery",
-			"WAITING_SELLER": "Waiting for response"
+			"BEING_CANCELLED": "Lemondás folyamatban",
+			"CANCELLED": "Felmondott szerződés",
+			"COMPLETED": "A szerződés elkészült",
+			"EXPIRED": "A szerződésjavaslat lejárt",
+			"IGNORED_BUYER": "A szerződésjavaslat figyelmen kívül hagyva",
+			"IGNORED_CANCEL_BUYER": "A szerződés felmondási javaslat figyelmen kívül hagyva",
+			"IGNORED_CANCEL_SELLER": "Az eladó figyelmen kívül hagyta a szerződés felmondására vonatkozó javaslatát",
+			"IGNORED_SELLER": "Az eladó figyelmen kívül hagyta a szerződési javaslatát",
+			"NEW_PURCHASE": "Új vásárlás",
+			"NOT_RECEIVED": "A küldés meghiusult",
+			"NULLIFIED": "Minden lerakódás leégett",
+			"PROPOSAL_CANCEL_BUYER": "Lemondási kérelem érkezett",
+			"PROPOSAL_CANCEL_SELLER": "Lemondási kérelem elküldve",
+			"WAITING_BUYER": "Szerződési javaslat érkezett",
+			"WAITING_CONFIRMATION": "Várakozás a befizetés megerősítésére",
+			"WAITING_DELIVERY": "Szállításra várva",
+			"WAITING_SELLER": "Válaszra várva"
 		},
-		"SUCCESS_FINISH_PROPOSAL": "Contract completed",
-		"WAITING_TIME": "Response time",
-		"WAITING_TIME_QUESTION": "Are you sure you want to cancel the contract?",
-		"YOUR_DEPOSIT": "Your deposit"
+		"SUCCESS_FINISH_PROPOSAL": "A szerződés elkészült",
+		"WAITING_TIME": "Válaszidő",
+		"WAITING_TIME_QUESTION": "Biztosan felmondja a szerződést?",
+		"YOUR_DEPOSIT": "A letéted"
 	},
 	"RESTORE_WALLET": {
-		"BUTTON_CREATE": "Create wallet",
-		"BUTTON_SELECT": "Select wallet location",
-		"CHOOSE_PATH": "Please choose a path",
-		"CONFIRM": "Confirm wallet password",
+		"BUTTON_CREATE": "Pénztárca létrehozása",
+		"BUTTON_SELECT": "Válassza a Wallet helye lehetőséget",
+		"CHOOSE_PATH": "Kérjük, válasszon egy utat",
+		"CONFIRM": "Erősítse meg a pénztárca jelszavát",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
+			"CONFIRM_NOT_MATCH": "Erősítse meg, hogy a jelszó nem egyezik",
 			"INCORRECT_PASSWORD": "Hibás jelszó",
-			"KEY_NOT_VALID": "Key not valid",
-			"KEY_REQUIRED": "Key is required",
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required"
+			"KEY_NOT_VALID": "A kulcs nem érvényes",
+			"KEY_REQUIRED": "Kulcs szükséges",
+			"MAX_LENGTH": "Elérte a név maximális hosszát",
+			"NAME_DUPLICATE": "A név ismétlődő",
+			"NAME_REQUIRED": "A név szükséges"
 		},
-		"LABEL_NAME": "Wallet name",
-		"LABEL_PHRASE_KEY": "Seed phrase / tracking seed",
-		"NOT_CORRECT_FILE_OR_PASSWORD": "Invalid wallet file or password does not match",
+		"LABEL_NAME": "Pénztárca neve",
+		"LABEL_PHRASE_KEY": "Seed kifejezés / nyomkövető mag",
+		"NOT_CORRECT_FILE_OR_PASSWORD": "Érvénytelen pénztárcafájl vagy jelszó nem egyezik",
 		"OK": "Rendben",
-		"PASS": "Wallet password",
+		"PASS": "Pénztárca jelszava",
 		"SEED_PASSWORD": "Seed jelszó"
 	},
 	"SEED_PHRASE": {
 		"BUTTON_COPIED": "Másolva",
-		"BUTTON_COPY": "Copy",
-		"BUTTON_CREATE_ACCOUNT": "Create wallet",
-		"TITLE": "Make sure to keep your seed phrase in a safe place. If you forget your seed phrase you will not be able to recover your wallet."
+		"BUTTON_COPY": "másolat",
+		"BUTTON_CREATE_ACCOUNT": "Pénztárca létrehozása",
+		"TITLE": "Ügyeljen arra, hogy a mag kifejezést biztonságos helyen tárolja. Ha elfelejti a magmondatát, nem fogja tudni visszaszerezni pénztárcáját."
 	},
 	"SEND": {
-		"ADDRESS": "Address",
-		"AMOUNT": "Amount",
-		"BUTTON": "Send",
-		"COMMENT": "Comment",
-		"DETAILS": "Additional details",
-		"FEE": "Fee",
+		"ADDRESS": "Cím",
+		"AMOUNT": "ÖSSZEG",
+		"BUTTON": "Elküld",
+		"COMMENT": "Megjegyzés",
+		"DETAILS": "További részletek",
+		"FEE": "Díj",
 		"FORM_ERRORS": {
-			"ADDRESS_NOT_VALID": "Address not valid",
-			"ADDRESS_REQUIRED": "Address is required",
-			"ALIAS_NOT_VALID": "Alias not valid",
-			"AMOUNT_REQUIRED": "Amount is required",
-			"AMOUNT_ZERO": "Amount is zero",
-			"FEE_MINIMUM": "Minimum fee: {{fee}}",
-			"FEE_REQUIRED": "Fee is required",
+			"ADDRESS_NOT_VALID": "A cím nem érvényes",
+			"ADDRESS_REQUIRED": "Cím szükséges",
+			"ALIAS_NOT_VALID": "Az alias nem érvényes",
+			"AMOUNT_REQUIRED": "Összeg szükséges",
+			"AMOUNT_ZERO": "Az összeg nulla",
+			"FEE_MINIMUM": "Minimális díj: {{fee}}",
+			"FEE_REQUIRED": "Díjköteles",
 			"GREAT_THAN_UNWRAPPED_COINS": "Az összeg nagyobb, mint a rendelkezésre álló ERC20 token",
 			"LESS_THAN_ZANO_NEEDED": "Túl kicsi az ERC20 díj fedezéséhez",
-			"MAX_LENGTH": "Maximum comment length reached",
+			"MAX_LENGTH": "Elérte a megjegyzés maximális hosszát",
 			"WRAP_INFO_NULL": "nem sikerült lekérni a tördelési állapotot"
 		},
-		"HIDE": "Hide your wallet address from recipient",
+		"HIDE": "A pénztárca címének elrejtése a címzett elől",
 		"MIXIN": "Mixin",
-		"SUCCESS_SENT": "Transaction sent",
+		"SUCCESS_SENT": "Tranzakció elküldve",
 		"WRAP": {
 			"ESTIMATE": "Tranzakciós becslések",
 			"FEE": "Ethereum Txn díja:",
-			"LTHN": "LTHN",
-			"MAIN_TEXT": "Ez a tranzakció létrehozza a wLTHN-t (\"Wrapped Lethean\"), amelyet elküld a megadott címre az Ethereum hálózaton.",
+			"MAIN_TEXT": "Ez a tranzakció létrehozza a wLethean-t (\"Wrapped Lethean\"), amelyet elküld a megadott címre az Ethereum hálózaton.",
 			"TITLE": "Betakar",
 			"WILL_RECEIVE": "A következőket kapod:",
-			"ZANO": "",
-			"wZANO": "wLTHN"
+			"ZANO": "LTHN",
+			"wZANO": "wLethean"
 		}
 	},
 	"SEND_DETAILS_MODAL": {
-		"TITLE1": "Transaction",
-		"TITLE2": "Transaction details"
+		"TITLE1": "Tranzakció",
+		"TITLE2": "Tranzakció részletek"
 	},
 	"SETTINGS": {
 		"APP_LOCK": {
-			"TIME1": "5 min",
-			"TIME2": "15 min",
-			"TIME3": "1 hour",
-			"TIME4": "Never",
-			"TITLE": "Lock app after:"
+			"TIME1": "5 perc",
+			"TIME2": "15 perc",
+			"TIME3": "1 óra",
+			"TIME4": "Soha",
+			"TITLE": "Az alkalmazás zárolása a következők után:"
 		},
-		"APP_LOG_TITLE": "Log level:",
-		"DARK_THEME": "Dark theme",
+		"APP_LOG_TITLE": "Napló szint:",
+		"DARK_THEME": "Sötét téma",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
-			"PASS_NOT_MATCH": "Old password not match",
-			"PASS_REQUIRED": "Password is required"
+			"CONFIRM_NOT_MATCH": "Erősítse meg, hogy a jelszó nem egyezik",
+			"PASS_NOT_MATCH": "Hibás jelszó",
+			"PASS_REQUIRED": "Jelszó szükséges"
 		},
-		"GRAY_THEME": "Grey theme",
+		"GRAY_THEME": "Szürke téma",
 		"LANGUAGE": {
 			"DE": "Deutsch",
 			"EN": "angol",
@@ -559,150 +530,144 @@
 			"PT": "portugál",
 			"TITLE": "Nyelv"
 		},
-		"LAST_BUILD": "Current build: {{value}}",
+		"LAST_BUILD": "Jelenlegi build: {{value}}",
 		"MASTER_PASSWORD": {
-			"BUTTON": "Save",
-			"CONFIRM": "New password confirmation",
-			"NEW": "New password",
-			"OLD": "Old password",
-			"TITLE": "Update master password"
+			"BUTTON": "Mentés",
+			"CONFIRM": "Jelszó megerősítése",
+			"NEW": "Új jelszó",
+			"OLD": "Jelenlegi jelszó",
+			"TITLE": "Frissítse a fő jelszót"
 		},
 		"NOTIFICATIONS": "értesítések",
 		"SCALE": {
-			"75": "75% scale",
-			"100": "100% scale",
-			"125": "125% scale",
-			"150": "150% scale",
+			"75": "75%-os skála",
+			"100": "100%-os skála",
+			"125": "125%-os skála",
+			"150": "150%-os skála",
 			"TITLE": "Interfész skála"
 		},
 		"SETTINGS_SAVED": "Mentett! Beállítások frissítve",
-		"TITLE": "Settings",
+		"TITLE": "BEÁLLÍTÁSOK",
 		"USE_TOR_TO_RELAY_TRANSACTIONS": "Használja a TOR-t a tranzakciók továbbítására",
-		"WHITE_THEME": "White theme"
+		"WHITE_THEME": "Fehér téma"
 	},
 	"SIDEBAR": {
 		"ACCOUNT": {
-			"MESSAGES": "New offers/Messages",
+			"MESSAGES": "Új ajánlatok/üzenetek",
 			"STAKING": "Staking",
-			"SYNCING": "Syncing wallet"
+			"SYNCING": "Pénztárca szinkronizálása"
 		},
-		"ADD_NEW": "Add",
-		"CONTACTS": "Contacts",
+		"ADD_NEW": "Pénztárca hozzáadása",
+		"CONTACTS": "Kapcsolatok",
 		"CONTACTS_TOOLTIP": "A Névjegyek opció csak akkor érhető el, ha a fő jelszó engedélyezve van",
 		"LOG_OUT": "Log out",
 		"LOG_OUT_TOOLTIP": "Kijelentkezési lehetőség csak akkor érhető el, ha a Mester jelszó engedélyezve van",
-		"SETTINGS": "Settings",
+		"SETTINGS": "BEÁLLÍTÁSOK",
 		"SYNCHRONIZATION": {
-			"COMPLETE": "Completion",
+			"COMPLETE": "befejezés",
 			"DOWNLOADING": "A letöltés",
-			"ERROR": "System error",
-			"LOADING": "Loading blockchain data",
-			"MB": "MB",
+			"ERROR": "Rendszer hiba",
+			"LOADING": "Blokklánc adatok betöltése",
+			"MB": "",
 			"OFFLINE": "Offline",
 			"ONLINE": "Online",
-			"SLASH": "/",
-			"SYNCING": "Syncing blockchain"
+			"SLASH": "",
+			"SYNCING": "Szinkronizálási blokk"
 		},
-		"TITLE": "Wallets",
+		"TITLE": "Pénztárcák",
 		"UPDATE": {
-			"CRITICAL": "Update available",
-			"CRITICAL_HINT": "Critical update!",
-			"CRITICAL_TOOLTIP": "<span class=\"critical-update\">Critical update available.</span><i class=\"icon\"></i><span>Update strongly recommended!</span>",
-			"IMPORTANT": "Update available",
-			"IMPORTANT_HINT": "Important update!",
-			"IMPORTANT_TOOLTIP": "<span class=\"important-update\">Get new update.</span><br><span>Important update!</span>",
-			"STANDARD": "Update available",
-			"STANDARD_TOOLTIP": "<span class=\"standard-update\">Get new update.</span><br><span>Update is recommended!</span>",
-			"TIME": "System time differs from network",
-			"TIME_TOOLTIP": "<span class=\"wrong-time\">Wrong system time!</span><br><span>Check and repair your system time.</span>"
+			"CRITICAL": "Frissítés elérhető",
+			"CRITICAL_HINT": "Kritikus frissítés!",
+			"CRITICAL_TOOLTIP": "<span class=\"critical-update\">Kritikus frissítés érhető el.</span><i class=\"icon\"></i><span>Frissítés erősen ajánlott!</span>",
+			"IMPORTANT": "Frissítés elérhető",
+			"IMPORTANT_HINT": "Fontos frissítés!",
+			"IMPORTANT_TOOLTIP": "<span class=\"important-update\">Új frissítés beszerzése.</span><br><span>Fontos frissítés!</span>",
+			"STANDARD": "Frissítés elérhető",
+			"STANDARD_TOOLTIP": "<span class=\"standard-update\">Új frissítés beszerzése.</span><br><span>Frissítés javasolt!</span>",
+			"TIME": "A rendszeridő eltér a hálózattól",
+			"TIME_TOOLTIP": "<span class=\"wrong-time\">Rossz rendszeridő!</span><br><span>Ellenőrizze és javítsa ki a rendszeridőt.</span>"
 		}
 	},
 	"STAKING": {
 		"GROUP": {
-			"DAY": "day",
-			"MONTH": "month",
-			"WEEK": "week"
+			"DAY": "Nap",
+			"MONTH": "hónap",
+			"WEEK": "Hét"
 		},
 		"PERIOD": {
-			"ALL": "All",
-			"MONTH1": "1 month",
-			"MONTH3": "3 month",
-			"MONTH6": "6 month",
-			"WEEK1": "1 week",
-			"WEEK2": "2 week",
-			"YEAR": "1 year"
+			"ALL": "Minden",
+			"MONTH1": "1 hónap",
+			"MONTH3": "3 hónap",
+			"MONTH6": "6 hónap",
+			"WEEK1": "1 hét",
+			"WEEK2": "2 hét",
+			"YEAR": "1 év"
 		},
 		"SWITCH": {
-			"OFF": "OFF",
-			"ON": "ON"
+			"OFF": "Ki",
+			"ON": "Tovább"
 		},
 		"TITLE": "Staking",
-		"TITLE_GROUP": "Group:",
-		"TITLE_PENDING": "Pending",
-		"TITLE_PERIOD": "Time period:",
-		"TITLE_TOTAL": "Total"
+		"TITLE_GROUP": "csoport:",
+		"TITLE_PENDING": "Függőben levő",
+		"TITLE_PERIOD": "Időszak:",
+		"TITLE_TOTAL": "Teljes"
 	},
 	"TOR_LIB_STATE": {
-		"STATE_CREATING_STREAM": "Creating stream",
-		"STATE_DOWNLOADING_CONSENSUS": "Downloading consensus",
-		"STATE_FAILED": "Failed created stream",
-		"STATE_INITIALIZING": "Initializing",
-		"STATE_MAKING_TUNNEL_A": "Building tunnel to A",
-		"STATE_MAKING_TUNNEL_B": "Building tunnel to B",
-		"STATE_SENDING": "Sending transaction",
-		"STATE_SEND_FAILED": "Sending failed",
-		"STATE_SENT_SUCCESS": "Successfully sent!",
-		"STATE_SUCCESS": "Successfully created stream"
+		"STATE_CREATING_STREAM": "Stream létrehozása",
+		"STATE_DOWNLOADING_CONSENSUS": "Konszenzus letöltése",
+		"STATE_FAILED": "Az adatfolyam létrehozása sikertelen",
+		"STATE_INITIALIZING": "Inicializálás",
+		"STATE_MAKING_TUNNEL_A": "Alagút építése A-ba",
+		"STATE_MAKING_TUNNEL_B": "Alagút építése B-be",
+		"STATE_SENDING": "Tranzakció küldése",
+		"STATE_SEND_FAILED": "A küldés nem sikerült",
+		"STATE_SENT_SUCCESS": "Sikeresen elküldve!",
+		"STATE_SUCCESS": "Az adatfolyam sikeresen létrehozva"
 	},
 	"TRANSFER_ALIAS": {
 		"ADDRESS": {
-			"LABEL": "Transfer to",
+			"LABEL": "Átutalás ide:",
 			"PLACEHOLDER": "Írja be ide a címet"
 		},
-		"BUTTON_CANCEL": "Cancel",
-		"BUTTON_TRANSFER": "Transfer",
+		"BUTTON_CANCEL": "Megszünteti",
+		"BUTTON_TRANSFER": "Átutalás",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "Megjegyzés",
 			"PLACEHOLDER": "Írja be megjegyzését ide"
 		},
-		"COST": "Transfer fee {{value}} {{currency}}",
+		"COST": "Átviteli díj: {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"ALIAS_EXISTS": "This account already has an alias",
-			"NO_MONEY": "You do not have enough funds to transfer this alias",
-			"WRONG_ADDRESS": "No wallet with this account exists"
+			"ALIAS_EXISTS": "Ennek a fióknak már van aliasa",
+			"NO_MONEY": "Nincs elég pénze ennek az aliasnak az átutalásához",
+			"WRONG_ADDRESS": "Ezzel a fiókkal nem létezik pénztárca"
 		},
 		"NAME": {
-			"LABEL": "Alias",
-			"PLACEHOLDER": "@ Enter alias"
+			"LABEL": "Álnév",
+			"PLACEHOLDER": "@ Írja be az álnevet"
 		},
-		"REQUEST_SEND_REG": "The alias will be transferred within 10 minutes"
+		"REQUEST_SEND_REG": "Az álnév 10 percen belül átadásra kerül"
 	},
 	"WALLET": {
-		"AVAILABLE_BALANCE": "Available <b>{{available}} {{currency}}<b/>",
+		"AVAILABLE_BALANCE": "Elérhető: <b>{{available}} {{currency}}<b/>",
 		"CONFIRM": {
 			"MESSAGE": "A hozzáféréshez újra hozzá kell adnia",
 			"TITLE": "Eltávolítja a pénztárcát a listáról?"
 		},
-		"DETAILS": "Details",
-		"LOCK": "Lock",
-		"LOCKED_BALANCE": "Locked <b>{{locked}} {{currency}}<b/>",
-		"LOCKED_BALANCE_LINK": "What does that mean?",
-		"MODAL_ADD_CUSTOM_TOKEN": {
-			"FIELD_TITLE": "Eszközazonosító",
-			"TITLE": "Adjon hozzá egyéni tokent"
-		},
-		"REGISTER_ALIAS": "Register an alias",
+		"DETAILS": "Részletek",
+		"LOCK": "Zár",
+		"LOCKED_BALANCE": "Zárolva <b>{{locked}} {{currency}}<b/>",
+		"LOCKED_BALANCE_LINK": "Az mit jelent?",
+		"REGISTER_ALIAS": "Regisztráljon egy aliast",
 		"TABS": {
-			"ASSETS": "Assets",
-			"CONTRACTS": "Contracts",
-			"HISTORY": "History",
-			"MESSAGES": "Messages",
-			"RECEIVE": "Receive",
-			"SEND": "Send",
+			"CONTRACTS": "Szerződések",
+			"HISTORY": "Történelem",
+			"MESSAGES": "Üzenetek",
+			"RECEIVE": "Kap",
+			"SEND": "Elküld",
 			"STAKING": "Staking"
 		},
 		"TOOLTIPS": {
-			"ADD_CUSTOM_TOKEN": "Adjon hozzá egyéni tokent",
 			"CLOSE": "Csukja be a pénztárcát",
 			"EDIT_ALIAS": "Alias szerkesztése",
 			"SETTINGS": "BEÁLLÍTÁSOK",
@@ -710,9 +675,8 @@
 		}
 	},
 	"WALLET_DETAILS": {
-		"ADD_CUSTOM_TOKEN": "Adjon hozzá egyéni tokent",
-		"BUTTON_REMOVE": "Close wallet",
-		"BUTTON_SAVE": "Save",
+		"BUTTON_REMOVE": "Csukja be a pénztárcát",
+		"BUTTON_SAVE": "Mentés",
 		"CREATE_PASSWORD_SECURE": "Hozzon létre egy jelszót a mag védelméhez",
 		"FORM": {
 			"CONFIRM_PASSWORD": "Jelszó megerősítése",
@@ -720,21 +684,27 @@
 			"SECURED_SEED_WILL_REQUIRE": "A Secure Seed visszaállításához ez a jelszó szükséges."
 		},
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required",
+			"MAX_LENGTH": "Elérte a név maximális hosszát",
+			"NAME_DUPLICATE": "A név ismétlődő",
+			"NAME_REQUIRED": "A név szükséges",
 			"PASSWORDS_DONT_MATCH": "A jelszavak nem egyeznek"
 		},
 		"INFO": "Info",
-		"LABEL_FILE_LOCATION": "Wallet file location",
-		"LABEL_NAME": "Wallet name",
-		"LABEL_SEED_PHRASE": "Seed phrase",
+		"LABEL_FILE_LOCATION": "Wallet fájl helye",
+		"LABEL_NAME": "Pénztárca neve",
+		"LABEL_SEED_PHRASE": "Mag kifejezés",
 		"REMEMBER_YOU_WILL_REQUIRE": "A Secure Seed visszaállításához jelszó szükséges.",
 		"RESYNC_WALLET": "A pénztárca adatainak újraszinkronizálása",
 		"RESYNC_WALLET_BUTTON": "Wallet újraszinkronizálása",
 		"SEED_IS_SECURED": "A vetőmag biztosított",
 		"SEED_IS_UNSECURED": "A vetőmag nincs biztosítva",
-		"SEED_PHRASE_HINT": "Click to reveal the seed phrase",
+		"SEED_PHRASE_HINT": "Kattintson a kezdő kifejezés felfedéséhez",
 		"WALLET_OPTIONS": "Pénztárca opciók..."
+	},
+	"WORDS": {
+		"ACTIONS": {
+			"INSTALL": "Telepítés",
+			"REMOVE": "eltávolít"
+		}
 	}
 }

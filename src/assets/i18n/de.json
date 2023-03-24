@@ -1,29 +1,4 @@
 {
-	"ASSETS": {
-		"DROP_DOWN_MENU": {
-			"ASSET_DETAILS": "Anlagendetails",
-			"REMOVE_ASSET": "Element entfernen"
-		},
-		"MODALS": {
-			"ASSET_DETAILS": {
-				"LABELS": {
-					"CURRENT_SUPPLY": "Stromversorgung",
-					"ID": "Asset-ID",
-					"MAX_SUPPLE": "Maximale Versorgung",
-					"NAME": "Asset-Name",
-					"TICKER": "Ticker"
-				}
-			}
-		},
-		"TABLE": {
-			"LABELS": {
-				"BALANCE": "Guthaben",
-				"NAME": "Name",
-				"PRICE": "Preis",
-				"VALUE": "Wert"
-			}
-		}
-	},
 	"ASSIGN_ALIAS": {
 		"BUTTON_ASSIGN": "Zuweisen",
 		"COMMENT": {
@@ -55,7 +30,7 @@
 		"IS_MINIMIZE": "Lethean-Anwendung wird auf die Systemleiste minimiert",
 		"IS_RECEIVED": "",
 		"LOCKED": "Blockiert",
-		"MINED": "Mined",
+		"MINED": "Abgebaut",
 		"QUIT": "Beenden",
 		"RESTORE": "Sie können es wiederherstellen, indem Sie auf das Kontextmenü benutzen oder anklicken ",
 		"TRAY_MENU_MINIMIZE": "Minimieren",
@@ -102,11 +77,11 @@
 			"SEND": "Senden"
 		},
 		"COPY": "- Kopieren",
-		"ERROR_EMPTY_LIST": "Contact list is empty",
+		"ERROR_EMPTY_LIST": "Kontaktliste ist leer",
 		"ERROR_EXPORT": "Ungültiger Dateityp. Datei als .csv speichern",
 		"ERROR_IMPORT": "Fehler beim Lesen der Datei!",
-		"ERROR_IMPORT_EMPTY": "File is empty",
-		"ERROR_TYPE_FILE": "Please import valid .csv file",
+		"ERROR_IMPORT_EMPTY": "Die Datei ist leer",
+		"ERROR_TYPE_FILE": "Bitte importieren Sie eine gültige .csv-Datei",
 		"EXPORT": "Exportieren",
 		"FORM": {
 			"ADDRESS": "Adresse",
@@ -210,7 +185,7 @@
 		"ERROR_CANNOT_SAVE_SYSTEM": "Wallet-Dateien können nicht auf der OS-Partition gespeichert werden",
 		"ERROR_CANNOT_SAVE_TOP": "Bestehende Wallet-Dateien können nicht ersetzt oder überschrieben werden",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
+			"CONFIRM_NOT_MATCH": "Bestätigen Sie, dass das Passwort nicht übereinstimmt",
 			"MAX_LENGTH": "Maximale Namenslänge erreicht",
 			"NAME_DUPLICATE": "Name existiert bereits",
 			"NAME_REQUIRED": "Name ist erforderlich"
@@ -263,15 +238,14 @@
 		"WRONG_PASSWORD": "Ungültiges Passwort"
 	},
 	"EXPORT_HISTORY": {
-		"CANCEL": "Abbrechen",
+		"CANCEL": "Stornieren",
 		"EXPORT": "In Datei exportieren...",
 		"EXPORT_BUTTON": "Verlauf exportieren...",
 		"FILTER": "POS-Transaktionen filtern",
-		"FORMAT": "Format",
-		"FORMAT:": "Formatieren",
-		"SAVED_FILE": "Pfad zum Speichern des Transaktionsverlaufs auswählen",
+		"FORMAT:": "Format",
+		"SAVED_FILE": "Wählen Sie den Pfad aus, um den Transaktionsverlauf zu speichern",
 		"TITLE": "Wallet-Verlauf exportieren",
-		"TOOLTIP": "Wallet-Transaktionsverlauf in Datei exportieren"
+		"TOOLTIP": "Exportieren Sie den Verlauf der Brieftaschentransaktionen in eine Datei"
 	},
 	"HISTORY": {
 		"ADDRESS": "Adresse",
@@ -282,11 +256,11 @@
 			"CONFIRMATION": "Bestätigung",
 			"HEIGHT": "Höhe",
 			"ID": "Transaktions-ID",
-			"INPUTS": "Inputs",
-			"OUTPUTS": "Outputs",
+			"INPUTS": "Eingänge",
+			"OUTPUTS": "Ausgänge",
 			"PAYMENT_ID": "Zahlungs-ID",
 			"SIZE": "Transaktionsgröße",
-			"SIZE_VALUE": "{{value}} Bytes"
+			"SIZE_VALUE": " {{value}} Bytes"
 		},
 		"FEE": "Gebühr",
 		"LOCK_TOOLTIP": "Gesperrt bis {{date}}",
@@ -340,8 +314,7 @@
 		"SEND_PLACEHOLDER": "Nachricht eingeben..."
 	},
 	"MODALS": {
-		"ADD_TOKEN": "Token hinzufügen",
-		"CANCEL": "Abbrechen",
+		"CANCEL": "Stornieren",
 		"ERROR": "Fehler",
 		"INFO": "Informationen",
 		"OK": "OK",
@@ -368,24 +341,23 @@
 		"WITH_ADDRESS_ALREADY_OPEN": "Eine Wallet mit dieser Adresse ist bereits geöffnet"
 	},
 	"PLACEHOLDERS": {
-		"ADRESS_PLACEHOLDER": "Adresse hier eingeben",
-		"AMOUNT_PLACEHOLDER": "Betrag hier eingeben",
+		"ADRESS_PLACEHOLDER": "Geben Sie hier die Adresse ein",
+		"AMOUNT_PLACEHOLDER": "Geben Sie hier den Betrag ein",
 		"COMMENT_PLACEHOLDER": "Geben Sie hier Ihren Kommentar ein",
-		"CONFIRM_WALET_PASSWORD_PLACEHOLDER": "Wallet-Passwort hier bestätigen",
-		"DEPOSIT_PLACEHOLDER": "Geben Sie hier Ihre Einzahlung ein",
+		"CONFIRM_WALET_PASSWORD_PLACEHOLDER": "Bestätigen Sie hier das Wallet-Passwort",
+		"DEPOSIT_PLACEHOLDER": "Geben Sie hier Ihre Anzahlung ein",
 		"DESCRIPTION_PLACEHOLDER": "Geben Sie hier eine Beschreibung ein",
 		"FEE_PLACEHOLDER": "Geben Sie hier eine Gebühr ein",
 		"MASTER_PASS_PLACEHOLDER": "Geben Sie hier ein Master-Passwort ein",
 		"NAME_PLACEHOLDER": "Geben Sie hier einen Namen ein",
 		"NOTES_PLACEHOLDER": "Geben Sie hier eine Notiz ein",
 		"PASSWORD_PLACEHOLDER": "Geben Sie hier ein Passwort ein",
-		"PASS_PLACEHOLDER": "Geben Sie hier ein Master-Passwort ein",
-		"PLACEHOLDER_CONFIRM": "Neues Passwort hier bestätigen",
-		"PLACEHOLDER_NEW": "Neues Passwort hier eingeben",
+		"PLACEHOLDER_CONFIRM": "Bestätigen Sie hier das neue Passwort",
+		"PLACEHOLDER_NEW": "Geben Sie hier das neue Passwort ein",
 		"PLACEHOLDER_OLD": "Geben Sie hier das aktuelle Passwort ein",
 		"PURCHASE_PAYMENT_PLACEHOLDER": "Geben Sie hier eine Zahlungs-ID ein",
 		"SEED_PASSWORD_PLACEHOLDER": "Geben Sie hier ein Seed-Passwort ein",
-		"SEED_PHRASE_PLACEHOLDER": "Geben Sie hier eine Anfangsphrase ein",
+		"SEED_PHRASE_PLACEHOLDER": "Geben Sie hier eine Startphrase ein",
 		"SELLER_DEPOSIT_PLACEHOLDER": "Geben Sie hier die Anzahlung des Verkäufers ein",
 		"SELLER_PLACEHOLDER": "Geben Sie hier einen Verkäufer ein",
 		"WALET_PASSWORD_PLACEHOLDER": "Geben Sie hier ein Wallet-Passwort ein",
@@ -475,7 +447,7 @@
 		"CHOOSE_PATH": "Bitte wählen Sie einen Pfad",
 		"CONFIRM": "Wallet-Passwort bestätigen",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
+			"CONFIRM_NOT_MATCH": "Bestätigen Sie, dass das Passwort nicht übereinstimmt",
 			"INCORRECT_PASSWORD": "Falsches Passwort",
 			"KEY_NOT_VALID": "Schlüssel ungültig",
 			"KEY_REQUIRED": "Schlüssel ist erforderlich",
@@ -512,22 +484,21 @@
 			"FEE_MINIMUM": "Mindestgebühr: {{fee}}",
 			"FEE_REQUIRED": "Gebühr ist erforderlich",
 			"GREAT_THAN_UNWRAPPED_COINS": "Der Betrag ist größer als die noch verfügbaren ERC20-Token",
-			"LESS_THAN_ZANO_NEEDED": "Zu geringer Betrag zur Deckung der ERC20-Gebühr",
+			"LESS_THAN_ZANO_NEEDED": "Zu geringer Betrag, um die ERC20-Gebühr zu decken",
 			"MAX_LENGTH": "Maximale Kommentarlänge erreicht",
 			"WRAP_INFO_NULL": "Wrap-Status konnte nicht angefordert werden"
 		},
 		"HIDE": "Verstecke deine Wallet-Adresse vom Empfänger",
-		"MIXIN": "Mixin",
+		"MIXIN": "Mischen",
 		"SUCCESS_SENT": "Transaktion gesendet",
 		"WRAP": {
 			"ESTIMATE": "Transaktionsschätzungen",
 			"FEE": "Ethereum Txn-Gebühr:",
-			"LTHN": "LTHN",
-			"MAIN_TEXT": "Diese Transaktion erstellt wLTHN (\"Wrapped Lethean\"), das an die angegebene Adresse im Ethereum-Netzwerk gesendet wird.",
-			"TITLE": "Wrap",
+			"MAIN_TEXT": "Diese Transaktion erstellt wLethean (\"Wrapped Lethean\"), das an die angegebene Adresse im Ethereum-Netzwerk gesendet wird.",
+			"TITLE": "Wickeln",
 			"WILL_RECEIVE": "Sie erhalten:",
-			"ZANO": "ZANO",
-			"wZANO": "wLTHN"
+			"ZANO": "LTHN",
+			"wZANO": "wLethean"
 		}
 	},
 	"SEND_DETAILS_MODAL": {
@@ -542,27 +513,27 @@
 			"TIME4": "Nie",
 			"TITLE": "Programm sperren nach:"
 		},
-		"APP_LOG_TITLE": "Log-Level:",
+		"APP_LOG_TITLE": "Protokollebene:",
 		"DARK_THEME": "Nachtmodus",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
-			"PASS_NOT_MATCH": "Old password not match",
+			"CONFIRM_NOT_MATCH": "Bestätigen Sie, dass das Passwort nicht übereinstimmt",
+			"PASS_NOT_MATCH": "Falsches Passwort",
 			"PASS_REQUIRED": "Passwort ist erforderlich"
 		},
 		"GRAY_THEME": "Graumodus",
 		"LANGUAGE": {
 			"DE": "Deutsch",
-			"EN": "English",
-			"FR": "French",
-			"ID": "Indonesian",
-			"IT": "Italian",
-			"PT": "Portuguese",
-			"TITLE": "Language"
+			"EN": "Englisch",
+			"FR": "Französisch",
+			"ID": "Indonesisch",
+			"IT": "Italienisch",
+			"PT": "Portugiesisch",
+			"TITLE": "Sprache"
 		},
 		"LAST_BUILD": "Aktueller Build: {{value}}",
 		"MASTER_PASSWORD": {
 			"BUTTON": "Speichern",
-			"CONFIRM": "New password confirmation",
+			"CONFIRM": "Passwort bestätigen",
 			"NEW": "Neues Passwort",
 			"OLD": "Altes Passwort",
 			"TITLE": "Master-Passwort aktualisieren"
@@ -573,7 +544,7 @@
 			"100": "100% Rahmen",
 			"125": "125% Rahmen",
 			"150": "150% Rahmen",
-			"TITLE": "Interface scale"
+			"TITLE": "Schnittstellenskala"
 		},
 		"SETTINGS_SAVED": "Gerettet! Einstellungen aktualisiert",
 		"TITLE": "Einstellungen",
@@ -583,7 +554,7 @@
 	"SIDEBAR": {
 		"ACCOUNT": {
 			"MESSAGES": "Neue Angebote/Nachrichten",
-			"STAKING": "Staking",
+			"STAKING": "Abstecken",
 			"SYNCING": "Wallet synchronisieren"
 		},
 		"ADD_NEW": "Hinzufügen",
@@ -597,13 +568,13 @@
 			"DOWNLOADING": "wird heruntergeladen",
 			"ERROR": "Systemfehler",
 			"LOADING": "Lade Blockchain-Daten",
-			"MB": "MB",
+			"MB": "",
 			"OFFLINE": "Offline",
 			"ONLINE": "Online",
-			"SLASH": "/",
+			"SLASH": "",
 			"SYNCING": "Syncing block"
 		},
-		"TITLE": "Wallets",
+		"TITLE": "Geldbörsen",
 		"UPDATE": {
 			"CRITICAL": "Update verfügbar",
 			"CRITICAL_HINT": "Kritisches Update!",
@@ -636,23 +607,23 @@
 			"OFF": "AUS",
 			"ON": "AN"
 		},
-		"TITLE": "Staking",
+		"TITLE": "Abstecken",
 		"TITLE_GROUP": "Gruppe:",
 		"TITLE_PENDING": "Ausstehend",
 		"TITLE_PERIOD": "Zeitspanne:",
 		"TITLE_TOTAL": "Gesamt"
 	},
 	"TOR_LIB_STATE": {
-		"STATE_CREATING_STREAM": "Creating stream",
-		"STATE_DOWNLOADING_CONSENSUS": "Downloading consensus",
-		"STATE_FAILED": "Failed created stream",
-		"STATE_INITIALIZING": "Initializing",
-		"STATE_MAKING_TUNNEL_A": "Building tunnel to A",
-		"STATE_MAKING_TUNNEL_B": "Building tunnel to B",
-		"STATE_SENDING": "Sending transaction",
-		"STATE_SEND_FAILED": "Sending failed",
-		"STATE_SENT_SUCCESS": "Successfully sent!",
-		"STATE_SUCCESS": "Successfully created stream"
+		"STATE_CREATING_STREAM": "Stream erstellen",
+		"STATE_DOWNLOADING_CONSENSUS": "Konsens herunterladen",
+		"STATE_FAILED": "Fehler beim Erstellen des Streams",
+		"STATE_INITIALIZING": "Initialisierung",
+		"STATE_MAKING_TUNNEL_A": "Tunnelbau nach A",
+		"STATE_MAKING_TUNNEL_B": "Tunnelbau nach B",
+		"STATE_SENDING": "Transaktion senden",
+		"STATE_SEND_FAILED": "Senden fehlgeschlagen",
+		"STATE_SENT_SUCCESS": "Erfolgreich gesendet!",
+		"STATE_SUCCESS": "Stream erfolgreich erstellt"
 	},
 	"TRANSFER_ALIAS": {
 		"ADDRESS": {
@@ -683,17 +654,12 @@
 			"MESSAGE": "Um darauf zuzugreifen, müssen Sie es erneut hinzufügen",
 			"TITLE": "Brieftasche aus der Liste entfernen?"
 		},
-		"DETAILS": "Details",
+		"DETAILS": "Einzelheiten",
 		"LOCK": "Verschlüsseln",
 		"LOCKED_BALANCE": "Gesperrt <b>{{locked}} {{currency}}<b/>",
 		"LOCKED_BALANCE_LINK": "Was bedeutet das?",
-		"MODAL_ADD_CUSTOM_TOKEN": {
-			"FIELD_TITLE": "Asset-ID",
-			"TITLE": "Benutzerdefiniertes Token hinzufügen"
-		},
 		"REGISTER_ALIAS": "Alias registrieren",
 		"TABS": {
-			"ASSETS": "Vermögenswerte",
 			"CONTRACTS": "Verträge",
 			"HISTORY": "Verlauf",
 			"MESSAGES": "Nachrichten",
@@ -702,39 +668,43 @@
 			"STAKING": "Abstecken"
 		},
 		"TOOLTIPS": {
-			"ADD_CUSTOM_TOKEN": "Benutzerdefiniertes Token hinzufügen",
 			"CLOSE": "Brieftasche schließen",
 			"EDIT_ALIAS": "Alias bearbeiten",
-			"SETTINGS": "Einstellungen",
+			"SETTINGS": "die Einstellungen",
 			"TRANSFER_ALIAS": "Alias übertragen"
 		}
 	},
 	"WALLET_DETAILS": {
-		"ADD_CUSTOM_TOKEN": "Benutzerdefiniertes Token hinzufügen",
 		"BUTTON_REMOVE": "Wallet schließen",
 		"BUTTON_SAVE": "Speichern",
-		"CREATE_PASSWORD_SECURE": "Erstelle ein Passwort, um deinen Seed zu sichern",
+		"CREATE_PASSWORD_SECURE": "Erstellen Sie ein Passwort, um Ihren Seed zu sichern",
 		"FORM": {
 			"CONFIRM_PASSWORD": "Passwort bestätigen",
-			"GENERATE_SECURE_SEED": "Erzeuge sicheren Seed",
+			"GENERATE_SECURE_SEED": "Generieren Sie sicheren Seed",
 			"SECURED_SEED_WILL_REQUIRE": "Secure Seed erfordert dieses Passwort zur Wiederherstellung."
 		},
 		"FORM_ERRORS": {
 			"MAX_LENGTH": "Maximale Namenslänge erreicht",
-			"NAME_DUPLICATE": "Name ist doppelt vorhanden",
+			"NAME_DUPLICATE": "Name existiert bereits",
 			"NAME_REQUIRED": "Name ist erforderlich",
 			"PASSWORDS_DONT_MATCH": "Passwörter stimmen nicht überein"
 		},
 		"INFO": "Info",
-		"LABEL_FILE_LOCATION": "Wallet-Dateispeicherort",
+		"LABEL_FILE_LOCATION": "Wallet-Datei-Verzeichnis",
 		"LABEL_NAME": "Wallet-Name",
-		"LABEL_SEED_PHRASE": "Startphrase",
-		"REMEMBER_YOU_WILL_REQUIRE": "Sicherer Seed erfordert ein Passwort zur Wiederherstellung.",
+		"LABEL_SEED_PHRASE": "Seed-Satz",
+		"REMEMBER_YOU_WILL_REQUIRE": "Secure Seed erfordert ein Passwort zum Wiederherstellen.",
 		"RESYNC_WALLET": "Wallet-Daten neu synchronisieren",
 		"RESYNC_WALLET_BUTTON": "Wallet neu synchronisieren",
-		"SEED_IS_SECURED": "Seed ist gesichert",
-		"SEED_IS_UNSECURED": "Seed ist ungesichert",
-		"SEED_PHRASE_HINT": "Klicken Sie, um die Startphrase anzuzeigen",
+		"SEED_IS_SECURED": "Das Saatgut ist gesichert",
+		"SEED_IS_UNSECURED": "Saatgut ist ungesichert",
+		"SEED_PHRASE_HINT": "Klicken, um den Seed-Satz anzuzeigen",
 		"WALLET_OPTIONS": "Wallet-Optionen..."
+	},
+	"WORDS": {
+		"ACTIONS": {
+			"INSTALL": "Installieren",
+			"REMOVE": "Löschen"
+		}
 	}
 }

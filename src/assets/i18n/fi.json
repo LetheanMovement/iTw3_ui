@@ -1,371 +1,344 @@
 {
-	"ASSETS": {
-		"DROP_DOWN_MENU": {
-			"ASSET_DETAILS": "Varojen tiedot",
-			"REMOVE_ASSET": "Poista omaisuus"
-		},
-		"MODALS": {
-			"ASSET_DETAILS": {
-				"LABELS": {
-					"CURRENT_SUPPLY": "Nykyinen syöttö",
-					"ID": "Omaisuuden tunnus",
-					"MAX_SUPPLE": "Suurin tarjonta",
-					"NAME": "Omaisuuden nimi",
-					"TICKER": "Ticker"
-				}
-			}
-		},
-		"TABLE": {
-			"LABELS": {
-				"BALANCE": "Saldo",
-				"NAME": "nimi",
-				"PRICE": "hinta",
-				"VALUE": "arvo"
-			}
-		}
-	},
 	"ASSIGN_ALIAS": {
-		"BUTTON_ASSIGN": "Assign",
+		"BUTTON_ASSIGN": "Määritä",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "Kommentti",
 			"PLACEHOLDER": "Kirjoita kommenttisi tähän",
-			"TOOLTIP": "The comment will be visible to anyone who wants to make a payment to your alias. You can provide details about your business, contacts, or include any text. Comments can be edited later."
+			"TOOLTIP": "Kommentti näkyy kaikille, jotka haluavat suorittaa maksun aliakseesi. Voit antaa tietoja yrityksestäsi, yhteystiedoistasi tai sisällyttää tekstiin. Kommentteja voi muokata myöhemmin."
 		},
-		"COST": "Alias fee {{value}} {{currency}}",
+		"COST": "Aliasmaksu {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum comment length reached",
-			"NAME_EXISTS": "Alias name already exists",
-			"NAME_LENGTH": "The alias must be 6-25 characters long",
-			"NAME_REQUIRED": "Name is required",
-			"NAME_WRONG": "Invalid name: allowed symbols \"0-9\", \"a-z\", \"-\", \".\"",
-			"NO_MONEY": "You do not have enough funds to assign this alias"
+			"MAX_LENGTH": "Kommentin enimmäispituus saavutettu",
+			"NAME_EXISTS": "Alias-nimi on jo olemassa",
+			"NAME_LENGTH": "Alias-nimen tulee olla 6-25 merkkiä pitkä",
+			"NAME_REQUIRED": "Nimi vaaditaan",
+			"NAME_WRONG": "Virheellinen nimi: sallitut symbolit \"0-9\", \"a-z\", \"-\", \".\"",
+			"NO_MONEY": "Sinulla ei ole tarpeeksi varoja tämän aliaksen määrittämiseen"
 		},
 		"NAME": {
-			"LABEL": "Alias",
-			"PLACEHOLDER": " Enter alias",
-			"TOOLTIP": "An alias is a shortened form or your account. An alias can only include Latin letters, numbers and characters “.” and “-”. It must start with “@”."
+			"LABEL": "alias",
+			"PLACEHOLDER": " Anna alias",
+			"TOOLTIP": "Alias on lyhennetty lomake tai tilisi. Alias voi sisältää vain latinalaisia kirjaimia, numeroita ja merkkejä \".\" ja \"-\". Sen tulee alkaa @-merkillä."
 		},
-		"ONE_ALIAS": "You can create only one alias per wallet",
-		"REQUEST_ADD_REG": "The alias will be assigned within 10 minutes"
+		"ONE_ALIAS": "Voit luoda vain yhden aliaksen lompakkoa kohden",
+		"REQUEST_ADD_REG": "Alias määritetään 10 minuutin kuluessa"
 	},
 	"BACKEND_LOCALIZATION": {
-		"INCOME_TRANSFER_CONFIRMED": "Payment received",
-		"INCOME_TRANSFER_UNCONFIRMED": "Incoming payment (not confirmed)",
+		"INCOME_TRANSFER_CONFIRMED": "Maksu vastaanotettu",
+		"INCOME_TRANSFER_UNCONFIRMED": "Saapuva maksu (ei vahvistettu)",
 		"IS_CONFIRMED": "",
-		"IS_MINIMIZE": "Lethean application is minimized to the system tray",
+		"IS_MINIMIZE": "Lethean-sovellus on minimoitu ilmaisinalueelle",
 		"IS_RECEIVED": "",
-		"LOCKED": "Blocked",
-		"MINED": "Mined",
-		"QUIT": "Quit",
-		"RESTORE": "You can recover it by clicking or using the context menu",
-		"TRAY_MENU_MINIMIZE": "Minimize",
-		"TRAY_MENU_SHOW": "Resize"
+		"LOCKED": "Tukossa",
+		"MINED": "Louhittu",
+		"QUIT": "Lopettaa",
+		"RESTORE": "Voit palauttaa sen napsauttamalla tai käyttämällä kontekstivalikkoa",
+		"TRAY_MENU_MINIMIZE": "Minimoida",
+		"TRAY_MENU_SHOW": "Muuta kokoa"
 	},
 	"BREADCRUMBS": {
-		"ADD_WALLET": "Add wallet",
-		"ASSIGN_ALIAS": "Assign alias",
-		"CONTRACTS": "Contracts",
-		"CREATE_WALLET": "Create new wallet",
-		"EDIT_ALIAS": "Edit alias",
-		"NEW_PURCHASE": "New purchase",
-		"OLD_PURCHASE": "Purchase",
-		"OPEN_WALLET": "Open existing wallet",
-		"RESTORE_WALLET": "Restore from backup",
-		"SAVE_PHRASE": "Save your seed phrase",
-		"TRANSFER_ALIAS": "Transfer alias",
-		"WALLET_DETAILS": "Wallet details"
+		"ADD_WALLET": "Lisää lompakko",
+		"ASSIGN_ALIAS": "Määritä alias",
+		"CONTRACTS": "sopimuksia",
+		"CREATE_WALLET": "Luo uusi lompakko",
+		"EDIT_ALIAS": "Muokkaa aliasta",
+		"NEW_PURCHASE": "Uusi hankinta",
+		"OLD_PURCHASE": "Ostaa",
+		"OPEN_WALLET": "Avaa olemassa oleva lompakko",
+		"RESTORE_WALLET": "Palauta varmuuskopiosta",
+		"SAVE_PHRASE": "Tallenna siemenlauseesi",
+		"TRANSFER_ALIAS": "Siirrä alias",
+		"WALLET_DETAILS": "Lompakon tiedot"
 	},
 	"COMMON": {
-		"BACK": "Go back"
+		"BACK": "Mene takaisin"
 	},
 	"CONFIRM": {
-		"BUTTON_CANCEL": "Cancel",
-		"BUTTON_CONFIRM": "Send",
+		"BUTTON_CANCEL": "Peruuttaa",
+		"BUTTON_CONFIRM": "Lähettää",
 		"MESSAGE": {
-			"COMMENT": "Comment",
-			"FROM": "From",
-			"SEND": "Send",
+			"COMMENT": "Kommentti",
+			"FROM": "alkaen",
+			"SEND": "Lähettää",
 			"TO": "To"
 		},
-		"TITLE": "Transaction"
+		"TITLE": "liiketoimi"
 	},
 	"CONTACTS": {
-		"ADD": "Add/edit contact",
+		"ADD": "Lisää/muokkaa yhteystietoa",
 		"ADD_CONTACT": "Lisää yhteystieto",
 		"BUTTON": {
-			"ADD": "Add contact",
-			"ADD_EDIT": "Add/Save",
-			"DELETE": "Delete",
-			"EDIT": "Edit",
-			"GO_TO_WALLET": "Go to wallet",
-			"IMPORT_EXPORT": "Import/export",
-			"SEND": "Send"
+			"ADD": "Lisää yhteystieto",
+			"ADD_EDIT": "Lisää/Tallenna",
+			"DELETE": "Poistaa",
+			"EDIT": "muokata",
+			"GO_TO_WALLET": "Mene lompakkoon",
+			"IMPORT_EXPORT": "Tuonti ja vienti",
+			"SEND": "Lähettää"
 		},
-		"COPY": "- Copy",
-		"ERROR_EMPTY_LIST": "Contact list is empty",
-		"ERROR_EXPORT": "Invalid file type. Save file as .csv",
-		"ERROR_IMPORT": "Error is occured while reading file!",
-		"ERROR_IMPORT_EMPTY": "File is empty",
-		"ERROR_TYPE_FILE": "Please import valid .csv file",
-		"EXPORT": "Export",
+		"COPY": "- Kopio",
+		"ERROR_EMPTY_LIST": "Yhteystietolista on tyhjä",
+		"ERROR_EXPORT": "Väärä tiedostotyyppi. Tallenna tiedosto .csv-muodossa",
+		"ERROR_IMPORT": "Tiedostoa luettaessa tapahtui virhe!",
+		"ERROR_IMPORT_EMPTY": "Tiedosto on tyhjä",
+		"ERROR_TYPE_FILE": "Tuo kelvollinen .csv-tiedosto",
+		"EXPORT": "Viedä",
 		"FORM": {
-			"ADDRESS": "Address",
-			"NAME": "Name",
-			"NOTES": "Notes"
+			"ADDRESS": "osoite",
+			"NAME": "nimi",
+			"NOTES": "Huomautuksia"
 		},
 		"FORM_ERRORS": {
-			"ADDRESS_DUBLICATED": "Address is dublicated",
-			"ADDRESS_NOT_VALID": "Address not valid",
-			"ADDRESS_REQUIRED": "Address is required",
-			"MAX_LENGTH": "Maximum notes length reached",
-			"NAME_DUBLICATED": "Name is dublicated",
-			"NAME_LENGTH": "The name must be 4-25 characters long",
-			"NAME_REQUIRED": "Name is required",
-			"SET_MASTER_PASSWORD": "Set master password"
+			"ADDRESS_DUBLICATED": "Osoite on kopioitu",
+			"ADDRESS_NOT_VALID": "Osoite ei kelpaa",
+			"ADDRESS_REQUIRED": "Osoite vaaditaan",
+			"MAX_LENGTH": "Muistiinpanojen enimmäispituus saavutettu",
+			"NAME_DUBLICATED": "Nimi on kopioitu",
+			"NAME_LENGTH": "Nimen tulee olla 4-25 merkkiä pitkä",
+			"NAME_REQUIRED": "Nimi vaaditaan",
+			"SET_MASTER_PASSWORD": "Aseta pääsalasana"
 		},
-		"IMPORT": "Import",
-		"IMPORT_EXPORT": "Import or export contacts",
-		"OPEN_ADD_WALLET": "Open/Add wallet",
-		"SEND": "Send",
-		"SEND_FROM": "Send from",
-		"SEND_TO": "To",
-		"SUCCESS_EXPORT": "Contacts are exported",
-		"SUCCESS_IMPORT": "Contacts are imported",
-		"SUCCESS_SAVE": "Contact is edited",
-		"SUCCESS_SENT": "Contact added",
+		"IMPORT": "tuonti",
+		"IMPORT_EXPORT": "Tuo tai vie yhteystietoja",
+		"OPEN_ADD_WALLET": "Avaa/lisää lompakko",
+		"SEND": "Lähettää",
+		"SEND_FROM": "Lähetä osoitteesta",
+		"SEND_TO": "että",
+		"SUCCESS_EXPORT": "Yhteystiedot viedään",
+		"SUCCESS_IMPORT": "Yhteystiedot tuodaan",
+		"SUCCESS_SAVE": "Yhteystietoa on muokattu",
+		"SUCCESS_SENT": "Yhteyshenkilö lisätty",
 		"TABLE": {
-			"ADDRESS": "Address",
-			"ALIAS": "Alias",
-			"EMPTY": "Contact list is empty",
-			"NAME": "Name",
-			"NOTES": "Notes"
+			"ADDRESS": "osoite",
+			"ALIAS": "alias",
+			"EMPTY": "Yhteystietolista on tyhjä",
+			"NAME": "nimi",
+			"NOTES": "Huomautuksia"
 		},
-		"TITLE": "Contact list"
+		"TITLE": "Yhteystietoluettelo"
 	},
 	"CONTEXT_MENU": {
-		"COPY": "copy",
-		"PASTE": "paste",
-		"SELECT": "select all"
+		"COPY": "kopio",
+		"PASTE": "tahna",
+		"SELECT": "Valitse kaikki"
 	},
 	"CONTRACTS": {
-		"AMOUNT": "Amount",
-		"COMMENTS": "Comments",
-		"CONTRACTS": "Contracts",
-		"DATE": "Date",
-		"EMPTY": "No active contracts",
-		"LISTING_BUTTON": "Create listing",
-		"PURCHASE": "Purchase",
-		"PURCHASE_BUTTON": "New Purchase",
-		"SELL": "Sell",
+		"AMOUNT": "Määrä",
+		"COMMENTS": "kommentit",
+		"CONTRACTS": "sopimuksia",
+		"DATE": "Treffi",
+		"EMPTY": "Ei aktiivisia sopimuksia",
+		"LISTING_BUTTON": "Luo listaus",
+		"PURCHASE": "Ostaa",
+		"PURCHASE_BUTTON": "Uusi hankinta",
+		"SELL": "Myydä",
 		"STATUS": "Status",
 		"STATUS_MESSAGES": {
 			"BUYER": {
-				"ACCEPTED": "Seller accepted your contract proposal",
-				"BEING_CANCELLED": "Cancellation in progress",
-				"CANCELLED": "Contract canceled",
-				"COMPLETED": "Contract completed",
-				"EXPIRED": "The contract proposal has expired",
-				"IGNORED": "Seller ignored your contract proposal",
-				"IGNORED_CANCEL": "The seller ignored your proposal to cancel the contract",
-				"NOT_RECEIVED": "Delivery failed",
-				"NULLIFIED": "All deposits burned",
-				"WAIT": "Waiting for deposits confirmation",
-				"WAITING": "Waiting for response",
-				"WAITING_CANCEL": "Waiting for contract cancellation",
-				"WAITING_SELLER": "Waiting for delivery"
+				"ACCEPTED": "Myyjä hyväksyi sopimusehdotuksesi",
+				"BEING_CANCELLED": "Peruutus käynnissä",
+				"CANCELLED": "Sopimus purettu",
+				"COMPLETED": "Sopimus tehty",
+				"EXPIRED": "Sopimusehdotus on vanhentunut",
+				"IGNORED": "Myyjä jätti huomioimatta sopimusehdotuksesi",
+				"IGNORED_CANCEL": "Myyjä jätti huomiotta ehdotuksesi peruuttaa sopimus",
+				"NOT_RECEIVED": "Toimitus epäonnistui",
+				"NULLIFIED": "Kaikki talletukset paloivat",
+				"WAIT": "Odotetaan talletusvahvistusta",
+				"WAITING": "Odotetaan vastausta",
+				"WAITING_CANCEL": "Sopimuksen purkamista odotellessa",
+				"WAITING_SELLER": "Toimitusta odotellessa"
 			},
 			"SELLER": {
-				"ACCEPTED": "Contract started",
-				"BEING_CANCELLED": "Cancellation in progress",
-				"CANCELLED": "Contract canceled",
-				"COMPLETED": "Contract completed",
-				"EXPIRED": "Contract proposal has expired",
-				"IGNORED": "You ignored contract proposal",
-				"IGNORED_CANCEL": "You ignored cancellation proposal",
-				"NEW_CONTRACT": "New contract proposal",
-				"NOT_RECEIVED": "Delivery failed",
-				"NULLIFIED": "All deposits burned",
-				"PROPOSAL_CANCEL": "New proposal to cancel contract and return deposits",
-				"WAIT": "Waiting for contract confirmation",
-				"WAITING_BUYER": "Waiting for delivery"
+				"ACCEPTED": "",
+				"BEING_CANCELLED": "Peruutus käynnissä",
+				"CANCELLED": "Sopimus purettu",
+				"COMPLETED": "Sopimus tehty",
+				"EXPIRED": "Sopimusehdotus on vanhentunut",
+				"IGNORED": "Jäit huomioimatta sopimusehdotuksen",
+				"IGNORED_CANCEL": "Olet jättänyt huomioimatta peruutusehdotuksen",
+				"NEW_CONTRACT": "Uusi sopimusehdotus",
+				"NOT_RECEIVED": "Toimitus epäonnistui",
+				"NULLIFIED": "Kaikki talletukset paloivat",
+				"PROPOSAL_CANCEL": "Uusi ehdotus sopimuksen purkamisesta ja talletusten palauttamisesta",
+				"WAIT": "Sopimuksen vahvistusta odotellessa",
+				"WAITING_BUYER": "Toimitusta odotellessa"
 			}
 		},
 		"TIME_LEFT": {
-			"REMAINING_LESS_ONE": "Less than an hour to respond",
-			"REMAINING_MANY": "{{time}} hours remain",
-			"REMAINING_MANY_ALT": "{{time}} hours remain",
-			"REMAINING_MANY_ALT_RESPONSE": "{{time}} hours remain",
-			"REMAINING_MANY_ALT_WAITING": "Waiting for {{time}} hours",
-			"REMAINING_MANY_RESPONSE": "{{time}} hours remain",
-			"REMAINING_MANY_WAITING": "Waiting for {{time}} hours",
-			"REMAINING_ONE": "{{time}} hour remains",
-			"REMAINING_ONE_RESPONSE": "{{time}} hour remains",
-			"REMAINING_ONE_WAITING": "Waiting for {{time}} hour"
+			"REMAINING_LESS_ONE": "Alle tunti aikaa vastata",
+			"REMAINING_MANY": "{{time}} tuntia jäljellä",
+			"REMAINING_MANY_ALT": "{{time}} tuntia jäljellä",
+			"REMAINING_MANY_ALT_RESPONSE": "{{time}} tuntia jäljellä",
+			"REMAINING_MANY_ALT_WAITING": "Odotetaan {{time}} tuntia",
+			"REMAINING_MANY_RESPONSE": "{{time}} tuntia jäljellä",
+			"REMAINING_MANY_WAITING": "Odotetaan {{time}} tuntia",
+			"REMAINING_ONE": "{{time}} tuntia jäljellä",
+			"REMAINING_ONE_RESPONSE": "{{time}} tuntia jäljellä",
+			"REMAINING_ONE_WAITING": "Odotetaan {{time}} tuntia"
 		}
 	},
 	"CREATE_WALLET": {
-		"BUTTON_CREATE": "Create wallet",
-		"BUTTON_SELECT": "Select wallet location",
-		"CONFIRM": "Confirm wallet password",
-		"ERROR_CANNOT_SAVE_SYSTEM": "Wallet files cannot be saved to the OS partition",
-		"ERROR_CANNOT_SAVE_TOP": "Existing wallet files cannot be replaced or overwritten",
+		"BUTTON_CREATE": "Luo lompakko",
+		"BUTTON_SELECT": "Valitse Lompakon sijainti",
+		"CONFIRM": "Vahvista lompakon salasana",
+		"ERROR_CANNOT_SAVE_SYSTEM": "Lompakkotiedostoja ei voi tallentaa käyttöjärjestelmän osioon",
+		"ERROR_CANNOT_SAVE_TOP": "Olemassa olevia lompakkotiedostoja ei voi korvata tai korvata",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required"
+			"CONFIRM_NOT_MATCH": "Vahvista salasana ei täsmää",
+			"MAX_LENGTH": "Nimen enimmäispituus saavutettu",
+			"NAME_DUPLICATE": "Nimi on kaksoiskappale",
+			"NAME_REQUIRED": "Nimi vaaditaan"
 		},
-		"NAME": "Wallet name",
-		"PASS": "Set wallet password",
-		"TITLE_SAVE": "Save the wallet file."
+		"NAME": "Lompakon nimi",
+		"PASS": "Aseta lompakon salasana",
+		"TITLE_SAVE": "Tallenna lompakkotiedosto."
 	},
 	"EDIT_ALIAS": {
-		"BUTTON_EDIT": "Edit",
+		"BUTTON_EDIT": "muokata",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "Kommentti",
 			"PLACEHOLDER": "Kirjoita kommenttisi tähän"
 		},
-		"COST": "Fee {{value}} {{currency}}",
+		"COST": "Maksu {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum comment length reached",
-			"NO_MONEY": "You do not have enough funds to change the comment to this alias"
+			"MAX_LENGTH": "Kommentin enimmäispituus saavutettu",
+			"NO_MONEY": "Sinulla ei ole tarpeeksi varoja muuttaaksesi kommentin tähän aliakseen"
 		},
 		"NAME": {
-			"LABEL": "Alias",
-			"PLACEHOLDER": "@ Enter alias"
+			"LABEL": "alias",
+			"PLACEHOLDER": "@ Anna alias"
 		}
 	},
 	"ERRORS": {
-		"ACCESS_DENIED": "Access denied",
-		"BAD_ARG": "Invalid argument",
-		"CORE_BUSY": "Internal error: core is busy",
-		"DAEMON_BUSY": "Internal error: daemon is busy",
-		"FILE_EXIST": "A file with that name already exists. Enter another name to save the file under",
-		"FILE_NOT_FOUND": "File not found",
-		"FILE_NOT_SAVED": "You cannot save a wallet file in this folder. Please choose another folder.",
-		"FILE_RESTORED": "The wallet file was corrupted. We have recovered the keys and the wallet from the blockchain",
-		"NOT_ENOUGH_MONEY": "Insufficient funds in account",
-		"NOT_ENOUGH_OUTPUTS_TO_MIX": "Mix-in number is too big for current blockchain state. There are not enough unspent outputs to mix with",
-		"NO_MONEY": "Not enough money",
-		"NO_MONEY_REMOVE_OFFER": "There is no fee for deleting an offer, but in order to protect the network against flood transactions you need to have at least {{fee}} {{currency}} in your wallet",
-		"TRANSACTION_ERROR": "Error. Transaction not completed.",
-		"TRANSACTION_IS_TO_BIG": "Transaction exceeds network limit, send required amount with multiple transactions",
-		"TRANSFER_ATTEMPT": "There is no connection to Lethean network",
-		"TX_TYPE_COIN_BASE": "Error. The payment was not completed.",
-		"TX_TYPE_NEW_ALIAS": "Error. Failed to register alias to safe",
-		"TX_TYPE_NEW_ALIAS_END": "Please try again.",
-		"TX_TYPE_NORMAL": "Error. The payment from the wallet",
-		"TX_TYPE_NORMAL_END": "was not completed.",
-		"TX_TYPE_NORMAL_TO": "to",
-		"TX_TYPE_UPDATE_ALIAS": "Error. Failed to change comment to alias in safe",
+		"ACCESS_DENIED": "Pääsy evätty",
+		"BAD_ARG": "Virheellinen argumentti",
+		"CORE_BUSY": "Sisäinen virhe: ydin on varattu",
+		"DAEMON_BUSY": "Sisäinen virhe: daemon on varattu",
+		"FILE_EXIST": "Samanniminen tiedosto on jo olemassa. Kirjoita toinen nimi tallentaaksesi tiedoston",
+		"FILE_NOT_FOUND": "Tiedostoa ei löytynyt",
+		"FILE_NOT_SAVED": "Et voi tallentaa lompakkotiedostoa tähän kansioon. Valitse toinen kansio.",
+		"FILE_RESTORED": "Lompakkotiedosto oli vioittunut. Olemme saaneet avaimet ja lompakon takaisin lohkoketjusta",
+		"NOT_ENOUGH_MONEY": "Tilillä ei ole riittävästi varoja",
+		"NOT_ENOUGH_OUTPUTS_TO_MIX": "Sekoitusmäärä on liian suuri nykyiseen lohkoketjun tilaan. Käyttämättömiä tulosteita ei ole tarpeeksi yhdistettäväksi",
+		"NO_MONEY": "Ei tarpeeksi rahaa",
+		"NO_MONEY_REMOVE_OFFER": "Tarjouksen poistamisesta ei peritä maksua, mutta verkon suojaamiseksi tulvatapahtumia vastaan lompakossasi on oltava vähintään {{fee}} {{currency}} ",
+		"TRANSACTION_ERROR": "Virhe. Tapahtumaa ei suoritettu loppuun.",
+		"TRANSACTION_IS_TO_BIG": "Tapahtuma ylittää verkon rajan, lähetä vaadittu summa useilla tapahtumilla",
+		"TRANSFER_ATTEMPT": "Ei yhteyttä Lethean-verkkoon",
+		"TX_TYPE_COIN_BASE": "Virhe. Maksua ei suoritettu loppuun.",
+		"TX_TYPE_NEW_ALIAS": "Virhe. Aliaksen rekisteröinti turvaan epäonnistui",
+		"TX_TYPE_NEW_ALIAS_END": "Yritä uudelleen.",
+		"TX_TYPE_NORMAL": "Virhe. Maksu lompakosta",
+		"TX_TYPE_NORMAL_END": "ei saatu päätökseen.",
+		"TX_TYPE_NORMAL_TO": "että",
+		"TX_TYPE_UPDATE_ALIAS": "Virhe. Kommentin muuttaminen aliakseksi kassakaapissa epäonnistui",
 		"WALLET_WATCH_ONLY_NOT_SUPPORTED": "Vain kello -lompakot voidaan avata vain yksinkertaisella lompakolla",
-		"WALLET_WRONG_ID": "Invalid wallet ID",
-		"WRONG_PASSWORD": "Invalid password"
+		"WALLET_WRONG_ID": "Virheellinen lompakon tunnus",
+		"WRONG_PASSWORD": "Väärä salasana"
 	},
 	"EXPORT_HISTORY": {
 		"CANCEL": "Peruuttaa",
 		"EXPORT": "Vie tiedostoon...",
 		"EXPORT_BUTTON": "Vie historia...",
 		"FILTER": "Suodata POS-tapahtumat",
-		"FORMAT": "Muoto",
-		"FORMAT:": "",
+		"FORMAT:": "Muoto",
 		"SAVED_FILE": "Valitse polku tapahtumahistorian tallentamiseksi",
 		"TITLE": "Vie Wallet-historia",
 		"TOOLTIP": "Vie lompakkotapahtumahistoria tiedostoon"
 	},
 	"HISTORY": {
-		"ADDRESS": "Address",
-		"AMOUNT": "Amount",
-		"DATE": "Date",
+		"ADDRESS": "osoite",
+		"AMOUNT": "Määrä",
+		"DATE": "Treffi",
 		"DETAILS": {
-			"COMMENT": "Comment",
-			"CONFIRMATION": "Confirmation",
-			"HEIGHT": "Height",
-			"ID": "Transaction ID",
-			"INPUTS": "Inputs",
-			"OUTPUTS": "Outputs",
-			"PAYMENT_ID": "Payment ID",
-			"SIZE": "Transaction size",
-			"SIZE_VALUE": "{{value}} bytes"
+			"COMMENT": "Kommentti",
+			"CONFIRMATION": "vahvistus",
+			"HEIGHT": "Korkeus",
+			"ID": "Tapahtumatunnus",
+			"INPUTS": "tuloa",
+			"OUTPUTS": "lähdöt",
+			"PAYMENT_ID": "Maksutunnus",
+			"SIZE": "Tapahtuman koko",
+			"SIZE_VALUE": "{{value}} tavua"
 		},
-		"FEE": "Fee",
-		"LOCK_TOOLTIP": "Locked till {{date}}",
-		"RECEIVED": "Received",
-		"SEND": "Sent",
+		"FEE": "maksu",
+		"LOCK_TOOLTIP": "Lukittu {{date}}asti",
+		"RECEIVED": "otettu vastaan",
+		"SEND": "Lähetetty",
 		"STATUS": "Status",
-		"STATUS_TOOLTIP": "Confirmations {{current}}/{{total}}",
+		"STATUS_TOOLTIP": "Vahvistukset {{current}}/{{total}}",
 		"TYPE_MESSAGES": {
-			"CANCEL_CONTRACT": "Cancel and return deposits",
-			"COMPLETE_BUYER": "Contract completed",
-			"COMPLETE_SELLER": "Contract completed",
-			"CREATE_ALIAS": "Fee for assigning alias",
-			"CREATE_CONTRACT": "Contract proposal",
-			"HIDDEN": "hidden",
-			"NULLIFY_CONTRACT": "Burn deposits",
-			"PLEDGE_CONTRACT": "Contract deposit",
-			"POS_REWARD": "POS reward",
-			"POW_REWARD": "POW reward",
-			"PROPOSAL_CANCEL_CONTRACT": "Cancellation request",
-			"UNDEFINED": "Undefined",
-			"UPDATE_ALIAS": "Fee for editing alias"
+			"CANCEL_CONTRACT": "Peruuta ja palauta talletukset",
+			"COMPLETE_BUYER": "Sopimus tehty",
+			"COMPLETE_SELLER": "Sopimus tehty",
+			"CREATE_ALIAS": "Maksu aliaksen antamisesta",
+			"CREATE_CONTRACT": "Sopimusehdotus",
+			"HIDDEN": "kätketty",
+			"NULLIFY_CONTRACT": "Polta talletuksia",
+			"PLEDGE_CONTRACT": "Sopimustalletus",
+			"POS_REWARD": "POS-palkinto",
+			"POW_REWARD": "POW palkinto",
+			"PROPOSAL_CANCEL_CONTRACT": "Peruutuspyyntö",
+			"UNDEFINED": "Määrittelemätön",
+			"UPDATE_ALIAS": "Maksu aliaksen muokkaamisesta"
 		}
 	},
 	"LOGIN": {
-		"BUTTON_NEXT": "Next",
-		"BUTTON_RESET": "Reset",
-		"BUTTON_SKIP": "Skip",
+		"BUTTON_NEXT": "Seuraava",
+		"BUTTON_RESET": "asettaa uudelleen",
+		"BUTTON_SKIP": "hyppiä",
 		"FORM_ERRORS": {
-			"CONFIRM_REQUIRED": "Confirmation is required",
+			"CONFIRM_REQUIRED": "Vahvistus vaaditaan",
 			"INVALID_PASS": "Virheellinen salasana, yritä uudelleen",
-			"MISMATCH": "Mismatch",
-			"PASS_REQUIRED": "Password is required"
+			"MISMATCH": "Epäsuhta",
+			"PASS_REQUIRED": "salasana tarvitaan"
 		},
-		"INCORRECT_PASSWORD": "Invalid password",
-		"MASTER_PASS": "Master password",
-		"SETUP_CONFIRM_PASS": "Confirm the password",
-		"SETUP_MASTER_PASS": "Setup master password"
+		"INCORRECT_PASSWORD": "Väärä salasana",
+		"MASTER_PASS": "Pääsalasana",
+		"SETUP_CONFIRM_PASS": "Vahvista salasana",
+		"SETUP_MASTER_PASS": "Aseta pääsalasana"
 	},
 	"MAIN": {
-		"BUTTON_NEW_WALLET": "Create new wallet",
-		"BUTTON_OPEN_WALLET": "Open existing wallet",
-		"BUTTON_RESTORE_BACKUP": "Restore from backup",
-		"CHOOSE_PATH": "Please choose a path",
-		"HELP": "How to create wallet?",
-		"TITLE": "Create or open the wallet to start using Lethean"
+		"BUTTON_NEW_WALLET": "Luo uusi lompakko",
+		"BUTTON_OPEN_WALLET": "Avaa olemassa oleva lompakko",
+		"BUTTON_RESTORE_BACKUP": "Palauta varmuuskopiosta",
+		"CHOOSE_PATH": "Valitse polku",
+		"HELP": "Kuinka luoda lompakko?",
+		"TITLE": "Luo tai avaa lompakko aloittaaksesi Letheanin käytön"
 	},
 	"MESSAGES": {
-		"ADDRESS": "Address",
-		"MESSAGE": "Message",
-		"SEND_BUTTON": "Send",
-		"SEND_PLACEHOLDER": "Type a message..."
+		"ADDRESS": "osoite",
+		"MESSAGE": "Viesti",
+		"SEND_BUTTON": "Lähettää",
+		"SEND_PLACEHOLDER": "Kirjoita viesti ..."
 	},
 	"MODALS": {
-		"ADD_TOKEN": "Lisää tunnus",
 		"CANCEL": "Peruuttaa",
-		"ERROR": "Error",
-		"INFO": "Information",
-		"OK": "OK",
-		"SUCCESS": "Success"
+		"ERROR": "virhe",
+		"INFO": "Tiedot",
+		"OK": "kunnossa",
+		"SUCCESS": "menestys"
 	},
 	"OPEN_WALLET": {
-		"BUTTON": "Open wallet",
-		"FILE_NOT_FOUND1": "Wallet file not found",
-		"FILE_NOT_FOUND2": "<br/><br/> It might have been renamed or moved. <br/> To open it, use the \"Open wallet\" button.",
+		"BUTTON": "Avaa lompakko",
+		"FILE_NOT_FOUND1": "Lompakkotiedostoa ei löydy",
+		"FILE_NOT_FOUND2": "<br/><br/> Se on saatettu nimetä uudelleen tai siirtää. <br/> Avaa se käyttämällä \"Avaa lompakko\" -painiketta.",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required"
+			"MAX_LENGTH": "Nimen enimmäispituus saavutettu",
+			"NAME_DUPLICATE": "Nimi on kaksoiskappale",
+			"NAME_REQUIRED": "Nimi vaaditaan"
 		},
 		"MODAL": {
-			"LABEL": "Password to this wallet",
-			"NOT_FOUND": "Not found",
-			"OPEN": "Open wallet",
-			"SKIP": "Skip",
-			"TITLE": "Type wallet password"
+			"LABEL": "Salasana tähän lompakkoon",
+			"NOT_FOUND": "Ei löydetty",
+			"OPEN": "Avaa lompakko",
+			"SKIP": "hyppiä",
+			"TITLE": "Kirjoita lompakon salasana"
 		},
-		"NAME": "Wallet name",
-		"PASS": "Wallet password",
-		"WITH_ADDRESS_ALREADY_OPEN": "A wallet with this address is already open"
+		"NAME": "Lompakon nimi",
+		"PASS": "Lompakon salasana",
+		"WITH_ADDRESS_ALREADY_OPEN": "Tällä osoitteella varustettu lompakko on jo auki"
 	},
 	"PLACEHOLDERS": {
 		"ADRESS_PLACEHOLDER": "Kirjoita osoite tähän",
@@ -379,7 +352,6 @@
 		"NAME_PLACEHOLDER": "Kirjoita nimi tähän",
 		"NOTES_PLACEHOLDER": "Kirjoita muistiinpano tähän",
 		"PASSWORD_PLACEHOLDER": "Kirjoita salasana tähän",
-		"PASS_PLACEHOLDER": "Kirjoita pääsalasana tähän",
 		"PLACEHOLDER_CONFIRM": "Vahvista uusi salasana tästä",
 		"PLACEHOLDER_NEW": "Kirjoita uusi salasana tähän",
 		"PLACEHOLDER_OLD": "Kirjoita nykyinen salasana tähän",
@@ -392,164 +364,163 @@
 		"WALLET_NAME_PLACEHOLDER": "Kirjoita Lompakon nimi tähän"
 	},
 	"PROGRESS": {
-		"ADD_WALLET": "Add wallet",
-		"CREATE_WALLET": "Create new wallet",
-		"RESTORE_WALLET": "Restore from backup",
-		"SELECT_LOCATION": "Select wallet location"
+		"ADD_WALLET": "Lisää lompakko",
+		"CREATE_WALLET": "Luo uusi lompakko",
+		"RESTORE_WALLET": "Palauta varmuuskopiosta",
+		"SELECT_LOCATION": "Valitse Lompakon sijainti"
 	},
 	"PURCHASE": {
-		"ACCEPT_STATE_WAIT_BIG": "Contract started",
-		"AMOUNT": "Amount",
-		"BURN_PROPOSAL": "Deposits burned",
-		"BUTTON_CANCEL_BUYER": "Cancel and return deposits",
-		"BUTTON_CANCEL_SELLER": "Confirm and return deposits",
-		"BUTTON_IGNORE": "Ignore and hide offer",
-		"BUTTON_MAKE_PLEDGE": "Accept and make deposit",
-		"BUTTON_NOT_CANCEL": "Ignore request",
-		"BUTTON_NULLIFY": "Terminate and burn deposits",
-		"BUTTON_NULLIFY_SHORT": "Burn",
-		"BUTTON_RECEIVED": "Complete and release deposits",
-		"BUYER_DEPOSIT": "Buyer deposit",
-		"CANCEL": "Cancel",
-		"COMMENT": "Comment",
-		"DEALS_CANCELED_WAIT": "Cancellation in progress",
-		"DESCRIPTION": "Description",
-		"DETAILS": "Additional details",
-		"FEE": "Fee",
+		"ACCEPT_STATE_WAIT_BIG": "Sopimus aloitettiin",
+		"AMOUNT": "Määrä",
+		"BURN_PROPOSAL": "Talletukset poltettu",
+		"BUTTON_CANCEL_BUYER": "Peruuta ja palauta talletukset",
+		"BUTTON_CANCEL_SELLER": "Vahvista ja palauta talletukset",
+		"BUTTON_IGNORE": "Ohita ja piilota tarjous",
+		"BUTTON_MAKE_PLEDGE": "Hyväksy ja tee talletus",
+		"BUTTON_NOT_CANCEL": "Ohita pyyntö",
+		"BUTTON_NULLIFY": "Lopeta ja polta kerrostumat",
+		"BUTTON_NULLIFY_SHORT": "polttaa",
+		"BUTTON_RECEIVED": "Täytä ja vapauta talletukset",
+		"BUYER_DEPOSIT": "Ostajan talletus",
+		"CANCEL": "Peruuttaa",
+		"COMMENT": "Kommentti",
+		"DEALS_CANCELED_WAIT": "Peruutus käynnissä",
+		"DESCRIPTION": "kuvaus",
+		"DETAILS": "Lisätiedot",
+		"FEE": "maksu",
 		"FORM_ERRORS": {
-			"ALIAS_NOT_VALID": "Invalid alias",
-			"AMOUNT_REQUIRED": "Amount required",
-			"AMOUNT_ZERO": "Amount cannot be zero",
-			"COMMENT_MAXIMUM": "Maximum field length reached",
-			"DESC_MAXIMUM": "Maximum field length reached",
-			"DESC_REQUIRED": "Description required",
-			"SELLER_DEPOSIT_REQUIRED": "Seller deposit required",
-			"SELLER_NOT_VALID": "Invalid address",
-			"SELLER_REQUIRED": "Address required",
-			"SELLER_SAME": "Use separate account",
-			"YOUR_DEPOSIT_REQUIRED": "Deposit required"
+			"ALIAS_NOT_VALID": "Virheellinen alias",
+			"AMOUNT_REQUIRED": "Vaadittu määrä",
+			"AMOUNT_ZERO": "Summa ei voi olla nolla",
+			"COMMENT_MAXIMUM": "Kentän enimmäispituus saavutettu",
+			"DESC_MAXIMUM": "Kentän enimmäispituus saavutettu",
+			"DESC_REQUIRED": "Kuvaus vaaditaan",
+			"SELLER_DEPOSIT_REQUIRED": "Myyjän talletus vaaditaan",
+			"SELLER_NOT_VALID": "Väärä osoite",
+			"SELLER_REQUIRED": "Osoite vaaditaan",
+			"SELLER_SAME": "Käytä erillistä tiliä",
+			"YOUR_DEPOSIT_REQUIRED": "Talletus vaaditaan"
 		},
-		"HOUR": "hour",
-		"HOURS": "hours",
-		"IGNORED_ACCEPT": "Contract proposal ignored",
-		"IGNORED_CANCEL": "Contract cancellation proposal ignored",
-		"NEED_MONEY": "Insufficient funds",
-		"NULLIFY_QUESTION": "Are you sure you want to burn both deposits?",
-		"PAYMENT": "Payment ID",
-		"PROGRESS_COMPLETE": "Completed",
-		"PROGRESS_NEW": "New purchase",
-		"PROGRESS_RECEIVE": "Reply received",
-		"PROGRESS_WAIT": "Awaiting reply",
-		"SAME_AMOUNT": "Same amount",
-		"SELLER": "Seller",
-		"SELLER_DEPOSIT": "Seller deposit",
-		"SEND_BUTTON": "Send",
-		"SEND_CANCEL_PROPOSAL": "Cancellation request sent",
+		"HOUR": "Tunnin",
+		"HOURS": "tuntia",
+		"IGNORED_ACCEPT": "Sopimusehdotus jätetty huomiotta",
+		"IGNORED_CANCEL": "Sopimuksen peruuttamisehdotus jätettiin huomiotta",
+		"NEED_MONEY": "Riittämättömät varat",
+		"NULLIFY_QUESTION": "Haluatko varmasti polttaa molemmat talletukset?",
+		"PAYMENT": "Maksutunnus",
+		"PROGRESS_COMPLETE": "valmistunut",
+		"PROGRESS_NEW": "Uusi hankinta",
+		"PROGRESS_RECEIVE": "Vastaus vastaanotettu",
+		"PROGRESS_WAIT": "Odotetaan vastausta",
+		"SAME_AMOUNT": "Sama määrä",
+		"SELLER": "Myyjä",
+		"SELLER_DEPOSIT": "Myyjän talletus",
+		"SEND_BUTTON": "Lähettää",
+		"SEND_CANCEL_PROPOSAL": "Peruutuspyyntö lähetetty",
 		"STATUS_MESSAGES": {
-			"BEING_CANCELLED": "Cancellation in progress",
+			"BEING_CANCELLED": "Peruutus käynnissä",
 			"CANCELLED": "Contract canceled",
-			"COMPLETED": "Contract completed",
-			"EXPIRED": "Contract proposal expired",
-			"IGNORED_BUYER": "Contract proposal ignored",
-			"IGNORED_CANCEL_BUYER": "Contract cancellation proposal ignored",
-			"IGNORED_CANCEL_SELLER": "The seller ignored your proposal to cancel the contract",
-			"IGNORED_SELLER": "The seller ignored your contract proposal",
-			"NEW_PURCHASE": "New purchase",
-			"NOT_RECEIVED": "Delivery failed",
-			"NULLIFIED": "All deposits burned",
-			"PROPOSAL_CANCEL_BUYER": "Cancellation request received",
-			"PROPOSAL_CANCEL_SELLER": "Cancellation request sent",
-			"WAITING_BUYER": "Contract proposal received",
-			"WAITING_CONFIRMATION": "Waiting for deposits confirmation",
-			"WAITING_DELIVERY": "Waiting for delivery",
-			"WAITING_SELLER": "Waiting for response"
+			"COMPLETED": "Sopimus tehty",
+			"EXPIRED": "Sopimusehdotus vanhentunut",
+			"IGNORED_BUYER": "Sopimusehdotus jätetty huomiotta",
+			"IGNORED_CANCEL_BUYER": "Sopimuksen peruuttamisehdotus jätettiin huomiotta",
+			"IGNORED_CANCEL_SELLER": "Myyjä jätti huomiotta ehdotuksesi peruuttaa sopimus",
+			"IGNORED_SELLER": "Myyjä jätti huomioimatta sopimusehdotuksesi",
+			"NEW_PURCHASE": "Uusi hankinta",
+			"NOT_RECEIVED": "Toimitus epäonnistui",
+			"NULLIFIED": "Kaikki talletukset paloivat",
+			"PROPOSAL_CANCEL_BUYER": "Peruutuspyyntö vastaanotettu",
+			"PROPOSAL_CANCEL_SELLER": "Peruutuspyyntö lähetetty",
+			"WAITING_BUYER": "Sopimusehdotus vastaanotettu",
+			"WAITING_CONFIRMATION": "Odotetaan talletusvahvistusta",
+			"WAITING_DELIVERY": "Toimitusta odotellessa",
+			"WAITING_SELLER": "Odotetaan vastausta"
 		},
-		"SUCCESS_FINISH_PROPOSAL": "Contract completed",
-		"WAITING_TIME": "Response time",
-		"WAITING_TIME_QUESTION": "Are you sure you want to cancel the contract?",
-		"YOUR_DEPOSIT": "Your deposit"
+		"SUCCESS_FINISH_PROPOSAL": "Sopimus tehty",
+		"WAITING_TIME": "Vasteaika",
+		"WAITING_TIME_QUESTION": "Oletko varma, että haluat purkaa sopimuksen?",
+		"YOUR_DEPOSIT": "Sinun talletuksesi"
 	},
 	"RESTORE_WALLET": {
-		"BUTTON_CREATE": "Create wallet",
-		"BUTTON_SELECT": "Select wallet location",
-		"CHOOSE_PATH": "Please choose a path",
-		"CONFIRM": "Confirm wallet password",
+		"BUTTON_CREATE": "Luo lompakko",
+		"BUTTON_SELECT": "Valitse Lompakon sijainti",
+		"CHOOSE_PATH": "Valitse polku",
+		"CONFIRM": "Vahvista lompakon salasana",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
+			"CONFIRM_NOT_MATCH": "Vahvista salasana ei täsmää",
 			"INCORRECT_PASSWORD": "Väärä salasana",
-			"KEY_NOT_VALID": "Key not valid",
-			"KEY_REQUIRED": "Key is required",
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required"
+			"KEY_NOT_VALID": "Avain ei kelpaa",
+			"KEY_REQUIRED": "Avain vaaditaan",
+			"MAX_LENGTH": "Nimen enimmäispituus saavutettu",
+			"NAME_DUPLICATE": "Nimi on kaksoiskappale",
+			"NAME_REQUIRED": "Nimi vaaditaan"
 		},
-		"LABEL_NAME": "Wallet name",
-		"LABEL_PHRASE_KEY": "Seed phrase / tracking seed",
-		"NOT_CORRECT_FILE_OR_PASSWORD": "Invalid wallet file or password does not match",
+		"LABEL_NAME": "Lompakon nimi",
+		"LABEL_PHRASE_KEY": "Siemenlause / seuranta siemen",
+		"NOT_CORRECT_FILE_OR_PASSWORD": "Virheellinen lompakkotiedosto tai salasana ei täsmää",
 		"OK": "kunnossa",
-		"PASS": "Wallet password",
+		"PASS": "Lompakon salasana",
 		"SEED_PASSWORD": "Siementen salasana"
 	},
 	"SEED_PHRASE": {
 		"BUTTON_COPIED": "kopioitu",
-		"BUTTON_COPY": "Copy",
-		"BUTTON_CREATE_ACCOUNT": "Create wallet",
-		"TITLE": "Make sure to keep your seed phrase in a safe place. If you forget your seed phrase you will not be able to recover your wallet."
+		"BUTTON_COPY": "kopio",
+		"BUTTON_CREATE_ACCOUNT": "Luo lompakko",
+		"TITLE": "Varmista, että säilytät siemenlauseesi turvallisessa paikassa. Jos unohdat siemenlauseesi, et voi palauttaa lompakkoasi."
 	},
 	"SEND": {
-		"ADDRESS": "Address",
-		"AMOUNT": "Amount",
-		"BUTTON": "Send",
-		"COMMENT": "Comment",
-		"DETAILS": "Additional details",
-		"FEE": "Fee",
+		"ADDRESS": "osoite",
+		"AMOUNT": "Määrä",
+		"BUTTON": "Lähettää",
+		"COMMENT": "Kommentti",
+		"DETAILS": "Lisätiedot",
+		"FEE": "maksu",
 		"FORM_ERRORS": {
-			"ADDRESS_NOT_VALID": "Address not valid",
-			"ADDRESS_REQUIRED": "Address is required",
-			"ALIAS_NOT_VALID": "Alias not valid",
-			"AMOUNT_REQUIRED": "Amount is required",
-			"AMOUNT_ZERO": "Amount is zero",
-			"FEE_MINIMUM": "Minimum fee: {{fee}}",
-			"FEE_REQUIRED": "Fee is required",
+			"ADDRESS_NOT_VALID": "Osoite ei kelpaa",
+			"ADDRESS_REQUIRED": "Osoite vaaditaan",
+			"ALIAS_NOT_VALID": "Alias ei kelpaa",
+			"AMOUNT_REQUIRED": "Määrä vaaditaan",
+			"AMOUNT_ZERO": "Summa on nolla",
+			"FEE_MINIMUM": "Vähimmäismaksu: {{fee}}",
+			"FEE_REQUIRED": "Maksu vaaditaan",
 			"GREAT_THAN_UNWRAPPED_COINS": "Määrä on suurempi kuin jäljellä oleva ERC20-tokeneja",
 			"LESS_THAN_ZANO_NEEDED": "Liian pieni summa ERC20-maksun kattamiseksi",
-			"MAX_LENGTH": "Maximum comment length reached",
+			"MAX_LENGTH": "Kommentin enimmäispituus saavutettu",
 			"WRAP_INFO_NULL": "rivitystilan pyytäminen epäonnistui"
 		},
-		"HIDE": "Hide your wallet address from recipient",
-		"MIXIN": "Mixin",
-		"SUCCESS_SENT": "Transaction sent",
+		"HIDE": "Piilota lompakkosi osoite vastaanottajalta",
+		"MIXIN": "Sekoita joukkoon",
+		"SUCCESS_SENT": "Tapahtuma lähetetty",
 		"WRAP": {
 			"ESTIMATE": "Tapahtuma-arviot",
 			"FEE": "Ethereum Txn -maksu:",
-			"LTHN": "LTHN",
-			"MAIN_TEXT": "Tämä tapahtuma luo wLTHN (\"Wrapped Lethean\"), joka lähetetään määritettyyn osoitteeseen Ethereum-verkossa.",
+			"MAIN_TEXT": "Tämä tapahtuma luo wLetheanin (\"Wrapped Lethean\"), joka lähetetään määritettyyn osoitteeseen Ethereum-verkossa.",
 			"TITLE": "wrap",
 			"WILL_RECEIVE": "Saat:",
-			"ZANO": "",
-			"wZANO": "wLTHN"
+			"ZANO": "LTHN",
+			"wZANO": "wLethean"
 		}
 	},
 	"SEND_DETAILS_MODAL": {
-		"TITLE1": "Transaction",
-		"TITLE2": "Transaction details"
+		"TITLE1": "liiketoimi",
+		"TITLE2": "Maksutapahtuman tiedot"
 	},
 	"SETTINGS": {
 		"APP_LOCK": {
 			"TIME1": "5 min",
 			"TIME2": "15 min",
-			"TIME3": "1 hour",
-			"TIME4": "Never",
-			"TITLE": "Lock app after:"
+			"TIME3": "1 tunti",
+			"TIME4": "Ei koskaan",
+			"TITLE": "Lukitse sovellus tämän jälkeen:"
 		},
-		"APP_LOG_TITLE": "Log level:",
-		"DARK_THEME": "Dark theme",
+		"APP_LOG_TITLE": "Lokin taso:",
+		"DARK_THEME": "Tumma teema",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
-			"PASS_NOT_MATCH": "Old password not match",
-			"PASS_REQUIRED": "Password is required"
+			"CONFIRM_NOT_MATCH": "Vahvista salasana ei täsmää",
+			"PASS_NOT_MATCH": "Väärä salasana",
+			"PASS_REQUIRED": "salasana tarvitaan"
 		},
-		"GRAY_THEME": "Grey theme",
+		"GRAY_THEME": "Harmaa teema",
 		"LANGUAGE": {
 			"DE": "Deutsch",
 			"EN": "Englanti",
@@ -559,150 +530,144 @@
 			"PT": "Portugalin kieli",
 			"TITLE": "kieli"
 		},
-		"LAST_BUILD": "Current build: {{value}}",
+		"LAST_BUILD": "Nykyinen versio: {{value}}",
 		"MASTER_PASSWORD": {
-			"BUTTON": "Save",
-			"CONFIRM": "New password confirmation",
-			"NEW": "New password",
-			"OLD": "Old password",
-			"TITLE": "Update master password"
+			"BUTTON": "Tallentaa",
+			"CONFIRM": "Vahvista salasana",
+			"NEW": "Uusi salasana",
+			"OLD": "Nykyinen salasana",
+			"TITLE": "Päivitä pääsalasana"
 		},
 		"NOTIFICATIONS": "ilmoitukset",
 		"SCALE": {
-			"75": "75% scale",
-			"100": "100% scale",
-			"125": "125% scale",
-			"150": "150% scale",
+			"75": "75 % mittakaavassa",
+			"100": "100 % mittakaavassa",
+			"125": "125 % mittakaavassa",
+			"150": "150 % mittakaavassa",
 			"TITLE": "Käyttöliittymän mittakaava"
 		},
 		"SETTINGS_SAVED": "Tallennettu! Asetukset päivitetty",
-		"TITLE": "Settings",
+		"TITLE": "asetukset",
 		"USE_TOR_TO_RELAY_TRANSACTIONS": "Käytä TOR:ta tapahtumien välittämiseen",
-		"WHITE_THEME": "White theme"
+		"WHITE_THEME": "Valkoinen teema"
 	},
 	"SIDEBAR": {
 		"ACCOUNT": {
-			"MESSAGES": "New offers/Messages",
-			"STAKING": "Staking",
-			"SYNCING": "Syncing wallet"
+			"MESSAGES": "Uusia tarjouksia/viestejä",
+			"STAKING": "Panostaminen",
+			"SYNCING": "Lompakon synkronointi"
 		},
-		"ADD_NEW": "Add",
-		"CONTACTS": "Contacts",
+		"ADD_NEW": "Lisää lompakko",
+		"CONTACTS": "Yhteydet",
 		"CONTACTS_TOOLTIP": "Yhteystiedot-vaihtoehto käytettävissä vain, kun pääsalasana on käytössä",
 		"LOG_OUT": "Log out",
 		"LOG_OUT_TOOLTIP": "Uloskirjautuminen on käytettävissä vain, kun pääsalasana on käytössä",
-		"SETTINGS": "Settings",
+		"SETTINGS": "asetukset",
 		"SYNCHRONIZATION": {
-			"COMPLETE": "Completion",
+			"COMPLETE": "Valmistuminen",
 			"DOWNLOADING": "lataaminen",
-			"ERROR": "System error",
-			"LOADING": "Loading blockchain data",
-			"MB": "MB",
-			"OFFLINE": "Offline",
+			"ERROR": "Järjestelmävirhe",
+			"LOADING": "Ladataan lohkoketjun tietoja",
+			"MB": "",
+			"OFFLINE": "Poissa",
 			"ONLINE": "Online",
-			"SLASH": "/",
-			"SYNCING": "Syncing blockchain"
+			"SLASH": "",
+			"SYNCING": "Synkronointilohko"
 		},
-		"TITLE": "Wallets",
+		"TITLE": "lompakot",
 		"UPDATE": {
-			"CRITICAL": "Update available",
-			"CRITICAL_HINT": "Critical update!",
-			"CRITICAL_TOOLTIP": "<span class=\"critical-update\">Critical update available.</span><i class=\"icon\"></i><span>Update strongly recommended!</span>",
-			"IMPORTANT": "Update available",
-			"IMPORTANT_HINT": "Important update!",
-			"IMPORTANT_TOOLTIP": "<span class=\"important-update\">Get new update.</span><br><span>Important update!</span>",
-			"STANDARD": "Update available",
-			"STANDARD_TOOLTIP": "<span class=\"standard-update\">Get new update.</span><br><span>Update is recommended!</span>",
-			"TIME": "System time differs from network",
-			"TIME_TOOLTIP": "<span class=\"wrong-time\">Wrong system time!</span><br><span>Check and repair your system time.</span>"
+			"CRITICAL": "PÄIVITYS SAATAVILLA",
+			"CRITICAL_HINT": "Kriittinen päivitys!",
+			"CRITICAL_TOOLTIP": "<span class=\"critical-update\">Kriittinen päivitys saatavilla.</span><i class=\"icon\"></i><span>Päivitystä suositellaan!</span>",
+			"IMPORTANT": "PÄIVITYS SAATAVILLA",
+			"IMPORTANT_HINT": "Tärkeä päivitys!",
+			"IMPORTANT_TOOLTIP": "<span class=\"important-update\">Hanki uusi päivitys.</span><br><span>Tärkeä päivitys!</span>",
+			"STANDARD": "PÄIVITYS SAATAVILLA",
+			"STANDARD_TOOLTIP": "<span class=\"standard-update\">Hanki uusi päivitys.</span><br><span>Päivitystä suositellaan!</span>",
+			"TIME": "Järjestelmän aika eroaa verkosta",
+			"TIME_TOOLTIP": "<span class=\"wrong-time\">Väärä järjestelmäaika!</span><br><span>Tarkista ja korjaa järjestelmän aika.</span>"
 		}
 	},
 	"STAKING": {
 		"GROUP": {
-			"DAY": "day",
-			"MONTH": "month",
-			"WEEK": "week"
+			"DAY": "päivä",
+			"MONTH": "Kuukausi",
+			"WEEK": "Viikko"
 		},
 		"PERIOD": {
-			"ALL": "All",
-			"MONTH1": "1 month",
-			"MONTH3": "3 month",
-			"MONTH6": "6 month",
-			"WEEK1": "1 week",
-			"WEEK2": "2 week",
-			"YEAR": "1 year"
+			"ALL": "kaikki",
+			"MONTH1": "1 kuukausi",
+			"MONTH3": "3 KUUKAUTTA",
+			"MONTH6": "6 KUUKAUTTA",
+			"WEEK1": "1 viikko",
+			"WEEK2": "2 viikkoa",
+			"YEAR": "1 vuosi"
 		},
 		"SWITCH": {
-			"OFF": "OFF",
-			"ON": "ON"
+			"OFF": "pois päältä",
+			"ON": "PÄÄLLÄ"
 		},
-		"TITLE": "Staking",
-		"TITLE_GROUP": "Group:",
-		"TITLE_PENDING": "Pending",
-		"TITLE_PERIOD": "Time period:",
-		"TITLE_TOTAL": "Total"
+		"TITLE": "Panostaminen",
+		"TITLE_GROUP": "Ryhmä:",
+		"TITLE_PENDING": "odotettaessa",
+		"TITLE_PERIOD": "ajanjakso:",
+		"TITLE_TOTAL": "Kaikki yhteensä"
 	},
 	"TOR_LIB_STATE": {
-		"STATE_CREATING_STREAM": "Creating stream",
-		"STATE_DOWNLOADING_CONSENSUS": "Downloading consensus",
-		"STATE_FAILED": "Failed created stream",
-		"STATE_INITIALIZING": "Initializing",
-		"STATE_MAKING_TUNNEL_A": "Building tunnel to A",
-		"STATE_MAKING_TUNNEL_B": "Building tunnel to B",
-		"STATE_SENDING": "Sending transaction",
-		"STATE_SEND_FAILED": "Sending failed",
-		"STATE_SENT_SUCCESS": "Successfully sent!",
-		"STATE_SUCCESS": "Successfully created stream"
+		"STATE_CREATING_STREAM": "Luodaan streamia",
+		"STATE_DOWNLOADING_CONSENSUS": "Konsensuksen lataaminen",
+		"STATE_FAILED": "Striimin luominen epäonnistui",
+		"STATE_INITIALIZING": "Alustus",
+		"STATE_MAKING_TUNNEL_A": "Tunnelin rakentaminen A:lle",
+		"STATE_MAKING_TUNNEL_B": "Tunnelin rakentaminen B:hen",
+		"STATE_SENDING": "Lähetetään tapahtumaa",
+		"STATE_SEND_FAILED": "Lähetys epäonnistui",
+		"STATE_SENT_SUCCESS": "Lähetetty onnistuneesti!",
+		"STATE_SUCCESS": "Striimin luominen onnistui"
 	},
 	"TRANSFER_ALIAS": {
 		"ADDRESS": {
-			"LABEL": "Transfer to",
+			"LABEL": "Siirrä",
 			"PLACEHOLDER": "Kirjoita osoite tähän"
 		},
-		"BUTTON_CANCEL": "Cancel",
-		"BUTTON_TRANSFER": "Transfer",
+		"BUTTON_CANCEL": "Peruuttaa",
+		"BUTTON_TRANSFER": "Siirtää",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "Kommentti",
 			"PLACEHOLDER": "Kirjoita kommenttisi tähän"
 		},
-		"COST": "Transfer fee {{value}} {{currency}}",
+		"COST": "Siirtomaksu {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"ALIAS_EXISTS": "This account already has an alias",
-			"NO_MONEY": "You do not have enough funds to transfer this alias",
-			"WRONG_ADDRESS": "No wallet with this account exists"
+			"ALIAS_EXISTS": "Tällä tilillä on jo alias",
+			"NO_MONEY": "Sinulla ei ole tarpeeksi varoja tämän aliaksen siirtämiseen",
+			"WRONG_ADDRESS": "Tällä tilillä ei ole lompakkoa"
 		},
 		"NAME": {
-			"LABEL": "Alias",
-			"PLACEHOLDER": "@ Enter alias"
+			"LABEL": "alias",
+			"PLACEHOLDER": "@ Anna alias"
 		},
-		"REQUEST_SEND_REG": "The alias will be transferred within 10 minutes"
+		"REQUEST_SEND_REG": "Alias siirretään 10 minuutin kuluessa"
 	},
 	"WALLET": {
-		"AVAILABLE_BALANCE": "Available <b>{{available}} {{currency}}<b/>",
+		"AVAILABLE_BALANCE": "Saatavilla <b>{{available}} {{currency}}<b/>",
 		"CONFIRM": {
 			"MESSAGE": "Jotta voit käyttää sitä, sinun on lisättävä se uudelleen",
 			"TITLE": "Poistetaanko lompakko listalta?"
 		},
-		"DETAILS": "Details",
-		"LOCK": "Lock",
-		"LOCKED_BALANCE": "Locked <b>{{locked}} {{currency}}<b/>",
-		"LOCKED_BALANCE_LINK": "What does that mean?",
-		"MODAL_ADD_CUSTOM_TOKEN": {
-			"FIELD_TITLE": "Omaisuuden tunnus",
-			"TITLE": "Lisää mukautettu tunnus"
-		},
-		"REGISTER_ALIAS": "Register an alias",
+		"DETAILS": "Yksityiskohdat",
+		"LOCK": "Lukko",
+		"LOCKED_BALANCE": "Lukittu <b>{{locked}} {{currency}}<b/>",
+		"LOCKED_BALANCE_LINK": "Mitä tuo tarkoittaa?",
+		"REGISTER_ALIAS": "Rekisteröi alias",
 		"TABS": {
-			"ASSETS": "Assets",
-			"CONTRACTS": "Contracts",
-			"HISTORY": "History",
-			"MESSAGES": "Messages",
-			"RECEIVE": "Receive",
-			"SEND": "Send",
-			"STAKING": "Staking"
+			"CONTRACTS": "sopimuksia",
+			"HISTORY": "Historia",
+			"MESSAGES": "viestien",
+			"RECEIVE": "Vastaanottaa",
+			"SEND": "Lähettää",
+			"STAKING": "Panostaminen"
 		},
 		"TOOLTIPS": {
-			"ADD_CUSTOM_TOKEN": "Lisää mukautettu tunnus",
 			"CLOSE": "Sulje lompakko",
 			"EDIT_ALIAS": "Muokkaa aliasta",
 			"SETTINGS": "asetukset",
@@ -710,9 +675,8 @@
 		}
 	},
 	"WALLET_DETAILS": {
-		"ADD_CUSTOM_TOKEN": "Lisää mukautettu tunnus",
-		"BUTTON_REMOVE": "Close wallet",
-		"BUTTON_SAVE": "Save",
+		"BUTTON_REMOVE": "Sulje lompakko",
+		"BUTTON_SAVE": "Tallentaa",
 		"CREATE_PASSWORD_SECURE": "Luo salasana suojataksesi siemenesi",
 		"FORM": {
 			"CONFIRM_PASSWORD": "Vahvista salasana",
@@ -720,21 +684,27 @@
 			"SECURED_SEED_WILL_REQUIRE": "Secure seed vaatii tämän salasanan palauttamiseen."
 		},
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required",
+			"MAX_LENGTH": "Nimen enimmäispituus saavutettu",
+			"NAME_DUPLICATE": "Nimi on kaksoiskappale",
+			"NAME_REQUIRED": "Nimi vaaditaan",
 			"PASSWORDS_DONT_MATCH": "Salasanat eivät täsmää"
 		},
 		"INFO": "Tiedot",
-		"LABEL_FILE_LOCATION": "Wallet file location",
-		"LABEL_NAME": "Wallet name",
-		"LABEL_SEED_PHRASE": "Seed phrase",
+		"LABEL_FILE_LOCATION": "Lompakon tiedoston sijainti",
+		"LABEL_NAME": "Lompakon nimi",
+		"LABEL_SEED_PHRASE": "Siemenlause",
 		"REMEMBER_YOU_WILL_REQUIRE": "Secure siemen palauttaminen vaatii salasanan.",
 		"RESYNC_WALLET": "Synkronoi lompakkotiedot uudelleen",
 		"RESYNC_WALLET_BUTTON": "Synkronoi lompakko uudelleen",
 		"SEED_IS_SECURED": "Siemen on varmistettu",
 		"SEED_IS_UNSECURED": "Siemen on suojaamaton",
-		"SEED_PHRASE_HINT": "Click to reveal the seed phrase",
+		"SEED_PHRASE_HINT": "Napsauta paljastaaksesi siemenlauseen",
 		"WALLET_OPTIONS": "Lompakon vaihtoehdot..."
+	},
+	"WORDS": {
+		"ACTIONS": {
+			"INSTALL": "asentaa",
+			"REMOVE": "Poistaa"
+		}
 	}
 }

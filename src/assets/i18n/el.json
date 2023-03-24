@@ -1,371 +1,344 @@
 {
-	"ASSETS": {
-		"DROP_DOWN_MENU": {
-			"ASSET_DETAILS": "Στοιχεία ενεργητικού",
-			"REMOVE_ASSET": "Κατάργηση στοιχείου"
-		},
-		"MODALS": {
-			"ASSET_DETAILS": {
-				"LABELS": {
-					"CURRENT_SUPPLY": "Τρέχουσα παροχή",
-					"ID": "Αναγνωριστικό στοιχείου",
-					"MAX_SUPPLE": "Μέγιστη παροχή",
-					"NAME": "Όνομα ενεργητικού",
-					"TICKER": "Καρδιά"
-				}
-			}
-		},
-		"TABLE": {
-			"LABELS": {
-				"BALANCE": "ΙΣΟΡΡΟΠΙΑ",
-				"NAME": "Ονομα",
-				"PRICE": "Τιμή",
-				"VALUE": "αξία"
-			}
-		}
-	},
 	"ASSIGN_ALIAS": {
-		"BUTTON_ASSIGN": "Assign",
+		"BUTTON_ASSIGN": "Αναθέτω",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "σχόλιο",
 			"PLACEHOLDER": "Εισαγάγετε το σχόλιό σας εδώ",
-			"TOOLTIP": "The comment will be visible to anyone who wants to make a payment to your alias. You can provide details about your business, contacts, or include any text. Comments can be edited later."
+			"TOOLTIP": "Το σχόλιο θα είναι ορατό σε οποιονδήποτε θέλει να κάνει μια πληρωμή στο ψευδώνυμό σας. Μπορείτε να παρέχετε λεπτομέρειες σχετικά με την επιχείρησή σας, τις επαφές σας ή να συμπεριλάβετε οποιοδήποτε κείμενο. Τα σχόλια μπορούν να επεξεργαστούν αργότερα."
 		},
-		"COST": "Alias fee {{value}} {{currency}}",
+		"COST": "Προμήθεια ψευδώνυμου {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum comment length reached",
-			"NAME_EXISTS": "Alias name already exists",
-			"NAME_LENGTH": "The alias must be 6-25 characters long",
-			"NAME_REQUIRED": "Name is required",
-			"NAME_WRONG": "Alias has wrong name",
-			"NO_MONEY": "You do not have enough funds to assign this alias"
+			"MAX_LENGTH": "Συμπληρώθηκε το μέγιστο μήκος σχολίου",
+			"NAME_EXISTS": "Το όνομα του ψευδώνυμου υπάρχει ήδη",
+			"NAME_LENGTH": "Το ψευδώνυμο πρέπει να έχει μήκος 6-25 χαρακτήρες",
+			"NAME_REQUIRED": "Απαιτείται όνομα",
+			"NAME_WRONG": "Μη έγκυρο όνομα: επιτρεπόμενα σύμβολα \"0-9\", \"a-z\", \"-\", \".\"",
+			"NO_MONEY": "Δεν έχετε αρκετά χρήματα για να εκχωρήσετε αυτό το ψευδώνυμο"
 		},
 		"NAME": {
-			"LABEL": "Alias",
-			"PLACEHOLDER": " Enter alias",
-			"TOOLTIP": "An alias is a shortened form or your account. An alias can only include Latin letters, numbers and characters “.” and “-”. It must start with “@”."
+			"LABEL": "ψευδώνυμο",
+			"PLACEHOLDER": " Εισαγάγετε το ψευδώνυμο",
+			"TOOLTIP": "Το ψευδώνυμο είναι μια συντομευμένη φόρμα ή ο λογαριασμός σας. Ένα ψευδώνυμο μπορεί να περιλαμβάνει μόνο λατινικά γράμματα, αριθμούς και χαρακτήρες \".\" και \"-\". Πρέπει να ξεκινά με «@»."
 		},
-		"ONE_ALIAS": "You can create only one alias per wallet",
-		"REQUEST_ADD_REG": "The alias will be assigned within 10 minutes"
+		"ONE_ALIAS": "Μπορείτε να δημιουργήσετε μόνο ένα ψευδώνυμο ανά πορτοφόλι",
+		"REQUEST_ADD_REG": "Το ψευδώνυμο θα εκχωρηθεί εντός 10 λεπτών"
 	},
 	"BACKEND_LOCALIZATION": {
-		"INCOME_TRANSFER_CONFIRMED": "Payment received",
-		"INCOME_TRANSFER_UNCONFIRMED": "Incoming payment (not confirmed)",
+		"INCOME_TRANSFER_CONFIRMED": "Η πληρωμή ελήφθη",
+		"INCOME_TRANSFER_UNCONFIRMED": "Εισερχόμενη πληρωμή (δεν επιβεβαιώθηκε)",
 		"IS_CONFIRMED": "",
-		"IS_MINIMIZE": "Lethean application is minimized to the system tray",
+		"IS_MINIMIZE": "Η εφαρμογή Lethean ελαχιστοποιείται στο δίσκο συστήματος",
 		"IS_RECEIVED": "",
-		"LOCKED": "Blocked",
-		"MINED": "Mined",
-		"QUIT": "Quit",
-		"RESTORE": "You can recover it by clicking or using the context menu",
-		"TRAY_MENU_MINIMIZE": "Minimize",
-		"TRAY_MENU_SHOW": "Resize"
+		"LOCKED": "Αποκλεισμένος",
+		"MINED": "Εξορύσσεται",
+		"QUIT": "Εγκαταλείπω",
+		"RESTORE": "Μπορείτε να το ανακτήσετε κάνοντας κλικ ή χρησιμοποιώντας το μενού περιβάλλοντος",
+		"TRAY_MENU_MINIMIZE": "ΠΕΡΙΟΡΙΖΩ",
+		"TRAY_MENU_SHOW": "Αλλαγή μεγέθους"
 	},
 	"BREADCRUMBS": {
-		"ADD_WALLET": "Add wallet",
-		"ASSIGN_ALIAS": "Assign alias",
-		"CONTRACTS": "Contracts",
-		"CREATE_WALLET": "Create new wallet",
-		"EDIT_ALIAS": "Edit alias",
-		"NEW_PURCHASE": "New purchase",
-		"OLD_PURCHASE": "Purchase",
-		"OPEN_WALLET": "Open existing wallet",
-		"RESTORE_WALLET": "Restore from backup",
-		"SAVE_PHRASE": "Save your seed phrase",
-		"TRANSFER_ALIAS": "Transfer alias",
-		"WALLET_DETAILS": "Wallet details"
+		"ADD_WALLET": "Προσθήκη Πορτοφολιού",
+		"ASSIGN_ALIAS": "Εκχωρήστε ψευδώνυμο",
+		"CONTRACTS": "Συμβάσεις",
+		"CREATE_WALLET": "Δημιουργία νέου Πορτοφολιού",
+		"EDIT_ALIAS": "Επεξεργασία ψευδώνυμου",
+		"NEW_PURCHASE": "Νέα αγορά",
+		"OLD_PURCHASE": "Αγορά",
+		"OPEN_WALLET": "Ανοίξτε το υπάρχον πορτοφόλι",
+		"RESTORE_WALLET": "Επαναφορά από αντίγραφο ασφαλείας",
+		"SAVE_PHRASE": "Αποθηκεύστε τη φράση σας",
+		"TRANSFER_ALIAS": "Το ψευδώνυμο μεταφοράς",
+		"WALLET_DETAILS": "Στοιχεία πορτοφολιού"
 	},
 	"COMMON": {
-		"BACK": "Go back"
+		"BACK": "Πήγαινε πίσω"
 	},
 	"CONFIRM": {
-		"BUTTON_CANCEL": "Cancel",
-		"BUTTON_CONFIRM": "Send",
+		"BUTTON_CANCEL": "Ματαίωση",
+		"BUTTON_CONFIRM": "Στείλετε",
 		"MESSAGE": {
-			"COMMENT": "Comment",
-			"FROM": "From",
-			"SEND": "Send",
-			"TO": "To"
+			"COMMENT": "σχόλιο",
+			"FROM": "από",
+			"SEND": "Στείλετε",
+			"TO": "Προς το"
 		},
-		"TITLE": "Transaction"
+		"TITLE": "Συναλλαγή"
 	},
 	"CONTACTS": {
-		"ADD": "Add/edit contact",
+		"ADD": "Προσθήκη/επεξεργασία επαφής",
 		"ADD_CONTACT": "Προσθέστε επαφή",
 		"BUTTON": {
-			"ADD": "Add contact",
-			"ADD_EDIT": "Add/Save",
-			"DELETE": "Delete",
-			"EDIT": "Edit",
-			"GO_TO_WALLET": "Go to wallet",
-			"IMPORT_EXPORT": "Import/export",
-			"SEND": "Send"
+			"ADD": "Προσθέστε επαφή",
+			"ADD_EDIT": "Προσθήκη/Αποθήκευση",
+			"DELETE": "Διαγράφω",
+			"EDIT": "Επεξεργασία",
+			"GO_TO_WALLET": "Πηγαίνετε στο πορτοφόλι",
+			"IMPORT_EXPORT": "Εισαγωγή εξαγωγή",
+			"SEND": "Στείλετε"
 		},
-		"COPY": "- Copy",
-		"ERROR_EMPTY_LIST": "Contact list is empty",
-		"ERROR_EXPORT": "Invalid file type. Save file as .csv",
-		"ERROR_IMPORT": "Error is occured while reading file!",
-		"ERROR_IMPORT_EMPTY": "File is empty",
-		"ERROR_TYPE_FILE": "Please import valid .csv file",
-		"EXPORT": "Export",
+		"COPY": "- Αντίγραφο",
+		"ERROR_EMPTY_LIST": "Η λίστα επαφών είναι κενή",
+		"ERROR_EXPORT": "Μη έγκυρος τύπος αρχείου. Αποθήκευση αρχείου ως .csv",
+		"ERROR_IMPORT": "Παρουσιάστηκε σφάλμα κατά την ανάγνωση του αρχείου!",
+		"ERROR_IMPORT_EMPTY": "Το αρχείο είναι κενό",
+		"ERROR_TYPE_FILE": "Εισαγάγετε έγκυρο αρχείο .csv",
+		"EXPORT": "Εξαγωγή",
 		"FORM": {
-			"ADDRESS": "Address",
-			"NAME": "Name",
-			"NOTES": "Notes"
+			"ADDRESS": "Διεύθυνση",
+			"NAME": "Ονομα",
+			"NOTES": "Σημειώσεις"
 		},
 		"FORM_ERRORS": {
-			"ADDRESS_DUBLICATED": "Address is dublicated",
-			"ADDRESS_NOT_VALID": "Address not valid",
-			"ADDRESS_REQUIRED": "Address is required",
-			"MAX_LENGTH": "Maximum notes length reached",
-			"NAME_DUBLICATED": "Name is dublicated",
-			"NAME_LENGTH": "The name must be 4-25 characters long",
-			"NAME_REQUIRED": "Name is required",
-			"SET_MASTER_PASSWORD": "Set master password"
+			"ADDRESS_DUBLICATED": "Η διεύθυνση είναι διπλότυπη",
+			"ADDRESS_NOT_VALID": "Η διεύθυνση δεν είναι έγκυρη",
+			"ADDRESS_REQUIRED": "Απαιτείται διεύθυνση",
+			"MAX_LENGTH": "Συμπληρώθηκε το μέγιστο μήκος των νότων",
+			"NAME_DUBLICATED": "Το όνομα είναι διπλό",
+			"NAME_LENGTH": "Το όνομα πρέπει να αποτελείται από 4-25 χαρακτήρες",
+			"NAME_REQUIRED": "Απαιτείται όνομα",
+			"SET_MASTER_PASSWORD": "Ορισμός κύριου κωδικού πρόσβασης"
 		},
-		"IMPORT": "Import",
-		"IMPORT_EXPORT": "Import or export contacts",
-		"OPEN_ADD_WALLET": "Open/Add wallet",
-		"SEND": "Send",
-		"SEND_FROM": "Send from",
-		"SEND_TO": "To",
-		"SUCCESS_EXPORT": "Contacts are exported",
-		"SUCCESS_IMPORT": "Contacts are imported",
-		"SUCCESS_SAVE": "Contact is edited",
-		"SUCCESS_SENT": "Contact added",
+		"IMPORT": "εισαγωγή",
+		"IMPORT_EXPORT": "Εισαγωγή ή εξαγωγή επαφών",
+		"OPEN_ADD_WALLET": "Άνοιγμα/Προσθήκη πορτοφολιού",
+		"SEND": "Στείλετε",
+		"SEND_FROM": "Αποστολή από",
+		"SEND_TO": "Προς το",
+		"SUCCESS_EXPORT": "Οι επαφές εξάγονται",
+		"SUCCESS_IMPORT": "Οι επαφές εισάγονται",
+		"SUCCESS_SAVE": "Επεξεργάζεται η επαφή",
+		"SUCCESS_SENT": "Η επαφή προστέθηκε",
 		"TABLE": {
-			"ADDRESS": "Address",
-			"ALIAS": "Alias",
-			"EMPTY": "Contact list is empty",
-			"NAME": "Name",
-			"NOTES": "Notes"
+			"ADDRESS": "Διεύθυνση",
+			"ALIAS": "ψευδώνυμο",
+			"EMPTY": "Η λίστα επαφών είναι κενή",
+			"NAME": "Ονομα",
+			"NOTES": "Σημειώσεις"
 		},
-		"TITLE": "Contact list"
+		"TITLE": "Λίστα επαφών"
 	},
 	"CONTEXT_MENU": {
-		"COPY": "copy",
-		"PASTE": "paste",
-		"SELECT": "select all"
+		"COPY": "αντίγραφο",
+		"PASTE": "Επικόλληση",
+		"SELECT": "Επιλογή όλων"
 	},
 	"CONTRACTS": {
-		"AMOUNT": "Amount",
-		"COMMENTS": "Comments",
-		"CONTRACTS": "Contracts",
-		"DATE": "Date",
-		"EMPTY": "No active contracts",
-		"LISTING_BUTTON": "Create listing",
-		"PURCHASE": "Purchase",
-		"PURCHASE_BUTTON": "New Purchase",
-		"SELL": "Sell",
-		"STATUS": "Status",
+		"AMOUNT": "Ποσό",
+		"COMMENTS": "Σχόλια",
+		"CONTRACTS": "Συμβάσεις",
+		"DATE": "ημερομηνία",
+		"EMPTY": "Δεν υπάρχουν ενεργά συμβόλαια",
+		"LISTING_BUTTON": "Δημιουργία καταχώρισης",
+		"PURCHASE": "Αγορά",
+		"PURCHASE_BUTTON": "Νέα αγορά",
+		"SELL": "Πουλώ",
+		"STATUS": "Κατάσταση",
 		"STATUS_MESSAGES": {
 			"BUYER": {
-				"ACCEPTED": "Seller accepted your contract proposal",
-				"BEING_CANCELLED": "Cancellation in progress",
-				"CANCELLED": "Contract canceled",
-				"COMPLETED": "Contract completed",
-				"EXPIRED": "The contract proposal has expired",
-				"IGNORED": "Seller ignored your contract proposal",
-				"IGNORED_CANCEL": "The seller ignored your proposal to cancel the contract",
-				"NOT_RECEIVED": "Delivery failed",
-				"NULLIFIED": "All deposits burned",
-				"WAIT": "Waiting for deposits confirmation",
-				"WAITING": "Waiting for response",
-				"WAITING_CANCEL": "Waiting for contract cancellation",
-				"WAITING_SELLER": "Waiting for delivery"
+				"ACCEPTED": "Ο πωλητής αποδέχτηκε την πρόταση συμβολαίου σας",
+				"BEING_CANCELLED": "Ακύρωση σε εξέλιξη",
+				"CANCELLED": "Το συμβόλαιο ακυρώθηκε",
+				"COMPLETED": "Ολοκληρώθηκε η σύμβαση",
+				"EXPIRED": "Η πρόταση σύμβασης έχει λήξει",
+				"IGNORED": "Ο πωλητής αγνόησε την πρόταση συμβολαίου σας",
+				"IGNORED_CANCEL": "Ο πωλητής αγνόησε την πρότασή σας για ακύρωση της σύμβασης",
+				"NOT_RECEIVED": "Η παράδοση απέτυχε",
+				"NULLIFIED": "Όλες οι καταθέσεις κάηκαν",
+				"WAIT": "Αναμονή για επιβεβαίωση καταθέσεων",
+				"WAITING": "Αναμένω απάντηση",
+				"WAITING_CANCEL": "Αναμονή για ακύρωση συμβολαίου",
+				"WAITING_SELLER": "Αναμονή για παράδοση"
 			},
 			"SELLER": {
-				"ACCEPTED": "Contract started",
-				"BEING_CANCELLED": "Cancellation in progress",
-				"CANCELLED": "Contract canceled",
-				"COMPLETED": "Contract completed",
-				"EXPIRED": "Contract proposal has expired",
-				"IGNORED": "You ignored contract proposal",
-				"IGNORED_CANCEL": "You ignored cancellation proposal",
-				"NEW_CONTRACT": "New contract proposal",
-				"NOT_RECEIVED": "Delivery failed",
-				"NULLIFIED": "All deposits burned",
-				"PROPOSAL_CANCEL": "New proposal to cancel contract and return deposits",
-				"WAIT": "Waiting for contract confirmation",
-				"WAITING_BUYER": "Waiting for delivery"
+				"ACCEPTED": "",
+				"BEING_CANCELLED": "Ακύρωση σε εξέλιξη",
+				"CANCELLED": "Το συμβόλαιο ακυρώθηκε",
+				"COMPLETED": "Ολοκληρώθηκε η σύμβαση",
+				"EXPIRED": "Η πρόταση σύμβασης έχει λήξει",
+				"IGNORED": "Αγνοήσατε την πρόταση σύμβασης",
+				"IGNORED_CANCEL": "Αγνοήσατε την πρόταση ακύρωσης",
+				"NEW_CONTRACT": "Πρόταση νέας σύμβασης",
+				"NOT_RECEIVED": "Η παράδοση απέτυχε",
+				"NULLIFIED": "Όλες οι καταθέσεις κάηκαν",
+				"PROPOSAL_CANCEL": "Νέα πρόταση για ακύρωση συμβολαίου και επιστροφή καταθέσεων",
+				"WAIT": "Αναμονή για επιβεβαίωση συμβολαίου",
+				"WAITING_BUYER": "Αναμονή για παράδοση"
 			}
 		},
 		"TIME_LEFT": {
-			"REMAINING_LESS_ONE": "Less than an hour to respond",
-			"REMAINING_MANY": "{{time}} hours remain",
-			"REMAINING_MANY_ALT": "{{time}} hours remain",
-			"REMAINING_MANY_ALT_RESPONSE": "{{time}} hours remain",
-			"REMAINING_MANY_ALT_WAITING": "Waiting for {{time}} hours",
-			"REMAINING_MANY_RESPONSE": "{{time}} hours remain",
-			"REMAINING_MANY_WAITING": "Waiting for {{time}} hours",
-			"REMAINING_ONE": "{{time}} hour remains",
-			"REMAINING_ONE_RESPONSE": "{{time}} hour remains",
-			"REMAINING_ONE_WAITING": "Waiting for {{time}} hour"
+			"REMAINING_LESS_ONE": "Λιγότερο από μία ώρα για να απαντήσετε",
+			"REMAINING_MANY": " Απομένουν{{time}} ώρες",
+			"REMAINING_MANY_ALT": " Απομένουν{{time}} ώρες",
+			"REMAINING_MANY_ALT_RESPONSE": " Απομένουν{{time}} ώρες",
+			"REMAINING_MANY_ALT_WAITING": "Αναμονή για {{time}} ώρες",
+			"REMAINING_MANY_RESPONSE": " Απομένουν{{time}} ώρες",
+			"REMAINING_MANY_WAITING": "Αναμονή για {{time}} ώρες",
+			"REMAINING_ONE": " Απομένει{{time}} ώρα",
+			"REMAINING_ONE_RESPONSE": " Απομένει{{time}} ώρα",
+			"REMAINING_ONE_WAITING": "Αναμονή για {{time}} ώρα"
 		}
 	},
 	"CREATE_WALLET": {
-		"BUTTON_CREATE": "Create wallet",
-		"BUTTON_SELECT": "Select wallet location",
-		"CONFIRM": "Confirm wallet password",
-		"ERROR_CANNOT_SAVE_SYSTEM": "Wallet files cannot be saved to the OS partition",
-		"ERROR_CANNOT_SAVE_TOP": "Existing wallet files cannot be replaced or overwritten",
+		"BUTTON_CREATE": "Δημιουργία Πορτοφολιού",
+		"BUTTON_SELECT": "Επιλέξτε Τοποθεσία Πορτοφολιού",
+		"CONFIRM": "Επιβεβαίωση κωδικού πρόσβασης πορτοφολιού",
+		"ERROR_CANNOT_SAVE_SYSTEM": "Τα αρχεία του πορτοφολιού δεν μπορούν να αποθηκευτούν στο διαμέρισμα του λειτουργικού συστήματος",
+		"ERROR_CANNOT_SAVE_TOP": "Τα υπάρχοντα αρχεία πορτοφολιού δεν μπορούν να αντικατασταθούν ή να αντικατασταθούν",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required"
+			"CONFIRM_NOT_MATCH": "Επιβεβαιώστε ότι ο κωδικός δεν ταιριάζει",
+			"MAX_LENGTH": "Συμπληρώθηκε το μέγιστο μήκος ονόματος",
+			"NAME_DUPLICATE": "Το όνομα είναι διπλότυπο",
+			"NAME_REQUIRED": "Απαιτείται όνομα"
 		},
-		"NAME": "Wallet name",
-		"PASS": "Set wallet password",
-		"TITLE_SAVE": "Save the wallet file."
+		"NAME": "Όνομα πορτοφολιού",
+		"PASS": "Ορισμός κωδικού πρόσβασης πορτοφολιού",
+		"TITLE_SAVE": "Αποθηκεύστε το αρχείο του πορτοφολιού."
 	},
 	"EDIT_ALIAS": {
-		"BUTTON_EDIT": "Edit",
+		"BUTTON_EDIT": "Επεξεργασία",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "σχόλιο",
 			"PLACEHOLDER": "Εισαγάγετε το σχόλιό σας εδώ"
 		},
-		"COST": "Fee {{value}} {{currency}}",
+		"COST": "Χρέωση {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum comment length reached",
-			"NO_MONEY": "You do not have enough funds to change the comment to this alias"
+			"MAX_LENGTH": "Συμπληρώθηκε το μέγιστο μήκος σχολίου",
+			"NO_MONEY": "Δεν έχετε αρκετά χρήματα για να αλλάξετε το σχόλιο σε αυτό το ψευδώνυμο"
 		},
 		"NAME": {
-			"LABEL": "Alias",
-			"PLACEHOLDER": "@ Enter alias"
+			"LABEL": "ψευδώνυμο",
+			"PLACEHOLDER": "@ Εισαγάγετε το ψευδώνυμο"
 		}
 	},
 	"ERRORS": {
-		"ACCESS_DENIED": "Access denied",
-		"BAD_ARG": "Invalid argument",
-		"CORE_BUSY": "Internal error: core is busy",
-		"DAEMON_BUSY": "Internal error: daemon is busy",
-		"FILE_EXIST": "A file with that name already exists. Enter another name to save the file under",
-		"FILE_NOT_FOUND": "File not found",
-		"FILE_NOT_SAVED": "You cannot save a wallet file in this folder. Please choose another folder.",
-		"FILE_RESTORED": "The wallet file was corrupted. We have recovered the keys and the wallet from the blockchain",
-		"NOT_ENOUGH_MONEY": "Insufficient funds in account",
-		"NOT_ENOUGH_OUTPUTS_TO_MIX": "Mix-in number is too big for current blockchain state. There are not enough unspent outputs to mix with",
-		"NO_MONEY": "Not enough money",
-		"NO_MONEY_REMOVE_OFFER": "There is no fee for deleting an offer, but in order to protect the network against flood transactions you need to have at least {{fee}} {{currency}} in your wallet",
-		"TRANSACTION_ERROR": "Error. Transaction not completed.",
-		"TRANSACTION_IS_TO_BIG": "Transaction exceeds network limit, send required amount with multiple transactions",
-		"TRANSFER_ATTEMPT": "There is no connection to Lethean network",
-		"TX_TYPE_COIN_BASE": "Error. The payment was not completed.",
-		"TX_TYPE_NEW_ALIAS": "Error. Failed to register alias to safe",
-		"TX_TYPE_NEW_ALIAS_END": "Please try again.",
-		"TX_TYPE_NORMAL": "Error. The payment from the wallet",
-		"TX_TYPE_NORMAL_END": "was not completed.",
-		"TX_TYPE_NORMAL_TO": "to",
-		"TX_TYPE_UPDATE_ALIAS": "Error. Failed to change comment to alias in safe",
+		"ACCESS_DENIED": "ΔΕΝ ΕΠΙΤΡΕΠΕΤΑΙ Η ΠΡΟΣΒΑΣΗ",
+		"BAD_ARG": "Μη έγκυρο όρισμα",
+		"CORE_BUSY": "Εσωτερικό σφάλμα: ο πυρήνας είναι απασχολημένος",
+		"DAEMON_BUSY": "Εσωτερικό σφάλμα: ο δαίμονας είναι απασχολημένος",
+		"FILE_EXIST": "Ένα αρχείο με αυτό το όνομα υπάρχει ήδη. Εισαγάγετε ένα άλλο όνομα για να αποθηκεύσετε το αρχείο",
+		"FILE_NOT_FOUND": "Το αρχείο δε βρέθηκε",
+		"FILE_NOT_SAVED": "Δεν μπορείτε να αποθηκεύσετε ένα αρχείο πορτοφολιού σε αυτόν τον φάκελο. Επιλέξτε άλλο φάκελο.",
+		"FILE_RESTORED": "Το αρχείο του πορτοφολιού ήταν κατεστραμμένο. Έχουμε ανακτήσει τα κλειδιά και το πορτοφόλι από το blockchain",
+		"NOT_ENOUGH_MONEY": "Ανεπαρκή κεφάλαια στον λογαριασμό",
+		"NOT_ENOUGH_OUTPUTS_TO_MIX": "Ο αριθμός Mix-in είναι πολύ μεγάλος για την τρέχουσα κατάσταση blockchain. Δεν υπάρχουν αρκετά αδιάθετα αποτελέσματα για ανάμειξη",
+		"NO_MONEY": "Οχι αρκετά χρήματα",
+		"NO_MONEY_REMOVE_OFFER": "Δεν υπάρχει χρέωση για τη διαγραφή μιας προσφοράς, αλλά για να προστατεύσετε το δίκτυο από συναλλαγές πλημμύρας θα πρέπει να έχετε τουλάχιστον {{fee}} {{currency}} στο πορτοφόλι σας",
+		"TRANSACTION_ERROR": "Λάθος. Η συναλλαγή δεν ολοκληρώθηκε.",
+		"TRANSACTION_IS_TO_BIG": "Η συναλλαγή υπερβαίνει το όριο δικτύου, στείλτε το απαιτούμενο ποσό με πολλαπλές συναλλαγές",
+		"TRANSFER_ATTEMPT": "Δεν υπάρχει σύνδεση με το δίκτυο Lethean",
+		"TX_TYPE_COIN_BASE": "Λάθος. Η πληρωμή δεν ολοκληρώθηκε.",
+		"TX_TYPE_NEW_ALIAS": "Λάθος. Αποτυχία εγγραφής ψευδώνυμου στο safe",
+		"TX_TYPE_NEW_ALIAS_END": "ΠΑΡΑΚΑΛΩ προσπαθησε ξανα.",
+		"TX_TYPE_NORMAL": "Λάθος. Η πληρωμή από το πορτοφόλι",
+		"TX_TYPE_NORMAL_END": "δεν ολοκληρώθηκε.",
+		"TX_TYPE_NORMAL_TO": "Προς το",
+		"TX_TYPE_UPDATE_ALIAS": "Λάθος. Αποτυχία αλλαγής σχολίου σε ψευδώνυμο στο χρηματοκιβώτιο",
 		"WALLET_WATCH_ONLY_NOT_SUPPORTED": "Τα πορτοφόλια μόνο για ρολόι μπορούν να ανοίξουν μόνο με απλό πορτοφόλι",
-		"WALLET_WRONG_ID": "Invalid wallet ID",
-		"WRONG_PASSWORD": "Invalid password"
+		"WALLET_WRONG_ID": "Μη έγκυρο αναγνωριστικό πορτοφολιού",
+		"WRONG_PASSWORD": "Λανθασμένος κωδικός"
 	},
 	"EXPORT_HISTORY": {
 		"CANCEL": "Ματαίωση",
 		"EXPORT": "Εξαγωγή σε αρχείο...",
 		"EXPORT_BUTTON": "Ιστορικό εξαγωγής...",
 		"FILTER": "Φιλτράρισμα συναλλαγών POS",
-		"FORMAT": "Μορφή",
-		"FORMAT:": "",
+		"FORMAT:": "Μορφή",
 		"SAVED_FILE": "Επιλέξτε διαδρομή για να αποθηκεύσετε το ιστορικό συναλλαγών",
 		"TITLE": "Εξαγωγή ιστορικού πορτοφολιού",
 		"TOOLTIP": "Εξαγωγή ιστορικού συναλλαγών πορτοφολιού σε αρχείο"
 	},
 	"HISTORY": {
-		"ADDRESS": "Address",
-		"AMOUNT": "Amount",
-		"DATE": "Date",
+		"ADDRESS": "Διεύθυνση",
+		"AMOUNT": "Ποσό",
+		"DATE": "ημερομηνία",
 		"DETAILS": {
-			"COMMENT": "Comment",
-			"CONFIRMATION": "Confirmation",
-			"HEIGHT": "Height",
-			"ID": "Transaction ID",
-			"INPUTS": "Inputs",
-			"OUTPUTS": "Outputs",
-			"PAYMENT_ID": "Payment ID",
-			"SIZE": "Transaction size",
-			"SIZE_VALUE": "{{value}} bytes"
+			"COMMENT": "σχόλιο",
+			"CONFIRMATION": "Επιβεβαίωση",
+			"HEIGHT": "ύψος",
+			"ID": "Ταυτότητα συναλλαγής",
+			"INPUTS": "Εισροές",
+			"OUTPUTS": "Έξοδοι",
+			"PAYMENT_ID": "Ταυτότητα πληρωμής",
+			"SIZE": "Μέγεθος συναλλαγής",
+			"SIZE_VALUE": "{{value}} byte"
 		},
-		"FEE": "Fee",
-		"LOCK_TOOLTIP": "Locked till {{date}}",
-		"RECEIVED": "Received",
-		"SEND": "Sent",
-		"STATUS": "Status",
-		"STATUS_TOOLTIP": "Confirmations {{current}}/{{total}}",
+		"FEE": "Τέλη",
+		"LOCK_TOOLTIP": "Κλειδωμένο έως τις {{date}}",
+		"RECEIVED": "Λήψη",
+		"SEND": "Απεσταλμένα",
+		"STATUS": "Κατάσταση",
+		"STATUS_TOOLTIP": "Επιβεβαιώσεις {{current}}/{{total}}",
 		"TYPE_MESSAGES": {
-			"CANCEL_CONTRACT": "Cancel and return deposits",
-			"COMPLETE_BUYER": "Contract completed",
-			"COMPLETE_SELLER": "Contract completed",
-			"CREATE_ALIAS": "Fee for assigning alias",
-			"CREATE_CONTRACT": "Contract proposal",
-			"HIDDEN": "hidden",
-			"NULLIFY_CONTRACT": "Burn deposits",
-			"PLEDGE_CONTRACT": "Contract deposit",
-			"POS_REWARD": "POS reward",
-			"POW_REWARD": "POW reward",
-			"PROPOSAL_CANCEL_CONTRACT": "Cancellation request",
-			"UNDEFINED": "Undefined",
-			"UPDATE_ALIAS": "Fee for editing alias"
+			"CANCEL_CONTRACT": "Ακύρωση και επιστροφή καταθέσεων",
+			"COMPLETE_BUYER": "Ολοκληρώθηκε η σύμβαση",
+			"COMPLETE_SELLER": "Ολοκληρώθηκε η σύμβαση",
+			"CREATE_ALIAS": "Τέλος για την εκχώρηση ψευδωνύμου",
+			"CREATE_CONTRACT": "Πρόταση σύμβασης",
+			"HIDDEN": "Κρυμμένος",
+			"NULLIFY_CONTRACT": "Καύση καταθέσεων",
+			"PLEDGE_CONTRACT": "Κατάθεση συμβολαίου",
+			"POS_REWARD": "επιβράβευση POS",
+			"POW_REWARD": "Επιβράβευση POW",
+			"PROPOSAL_CANCEL_CONTRACT": "Αίτημα ακύρωσης",
+			"UNDEFINED": "Απροσδιόριστος",
+			"UPDATE_ALIAS": "Χρέωση για την επεξεργασία ψευδωνύμου"
 		}
 	},
 	"LOGIN": {
-		"BUTTON_NEXT": "Next",
-		"BUTTON_RESET": "Reset",
-		"BUTTON_SKIP": "Skip",
+		"BUTTON_NEXT": "Επόμενο",
+		"BUTTON_RESET": "Επαναφορά",
+		"BUTTON_SKIP": "Παραλείπω",
 		"FORM_ERRORS": {
-			"CONFIRM_REQUIRED": "Confirmation is required",
+			"CONFIRM_REQUIRED": "Απαιτείται επιβεβαίωση",
 			"INVALID_PASS": "Μη έγκυρος κωδικός πρόσβασης, δοκιμάστε ξανά",
-			"MISMATCH": "Mismatch",
-			"PASS_REQUIRED": "Password is required"
+			"MISMATCH": "Αναντιστοιχία",
+			"PASS_REQUIRED": "Απαιτείται κωδικός"
 		},
-		"INCORRECT_PASSWORD": "Invalid password",
-		"MASTER_PASS": "Master password",
-		"SETUP_CONFIRM_PASS": "Confirm the password",
-		"SETUP_MASTER_PASS": "Setup master password"
+		"INCORRECT_PASSWORD": "Λανθασμένος κωδικός",
+		"MASTER_PASS": "Κύριος κωδικός πρόσβασης",
+		"SETUP_CONFIRM_PASS": "Επιβεβαιώστε τον κωδικό πρόσβασης",
+		"SETUP_MASTER_PASS": "Ρύθμιση κύριου κωδικού πρόσβασης"
 	},
 	"MAIN": {
-		"BUTTON_NEW_WALLET": "Create new wallet",
-		"BUTTON_OPEN_WALLET": "Open existing wallet",
-		"BUTTON_RESTORE_BACKUP": "Restore from backup",
-		"CHOOSE_PATH": "Please choose a path",
-		"HELP": "How to create wallet?",
-		"TITLE": "Create or open the wallet to start using Lethean"
+		"BUTTON_NEW_WALLET": "Δημιουργία νέου Πορτοφολιού",
+		"BUTTON_OPEN_WALLET": "Ανοίξτε το υπάρχον πορτοφόλι",
+		"BUTTON_RESTORE_BACKUP": "Επαναφορά από αντίγραφο ασφαλείας",
+		"CHOOSE_PATH": "Επιλέξτε μια διαδρομή",
+		"HELP": "Πώς να δημιουργήσετε Πορτοφόλι;",
+		"TITLE": "Δημιουργήστε ή ανοίξτε το πορτοφόλι για να αρχίσετε να χρησιμοποιείτε το Lethean"
 	},
 	"MESSAGES": {
-		"ADDRESS": "Address",
-		"MESSAGE": "Message",
-		"SEND_BUTTON": "Send",
-		"SEND_PLACEHOLDER": "Type a message..."
+		"ADDRESS": "Διεύθυνση",
+		"MESSAGE": "Μήνυμα",
+		"SEND_BUTTON": "Στείλετε",
+		"SEND_PLACEHOLDER": "Πληκτρολογήστε ένα μήνυμα ..."
 	},
 	"MODALS": {
-		"ADD_TOKEN": "Προσθήκη διακριτικού",
 		"CANCEL": "Ματαίωση",
-		"ERROR": "Error",
-		"INFO": "Information",
-		"OK": "OK",
-		"SUCCESS": "Success"
+		"ERROR": "Λάθος",
+		"INFO": "πληροφορίες",
+		"OK": "Εντάξει",
+		"SUCCESS": "επιτυχία"
 	},
 	"OPEN_WALLET": {
-		"BUTTON": "Open wallet",
-		"FILE_NOT_FOUND1": "Wallet file not found",
-		"FILE_NOT_FOUND2": "<br/><br/> It might have been renamed or moved. <br/> To open it, use the \"Open wallet\" button.",
+		"BUTTON": "Ανοίξτε το Πορτοφόλι",
+		"FILE_NOT_FOUND1": "Το αρχείο του πορτοφολιού δεν βρέθηκε",
+		"FILE_NOT_FOUND2": "<br/><br/> Μπορεί να έχει μετονομαστεί ή μετακινηθεί. <br/> Για να το ανοίξετε, χρησιμοποιήστε το κουμπί \"Άνοιγμα πορτοφολιού\".",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required"
+			"MAX_LENGTH": "Συμπληρώθηκε το μέγιστο μήκος ονόματος",
+			"NAME_DUPLICATE": "Το όνομα είναι διπλότυπο",
+			"NAME_REQUIRED": "Απαιτείται όνομα"
 		},
 		"MODAL": {
-			"LABEL": "Password to this wallet",
-			"NOT_FOUND": "Not found",
-			"OPEN": "Open wallet",
-			"SKIP": "Skip",
-			"TITLE": "Type wallet password"
+			"LABEL": "Κωδικός πρόσβασης σε αυτό το πορτοφόλι",
+			"NOT_FOUND": "Δεν βρέθηκε",
+			"OPEN": "Ανοίξτε το Πορτοφόλι",
+			"SKIP": "Παραλείπω",
+			"TITLE": "Πληκτρολογήστε τον κωδικό πρόσβασης πορτοφολιού"
 		},
-		"NAME": "Wallet name",
-		"PASS": "Wallet password",
-		"WITH_ADDRESS_ALREADY_OPEN": "A wallet with this address is already open"
+		"NAME": "Όνομα πορτοφολιού",
+		"PASS": "Κωδικός πρόσβασης πορτοφολιού",
+		"WITH_ADDRESS_ALREADY_OPEN": "Ένα πορτοφόλι με αυτήν τη διεύθυνση είναι ήδη ανοιχτό"
 	},
 	"PLACEHOLDERS": {
 		"ADRESS_PLACEHOLDER": "Εισαγάγετε τη διεύθυνση εδώ",
@@ -379,7 +352,6 @@
 		"NAME_PLACEHOLDER": "Εισαγάγετε ένα όνομα εδώ",
 		"NOTES_PLACEHOLDER": "Εισαγάγετε μια σημείωση εδώ",
 		"PASSWORD_PLACEHOLDER": "Εισαγάγετε έναν κωδικό πρόσβασης εδώ",
-		"PASS_PLACEHOLDER": "Εισαγάγετε έναν κύριο κωδικό πρόσβασης εδώ",
 		"PLACEHOLDER_CONFIRM": "Επιβεβαιώστε τον νέο κωδικό πρόσβασης εδώ",
 		"PLACEHOLDER_NEW": "Εισαγάγετε εδώ νέο κωδικό πρόσβασης",
 		"PLACEHOLDER_OLD": "Εισαγάγετε τον τρέχοντα κωδικό πρόσβασης εδώ",
@@ -392,164 +364,163 @@
 		"WALLET_NAME_PLACEHOLDER": "Εισαγάγετε ένα όνομα Πορτοφολιού εδώ"
 	},
 	"PROGRESS": {
-		"ADD_WALLET": "Add wallet",
-		"CREATE_WALLET": "Create new wallet",
-		"RESTORE_WALLET": "Restore from backup",
-		"SELECT_LOCATION": "Select wallet location"
+		"ADD_WALLET": "Προσθήκη Πορτοφολιού",
+		"CREATE_WALLET": "Δημιουργία νέου Πορτοφολιού",
+		"RESTORE_WALLET": "Επαναφορά από αντίγραφο ασφαλείας",
+		"SELECT_LOCATION": "Επιλέξτε Τοποθεσία Πορτοφολιού"
 	},
 	"PURCHASE": {
-		"ACCEPT_STATE_WAIT_BIG": "Contract started",
-		"AMOUNT": "Amount",
-		"BURN_PROPOSAL": "Deposits burned",
-		"BUTTON_CANCEL_BUYER": "Cancel and return deposits",
-		"BUTTON_CANCEL_SELLER": "Confirm and return deposits",
-		"BUTTON_IGNORE": "Ignore and hide offer",
-		"BUTTON_MAKE_PLEDGE": "Accept and make deposit",
-		"BUTTON_NOT_CANCEL": "Ignore request",
-		"BUTTON_NULLIFY": "Terminate and burn deposits",
-		"BUTTON_NULLIFY_SHORT": "Burn",
-		"BUTTON_RECEIVED": "Complete and release deposits",
-		"BUYER_DEPOSIT": "Buyer deposit",
-		"CANCEL": "Cancel",
-		"COMMENT": "Comment",
-		"DEALS_CANCELED_WAIT": "Cancellation in progress",
-		"DESCRIPTION": "Description",
-		"DETAILS": "Additional details",
-		"FEE": "Fee",
+		"ACCEPT_STATE_WAIT_BIG": "Το συμβόλαιο ξεκίνησε",
+		"AMOUNT": "Ποσό",
+		"BURN_PROPOSAL": "Οι καταθέσεις κάηκαν",
+		"BUTTON_CANCEL_BUYER": "Ακύρωση και επιστροφή καταθέσεων",
+		"BUTTON_CANCEL_SELLER": "Επιβεβαίωση και επιστροφή καταθέσεων",
+		"BUTTON_IGNORE": "Αγνοήστε και αποκρύψτε την προσφορά",
+		"BUTTON_MAKE_PLEDGE": "Αποδεχτείτε και κάντε κατάθεση",
+		"BUTTON_NOT_CANCEL": "Παράβλεψη αιτήματος",
+		"BUTTON_NULLIFY": "Τερματισμός και καύση καταθέσεων",
+		"BUTTON_NULLIFY_SHORT": "Εγκαυμα",
+		"BUTTON_RECEIVED": "Συμπληρώστε και αποδεσμεύστε τις καταθέσεις",
+		"BUYER_DEPOSIT": "Κατάθεση αγοραστή",
+		"CANCEL": "Ματαίωση",
+		"COMMENT": "σχόλιο",
+		"DEALS_CANCELED_WAIT": "Ακύρωση σε εξέλιξη",
+		"DESCRIPTION": "Περιγραφή",
+		"DETAILS": "Επιπλέον Λεπτομέρειες",
+		"FEE": "Τέλη",
 		"FORM_ERRORS": {
-			"ALIAS_NOT_VALID": "Invalid alias",
-			"AMOUNT_REQUIRED": "Amount required",
-			"AMOUNT_ZERO": "Amount cannot be zero",
-			"COMMENT_MAXIMUM": "Maximum field length reached",
-			"DESC_MAXIMUM": "Maximum field length reached",
-			"DESC_REQUIRED": "Description required",
-			"SELLER_DEPOSIT_REQUIRED": "Seller deposit required",
-			"SELLER_NOT_VALID": "Invalid address",
-			"SELLER_REQUIRED": "Address required",
-			"SELLER_SAME": "Use separate account",
-			"YOUR_DEPOSIT_REQUIRED": "Deposit required"
+			"ALIAS_NOT_VALID": "Μη έγκυρο ψευδώνυμο",
+			"AMOUNT_REQUIRED": "Απαιτούμενο ποσό",
+			"AMOUNT_ZERO": "Το ποσό δεν μπορεί να είναι μηδέν",
+			"COMMENT_MAXIMUM": "Επιτεύχθηκε το μέγιστο μήκος πεδίου",
+			"DESC_MAXIMUM": "Επιτεύχθηκε το μέγιστο μήκος πεδίου",
+			"DESC_REQUIRED": "Απαιτείται περιγραφή",
+			"SELLER_DEPOSIT_REQUIRED": "Απαιτείται κατάθεση πωλητή",
+			"SELLER_NOT_VALID": "Μη έγκυρη διεύθυνση",
+			"SELLER_REQUIRED": "Απαιτείται διεύθυνση",
+			"SELLER_SAME": "Χρησιμοποιήστε ξεχωριστό λογαριασμό",
+			"YOUR_DEPOSIT_REQUIRED": "Απαιτείται προκαταβολή"
 		},
-		"HOUR": "hour",
-		"HOURS": "hours",
-		"IGNORED_ACCEPT": "Contract proposal ignored",
-		"IGNORED_CANCEL": "Contract cancellation proposal ignored",
-		"NEED_MONEY": "Insufficient funds",
-		"NULLIFY_QUESTION": "Are you sure you want to burn both deposits?",
-		"PAYMENT": "Payment ID",
-		"PROGRESS_COMPLETE": "Completed",
-		"PROGRESS_NEW": "New purchase",
-		"PROGRESS_RECEIVE": "Reply received",
-		"PROGRESS_WAIT": "Awaiting reply",
-		"SAME_AMOUNT": "Same amount",
-		"SELLER": "Seller",
-		"SELLER_DEPOSIT": "Seller deposit",
-		"SEND_BUTTON": "Send",
-		"SEND_CANCEL_PROPOSAL": "Cancellation request sent",
+		"HOUR": "ώρα",
+		"HOURS": "Ώρες",
+		"IGNORED_ACCEPT": "Η πρόταση σύμβασης αγνοήθηκε",
+		"IGNORED_CANCEL": "Η πρόταση ακύρωσης σύμβασης αγνοήθηκε",
+		"NEED_MONEY": "ΑΝΕΠΑΡΚΕΙΣ ΠΟΡΟΙ",
+		"NULLIFY_QUESTION": "Είστε βέβαιοι ότι θέλετε να κάψετε και τις δύο καταθέσεις;",
+		"PAYMENT": "Ταυτότητα πληρωμής",
+		"PROGRESS_COMPLETE": "ΟΛΟΚΛΗΡΩΘΗΚΕ ΤΟ",
+		"PROGRESS_NEW": "Νέα αγορά",
+		"PROGRESS_RECEIVE": "Η απάντηση ελήφθη",
+		"PROGRESS_WAIT": "Εν αναμονή απάντησης",
+		"SAME_AMOUNT": "Ιδιο ποσό",
+		"SELLER": "Πωλητής",
+		"SELLER_DEPOSIT": "Κατάθεση πωλητή",
+		"SEND_BUTTON": "Στείλετε",
+		"SEND_CANCEL_PROPOSAL": "Το αίτημα ακύρωσης στάλθηκε",
 		"STATUS_MESSAGES": {
-			"BEING_CANCELLED": "Cancellation in progress",
-			"CANCELLED": "Contract canceled",
-			"COMPLETED": "Contract completed",
-			"EXPIRED": "Contract proposal expired",
-			"IGNORED_BUYER": "Contract proposal ignored",
-			"IGNORED_CANCEL_BUYER": "Contract cancellation proposal ignored",
-			"IGNORED_CANCEL_SELLER": "The seller ignored your proposal to cancel the contract",
-			"IGNORED_SELLER": "The seller ignored your contract proposal",
-			"NEW_PURCHASE": "New purchase",
-			"NOT_RECEIVED": "Delivery failed",
-			"NULLIFIED": "All deposits burned",
-			"PROPOSAL_CANCEL_BUYER": "Cancellation request received",
-			"PROPOSAL_CANCEL_SELLER": "Cancellation request sent",
-			"WAITING_BUYER": "Contract proposal received",
-			"WAITING_CONFIRMATION": "Waiting for deposits confirmation",
-			"WAITING_DELIVERY": "Waiting for delivery",
-			"WAITING_SELLER": "Waiting for response"
+			"BEING_CANCELLED": "Ακύρωση σε εξέλιξη",
+			"CANCELLED": "Το συμβόλαιο ακυρώθηκε",
+			"COMPLETED": "Ολοκληρώθηκε η σύμβαση",
+			"EXPIRED": "Η πρόταση σύμβασης έληξε",
+			"IGNORED_BUYER": "Η πρόταση σύμβασης αγνοήθηκε",
+			"IGNORED_CANCEL_BUYER": "Η πρόταση ακύρωσης σύμβασης αγνοήθηκε",
+			"IGNORED_CANCEL_SELLER": "Ο πωλητής αγνόησε την πρότασή σας για ακύρωση της σύμβασης",
+			"IGNORED_SELLER": "Ο πωλητής αγνόησε την πρόταση συμβολαίου σας",
+			"NEW_PURCHASE": "Νέα αγορά",
+			"NOT_RECEIVED": "Η παράδοση απέτυχε",
+			"NULLIFIED": "Όλες οι καταθέσεις κάηκαν",
+			"PROPOSAL_CANCEL_BUYER": "Λήφθηκε αίτημα ακύρωσης",
+			"PROPOSAL_CANCEL_SELLER": "Το αίτημα ακύρωσης στάλθηκε",
+			"WAITING_BUYER": "Λήψη πρότασης σύμβασης",
+			"WAITING_CONFIRMATION": "Αναμονή για επιβεβαίωση καταθέσεων",
+			"WAITING_DELIVERY": "Αναμονή για παράδοση",
+			"WAITING_SELLER": "Αναμένω απάντηση"
 		},
-		"SUCCESS_FINISH_PROPOSAL": "Contract completed",
-		"WAITING_TIME": "Response time",
-		"WAITING_TIME_QUESTION": "Are you sure you want to cancel the contract?",
-		"YOUR_DEPOSIT": "Your deposit"
+		"SUCCESS_FINISH_PROPOSAL": "Ολοκληρώθηκε η σύμβαση",
+		"WAITING_TIME": "Χρόνος απόκρισης",
+		"WAITING_TIME_QUESTION": "Είστε βέβαιοι ότι θέλετε να ακυρώσετε το συμβόλαιο;",
+		"YOUR_DEPOSIT": "Η κατάθεσή σας"
 	},
 	"RESTORE_WALLET": {
-		"BUTTON_CREATE": "Create wallet",
-		"BUTTON_SELECT": "Select wallet location",
-		"CHOOSE_PATH": "Please choose a path",
-		"CONFIRM": "Confirm wallet password",
+		"BUTTON_CREATE": "Δημιουργία Πορτοφολιού",
+		"BUTTON_SELECT": "Επιλέξτε Τοποθεσία Πορτοφολιού",
+		"CHOOSE_PATH": "Επιλέξτε μια διαδρομή",
+		"CONFIRM": "Επιβεβαίωση κωδικού πρόσβασης πορτοφολιού",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
+			"CONFIRM_NOT_MATCH": "Επιβεβαιώστε ότι ο κωδικός δεν ταιριάζει",
 			"INCORRECT_PASSWORD": "Λάθος κωδικός",
-			"KEY_NOT_VALID": "Key not valid",
-			"KEY_REQUIRED": "Key is required",
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required"
+			"KEY_NOT_VALID": "Το κλειδί δεν είναι έγκυρο",
+			"KEY_REQUIRED": "Απαιτείται κλειδί",
+			"MAX_LENGTH": "Συμπληρώθηκε το μέγιστο μήκος ονόματος",
+			"NAME_DUPLICATE": "Το όνομα είναι διπλότυπο",
+			"NAME_REQUIRED": "Απαιτείται όνομα"
 		},
-		"LABEL_NAME": "Wallet name",
-		"LABEL_PHRASE_KEY": "Seed phrase / tracking seed",
-		"NOT_CORRECT_FILE_OR_PASSWORD": "Invalid wallet file or password does not match",
+		"LABEL_NAME": "Όνομα πορτοφολιού",
+		"LABEL_PHRASE_KEY": "Φράση σπόρων / σπόρος παρακολούθησης",
+		"NOT_CORRECT_FILE_OR_PASSWORD": "Το μη έγκυρο αρχείο πορτοφολιού ή ο κωδικός πρόσβασης δεν ταιριάζει",
 		"OK": "Εντάξει",
-		"PASS": "Wallet password",
+		"PASS": "Κωδικός πρόσβασης πορτοφολιού",
 		"SEED_PASSWORD": "Κωδικός σποράς"
 	},
 	"SEED_PHRASE": {
 		"BUTTON_COPIED": "Αντιγράφηκε",
-		"BUTTON_COPY": "Copy",
-		"BUTTON_CREATE_ACCOUNT": "Create wallet",
-		"TITLE": "Make sure to keep your seed phrase in a safe place. If you forget your seed phrase you will not be able to recover your wallet."
+		"BUTTON_COPY": "αντίγραφο",
+		"BUTTON_CREATE_ACCOUNT": "Δημιουργία Πορτοφολιού",
+		"TITLE": "Φροντίστε να φυλάξετε τη φράση σας σε ασφαλές μέρος. Εάν ξεχάσετε τη φράση αρχική σας, δεν θα μπορείτε να ανακτήσετε το πορτοφόλι σας."
 	},
 	"SEND": {
-		"ADDRESS": "Address",
-		"AMOUNT": "Amount",
-		"BUTTON": "Send",
-		"COMMENT": "Comment",
-		"DETAILS": "Additional details",
-		"FEE": "Fee",
+		"ADDRESS": "Διεύθυνση",
+		"AMOUNT": "Ποσό",
+		"BUTTON": "Στείλετε",
+		"COMMENT": "σχόλιο",
+		"DETAILS": "Επιπλέον Λεπτομέρειες",
+		"FEE": "Τέλη",
 		"FORM_ERRORS": {
-			"ADDRESS_NOT_VALID": "Address not valid",
-			"ADDRESS_REQUIRED": "Address is required",
-			"ALIAS_NOT_VALID": "Alias not valid",
-			"AMOUNT_REQUIRED": "Amount is required",
-			"AMOUNT_ZERO": "Amount is zero",
-			"FEE_MINIMUM": "Minimum fee: {{fee}}",
-			"FEE_REQUIRED": "Fee is required",
+			"ADDRESS_NOT_VALID": "Η διεύθυνση δεν είναι έγκυρη",
+			"ADDRESS_REQUIRED": "Απαιτείται διεύθυνση",
+			"ALIAS_NOT_VALID": "Το ψευδώνυμο δεν ισχύει",
+			"AMOUNT_REQUIRED": "Απαιτείται ποσό",
+			"AMOUNT_ZERO": "Το ποσό είναι μηδέν",
+			"FEE_MINIMUM": "Ελάχιστη χρέωση: {{fee}}",
+			"FEE_REQUIRED": "Απαιτείται χρέωση",
 			"GREAT_THAN_UNWRAPPED_COINS": "Το ποσό είναι μεγαλύτερο από τα διαθέσιμα κουπόνια ERC20",
 			"LESS_THAN_ZANO_NEEDED": "Πολύ μικρό ποσό για να καλύψει τη χρέωση ERC20",
-			"MAX_LENGTH": "Maximum comment length reached",
+			"MAX_LENGTH": "Συμπληρώθηκε το μέγιστο μήκος σχολίου",
 			"WRAP_INFO_NULL": "απέτυχε να ζητήσει την κατάσταση αναδίπλωσης"
 		},
-		"HIDE": "Hide your wallet address from recipient",
+		"HIDE": "Απόκρυψη της διεύθυνσης του πορτοφολιού σας από τον παραλήπτη",
 		"MIXIN": "Mixin",
-		"SUCCESS_SENT": "Transaction sent",
+		"SUCCESS_SENT": "Η συναλλαγή εστάλη",
 		"WRAP": {
 			"ESTIMATE": "Εκτιμήσεις Συναλλαγών",
 			"FEE": "Τέλος Ethereum Txn:",
-			"LTHN": "LTHN",
-			"MAIN_TEXT": "Αυτή η συναλλαγή θα δημιουργήσει το wLTHN (\"Wrapped Lethean\") το οποίο θα σταλεί στην καθορισμένη διεύθυνση στο δίκτυο Ethereum.",
+			"MAIN_TEXT": "Αυτή η συναλλαγή θα δημιουργήσει το wLethean (\"Wrapped Lethean\") το οποίο θα σταλεί στην καθορισμένη διεύθυνση στο δίκτυο Ethereum.",
 			"TITLE": "Κάλυμμα",
 			"WILL_RECEIVE": "Θα λάβετε:",
-			"ZANO": "",
-			"wZANO": "wLTHN"
+			"ZANO": "LTHN",
+			"wZANO": "wLethean"
 		}
 	},
 	"SEND_DETAILS_MODAL": {
-		"TITLE1": "Transaction",
-		"TITLE2": "Transaction details"
+		"TITLE1": "Συναλλαγή",
+		"TITLE2": "Λεπτομέρειες Συναλλαγής"
 	},
 	"SETTINGS": {
 		"APP_LOCK": {
-			"TIME1": "5 min",
-			"TIME2": "15 min",
-			"TIME3": "1 hour",
-			"TIME4": "Never",
-			"TITLE": "Lock app after:"
+			"TIME1": "5 λεπτά",
+			"TIME2": "15 λεπτά",
+			"TIME3": "1 ώρα",
+			"TIME4": "Πότε",
+			"TITLE": "Κλείδωμα εφαρμογής μετά:"
 		},
-		"APP_LOG_TITLE": "Log level:",
-		"DARK_THEME": "Dark theme",
+		"APP_LOG_TITLE": "Επίπεδο καταγραφής:",
+		"DARK_THEME": "Dark θέμα",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
-			"PASS_NOT_MATCH": "Old password not match",
-			"PASS_REQUIRED": "Password is required"
+			"CONFIRM_NOT_MATCH": "Επιβεβαιώστε ότι ο κωδικός δεν ταιριάζει",
+			"PASS_NOT_MATCH": "Λάθος κωδικός",
+			"PASS_REQUIRED": "Απαιτείται κωδικός"
 		},
-		"GRAY_THEME": "Grey theme",
+		"GRAY_THEME": "Γκρι θέμα",
 		"LANGUAGE": {
 			"DE": "Deutsch",
 			"EN": "Αγγλικά",
@@ -559,150 +530,144 @@
 			"PT": "Πορτογαλικά",
 			"TITLE": "γλώσσα"
 		},
-		"LAST_BUILD": "Current build: {{value}}",
+		"LAST_BUILD": "Τρέχουσα κατασκευή: {{value}}",
 		"MASTER_PASSWORD": {
-			"BUTTON": "Save",
-			"CONFIRM": "New password confirmation",
-			"NEW": "New password",
-			"OLD": "Old password",
-			"TITLE": "Update master password"
+			"BUTTON": "Αποθηκεύσετε",
+			"CONFIRM": "Επιβεβαίωση Κωδικού",
+			"NEW": "Νέος κωδικός πρόσβασης",
+			"OLD": "Ο τρέχων κωδικός πρόσβασης",
+			"TITLE": "Ενημέρωση κύριου κωδικού πρόσβασης"
 		},
 		"NOTIFICATIONS": "Ειδοποιήσεις",
 		"SCALE": {
-			"75": "75% scale",
-			"100": "100% scale",
-			"125": "125% scale",
-			"150": "150% scale",
+			"75": "Κλίμακα 75%.",
+			"100": "100% κλίμακα",
+			"125": "Κλίμακα 125%.",
+			"150": "Κλίμακα 150%.",
 			"TITLE": "Κλίμακα διεπαφής"
 		},
 		"SETTINGS_SAVED": "Αποθηκεύτηκε! Οι ρυθμίσεις ενημερώθηκαν",
-		"TITLE": "Settings",
+		"TITLE": "Ρυθμίσεις",
 		"USE_TOR_TO_RELAY_TRANSACTIONS": "Χρησιμοποιήστε το TOR για αναμετάδοση συναλλαγών",
-		"WHITE_THEME": "White theme"
+		"WHITE_THEME": "Λευκό θέμα"
 	},
 	"SIDEBAR": {
 		"ACCOUNT": {
-			"MESSAGES": "New offers/Messages",
-			"STAKING": "Staking",
-			"SYNCING": "Syncing wallet"
+			"MESSAGES": "Νέες Προσφορές/Μηνύματα",
+			"STAKING": "Ποντάρισμα",
+			"SYNCING": "Συγχρονισμός πορτοφολιού"
 		},
-		"ADD_NEW": "Add",
-		"CONTACTS": "Contacts",
+		"ADD_NEW": "Προσθήκη Πορτοφολιού",
+		"CONTACTS": "Επαφές",
 		"CONTACTS_TOOLTIP": "Η επιλογή Επαφές είναι διαθέσιμη μόνο με ενεργοποιημένο τον Κύριο κωδικό πρόσβασης",
 		"LOG_OUT": "Log out",
 		"LOG_OUT_TOOLTIP": "Η επιλογή αποσύνδεσης είναι διαθέσιμη μόνο με ενεργοποιημένο τον Κύριο κωδικό πρόσβασης",
-		"SETTINGS": "Settings",
+		"SETTINGS": "Ρυθμίσεις",
 		"SYNCHRONIZATION": {
-			"COMPLETE": "Completion",
+			"COMPLETE": "ΟΛΟΚΛΗΡΩΣΗ",
 			"DOWNLOADING": "Λήψη",
-			"ERROR": "System error",
-			"LOADING": "Loading blockchain data",
-			"MB": "mb",
-			"OFFLINE": "Offline",
+			"ERROR": "Σφάλμα συστήματος",
+			"LOADING": "Φόρτωση δεδομένων blockchain",
+			"MB": "",
+			"OFFLINE": "offline",
 			"ONLINE": "Online",
-			"SLASH": "/ /",
-			"SYNCING": "Syncing blockchain"
+			"SLASH": "",
+			"SYNCING": "Μπλοκ συγχρονισμού"
 		},
-		"TITLE": "Wallets",
+		"TITLE": "Πορτοφόλια",
 		"UPDATE": {
-			"CRITICAL": "Update available",
-			"CRITICAL_HINT": "Critical update!",
-			"CRITICAL_TOOLTIP": "<span class=\"critical-update\">Critical update available.</span><i class=\"icon\"></i><span>Update strongly recommended!</span>",
-			"IMPORTANT": "Update available",
-			"IMPORTANT_HINT": "Important update!",
-			"IMPORTANT_TOOLTIP": "<span class=\"important-update\">Get new update.</span><br><span>Important update!</span>",
-			"STANDARD": "Update available",
-			"STANDARD_TOOLTIP": "<span class=\"standard-update\">Get new update.</span><br><span>Update is recommended!</span>",
-			"TIME": "System time differs from network",
-			"TIME_TOOLTIP": "<span class=\"wrong-time\">Wrong system time!</span><br><span>Check and repair your system time.</span>"
+			"CRITICAL": "Υπάρχει διαθέσιμη ενημέρωση",
+			"CRITICAL_HINT": "Κρίσιμη ενημέρωση!",
+			"CRITICAL_TOOLTIP": "<span class=\"critical-update\">Διατίθεται κρίσιμη ενημέρωση.</span><i class=\"icon\"></i><span>Συνιστάται ανεπιφύλακτα η ενημέρωση!</span>",
+			"IMPORTANT": "Υπάρχει διαθέσιμη ενημέρωση",
+			"IMPORTANT_HINT": "Σημαντική ενημέρωση!",
+			"IMPORTANT_TOOLTIP": "<span class=\"important-update\">Λάβετε νέα ενημέρωση.</span><br><span>Σημαντική ενημέρωση!</span>",
+			"STANDARD": "Υπάρχει διαθέσιμη ενημέρωση",
+			"STANDARD_TOOLTIP": "<span class=\"standard-update\">Λάβετε νέα ενημέρωση.</span><br><span>Συνιστάται η ενημέρωση!</span>",
+			"TIME": "Η ώρα του συστήματος διαφέρει από το δίκτυο",
+			"TIME_TOOLTIP": "<span class=\"wrong-time\">Λάθος ώρα συστήματος!</span><br><span>Ελέγξτε και επιδιορθώστε την ώρα του συστήματός σας.</span>"
 		}
 	},
 	"STAKING": {
 		"GROUP": {
-			"DAY": "day",
-			"MONTH": "month",
-			"WEEK": "week"
+			"DAY": "Ημέρα",
+			"MONTH": "Μήνας",
+			"WEEK": "Εβδομάδα"
 		},
 		"PERIOD": {
-			"ALL": "All",
-			"MONTH1": "1 month",
-			"MONTH3": "3 month",
-			"MONTH6": "6 month",
-			"WEEK1": "1 week",
-			"WEEK2": "2 week",
-			"YEAR": "1 year"
+			"ALL": "Ολα",
+			"MONTH1": "1 μήνα",
+			"MONTH3": "3 μήνες",
+			"MONTH6": "6 μήνες",
+			"WEEK1": "1 εβδομάδα",
+			"WEEK2": "2 βδομάδες",
+			"YEAR": "1 χρόνος"
 		},
 		"SWITCH": {
-			"OFF": "OFF",
-			"ON": "ON"
+			"OFF": "μακριά από",
+			"ON": "Επί"
 		},
-		"TITLE": "Staking",
-		"TITLE_GROUP": "Group:",
-		"TITLE_PENDING": "Pending",
-		"TITLE_PERIOD": "Time period:",
-		"TITLE_TOTAL": "Total"
+		"TITLE": "Ποντάρισμα",
+		"TITLE_GROUP": "Ομάδα:",
+		"TITLE_PENDING": "εκκρεμής",
+		"TITLE_PERIOD": "Χρονική περίοδος:",
+		"TITLE_TOTAL": "Σύνολο"
 	},
 	"TOR_LIB_STATE": {
-		"STATE_CREATING_STREAM": "Creating stream",
-		"STATE_DOWNLOADING_CONSENSUS": "Downloading consensus",
-		"STATE_FAILED": "Failed created stream",
-		"STATE_INITIALIZING": "Initializing",
-		"STATE_MAKING_TUNNEL_A": "Building tunnel to A",
-		"STATE_MAKING_TUNNEL_B": "Building tunnel to B",
-		"STATE_SENDING": "Sending transaction",
-		"STATE_SEND_FAILED": "Sending failed",
-		"STATE_SENT_SUCCESS": "Successfully sent!",
-		"STATE_SUCCESS": "Successfully created stream"
+		"STATE_CREATING_STREAM": "Δημιουργία ροής",
+		"STATE_DOWNLOADING_CONSENSUS": "Λήψη συναίνεσης",
+		"STATE_FAILED": "Αποτυχία δημιουργίας ροής",
+		"STATE_INITIALIZING": "Αρχικοποίηση",
+		"STATE_MAKING_TUNNEL_A": "Κατασκευή σήραγγας προς Α",
+		"STATE_MAKING_TUNNEL_B": "Κατασκευή σήραγγας προς Β",
+		"STATE_SENDING": "Αποστολή συναλλαγής",
+		"STATE_SEND_FAILED": "Η αποστολή απέτυχε",
+		"STATE_SENT_SUCCESS": "Στάλθηκε με επιτυχία!",
+		"STATE_SUCCESS": "Η ροή δημιουργήθηκε με επιτυχία"
 	},
 	"TRANSFER_ALIAS": {
 		"ADDRESS": {
-			"LABEL": "Transfer to",
+			"LABEL": "Μεταφέρω σε",
 			"PLACEHOLDER": "Εισαγάγετε τη διεύθυνση εδώ"
 		},
-		"BUTTON_CANCEL": "Cancel",
-		"BUTTON_TRANSFER": "Transfer",
+		"BUTTON_CANCEL": "Ματαίωση",
+		"BUTTON_TRANSFER": "ΜΕΤΑΦΟΡΑ",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "σχόλιο",
 			"PLACEHOLDER": "Εισαγάγετε το σχόλιό σας εδώ"
 		},
-		"COST": "Transfer fee {{value}} {{currency}}",
+		"COST": "Χρέωση μεταφοράς {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"ALIAS_EXISTS": "This account already has an alias",
-			"NO_MONEY": "You do not have enough funds to transfer this alias",
-			"WRONG_ADDRESS": "No wallet with this account exists"
+			"ALIAS_EXISTS": "Αυτός ο λογαριασμός έχει ήδη ψευδώνυμο",
+			"NO_MONEY": "Δεν έχετε αρκετά χρήματα για να μεταφέρετε αυτό το ψευδώνυμο",
+			"WRONG_ADDRESS": "Δεν υπάρχει πορτοφόλι με αυτόν τον λογαριασμό"
 		},
 		"NAME": {
-			"LABEL": "Alias",
-			"PLACEHOLDER": "@ Enter alias"
+			"LABEL": "ψευδώνυμο",
+			"PLACEHOLDER": "@ Εισαγάγετε το ψευδώνυμο"
 		},
-		"REQUEST_SEND_REG": "The alias will be transferred within 10 minutes"
+		"REQUEST_SEND_REG": "Το ψευδώνυμο θα μεταφερθεί εντός 10 λεπτών"
 	},
 	"WALLET": {
-		"AVAILABLE_BALANCE": "Available <b>{{available}} {{currency}}<b/>",
+		"AVAILABLE_BALANCE": "Διαθέσιμο <b>{{available}} {{currency}}<b/>",
 		"CONFIRM": {
 			"MESSAGE": "Για να αποκτήσετε πρόσβαση σε αυτό, θα πρέπει να το προσθέσετε ξανά",
 			"TITLE": "Να αφαιρεθεί το πορτοφόλι από τη λίστα;"
 		},
-		"DETAILS": "Details",
-		"LOCK": "Lock",
-		"LOCKED_BALANCE": "Locked <b>{{locked}} {{currency}}<b/>",
-		"LOCKED_BALANCE_LINK": "What does that mean?",
-		"MODAL_ADD_CUSTOM_TOKEN": {
-			"FIELD_TITLE": "Αναγνωριστικό στοιχείου",
-			"TITLE": "Προσθήκη προσαρμοσμένου διακριτικού"
-		},
-		"REGISTER_ALIAS": "Register an alias",
+		"DETAILS": "Λεπτομέριες",
+		"LOCK": "κλειδαριά",
+		"LOCKED_BALANCE": "Κλειδωμένο <b>{{locked}} {{currency}}<b/>",
+		"LOCKED_BALANCE_LINK": "Τι σημαίνει αυτό?",
+		"REGISTER_ALIAS": "Καταχωρίστε ένα ψευδώνυμο",
 		"TABS": {
-			"ASSETS": "Assets",
-			"CONTRACTS": "Contracts",
-			"HISTORY": "History",
-			"MESSAGES": "Messages",
-			"RECEIVE": "Receive",
-			"SEND": "Send",
-			"STAKING": "Staking"
+			"CONTRACTS": "Συμβάσεις",
+			"HISTORY": "Ιστορία",
+			"MESSAGES": "Μηνύματα",
+			"RECEIVE": "Λαμβάνω",
+			"SEND": "Στείλετε",
+			"STAKING": "Ποντάρισμα"
 		},
 		"TOOLTIPS": {
-			"ADD_CUSTOM_TOKEN": "Προσθήκη προσαρμοσμένου διακριτικού",
 			"CLOSE": "Κλείστε το πορτοφόλι",
 			"EDIT_ALIAS": "Επεξεργασία ψευδώνυμου",
 			"SETTINGS": "Ρυθμίσεις",
@@ -710,9 +675,8 @@
 		}
 	},
 	"WALLET_DETAILS": {
-		"ADD_CUSTOM_TOKEN": "Προσθήκη προσαρμοσμένου διακριτικού",
-		"BUTTON_REMOVE": "Close wallet",
-		"BUTTON_SAVE": "Save",
+		"BUTTON_REMOVE": "Κλείστε το πορτοφόλι",
+		"BUTTON_SAVE": "Αποθηκεύσετε",
 		"CREATE_PASSWORD_SECURE": "Δημιουργήστε έναν κωδικό πρόσβασης για να ασφαλίσετε τον σπόρο σας",
 		"FORM": {
 			"CONFIRM_PASSWORD": "Επιβεβαίωση Κωδικού",
@@ -720,21 +684,27 @@
 			"SECURED_SEED_WILL_REQUIRE": "Το Secure seed θα απαιτήσει αυτόν τον κωδικό πρόσβασης για επαναφορά."
 		},
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required",
+			"MAX_LENGTH": "Συμπληρώθηκε το μέγιστο μήκος ονόματος",
+			"NAME_DUPLICATE": "Το όνομα είναι διπλότυπο",
+			"NAME_REQUIRED": "Απαιτείται όνομα",
 			"PASSWORDS_DONT_MATCH": "Οι κωδικοί πρόσβασης δεν ταιριάζουν"
 		},
 		"INFO": "πληροφορίες",
-		"LABEL_FILE_LOCATION": "Wallet file location",
-		"LABEL_NAME": "Wallet name",
-		"LABEL_SEED_PHRASE": "Seed phrase",
+		"LABEL_FILE_LOCATION": "Θέση αρχείου πορτοφολιού",
+		"LABEL_NAME": "Όνομα πορτοφολιού",
+		"LABEL_SEED_PHRASE": "Φράση σπόρων",
 		"REMEMBER_YOU_WILL_REQUIRE": "Το Secure Seed απαιτεί κωδικό πρόσβασης για επαναφορά.",
 		"RESYNC_WALLET": "Εκ νέου συγχρονισμός δεδομένων πορτοφολιού",
 		"RESYNC_WALLET_BUTTON": "Εκ νέου συγχρονισμός πορτοφολιού",
 		"SEED_IS_SECURED": "Ο σπόρος είναι ασφαλισμένος",
 		"SEED_IS_UNSECURED": "Ο σπόρος δεν είναι ασφαλισμένος",
-		"SEED_PHRASE_HINT": "Click to reveal the seed phrase",
+		"SEED_PHRASE_HINT": "Κάντε κλικ για να αποκαλύψετε τη φράση σποράς",
 		"WALLET_OPTIONS": "Επιλογές πορτοφολιού..."
+	},
+	"WORDS": {
+		"ACTIONS": {
+			"INSTALL": "Εγκαθιστώ",
+			"REMOVE": "Αφαιρώ"
+		}
 	}
 }

@@ -1,371 +1,344 @@
 {
-	"ASSETS": {
-		"DROP_DOWN_MENU": {
-			"ASSET_DETAILS": "Batebesonderhede",
-			"REMOVE_ASSET": "Verwyder bate"
-		},
-		"MODALS": {
-			"ASSET_DETAILS": {
-				"LABELS": {
-					"CURRENT_SUPPLY": "huidige aanbod",
-					"ID": "Bate-ID",
-					"MAX_SUPPLE": "Maksimum aanbod",
-					"NAME": "Batenaam",
-					"TICKER": "Tikker"
-				}
-			}
-		},
-		"TABLE": {
-			"LABELS": {
-				"BALANCE": "Saldo",
-				"NAME": "naam",
-				"PRICE": "prys",
-				"VALUE": "waarde"
-			}
-		}
-	},
 	"ASSIGN_ALIAS": {
-		"BUTTON_ASSIGN": "Assign",
+		"BUTTON_ASSIGN": "Toewys",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "kommentaar",
 			"PLACEHOLDER": "Voer jou kommentaar hier in",
-			"TOOLTIP": "The comment will be visible to anyone who wants to make a payment to your alias. You can provide details about your business, contacts, or include any text. Comments can be edited later."
+			"TOOLTIP": "Die opmerking sal sigbaar wees vir enigiemand wat 'n betaling aan jou alias wil maak. Jy kan besonderhede oor jou besigheid, kontakte verskaf of enige teks insluit. Opmerkings kan later geredigeer word."
 		},
-		"COST": "Alias fee {{value}} {{currency}}",
+		"COST": "Aliasfooi {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum comment length reached",
-			"NAME_EXISTS": "Alias name already exists",
-			"NAME_LENGTH": "The alias must be 6-25 characters long",
-			"NAME_REQUIRED": "Name is required",
-			"NAME_WRONG": "Invalid name: allowed symbols \"0-9\", \"a-z\", \"-\", \".\"",
-			"NO_MONEY": "You do not have enough funds to assign this alias"
+			"MAX_LENGTH": "Maksimum opmerkinglengte bereik",
+			"NAME_EXISTS": "Aliasnaam bestaan reeds",
+			"NAME_LENGTH": "Die aliasnaam moet 6-25 karakters lank wees",
+			"NAME_REQUIRED": "Naam word vereis",
+			"NAME_WRONG": "Ongeldige naam: toegelaat simbole \"0-9\", \"a-z\", \"-\", \".\"",
+			"NO_MONEY": "Jy het nie genoeg fondse om hierdie alias toe te ken nie"
 		},
 		"NAME": {
 			"LABEL": "Alias",
-			"PLACEHOLDER": " Enter alias",
-			"TOOLTIP": "An alias is a shortened form or your account. An alias can only include Latin letters, numbers and characters “.” and “-”. It must start with “@”."
+			"PLACEHOLDER": " Voer alias in",
+			"TOOLTIP": "'n Alias is 'n verkorte vorm of jou rekening. 'n Alias kan slegs Latynse letters, syfers en karakters \".\" en \"-\". Dit moet begin met \"@\"."
 		},
-		"ONE_ALIAS": "You can create only one alias per wallet",
-		"REQUEST_ADD_REG": "The alias will be assigned within 10 minutes"
+		"ONE_ALIAS": "Jy kan slegs een alias per beursie skep",
+		"REQUEST_ADD_REG": "Die alias sal binne 10 minute toegeken word"
 	},
 	"BACKEND_LOCALIZATION": {
-		"INCOME_TRANSFER_CONFIRMED": "Payment received",
-		"INCOME_TRANSFER_UNCONFIRMED": "Incoming payment (not confirmed)",
+		"INCOME_TRANSFER_CONFIRMED": "Betaling ontvang",
+		"INCOME_TRANSFER_UNCONFIRMED": "Inkomende betaling (nie bevestig nie)",
 		"IS_CONFIRMED": "",
-		"IS_MINIMIZE": "Lethean application is minimized to the system tray",
+		"IS_MINIMIZE": "Lethean toepassing word tot die system tray geminimaliseer",
 		"IS_RECEIVED": "",
-		"LOCKED": "Blocked",
-		"MINED": "Mined",
-		"QUIT": "Quit",
-		"RESTORE": "You can recover it by clicking or using the context menu",
-		"TRAY_MENU_MINIMIZE": "Minimize",
-		"TRAY_MENU_SHOW": "Resize"
+		"LOCKED": "Geblokkeer",
+		"MINED": "Ontgin",
+		"QUIT": "Hou op",
+		"RESTORE": "Jy kan dit herstel deur te klik of die konteks kieslys te gebruik",
+		"TRAY_MENU_MINIMIZE": "Minimaliseer",
+		"TRAY_MENU_SHOW": "Verander grootte"
 	},
 	"BREADCRUMBS": {
-		"ADD_WALLET": "Add wallet",
-		"ASSIGN_ALIAS": "Assign alias",
-		"CONTRACTS": "Contracts",
-		"CREATE_WALLET": "Create new wallet",
-		"EDIT_ALIAS": "Edit alias",
-		"NEW_PURCHASE": "New purchase",
-		"OLD_PURCHASE": "Purchase",
-		"OPEN_WALLET": "Open existing wallet",
-		"RESTORE_WALLET": "Restore from backup",
-		"SAVE_PHRASE": "Save your seed phrase",
-		"TRANSFER_ALIAS": "Transfer alias",
-		"WALLET_DETAILS": "Wallet details"
+		"ADD_WALLET": "Voeg beursie by",
+		"ASSIGN_ALIAS": "Ken alias toe",
+		"CONTRACTS": "Kontrakte",
+		"CREATE_WALLET": "Skep nuwe beursie",
+		"EDIT_ALIAS": "Wysig alias",
+		"NEW_PURCHASE": "Nuwe aankoop",
+		"OLD_PURCHASE": "aankoop",
+		"OPEN_WALLET": "Maak bestaande beursie oop",
+		"RESTORE_WALLET": "Herstel vanaf rugsteun",
+		"SAVE_PHRASE": "Stoor jou saadfrase",
+		"TRANSFER_ALIAS": "Oordrag alias",
+		"WALLET_DETAILS": "Beursiebesonderhede"
 	},
 	"COMMON": {
-		"BACK": "Go back"
+		"BACK": "Gaan terug"
 	},
 	"CONFIRM": {
-		"BUTTON_CANCEL": "Cancel",
-		"BUTTON_CONFIRM": "Send",
+		"BUTTON_CANCEL": "kanselleer",
+		"BUTTON_CONFIRM": "STUUR",
 		"MESSAGE": {
-			"COMMENT": "Comment",
-			"FROM": "From",
-			"SEND": "Send",
-			"TO": "To"
+			"COMMENT": "kommentaar",
+			"FROM": "van",
+			"SEND": "STUUR",
+			"TO": "om"
 		},
-		"TITLE": "Transaction"
+		"TITLE": "Transaksie"
 	},
 	"CONTACTS": {
-		"ADD": "Add/edit contact",
+		"ADD": "Voeg by/wysig kontak",
 		"ADD_CONTACT": "Voeg kontak by",
 		"BUTTON": {
-			"ADD": "Add contact",
-			"ADD_EDIT": "Add/Save",
-			"DELETE": "Delete",
-			"EDIT": "Edit",
-			"GO_TO_WALLET": "Go to wallet",
-			"IMPORT_EXPORT": "Import/export",
-			"SEND": "Send"
+			"ADD": "Voeg kontak by",
+			"ADD_EDIT": "Voeg by/Stoor",
+			"DELETE": "verwyder",
+			"EDIT": "wysig",
+			"GO_TO_WALLET": "Gaan na beursie",
+			"IMPORT_EXPORT": "Invoer uitvoer",
+			"SEND": "STUUR"
 		},
-		"COPY": "- Copy",
-		"ERROR_EMPTY_LIST": "Contact list is empty",
-		"ERROR_EXPORT": "Invalid file type. Save file as .csv",
-		"ERROR_IMPORT": "Error is occured while reading file!",
-		"ERROR_IMPORT_EMPTY": "File is empty",
-		"ERROR_TYPE_FILE": "Please import valid .csv file",
-		"EXPORT": "Export",
+		"COPY": "- Kopieer",
+		"ERROR_EMPTY_LIST": "Kontaklys is leeg",
+		"ERROR_EXPORT": "Ongeldige lêertipe. Stoor lêer as .csv",
+		"ERROR_IMPORT": "Fout het voorgekom tydens die lees van lêer!",
+		"ERROR_IMPORT_EMPTY": "Lêer is leeg",
+		"ERROR_TYPE_FILE": "Voer asseblief geldige .csv-lêer in",
+		"EXPORT": "uitvoer",
 		"FORM": {
-			"ADDRESS": "Address",
-			"NAME": "Name",
-			"NOTES": "Notes"
+			"ADDRESS": "adres",
+			"NAME": "naam",
+			"NOTES": "notas"
 		},
 		"FORM_ERRORS": {
-			"ADDRESS_DUBLICATED": "Address is dublicated",
-			"ADDRESS_NOT_VALID": "Address not valid",
-			"ADDRESS_REQUIRED": "Address is required",
-			"MAX_LENGTH": "Maximum notes length reached",
-			"NAME_DUBLICATED": "Name is dublicated",
-			"NAME_LENGTH": "The name must be 4-25 characters long",
-			"NAME_REQUIRED": "Name is required",
-			"SET_MASTER_PASSWORD": "Set master password"
+			"ADDRESS_DUBLICATED": "Adres is gedupliseer",
+			"ADDRESS_NOT_VALID": "Adres nie geldig nie",
+			"ADDRESS_REQUIRED": "Adres word vereis",
+			"MAX_LENGTH": "Maksimum notalengte bereik",
+			"NAME_DUBLICATED": "Naam is gedupliseer",
+			"NAME_LENGTH": "Die naam moet 4-25 karakters lank wees",
+			"NAME_REQUIRED": "Naam word vereis",
+			"SET_MASTER_PASSWORD": "Stel hoofwagwoord in"
 		},
-		"IMPORT": "Import",
-		"IMPORT_EXPORT": "Import or export contacts",
-		"OPEN_ADD_WALLET": "Open/Add wallet",
-		"SEND": "Send",
-		"SEND_FROM": "Send from",
-		"SEND_TO": "To",
-		"SUCCESS_EXPORT": "Contacts are exported",
-		"SUCCESS_IMPORT": "Contacts are imported",
-		"SUCCESS_SAVE": "Contact is edited",
-		"SUCCESS_SENT": "Contact added",
+		"IMPORT": "invoer",
+		"IMPORT_EXPORT": "Voer kontakte in of uitvoer",
+		"OPEN_ADD_WALLET": "Maak oop/voeg beursie by",
+		"SEND": "STUUR",
+		"SEND_FROM": "Stuur vanaf",
+		"SEND_TO": "om",
+		"SUCCESS_EXPORT": "Kontakte word uitgevoer",
+		"SUCCESS_IMPORT": "Kontakte word ingevoer",
+		"SUCCESS_SAVE": "Kontak is geredigeer",
+		"SUCCESS_SENT": "Kontak bygevoeg",
 		"TABLE": {
-			"ADDRESS": "Address",
+			"ADDRESS": "adres",
 			"ALIAS": "Alias",
-			"EMPTY": "Contact list is empty",
-			"NAME": "Name",
-			"NOTES": "Notes"
+			"EMPTY": "Kontaklys is leeg",
+			"NAME": "naam",
+			"NOTES": "notas"
 		},
-		"TITLE": "Contact list"
+		"TITLE": "Kontaklys"
 	},
 	"CONTEXT_MENU": {
-		"COPY": "copy",
-		"PASTE": "paste",
-		"SELECT": "select all"
+		"COPY": "Kopieer",
+		"PASTE": "plak",
+		"SELECT": "Kies alles"
 	},
 	"CONTRACTS": {
-		"AMOUNT": "Amount",
-		"COMMENTS": "Comments",
-		"CONTRACTS": "Contracts",
-		"DATE": "Date",
-		"EMPTY": "No active contracts",
-		"LISTING_BUTTON": "Create listing",
-		"PURCHASE": "Purchase",
-		"PURCHASE_BUTTON": "New Purchase",
-		"SELL": "Sell",
-		"STATUS": "Status",
+		"AMOUNT": "bedrag",
+		"COMMENTS": "kommentaar",
+		"CONTRACTS": "Kontrakte",
+		"DATE": "datum",
+		"EMPTY": "Geen aktiewe kontrakte nie",
+		"LISTING_BUTTON": "Skep lysinskrywing",
+		"PURCHASE": "aankoop",
+		"PURCHASE_BUTTON": "Nuwe aankoop",
+		"SELL": "verkoop",
+		"STATUS": "status",
 		"STATUS_MESSAGES": {
 			"BUYER": {
-				"ACCEPTED": "Seller accepted your contract proposal",
-				"BEING_CANCELLED": "Cancellation in progress",
-				"CANCELLED": "Contract canceled",
-				"COMPLETED": "Contract completed",
-				"EXPIRED": "The contract proposal has expired",
-				"IGNORED": "Seller ignored your contract proposal",
-				"IGNORED_CANCEL": "The seller ignored your proposal to cancel the contract",
-				"NOT_RECEIVED": "Delivery failed",
-				"NULLIFIED": "All deposits burned",
-				"WAIT": "Waiting for deposits confirmation",
-				"WAITING": "Waiting for response",
-				"WAITING_CANCEL": "Waiting for contract cancellation",
-				"WAITING_SELLER": "Waiting for delivery"
+				"ACCEPTED": "Verkoper het jou kontrakvoorstel aanvaar",
+				"BEING_CANCELLED": "Kansellasie aan die gang",
+				"CANCELLED": "Kontrak gekanselleer",
+				"COMPLETED": "Kontrak voltooi",
+				"EXPIRED": "Die kontrakvoorstel het verval",
+				"IGNORED": "Verkoper het jou kontrakvoorstel geïgnoreer",
+				"IGNORED_CANCEL": "Die verkoper het jou voorstel om die kontrak te kanselleer geïgnoreer",
+				"NOT_RECEIVED": "Aflewering het misluk",
+				"NULLIFIED": "Alle deposito's verbrand",
+				"WAIT": "Wag vir depositobevestiging",
+				"WAITING": "Wag vir reaksie",
+				"WAITING_CANCEL": "Wag vir kontrakkansellasie",
+				"WAITING_SELLER": "Wag vir aflewering"
 			},
 			"SELLER": {
-				"ACCEPTED": "Contract started",
-				"BEING_CANCELLED": "Cancellation in progress",
-				"CANCELLED": "Contract canceled",
-				"COMPLETED": "Contract completed",
-				"EXPIRED": "Contract proposal has expired",
-				"IGNORED": "You ignored contract proposal",
-				"IGNORED_CANCEL": "You ignored cancellation proposal",
-				"NEW_CONTRACT": "New contract proposal",
-				"NOT_RECEIVED": "Delivery failed",
-				"NULLIFIED": "All deposits burned",
-				"PROPOSAL_CANCEL": "New proposal to cancel contract and return deposits",
-				"WAIT": "Waiting for contract confirmation",
-				"WAITING_BUYER": "Waiting for delivery"
+				"ACCEPTED": "",
+				"BEING_CANCELLED": "Kansellasie aan die gang",
+				"CANCELLED": "Kontrak gekanselleer",
+				"COMPLETED": "Kontrak voltooi",
+				"EXPIRED": "Kontrakvoorstel het verval",
+				"IGNORED": "Jy het kontrakvoorstel geïgnoreer",
+				"IGNORED_CANCEL": "Jy het kansellasievoorstel geïgnoreer",
+				"NEW_CONTRACT": "Nuwe kontrakvoorstel",
+				"NOT_RECEIVED": "Aflewering het misluk",
+				"NULLIFIED": "Alle deposito's verbrand",
+				"PROPOSAL_CANCEL": "Nuwe voorstel om kontrak te kanselleer en deposito's terug te gee",
+				"WAIT": "Wag vir kontrakbevestiging",
+				"WAITING_BUYER": "Wag vir aflewering"
 			}
 		},
 		"TIME_LEFT": {
-			"REMAINING_LESS_ONE": "Less than an hour to respond",
-			"REMAINING_MANY": "{{time}} hours remain",
-			"REMAINING_MANY_ALT": "{{time}} hours remain",
-			"REMAINING_MANY_ALT_RESPONSE": "{{time}} hours remain",
-			"REMAINING_MANY_ALT_WAITING": "Waiting for {{time}} hours",
-			"REMAINING_MANY_RESPONSE": "{{time}} hours remain",
-			"REMAINING_MANY_WAITING": "Waiting for {{time}} hours",
-			"REMAINING_ONE": "{{time}} hour remains",
-			"REMAINING_ONE_RESPONSE": "{{time}} hour remains",
-			"REMAINING_ONE_WAITING": "Waiting for {{time}} hour"
+			"REMAINING_LESS_ONE": "Minder as 'n uur om te reageer",
+			"REMAINING_MANY": "{{time}} uur oor",
+			"REMAINING_MANY_ALT": "{{time}} uur oor",
+			"REMAINING_MANY_ALT_RESPONSE": "{{time}} uur oor",
+			"REMAINING_MANY_ALT_WAITING": "Wag vir {{time}} uur",
+			"REMAINING_MANY_RESPONSE": "{{time}} uur oor",
+			"REMAINING_MANY_WAITING": "Wag vir {{time}} uur",
+			"REMAINING_ONE": "{{time}} uur oor",
+			"REMAINING_ONE_RESPONSE": "{{time}} uur oor",
+			"REMAINING_ONE_WAITING": "Wag vir {{time}} uur"
 		}
 	},
 	"CREATE_WALLET": {
-		"BUTTON_CREATE": "Create wallet",
-		"BUTTON_SELECT": "Select wallet location",
-		"CONFIRM": "Confirm wallet password",
-		"ERROR_CANNOT_SAVE_SYSTEM": "Wallet files cannot be saved to the OS partition",
-		"ERROR_CANNOT_SAVE_TOP": "Existing wallet files cannot be replaced or overwritten",
+		"BUTTON_CREATE": "Skep beursie",
+		"BUTTON_SELECT": "Kies Wallet-ligging",
+		"CONFIRM": "Bevestig beursie wagwoord",
+		"ERROR_CANNOT_SAVE_SYSTEM": "Wallet-lêers kan nie na die OS-partisie gestoor word nie",
+		"ERROR_CANNOT_SAVE_TOP": "Bestaande beursielêers kan nie vervang of oorskryf word nie",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required"
+			"CONFIRM_NOT_MATCH": "Bevestig wagwoord nie ooreenstem nie",
+			"MAX_LENGTH": "Maksimum naamlengte bereik",
+			"NAME_DUPLICATE": "Naam is duplikaat",
+			"NAME_REQUIRED": "Naam word vereis"
 		},
-		"NAME": "Wallet name",
-		"PASS": "Set wallet password",
-		"TITLE_SAVE": "Save the wallet file."
+		"NAME": "Beursie Naam",
+		"PASS": "Stel beursie wagwoord",
+		"TITLE_SAVE": "Stoor die beursie-lêer."
 	},
 	"EDIT_ALIAS": {
-		"BUTTON_EDIT": "Edit",
+		"BUTTON_EDIT": "wysig",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "kommentaar",
 			"PLACEHOLDER": "Voer jou kommentaar hier in"
 		},
-		"COST": "Fee {{value}} {{currency}}",
+		"COST": "Fooi {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum comment length reached",
-			"NO_MONEY": "You do not have enough funds to change the comment to this alias"
+			"MAX_LENGTH": "Maksimum opmerkinglengte bereik",
+			"NO_MONEY": "Jy het nie genoeg fondse om die opmerking na hierdie alias te verander nie"
 		},
 		"NAME": {
 			"LABEL": "Alias",
-			"PLACEHOLDER": "@ Enter alias"
+			"PLACEHOLDER": "@ Voer alias in"
 		}
 	},
 	"ERRORS": {
-		"ACCESS_DENIED": "Access denied",
-		"BAD_ARG": "Invalid argument",
-		"CORE_BUSY": "Internal error: core is busy",
-		"DAEMON_BUSY": "Internal error: daemon is busy",
-		"FILE_EXIST": "A file with that name already exists. Enter another name to save the file under",
-		"FILE_NOT_FOUND": "File not found",
-		"FILE_NOT_SAVED": "You cannot save a wallet file in this folder. Please choose another folder.",
-		"FILE_RESTORED": "The wallet file was corrupted. We have recovered the keys and the wallet from the blockchain",
-		"NOT_ENOUGH_MONEY": "Insufficient funds in account",
-		"NOT_ENOUGH_OUTPUTS_TO_MIX": "Mix-in number is too big for current blockchain state. There are not enough unspent outputs to mix with",
-		"NO_MONEY": "Not enough money",
-		"NO_MONEY_REMOVE_OFFER": "There is no fee for deleting an offer, but in order to protect the network against flood transactions you need to have at least {{fee}} {{currency}} in your wallet",
-		"TRANSACTION_ERROR": "Error. Transaction not completed.",
-		"TRANSACTION_IS_TO_BIG": "Transaction exceeds network limit, send required amount with multiple transactions",
-		"TRANSFER_ATTEMPT": "There is no connection to Lethean network",
-		"TX_TYPE_COIN_BASE": "Error. The payment was not completed.",
-		"TX_TYPE_NEW_ALIAS": "Error. Failed to register alias to safe",
-		"TX_TYPE_NEW_ALIAS_END": "Please try again.",
-		"TX_TYPE_NORMAL": "Error. The payment from the wallet",
-		"TX_TYPE_NORMAL_END": "was not completed.",
-		"TX_TYPE_NORMAL_TO": "to",
-		"TX_TYPE_UPDATE_ALIAS": "Error. Failed to change comment to alias in safe",
+		"ACCESS_DENIED": "Toegang verbied",
+		"BAD_ARG": "Ongeldige argument",
+		"CORE_BUSY": "Interne fout: kern is besig",
+		"DAEMON_BUSY": "Interne fout: daemoon is besig",
+		"FILE_EXIST": "'n Lêer met daardie naam bestaan reeds. Voer 'n ander naam in om die lêer onder te stoor",
+		"FILE_NOT_FOUND": "Lêer nie gevind nie",
+		"FILE_NOT_SAVED": "Jy kan nie 'n beursie-lêer in hierdie vouer stoor nie. Kies asseblief 'n ander vouer.",
+		"FILE_RESTORED": "Die beursie-lêer is beskadig. Ons het die sleutels en die beursie van die blokketting gekry",
+		"NOT_ENOUGH_MONEY": "Onvoldoende fondse in rekening",
+		"NOT_ENOUGH_OUTPUTS_TO_MIX": "Inmenging-getal is te groot vir die huidige blokkettingstaat. Daar is nie genoeg onbestede uitsette om mee te meng nie",
+		"NO_MONEY": "Nie genoeg geld nie",
+		"NO_MONEY_REMOVE_OFFER": "Daar is geen fooi om 'n aanbod uit te vee nie, maar om die netwerk teen vloedtransaksies te beskerm moet jy ten minste {{fee}} {{currency}} in jou beursie hê",
+		"TRANSACTION_ERROR": "Fout. Transaksie nie voltooi nie.",
+		"TRANSACTION_IS_TO_BIG": "Transaksie oorskry netwerklimiet, stuur vereiste bedrag met veelvuldige transaksies",
+		"TRANSFER_ATTEMPT": "Daar is geen verbinding met Lethean-netwerk nie",
+		"TX_TYPE_COIN_BASE": "Fout. Die betaling is nie voltooi nie.",
+		"TX_TYPE_NEW_ALIAS": "Fout. Kon nie alias vir kluis registreer nie",
+		"TX_TYPE_NEW_ALIAS_END": "Probeer asseblief weer.",
+		"TX_TYPE_NORMAL": "Fout. Die betaling uit die beursie",
+		"TX_TYPE_NORMAL_END": "was nie voltooi nie.",
+		"TX_TYPE_NORMAL_TO": "om",
+		"TX_TYPE_UPDATE_ALIAS": "Fout. Kon nie opmerking verander na alias in kluis nie",
 		"WALLET_WATCH_ONLY_NOT_SUPPORTED": "Kyk-alleen-beursies kan slegs deur simplewallet oopgemaak word",
-		"WALLET_WRONG_ID": "Invalid wallet ID",
-		"WRONG_PASSWORD": "Invalid password"
+		"WALLET_WRONG_ID": "Ongeldige beursie-ID",
+		"WRONG_PASSWORD": "Ongeldige Wagwoord"
 	},
 	"EXPORT_HISTORY": {
 		"CANCEL": "kanselleer",
 		"EXPORT": "Voer uit na lêer …",
 		"EXPORT_BUTTON": "Voer geskiedenis uit...",
 		"FILTER": "Filter POS-transaksies",
-		"FORMAT": "Formaat",
-		"FORMAT:": "",
+		"FORMAT:": "Formaat",
 		"SAVED_FILE": "Kies pad om transaksiegeskiedenis te stoor",
 		"TITLE": "Voer Wallet Geskiedenis uit",
 		"TOOLTIP": "Voer beursietransaksiegeskiedenis uit na lêer"
 	},
 	"HISTORY": {
-		"ADDRESS": "Address",
-		"AMOUNT": "Amount",
-		"DATE": "Date",
+		"ADDRESS": "adres",
+		"AMOUNT": "bedrag",
+		"DATE": "datum",
 		"DETAILS": {
-			"COMMENT": "Comment",
-			"CONFIRMATION": "Confirmation",
-			"HEIGHT": "Height",
-			"ID": "Transaction ID",
-			"INPUTS": "Inputs",
-			"OUTPUTS": "Outputs",
-			"PAYMENT_ID": "Payment ID",
-			"SIZE": "Transaction size",
-			"SIZE_VALUE": "{{value}} bytes"
+			"COMMENT": "kommentaar",
+			"CONFIRMATION": "Bevestiging",
+			"HEIGHT": "Hoogte",
+			"ID": "Transaksie ID",
+			"INPUTS": "Insette",
+			"OUTPUTS": "Uitsette",
+			"PAYMENT_ID": "Betaling ID",
+			"SIZE": "Transaksie grootte",
+			"SIZE_VALUE": "{{value}} grepe"
 		},
-		"FEE": "Fee",
-		"LOCK_TOOLTIP": "Locked till {{date}}",
-		"RECEIVED": "Received",
-		"SEND": "Sent",
-		"STATUS": "Status",
-		"STATUS_TOOLTIP": "Confirmations {{current}}/{{total}}",
+		"FEE": "Fooi",
+		"LOCK_TOOLTIP": "Gesluit tot {{date}}",
+		"RECEIVED": "Ontvang",
+		"SEND": "gestuur",
+		"STATUS": "status",
+		"STATUS_TOOLTIP": "Bevestigings {{current}}/{{total}}",
 		"TYPE_MESSAGES": {
-			"CANCEL_CONTRACT": "Cancel and return deposits",
-			"COMPLETE_BUYER": "Contract completed",
-			"COMPLETE_SELLER": "Contract completed",
-			"CREATE_ALIAS": "Fee for assigning alias",
-			"CREATE_CONTRACT": "Contract proposal",
-			"HIDDEN": "hidden",
-			"NULLIFY_CONTRACT": "Burn deposits",
-			"PLEDGE_CONTRACT": "Contract deposit",
-			"POS_REWARD": "POS reward",
-			"POW_REWARD": "POW reward",
-			"PROPOSAL_CANCEL_CONTRACT": "Cancellation request",
-			"UNDEFINED": "Undefined",
-			"UPDATE_ALIAS": "Fee for editing alias"
+			"CANCEL_CONTRACT": "Kanselleer en gee deposito's terug",
+			"COMPLETE_BUYER": "Kontrak voltooi",
+			"COMPLETE_SELLER": "Kontrak voltooi",
+			"CREATE_ALIAS": "Fooi vir die toeken van alias",
+			"CREATE_CONTRACT": "Kontrakvoorstel",
+			"HIDDEN": "verborge",
+			"NULLIFY_CONTRACT": "Brandafsettings",
+			"PLEDGE_CONTRACT": "Kontrakdeposito",
+			"POS_REWARD": "POS beloning",
+			"POW_REWARD": "POW beloning",
+			"PROPOSAL_CANCEL_CONTRACT": "Kansellasie versoek",
+			"UNDEFINED": "ongedefinieerd",
+			"UPDATE_ALIAS": "Fooi vir redigering van alias"
 		}
 	},
 	"LOGIN": {
-		"BUTTON_NEXT": "Next",
-		"BUTTON_RESET": "Reset",
-		"BUTTON_SKIP": "Skip",
+		"BUTTON_NEXT": "volgende",
+		"BUTTON_RESET": "herstel",
+		"BUTTON_SKIP": "HUPPEL",
 		"FORM_ERRORS": {
-			"CONFIRM_REQUIRED": "Confirmation is required",
+			"CONFIRM_REQUIRED": "Bevestiging word vereis",
 			"INVALID_PASS": "Ongeldige wagwoord, probeer weer",
 			"MISMATCH": "Mismatch",
-			"PASS_REQUIRED": "Password is required"
+			"PASS_REQUIRED": "Wagwoord word benodig"
 		},
-		"INCORRECT_PASSWORD": "Invalid password",
-		"MASTER_PASS": "Master password",
-		"SETUP_CONFIRM_PASS": "Confirm the password",
-		"SETUP_MASTER_PASS": "Setup master password"
+		"INCORRECT_PASSWORD": "Ongeldige Wagwoord",
+		"MASTER_PASS": "Hoofwagwoord",
+		"SETUP_CONFIRM_PASS": "Bevestig die wagwoord",
+		"SETUP_MASTER_PASS": "Stel hoofwagwoord op"
 	},
 	"MAIN": {
-		"BUTTON_NEW_WALLET": "Create new wallet",
-		"BUTTON_OPEN_WALLET": "Open existing wallet",
-		"BUTTON_RESTORE_BACKUP": "Restore from backup",
-		"CHOOSE_PATH": "Please choose a path",
-		"HELP": "How to create wallet?",
-		"TITLE": "Create or open the wallet to start using Lethean"
+		"BUTTON_NEW_WALLET": "Skep nuwe beursie",
+		"BUTTON_OPEN_WALLET": "Maak bestaande beursie oop",
+		"BUTTON_RESTORE_BACKUP": "Herstel vanaf rugsteun",
+		"CHOOSE_PATH": "Kies asseblief 'n pad",
+		"HELP": "Hoe om 'n beursie te skep?",
+		"TITLE": "Skep of maak die beursie oop om Lethean te begin gebruik"
 	},
 	"MESSAGES": {
-		"ADDRESS": "Address",
-		"MESSAGE": "Message",
-		"SEND_BUTTON": "Send",
-		"SEND_PLACEHOLDER": "Type a message..."
+		"ADDRESS": "adres",
+		"MESSAGE": "boodskap",
+		"SEND_BUTTON": "STUUR",
+		"SEND_PLACEHOLDER": "Tik 'n boodskap..."
 	},
 	"MODALS": {
-		"ADD_TOKEN": "Voeg teken by",
 		"CANCEL": "kanselleer",
-		"ERROR": "Error",
-		"INFO": "Information",
+		"ERROR": "fout",
+		"INFO": "inligting",
 		"OK": "OK",
-		"SUCCESS": "Success"
+		"SUCCESS": "sukses"
 	},
 	"OPEN_WALLET": {
-		"BUTTON": "Open wallet",
-		"FILE_NOT_FOUND1": "Wallet file not found",
-		"FILE_NOT_FOUND2": "<br/><br/> It might have been renamed or moved. <br/> To open it, use the \"Open wallet\" button.",
+		"BUTTON": "Maak beursie oop",
+		"FILE_NOT_FOUND1": "Wallet-lêer nie gevind nie",
+		"FILE_NOT_FOUND2": "<br/><br/> Dit is dalk hernoem of geskuif. <br/> Om dit oop te maak, gebruik die \"Maak beursie oop\"-knoppie.",
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required"
+			"MAX_LENGTH": "Maksimum naamlengte bereik",
+			"NAME_DUPLICATE": "Naam is duplikaat",
+			"NAME_REQUIRED": "Naam word vereis"
 		},
 		"MODAL": {
-			"LABEL": "Password to this wallet",
-			"NOT_FOUND": "Not found",
-			"OPEN": "Open wallet",
-			"SKIP": "Skip",
-			"TITLE": "Type wallet password"
+			"LABEL": "Wagwoord vir hierdie beursie",
+			"NOT_FOUND": "Nie gevind nie",
+			"OPEN": "Maak beursie oop",
+			"SKIP": "HUPPEL",
+			"TITLE": "Tik beursie wagwoord"
 		},
-		"NAME": "Wallet name",
-		"PASS": "Wallet password",
-		"WITH_ADDRESS_ALREADY_OPEN": "A wallet with this address is already open"
+		"NAME": "Beursie Naam",
+		"PASS": "Wallet wagwoord",
+		"WITH_ADDRESS_ALREADY_OPEN": "'n Beursie met hierdie adres is reeds oop"
 	},
 	"PLACEHOLDERS": {
 		"ADRESS_PLACEHOLDER": "Voer adres hier in",
@@ -379,7 +352,6 @@
 		"NAME_PLACEHOLDER": "Voer 'n naam hier in",
 		"NOTES_PLACEHOLDER": "Voer 'n nota hier in",
 		"PASSWORD_PLACEHOLDER": "Voer 'n wagwoord hier in",
-		"PASS_PLACEHOLDER": "Voer 'n hoofwagwoord hier in",
 		"PLACEHOLDER_CONFIRM": "Bevestig nuwe wagwoord hier",
 		"PLACEHOLDER_NEW": "Voer nuwe wagwoord hier in",
 		"PLACEHOLDER_OLD": "Voer huidige wagwoord hier in",
@@ -392,164 +364,163 @@
 		"WALLET_NAME_PLACEHOLDER": "Voer 'n Wallet-naam hier in"
 	},
 	"PROGRESS": {
-		"ADD_WALLET": "Add wallet",
-		"CREATE_WALLET": "Create new wallet",
-		"RESTORE_WALLET": "Restore from backup",
-		"SELECT_LOCATION": "Select wallet location"
+		"ADD_WALLET": "Voeg beursie by",
+		"CREATE_WALLET": "Skep nuwe beursie",
+		"RESTORE_WALLET": "Herstel vanaf rugsteun",
+		"SELECT_LOCATION": "Kies Wallet-ligging"
 	},
 	"PURCHASE": {
-		"ACCEPT_STATE_WAIT_BIG": "Contract started",
-		"AMOUNT": "Amount",
-		"BURN_PROPOSAL": "Deposits burned",
-		"BUTTON_CANCEL_BUYER": "Cancel and return deposits",
-		"BUTTON_CANCEL_SELLER": "Confirm and return deposits",
-		"BUTTON_IGNORE": "Ignore and hide offer",
-		"BUTTON_MAKE_PLEDGE": "Accept and make deposit",
-		"BUTTON_NOT_CANCEL": "Ignore request",
-		"BUTTON_NULLIFY": "Terminate and burn deposits",
-		"BUTTON_NULLIFY_SHORT": "Burn",
-		"BUTTON_RECEIVED": "Complete and release deposits",
-		"BUYER_DEPOSIT": "Buyer deposit",
-		"CANCEL": "Cancel",
-		"COMMENT": "Comment",
-		"DEALS_CANCELED_WAIT": "Cancellation in progress",
-		"DESCRIPTION": "Description",
-		"DETAILS": "Additional details",
-		"FEE": "Fee",
+		"ACCEPT_STATE_WAIT_BIG": "Kontrak begin",
+		"AMOUNT": "bedrag",
+		"BURN_PROPOSAL": "Afsettings verbrand",
+		"BUTTON_CANCEL_BUYER": "Kanselleer en gee deposito's terug",
+		"BUTTON_CANCEL_SELLER": "Bevestig en gee deposito's terug",
+		"BUTTON_IGNORE": "Ignoreer en versteek aanbod",
+		"BUTTON_MAKE_PLEDGE": "Aanvaar en maak deposito",
+		"BUTTON_NOT_CANCEL": "Ignoreer versoek",
+		"BUTTON_NULLIFY": "Beëindig en verbrand afsettings",
+		"BUTTON_NULLIFY_SHORT": "Brand",
+		"BUTTON_RECEIVED": "Voltooi en stel deposito's vry",
+		"BUYER_DEPOSIT": "Koper deposito",
+		"CANCEL": "kanselleer",
+		"COMMENT": "kommentaar",
+		"DEALS_CANCELED_WAIT": "Kansellasie aan die gang",
+		"DESCRIPTION": "beskrywing",
+		"DETAILS": "Bykomende besonderhede",
+		"FEE": "Fooi",
 		"FORM_ERRORS": {
-			"ALIAS_NOT_VALID": "Invalid alias",
-			"AMOUNT_REQUIRED": "Amount required",
-			"AMOUNT_ZERO": "Amount cannot be zero",
-			"COMMENT_MAXIMUM": "Maximum field length reached",
-			"DESC_MAXIMUM": "Maximum field length reached",
-			"DESC_REQUIRED": "Description required",
-			"SELLER_DEPOSIT_REQUIRED": "Seller deposit required",
-			"SELLER_NOT_VALID": "Invalid address",
-			"SELLER_REQUIRED": "Address required",
-			"SELLER_SAME": "Use separate account",
-			"YOUR_DEPOSIT_REQUIRED": "Deposit required"
+			"ALIAS_NOT_VALID": "Ongeldige alias",
+			"AMOUNT_REQUIRED": "Bedrag benodig",
+			"AMOUNT_ZERO": "Bedrag kan nie nul wees nie",
+			"COMMENT_MAXIMUM": "Maksimum veldlengte bereik",
+			"DESC_MAXIMUM": "Maksimum veldlengte bereik",
+			"DESC_REQUIRED": "Beskrywing vereis",
+			"SELLER_DEPOSIT_REQUIRED": "Verkoper deposito vereis",
+			"SELLER_NOT_VALID": "Ongeldige adres",
+			"SELLER_REQUIRED": "Adres vereis",
+			"SELLER_SAME": "Gebruik aparte rekening",
+			"YOUR_DEPOSIT_REQUIRED": "Deposito vereis"
 		},
-		"HOUR": "hour",
-		"HOURS": "hours",
-		"IGNORED_ACCEPT": "Contract proposal ignored",
-		"IGNORED_CANCEL": "Contract cancellation proposal ignored",
-		"NEED_MONEY": "Insufficient funds",
-		"NULLIFY_QUESTION": "Are you sure you want to burn both deposits?",
-		"PAYMENT": "Payment ID",
-		"PROGRESS_COMPLETE": "Completed",
-		"PROGRESS_NEW": "New purchase",
-		"PROGRESS_RECEIVE": "Reply received",
-		"PROGRESS_WAIT": "Awaiting reply",
-		"SAME_AMOUNT": "Same amount",
-		"SELLER": "Seller",
-		"SELLER_DEPOSIT": "Seller deposit",
-		"SEND_BUTTON": "Send",
-		"SEND_CANCEL_PROPOSAL": "Cancellation request sent",
+		"HOUR": "Uur",
+		"HOURS": "Ure",
+		"IGNORED_ACCEPT": "Kontrakvoorstel geïgnoreer",
+		"IGNORED_CANCEL": "Kontrakkansellasievoorstel geïgnoreer",
+		"NEED_MONEY": "Onvoldoende fondse",
+		"NULLIFY_QUESTION": "Is jy seker jy wil albei deposito's verbrand?",
+		"PAYMENT": "Betaling ID",
+		"PROGRESS_COMPLETE": "voltooi",
+		"PROGRESS_NEW": "Nuwe aankoop",
+		"PROGRESS_RECEIVE": "Antwoord ontvang",
+		"PROGRESS_WAIT": "Wag op antwoord",
+		"SAME_AMOUNT": "Dieselfde bedrag",
+		"SELLER": "Verkoper",
+		"SELLER_DEPOSIT": "Verkoper deposito",
+		"SEND_BUTTON": "STUUR",
+		"SEND_CANCEL_PROPOSAL": "Kansellasieversoek gestuur",
 		"STATUS_MESSAGES": {
-			"BEING_CANCELLED": "Cancellation in progress",
-			"CANCELLED": "Contract canceled",
-			"COMPLETED": "Contract completed",
-			"EXPIRED": "Contract proposal expired",
-			"IGNORED_BUYER": "Contract proposal ignored",
-			"IGNORED_CANCEL_BUYER": "Contract cancellation proposal ignored",
-			"IGNORED_CANCEL_SELLER": "The seller ignored your proposal to cancel the contract",
-			"IGNORED_SELLER": "The seller ignored your contract proposal",
-			"NEW_PURCHASE": "New purchase",
-			"NOT_RECEIVED": "Delivery failed",
-			"NULLIFIED": "All deposits burned",
-			"PROPOSAL_CANCEL_BUYER": "Cancellation request received",
-			"PROPOSAL_CANCEL_SELLER": "Cancellation request sent",
-			"WAITING_BUYER": "Contract proposal received",
-			"WAITING_CONFIRMATION": "Waiting for deposits confirmation",
-			"WAITING_DELIVERY": "Waiting for delivery",
-			"WAITING_SELLER": "Waiting for response"
+			"BEING_CANCELLED": "Kansellasie aan die gang",
+			"CANCELLED": "Kontrak gekanselleer",
+			"COMPLETED": "Kontrak voltooi",
+			"EXPIRED": "Kontrakvoorstel het verval",
+			"IGNORED_BUYER": "Kontrakvoorstel geïgnoreer",
+			"IGNORED_CANCEL_BUYER": "Kontrakkansellasievoorstel geïgnoreer",
+			"IGNORED_CANCEL_SELLER": "Die verkoper het jou voorstel om die kontrak te kanselleer geïgnoreer",
+			"IGNORED_SELLER": "Die verkoper het jou kontrakvoorstel geïgnoreer",
+			"NEW_PURCHASE": "Nuwe aankoop",
+			"NOT_RECEIVED": "Aflewering het misluk",
+			"NULLIFIED": "Alle deposito's verbrand",
+			"PROPOSAL_CANCEL_BUYER": "Kansellasieversoek ontvang",
+			"PROPOSAL_CANCEL_SELLER": "Kansellasieversoek gestuur",
+			"WAITING_BUYER": "Kontrakvoorstel ontvang",
+			"WAITING_CONFIRMATION": "Wag vir depositobevestiging",
+			"WAITING_DELIVERY": "Wag vir aflewering",
+			"WAITING_SELLER": "Wag vir reaksie"
 		},
-		"SUCCESS_FINISH_PROPOSAL": "Contract completed",
-		"WAITING_TIME": "Response time",
-		"WAITING_TIME_QUESTION": "Are you sure you want to cancel the contract?",
-		"YOUR_DEPOSIT": "Your deposit"
+		"SUCCESS_FINISH_PROPOSAL": "Kontrak voltooi",
+		"WAITING_TIME": "Reaksie tyd",
+		"WAITING_TIME_QUESTION": "Is jy seker jy wil die kontrak kanselleer?",
+		"YOUR_DEPOSIT": "Jou deposito"
 	},
 	"RESTORE_WALLET": {
-		"BUTTON_CREATE": "Create wallet",
-		"BUTTON_SELECT": "Select wallet location",
-		"CHOOSE_PATH": "Please choose a path",
-		"CONFIRM": "Confirm wallet password",
+		"BUTTON_CREATE": "Skep beursie",
+		"BUTTON_SELECT": "Kies Wallet-ligging",
+		"CHOOSE_PATH": "Kies asseblief 'n pad",
+		"CONFIRM": "Bevestig beursie wagwoord",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
+			"CONFIRM_NOT_MATCH": "Bevestig wagwoord nie ooreenstem nie",
 			"INCORRECT_PASSWORD": "Verkeerde wagwoord",
-			"KEY_NOT_VALID": "Key not valid",
-			"KEY_REQUIRED": "Key is required",
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required"
+			"KEY_NOT_VALID": "Sleutel nie geldig nie",
+			"KEY_REQUIRED": "Sleutel word vereis",
+			"MAX_LENGTH": "Maksimum naamlengte bereik",
+			"NAME_DUPLICATE": "Naam is duplikaat",
+			"NAME_REQUIRED": "Naam word vereis"
 		},
-		"LABEL_NAME": "Wallet name",
-		"LABEL_PHRASE_KEY": "Seed phrase / tracking seed",
-		"NOT_CORRECT_FILE_OR_PASSWORD": "Invalid wallet file or password does not match",
+		"LABEL_NAME": "Beursie Naam",
+		"LABEL_PHRASE_KEY": "Saadfrase / spoorsaad",
+		"NOT_CORRECT_FILE_OR_PASSWORD": "Ongeldige beursielêer of wagwoord stem nie ooreen nie",
 		"OK": "OK",
-		"PASS": "Wallet password",
+		"PASS": "Wallet wagwoord",
 		"SEED_PASSWORD": "Saad wagwoord"
 	},
 	"SEED_PHRASE": {
 		"BUTTON_COPIED": "Gekopieër",
-		"BUTTON_COPY": "Copy",
-		"BUTTON_CREATE_ACCOUNT": "Create wallet",
-		"TITLE": "Make sure to keep your seed phrase in a safe place. If you forget your seed phrase you will not be able to recover your wallet."
+		"BUTTON_COPY": "Kopieer",
+		"BUTTON_CREATE_ACCOUNT": "Skep beursie",
+		"TITLE": "Maak seker dat jy jou saadfrase op 'n veilige plek hou. As jy jou saadfrase vergeet, sal jy nie jou beursie kan herwin nie."
 	},
 	"SEND": {
-		"ADDRESS": "Address",
-		"AMOUNT": "Amount",
-		"BUTTON": "Send",
-		"COMMENT": "Comment",
-		"DETAILS": "Additional details",
-		"FEE": "Fee",
+		"ADDRESS": "adres",
+		"AMOUNT": "bedrag",
+		"BUTTON": "STUUR",
+		"COMMENT": "kommentaar",
+		"DETAILS": "Bykomende besonderhede",
+		"FEE": "Fooi",
 		"FORM_ERRORS": {
-			"ADDRESS_NOT_VALID": "Address not valid",
-			"ADDRESS_REQUIRED": "Address is required",
-			"ALIAS_NOT_VALID": "Alias not valid",
-			"AMOUNT_REQUIRED": "Amount is required",
-			"AMOUNT_ZERO": "Amount is zero",
-			"FEE_MINIMUM": "Minimum fee: {{fee}}",
-			"FEE_REQUIRED": "Fee is required",
+			"ADDRESS_NOT_VALID": "Adres nie geldig nie",
+			"ADDRESS_REQUIRED": "Adres word vereis",
+			"ALIAS_NOT_VALID": "Alias nie geldig nie",
+			"AMOUNT_REQUIRED": "Bedrag word vereis",
+			"AMOUNT_ZERO": "Bedrag is nul",
+			"FEE_MINIMUM": "Minimum fooi: {{fee}}",
+			"FEE_REQUIRED": "Fooi word vereis",
 			"GREAT_THAN_UNWRAPPED_COINS": "Bedrag is groter as ERC20-tokens wat beskikbaar is",
 			"LESS_THAN_ZANO_NEEDED": "Te klein bedrag om ERC20-fooi te dek",
-			"MAX_LENGTH": "Maximum comment length reached",
+			"MAX_LENGTH": "Maksimum opmerkinglengte bereik",
 			"WRAP_INFO_NULL": "versuim om omvou-staat te versoek"
 		},
-		"HIDE": "Hide your wallet address from recipient",
-		"MIXIN": "Mixin",
-		"SUCCESS_SENT": "Transaction sent",
+		"HIDE": "Versteek jou beursie-adres vir die ontvanger",
+		"MIXIN": "Meng",
+		"SUCCESS_SENT": "Transaksie gestuur",
 		"WRAP": {
 			"ESTIMATE": "Transaksieberamings",
 			"FEE": "Ethereum Txn Fooi:",
-			"LTHN": "LTHN",
-			"MAIN_TEXT": "Hierdie transaksie sal wLTHN (\"Wrapped Lethean\") skep wat na die gespesifiseerde adres op die Ethereum-netwerk gestuur sal word.",
+			"MAIN_TEXT": "Hierdie transaksie sal wLethean (\"Wrapped Lethean\") skep wat na die gespesifiseerde adres op die Ethereum-netwerk gestuur sal word.",
 			"TITLE": "Wikkel",
 			"WILL_RECEIVE": "Jy sal ontvang:",
-			"ZANO": "",
-			"wZANO": "wLTHN"
+			"ZANO": "LTHN",
+			"wZANO": "wLethean"
 		}
 	},
 	"SEND_DETAILS_MODAL": {
-		"TITLE1": "Transaction",
-		"TITLE2": "Transaction details"
+		"TITLE1": "Transaksie",
+		"TITLE2": "Transaksiebesonderhede"
 	},
 	"SETTINGS": {
 		"APP_LOCK": {
 			"TIME1": "5 min",
 			"TIME2": "15 min",
-			"TIME3": "1 hour",
-			"TIME4": "Never",
-			"TITLE": "Lock app after:"
+			"TIME3": "1 uur",
+			"TIME4": "Nooit nie",
+			"TITLE": "Sluit app na:"
 		},
-		"APP_LOG_TITLE": "Log level:",
-		"DARK_THEME": "Dark theme",
+		"APP_LOG_TITLE": "Log vlak:",
+		"DARK_THEME": "Donker tema",
 		"FORM_ERRORS": {
-			"CONFIRM_NOT_MATCH": "Confirm password not match",
-			"PASS_NOT_MATCH": "Old password not match",
-			"PASS_REQUIRED": "Password is required"
+			"CONFIRM_NOT_MATCH": "Bevestig wagwoord nie ooreenstem nie",
+			"PASS_NOT_MATCH": "Verkeerde wagwoord",
+			"PASS_REQUIRED": "Wagwoord word benodig"
 		},
-		"GRAY_THEME": "Grey theme",
+		"GRAY_THEME": "Grys tema",
 		"LANGUAGE": {
 			"DE": "Deutsch",
 			"EN": "Engels",
@@ -559,150 +530,144 @@
 			"PT": "Portugees",
 			"TITLE": "Taal"
 		},
-		"LAST_BUILD": "Current build: {{value}}",
+		"LAST_BUILD": "Huidige bou: {{value}}",
 		"MASTER_PASSWORD": {
 			"BUTTON": "Save",
-			"CONFIRM": "New password confirmation",
-			"NEW": "New password",
-			"OLD": "Old password",
-			"TITLE": "Update master password"
+			"CONFIRM": "Bevestig Wagwoord",
+			"NEW": "Nuwe Wagwoord",
+			"OLD": "huidige Sleutelwoord",
+			"TITLE": "Dateer hoofwagwoord op"
 		},
 		"NOTIFICATIONS": "Kennisgewings",
 		"SCALE": {
-			"75": "75% scale",
-			"100": "100% scale",
-			"125": "125% scale",
-			"150": "150% scale",
+			"75": "75% skaal",
+			"100": "100% skaal",
+			"125": "125% skaal",
+			"150": "150% skaal",
 			"TITLE": "Interface skaal"
 		},
 		"SETTINGS_SAVED": "Gestoor! Instellings opgedateer",
-		"TITLE": "Settings",
+		"TITLE": "instellings",
 		"USE_TOR_TO_RELAY_TRANSACTIONS": "Gebruik TOR om transaksies oor te dra",
-		"WHITE_THEME": "White theme"
+		"WHITE_THEME": "Wit tema"
 	},
 	"SIDEBAR": {
 		"ACCOUNT": {
-			"MESSAGES": "New offers/Messages",
+			"MESSAGES": "Nuwe aanbiedings/boodskappe",
 			"STAKING": "Staking",
-			"SYNCING": "Syncing wallet"
+			"SYNCING": "Sinkroniseer beursie"
 		},
-		"ADD_NEW": "Add",
-		"CONTACTS": "Contacts",
+		"ADD_NEW": "Voeg beursie by",
+		"CONTACTS": "kontakte",
 		"CONTACTS_TOOLTIP": "Kontakte-opsie slegs beskikbaar met Hoofwagwoord geaktiveer",
 		"LOG_OUT": "Log out",
 		"LOG_OUT_TOOLTIP": "Afmeld-opsie slegs beskikbaar met Hoofwagwoord geaktiveer",
-		"SETTINGS": "Settings",
+		"SETTINGS": "instellings",
 		"SYNCHRONIZATION": {
-			"COMPLETE": "Completion",
+			"COMPLETE": "Voltooiing",
 			"DOWNLOADING": "Laai tans af",
-			"ERROR": "System error",
-			"LOADING": "Loading blockchain data",
-			"MB": "MB",
-			"OFFLINE": "Offline",
-			"ONLINE": "Online",
-			"SLASH": "/",
-			"SYNCING": "Syncing blockchain"
+			"ERROR": "Sisteemfout",
+			"LOADING": "Laai blokkettingdata",
+			"MB": "",
+			"OFFLINE": "op die regte pad",
+			"ONLINE": "Aanlyn",
+			"SLASH": "",
+			"SYNCING": "Sinkroniseringsblok"
 		},
-		"TITLE": "Wallets",
+		"TITLE": "Beursies",
 		"UPDATE": {
-			"CRITICAL": "Update available",
-			"CRITICAL_HINT": "Critical update!",
-			"CRITICAL_TOOLTIP": "<span class=\"critical-update\">Critical update available.</span><i class=\"icon\"></i><span>Update strongly recommended!</span>",
-			"IMPORTANT": "Update available",
-			"IMPORTANT_HINT": "Important update!",
-			"IMPORTANT_TOOLTIP": "<span class=\"important-update\">Get new update.</span><br><span>Important update!</span>",
-			"STANDARD": "Update available",
-			"STANDARD_TOOLTIP": "<span class=\"standard-update\">Get new update.</span><br><span>Update is recommended!</span>",
-			"TIME": "System time differs from network",
-			"TIME_TOOLTIP": "<span class=\"wrong-time\">Wrong system time!</span><br><span>Check and repair your system time.</span>"
+			"CRITICAL": "Opdatering beskikbaar",
+			"CRITICAL_HINT": "Kritiese opdatering!",
+			"CRITICAL_TOOLTIP": "<span class=\"critical-update\">Kritiese opdatering beskikbaar.</span><i class=\"icon\"></i><span>Opdatering word sterk aanbeveel!</span>",
+			"IMPORTANT": "Opdatering beskikbaar",
+			"IMPORTANT_HINT": "Belangrike opdatering!",
+			"IMPORTANT_TOOLTIP": "<span class=\"important-update\">Kry nuwe opdatering.</span><br><span>Belangrike opdatering!</span>",
+			"STANDARD": "Opdatering beskikbaar",
+			"STANDARD_TOOLTIP": "<span class=\"standard-update\">Kry nuwe opdatering.</span><br><span>Opdatering word aanbeveel!</span>",
+			"TIME": "Stelseltyd verskil van netwerk",
+			"TIME_TOOLTIP": "<span class=\"wrong-time\">Verkeerde stelseltyd!</span><br><span>Kontroleer en herstel jou stelseltyd.</span>"
 		}
 	},
 	"STAKING": {
 		"GROUP": {
-			"DAY": "day",
-			"MONTH": "month",
+			"DAY": "dag",
+			"MONTH": "maand",
 			"WEEK": "week"
 		},
 		"PERIOD": {
-			"ALL": "All",
-			"MONTH1": "1 month",
-			"MONTH3": "3 month",
-			"MONTH6": "6 month",
+			"ALL": "Almal",
+			"MONTH1": "1 maand",
+			"MONTH3": "3 maande",
+			"MONTH6": "6 maande",
 			"WEEK1": "1 week",
 			"WEEK2": "2 week",
-			"YEAR": "1 year"
+			"YEAR": "1 jaar"
 		},
 		"SWITCH": {
-			"OFF": "OFF",
-			"ON": "ON"
+			"OFF": "af",
+			"ON": "op"
 		},
 		"TITLE": "Staking",
-		"TITLE_GROUP": "Group:",
-		"TITLE_PENDING": "Pending",
-		"TITLE_PERIOD": "Time period:",
-		"TITLE_TOTAL": "Total"
+		"TITLE_GROUP": "Groep:",
+		"TITLE_PENDING": "hangende",
+		"TITLE_PERIOD": "Tydsperiode:",
+		"TITLE_TOTAL": "totale"
 	},
 	"TOR_LIB_STATE": {
-		"STATE_CREATING_STREAM": "Creating stream",
-		"STATE_DOWNLOADING_CONSENSUS": "Downloading consensus",
-		"STATE_FAILED": "Failed created stream",
-		"STATE_INITIALIZING": "Initializing",
-		"STATE_MAKING_TUNNEL_A": "Building tunnel to A",
-		"STATE_MAKING_TUNNEL_B": "Building tunnel to B",
-		"STATE_SENDING": "Sending transaction",
-		"STATE_SEND_FAILED": "Sending failed",
-		"STATE_SENT_SUCCESS": "Successfully sent!",
-		"STATE_SUCCESS": "Successfully created stream"
+		"STATE_CREATING_STREAM": "Skep stroom",
+		"STATE_DOWNLOADING_CONSENSUS": "Laai tans konsensus af",
+		"STATE_FAILED": "Kon nie stroom skep nie",
+		"STATE_INITIALIZING": "Inisialiseer",
+		"STATE_MAKING_TUNNEL_A": "Bou tonnel na A",
+		"STATE_MAKING_TUNNEL_B": "Bou tonnel na B",
+		"STATE_SENDING": "Stuur transaksie",
+		"STATE_SEND_FAILED": "Kon nie stuur nie",
+		"STATE_SENT_SUCCESS": "Suksesvol gestuur!",
+		"STATE_SUCCESS": "Stroom is suksesvol geskep"
 	},
 	"TRANSFER_ALIAS": {
 		"ADDRESS": {
-			"LABEL": "Transfer to",
+			"LABEL": "Oordra aan",
 			"PLACEHOLDER": "Voer adres hier in"
 		},
-		"BUTTON_CANCEL": "Cancel",
-		"BUTTON_TRANSFER": "Transfer",
+		"BUTTON_CANCEL": "kanselleer",
+		"BUTTON_TRANSFER": "Oordrag",
 		"COMMENT": {
-			"LABEL": "Comment",
+			"LABEL": "kommentaar",
 			"PLACEHOLDER": "Voer jou kommentaar hier in"
 		},
-		"COST": "Transfer fee {{value}} {{currency}}",
+		"COST": "Oordragfooi {{value}} {{currency}}",
 		"FORM_ERRORS": {
-			"ALIAS_EXISTS": "This account already has an alias",
-			"NO_MONEY": "You do not have enough funds to transfer this alias",
-			"WRONG_ADDRESS": "No wallet with this account exists"
+			"ALIAS_EXISTS": "Hierdie rekening het reeds 'n alias",
+			"NO_MONEY": "Jy het nie genoeg fondse om hierdie alias oor te dra nie",
+			"WRONG_ADDRESS": "Geen beursie met hierdie rekening bestaan nie"
 		},
 		"NAME": {
 			"LABEL": "Alias",
-			"PLACEHOLDER": "@ Enter alias"
+			"PLACEHOLDER": "@ Voer alias in"
 		},
-		"REQUEST_SEND_REG": "The alias will be transferred within 10 minutes"
+		"REQUEST_SEND_REG": "Die alias sal binne 10 minute oorgedra word"
 	},
 	"WALLET": {
-		"AVAILABLE_BALANCE": "Available <b>{{available}} {{currency}}<b/>",
+		"AVAILABLE_BALANCE": "Beskikbaar <b>{{available}} {{currency}}<b/>",
 		"CONFIRM": {
 			"MESSAGE": "Om toegang daartoe te verkry, sal jy dit weer moet byvoeg",
 			"TITLE": "Verwyder beursie van die lys?"
 		},
-		"DETAILS": "Details",
-		"LOCK": "Lock",
-		"LOCKED_BALANCE": "Locked <b>{{locked}} {{currency}}<b/>",
-		"LOCKED_BALANCE_LINK": "What does that mean?",
-		"MODAL_ADD_CUSTOM_TOKEN": {
-			"FIELD_TITLE": "Bate-ID",
-			"TITLE": "Voeg pasgemaakte teken by"
-		},
-		"REGISTER_ALIAS": "Register an alias",
+		"DETAILS": "besonderhede",
+		"LOCK": "sluit",
+		"LOCKED_BALANCE": "Gesluit <b>{{locked}} {{currency}}<b/>",
+		"LOCKED_BALANCE_LINK": "Wat beteken dit?",
+		"REGISTER_ALIAS": "Registreer 'n alias",
 		"TABS": {
-			"ASSETS": "Assets",
-			"CONTRACTS": "Contracts",
-			"HISTORY": "History",
-			"MESSAGES": "Messages",
-			"RECEIVE": "Receive",
-			"SEND": "Send",
+			"CONTRACTS": "Kontrakte",
+			"HISTORY": "geskiedenis",
+			"MESSAGES": "boodskappe",
+			"RECEIVE": "Ontvang",
+			"SEND": "STUUR",
 			"STAKING": "Staking"
 		},
 		"TOOLTIPS": {
-			"ADD_CUSTOM_TOKEN": "Voeg pasgemaakte teken by",
 			"CLOSE": "Maak beursie toe",
 			"EDIT_ALIAS": "Wysig alias",
 			"SETTINGS": "instellings",
@@ -710,8 +675,7 @@
 		}
 	},
 	"WALLET_DETAILS": {
-		"ADD_CUSTOM_TOKEN": "Voeg pasgemaakte teken by",
-		"BUTTON_REMOVE": "Close wallet",
+		"BUTTON_REMOVE": "Maak beursie toe",
 		"BUTTON_SAVE": "Save",
 		"CREATE_PASSWORD_SECURE": "Skep 'n wagwoord om jou saad te beveilig",
 		"FORM": {
@@ -720,21 +684,27 @@
 			"SECURED_SEED_WILL_REQUIRE": "Veilige saad sal hierdie wagwoord vereis om te herstel."
 		},
 		"FORM_ERRORS": {
-			"MAX_LENGTH": "Maximum name length reached",
-			"NAME_DUPLICATE": "Name is duplicate",
-			"NAME_REQUIRED": "Name is required",
+			"MAX_LENGTH": "Maksimum naamlengte bereik",
+			"NAME_DUPLICATE": "Naam is duplikaat",
+			"NAME_REQUIRED": "Naam word vereis",
 			"PASSWORDS_DONT_MATCH": "Wagwoorde stem nie ooreen nie"
 		},
 		"INFO": "info",
-		"LABEL_FILE_LOCATION": "Wallet file location",
-		"LABEL_NAME": "Wallet name",
-		"LABEL_SEED_PHRASE": "Seed phrase",
+		"LABEL_FILE_LOCATION": "Beursie lêer ligging",
+		"LABEL_NAME": "Beursie Naam",
+		"LABEL_SEED_PHRASE": "Saad frase",
 		"REMEMBER_YOU_WILL_REQUIRE": "Veilige saad sal wagwoord vereis om te herstel.",
 		"RESYNC_WALLET": "Hersinkroniseer beursiedata",
 		"RESYNC_WALLET_BUTTON": "Hersinkroniseer beursie",
 		"SEED_IS_SECURED": "Saad is beveilig",
 		"SEED_IS_UNSECURED": "Saad is onverseker",
-		"SEED_PHRASE_HINT": "Click to reveal the seed phrase",
+		"SEED_PHRASE_HINT": "Klik om die saadfrase te openbaar",
 		"WALLET_OPTIONS": "Beursie-opsies..."
+	},
+	"WORDS": {
+		"ACTIONS": {
+			"INSTALL": "Installeer",
+			"REMOVE": "verwyder"
+		}
 	}
 }
