@@ -1,0 +1,25 @@
+<div fxLayout="column">
+
+  <div fxFlex="100">
+    <div class="table-responsive">
+      <table class="table table-striped table-bordered">
+        <thead>
+        <tr>
+          <th>Name</th>
+          <th>Version</th>
+          <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let app of apps | keyvalue">
+          <td>{{ app.value['name'] }}</td>
+          <td>{{ app.value['version'] }}</td>
+          <td>
+            <button class="btn btn-bordered" (click)="removeApp( app.key)">{{"WORDS.ACTIONS.REMOVE" | translate}}</button>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
