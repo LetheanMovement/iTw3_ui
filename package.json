@@ -32,7 +32,7 @@
     "@wailsapp/runtime": "./src/assets/wailsjs/runtime",
     "angular-highcharts": "^14.1.7",
     "bignumber.js": "^9.1.0",
-    "core-js": "^3.30.0",
+    "core-js": "^3.32.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "highcharts": "^10.3.1",
